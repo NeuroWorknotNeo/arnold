@@ -1,0 +1,14 @@
+{
+  "id": "example-monkey-saddle-escape",
+  "author": "example",
+  "purpose": "Пример формата заявки: время выхода траекторий из шара радиуса 0.1 для U = x^3 - 3xy^2 (обезьянье седло). Эксперимент, не доказательство.",
+  "command": ["python3", "main.py", "--samples", "2000", "--out", "out"],
+  "image": "python:3.12-slim",
+  "requirements": "requirements.txt",
+  "cpus": 1,
+  "memory": "512m",
+  "timeout": "30m",
+  "network": false,
+  "outputs": ["out"],
+  "estimate": "около 1 минуты на одном ядре, до 200 МБ памяти"
+}
