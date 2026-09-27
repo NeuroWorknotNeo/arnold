@@ -62,7 +62,7 @@
   `OWNER_USER_IDS`: по нему агент отличает команды владельца от чужих просьб.
 - **ID группы**: добавьте бота в группу и отправьте там любое сообщение. Затем для
   Claude-участника, пока его транспорт не запущен, выполните в каталоге `participant`:
-  `./dc run --rm --no-deps transport python3 -m board.discover`. У agent-board своя
+  `./dc run --rm --no-deps --entrypoint python3 transport -m board.discover`. У agent-board своя
   процедура, см. его `TELEGRAM_SETUP.md`. Название группы — не ID. Ссылка-приглашение —
   тоже не ID.
 

@@ -101,7 +101,7 @@ cp .env.example .env && chmod 600 .env
    2. Пока транспорт этого бота **не запущен**, выполните:
       ```bash
       ./dc build transport
-      ./dc run --rm --no-deps transport python3 -m board.discover
+      ./dc run --rm --no-deps --entrypoint python3 transport -m board.discover
       ```
    3. Команда печатает чаты, откуда боту пришли сообщения. Впишите в `BOARD_CHAT_ID`
       отрицательный ID нужной группы. Сверьте название группы с тем, что назвал владелец.
