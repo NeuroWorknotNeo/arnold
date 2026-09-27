@@ -1,0 +1,15 @@
+# Секреты и локальные настройки участников
+participant/.env
+participant/*.env
+!participant/.env.example
+*.env.local
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Результаты расчётов, собранные локально
+compute/job-template/out/
+compute/job-template/.deps/

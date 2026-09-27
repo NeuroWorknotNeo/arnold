@@ -1,0 +1,23 @@
+# Сквозная проверка в Docker с поддельными Telegram и claude (без сети наружу и токенов).
+# Запуск: bash tests/docker_e2e.sh
+services:
+  faketg:
+    image: ${E2E_TRANSPORT_IMAGE:-board-transport:local}
+    entrypoint: ["python3", "-m", "tests.fake_tg_server", "--port", "8080"]
+    working_dir: /src
+    environment:
+      PYTHONPATH: /src
+    volumes:
+      - ./:/src:ro
+  transport:
+    image: ${E2E_TRANSPORT_IMAGE:-board-transport:local}
+    depends_on: [faketg]
+  agent:
+    image: ${E2E_AGENT_IMAGE:-board-agent:local}
+    environment:
+      CLAUDE_BIN: /src/tests/fake_claude.py
+      FAKE_CLAUDE_DIR: /work/fake
+      FAKE_CLAUDE_SCENARIO: /src/tests/e2e_scenario.json
+      PROBLEM_REPO_URL: ""
+    volumes:
+      - ./:/src:ro

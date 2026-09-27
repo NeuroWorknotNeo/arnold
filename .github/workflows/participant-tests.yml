@@ -1,0 +1,49 @@
+name: Проверки Claude-участника и скриптов
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    strategy:
+      matrix:
+        python: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Зависимости тестов
+        run: python -m pip install pytest pyflakes
+      - name: Статическая проверка
+        run: |
+          cd participant && pyflakes board tests
+          cd .. && pyflakes compute/run_job.py
+      - name: Тесты (поддельные Telegram и claude)
+        run: cd participant && python -m pytest -q
+      - name: Конфигурация Compose
+        run: |
+          cd participant
+          printf 'COMPOSE_PROJECT_NAME=ci\nPARTICIPANT_ID=ci-claude\nTELEGRAM_BOT_TOKEN=123456789:AAFakeTokenForTestsOnly_abcdefghijklm\nBOARD_CHAT_ID=-1001\nOWNER_USER_IDS=1\nCLAUDE_CODE_OAUTH_TOKEN=x\n' > ci.env
+          docker compose --env-file ci.env config --quiet
+
+  docker-e2e:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Сборка образов участника (производственные Dockerfile)
+        run: |
+          cd participant
+          printf 'COMPOSE_PROJECT_NAME=ci\nPARTICIPANT_ID=ci-claude\nTELEGRAM_BOT_TOKEN=123456789:AAFakeTokenForTestsOnly_abcdefghijklm\nBOARD_CHAT_ID=-1001\nOWNER_USER_IDS=1\nCLAUDE_CODE_OAUTH_TOKEN=x\n' > ci.env
+          env -i HOME="$HOME" PATH="$PATH" docker compose --env-file ci.env build
+      - name: Сквозная проверка в Docker (поддельные Telegram и claude)
+        run: cd participant && bash tests/docker_e2e.sh

@@ -1,0 +1,77 @@
+# Один Claude-участник доски = один проект Compose из двух контейнеров.
+# Никаких каталогов хоста и Docker-сокета: всё состояние — в именованных томах.
+name: ${COMPOSE_PROJECT_NAME:?укажите COMPOSE_PROJECT_NAME в .env}
+
+services:
+  transport:
+    build:
+      context: .
+      dockerfile: docker/transport.Dockerfile
+    image: ${TRANSPORT_IMAGE:-board-transport:local}
+    restart: unless-stopped
+    init: true
+    read_only: true
+    tmpfs: ["/tmp:size=64m"]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    mem_limit: 256m
+    cpus: 0.5
+    pids_limit: 128
+    environment:
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:?укажите TELEGRAM_BOT_TOKEN в .env}
+      BOARD_CHAT_ID: ${BOARD_CHAT_ID:-}
+      OWNER_USER_IDS: ${OWNER_USER_IDS:-}
+      MAX_POSTS_PER_HOUR: ${MAX_POSTS_PER_HOUR:-12}
+      DIGEST_INTERVAL_SECONDS: ${DIGEST_INTERVAL_SECONDS:-600}
+      ARCHIVE_ENABLED: ${ARCHIVE_ENABLED:-false}
+      ARCHIVE_REPO_URL: ${ARCHIVE_REPO_URL:-}
+      ARCHIVE_GITHUB_TOKEN: ${ARCHIVE_GITHUB_TOKEN:-}
+      ARCHIVE_BRANCH: ${ARCHIVE_BRANCH:-archive}
+      ARCHIVE_INTERVAL_SECONDS: ${ARCHIVE_INTERVAL_SECONDS:-3600}
+      TELEGRAM_API_BASE: ${TELEGRAM_API_BASE:-https://api.telegram.org}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    volumes:
+      - transport-data:/data
+      - board-socket:/run/board
+
+  agent:
+    build:
+      context: .
+      dockerfile: docker/agent.Dockerfile
+      args:
+        CLAUDE_CODE_VERSION: ${CLAUDE_CODE_VERSION:-latest}
+        WITH_TEX: ${WITH_TEX:-0}
+    image: ${AGENT_IMAGE:-board-agent:local}
+    restart: unless-stopped
+    init: true
+    depends_on: [transport]
+    read_only: true
+    tmpfs: ["/tmp:size=512m"]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    mem_limit: ${AGENT_MEM_LIMIT:-2g}
+    cpus: ${AGENT_CPUS:-1.5}
+    pids_limit: 512
+    environment:
+      PARTICIPANT_ID: ${PARTICIPANT_ID:?укажите PARTICIPANT_ID в .env}
+      CLAUDE_CODE_OAUTH_TOKEN: ${CLAUDE_CODE_OAUTH_TOKEN:?укажите CLAUDE_CODE_OAUTH_TOKEN в .env}
+      CLAUDE_MODEL: ${CLAUDE_MODEL:-}
+      CLAUDE_EFFORT: ${CLAUDE_EFFORT:-}
+      CLAUDE_EXTRA_ARGS: ${CLAUDE_EXTRA_ARGS:-}
+      TURN_TIMEOUT_SECONDS: ${TURN_TIMEOUT_SECONDS:-5400}
+      MIN_PAUSE_SECONDS: ${MIN_PAUSE_SECONDS:-120}
+      MAX_TURNS_PER_DAY: ${MAX_TURNS_PER_DAY:-0}
+      PROBLEM_REPO_URL: ${PROBLEM_REPO_URL:-https://github.com/NeuroWorknotNeo/arnold-1971-4.git}
+      GH_TOKEN: ${GH_TOKEN:-}
+      AGENT_MEM_LIMIT: ${AGENT_MEM_LIMIT:-2g}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    volumes:
+      - agent-home:/home/agent
+      - agent-work:/work
+      - board-socket:/run/board:ro
+
+volumes:
+  transport-data:
+  agent-home:
+  agent-work:
+  board-socket:

@@ -1,0 +1,5 @@
+[
+  {"kind": "ok", "session": "sess-e2e", "command": "board post '#план e2e: тестовый участник на связи'; board sleep 3600 'e2e: жду обращения'"},
+  {"kind": "ok", "command": "ID=$(board --json mentions | python3 -c \"import json,sys; m=json.load(sys.stdin)['messages']; print(m[0]['id'] if m else '')\"); if [ -n \"$ID\" ]; then board post --reply-to \"$ID\" 'ответ на обращение'; fi; board sleep 3600 'e2e: жду'"},
+  {"kind": "ok", "command": "board sleep 3600 'e2e: жду'"}
+]

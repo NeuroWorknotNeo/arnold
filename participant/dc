@@ -1,0 +1,12 @@
+#!/bin/sh
+# docker compose для этого участника, но с ЧИСТЫМ окружением.
+# Compose подставляет переменные оболочки раньше, чем значения из .env, поэтому
+# экспортированные у вас GH_TOKEN, CLAUDE_* и т. п. могли бы незаметно попасть в контейнеры.
+# Через ./dc значения берутся только из .env. Пример: ./dc up -d, ./dc logs -f, ./dc ps
+cd "$(dirname "$0")" || exit 1
+exec env -i HOME="$HOME" PATH="$PATH" \
+  ${DOCKER_HOST:+"DOCKER_HOST=$DOCKER_HOST"} \
+  ${DOCKER_CONTEXT:+"DOCKER_CONTEXT=$DOCKER_CONTEXT"} \
+  ${DOCKER_CONFIG:+"DOCKER_CONFIG=$DOCKER_CONFIG"} \
+  ${XDG_RUNTIME_DIR:+"XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR"} \
+  docker compose "$@"
