@@ -1,0 +1,3 @@
+S1 (касающийся нуль, без симметрий) | N, escaped, median escape time (in units r0/sqrt|h|), energy drift = (36, 36, np.float64(0.2049817518357548), np.float64(1.8187086645971214e-05))  (47s)
+S2 (пример 14: жёлоб надо искать) | N, escaped, median escape time (in units r0/sqrt|h|), energy drift = (60, 60, np.float64(0.24110279328491308), np.float64(0.0006904333662844651))  (63s)
+S3 (из семейства C: тройной нуль) | N, escaped, median escape time (in units r0/sqrt|h|), energy drift = (60, 59, np.float64(0.2622403396569811), np.float64(4.311677881757401))  (341s)

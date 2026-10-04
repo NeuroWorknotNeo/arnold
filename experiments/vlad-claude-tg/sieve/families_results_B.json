@@ -1,0 +1,1204 @@
+{
+ "B": [
+  [
+   "3*x**2*z**2 - 3*y**4*z - 3*y**2*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.16420245170593262
+  ],
+  [
+   "x**6 - 3*x**5 - x**3*y**2 - x**3*y*z**2 + 3*x**3*z**2 + 2*x*y**4 - x*y**3*z**2 - 2*x*y*z**4 + 2*x*z**5 + 2*y**5 - 2*y**3*z**2 + 3*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.009963750839233398
+  ],
+  [
+   "3*x**5*y - 3*x**3*y**3 - 3*x**3*y**2 + x**2*y**2*z**2 - 2*x*z**4 - 3*y**3*z**3 - 2*y*z**5 - 3*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.00687408447265625
+  ],
+  [
+   "-x**3*y**2*z + x**2*y**2 + 3*x**2*z**3 - x**2*z**2 - x*y**4*z + 3*x*y**3*z - x*y**3 - y**5 + 3*y**4 + y**3*z - 2*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.07861900329589844
+  ],
+  [
+   "2*x**2*z**4 + x*z**5 - y**5 + y**2*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.01912975311279297
+  ],
+  [
+   "x**3*y*z**2 - 3*x**2*y*z - 3*x**2*z**4 - 3*x**2*z**3 + 2*x*y**3*z + 3*x*z**5 + y**5 + 2*y**4 - z**6 - 3*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.15909194946289062
+  ],
+  [
+   "-2*x**5*z - 2*x**3*y**2*z - x**3*y**2 + 3*x*y*z**4 - y**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.005464792251586914
+  ],
+  [
+   "-3*x**4*y**2 + 2*x**4*y*z + 3*x**4*z + 2*x**3*z**3 - 3*x**3*z**2 - 2*x**2*y**3*z - 2*x*y**5 + 3*x*y*z**4 + x*y*z**2 + y**6 - 2*y**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04678177833557129
+  ],
+  [
+   "-2*x**3*y**2 + 2*x**2*y**2*z + 3*x*y**3*z**2 - 2*y**4*z**2 - 3*y**4*z - 2*y*z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.006865739822387695
+  ],
+  [
+   "-3*x**4*y + x**2*y**4 + 2*x*y*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.0031065940856933594
+  ],
+  [
+   "-x**4*y*z + 3*x**3*y*z + x**3*z**2 - x**2*y**2*z**2 + x**2*y*z**2 + x**2*z**2 + 2*x*z**5 + 3*y**4*z + 3*y**4 + 2*y**2*z**4 + 2*y**2*z**3",
+   "SUSPICIOUS",
+   "zero direction [ 1.    -0.001 -0.   ] of U_4 with degenerate transverse Hessian; zero direction [-1.     0.003  0.   ] of U_4 with degenerate transverse Hessian; zero direction [ 0.     0.003 -1.   ] of U_4 with degenerate transverse Hessian; zero direction [-1.    -0.002  0.   ] of U_4 with degenerate transverse Hessian; zero direction [ 0.    -0.003  1.   ] of U_4 with degenerate transverse Hessian; zero direction [1.    0.002 0.   ] of U_4 with degenerate transverse Hessian; zero direction [ 0.    -0.002 -1.   ] of U_4 with degenerate transverse Hessian; zero direction [-0.     0.002  1.   ] of U_4 with degenerate transverse Hessian",
+   2.517655849456787
+  ],
+  [
+   "-x**5*y + x**4*y**2 - 2*x**4 + 2*x**2*y**2*z + 3*x**2*z**2 + 3*x*y**2*z**2 + 2*y**4*z - y**3*z**2 + 2*y**2*z**2 + 3*y*z**3 + 2*z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05861616134643555
+  ],
+  [
+   "2*x**4*z**2 - 3*x**2*y*z**3 + x**2*z**4 + 3*x*y**2*z**2 + 2*y**5 + 3*z**5 + 2*z**4",
+   "NONISOLATED",
+   "critical point at 0 looks non-isolated",
+   1.579437494277954
+  ],
+  [
+   "-x**3*y*z**2 - 3*x**2*z**4 + y**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T6] weights (2, 4, 3), face degree 16",
+   0.08928298950195312
+  ],
+  [
+   "-2*x**5*z + 3*x**3*y*z - 2*x**3*y - 3*x**2*y**3*z - 3*x**2*y**2*z + 3*x**2*z**4 - 2*x*y**4 + 2*y**5*z - 2*y**5 - 2*y**3*z - 3*y**2*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05234980583190918
+  ],
+  [
+   "-3*x**5 + x**3*y**2*z - 3*x**3*z - 3*x**2*y**3*z - x**2*y**2*z - x**2*z**4 - x*y*z**2 - 2*y**2*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.11661314964294434
+  ],
+  [
+   "x**5*z + x**5 + 2*x**3*y**3 - 2*x**2*y*z**2 + x*z**5 + 2*y**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.00507354736328125
+  ],
+  [
+   "2*x**4*z**2 - x**3*y**3 + 3*x**3*z - 2*x**2*y**3*z - x**2*z**3 + 3*x*y**5 + 3*x*y*z**4 - x*z**3 - 3*y**6 - 3*y*z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.06909513473510742
+  ],
+  [
+   "-3*x**6 - 2*x**3*y**2*z - 3*x**3*y*z**2 + x**2*y**2 - x*y**2*z**2 - 3*y**4*z**2 - 3*y*z**3 - 2*z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.040392398834228516
+  ],
+  [
+   "3*x**5*z - 2*x**4 + 3*x**2*y**3 + 3*x**2*y*z - 2*x**2*z**3 + 2*x*y**4 - 3*x*y*z**2 + 3*x*z**3 + 3*y**3*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.06311202049255371
+  ],
+  [
+   "-2*x**5 + 3*x**4*z**2 - 3*x**2*y**2 + x**2*y*z**2 + x*z**5 + 3*x*z**4 - 2*y**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.028917551040649414
+  ],
+  [
+   "3*x**3*z - 3*x**2*y**3 - x**2*y**2 - x**2*y*z**3 - 2*y**5*z - 2*y**3*z",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04454183578491211
+  ],
+  [
+   "x**2*y**3*z - x*y**5 - 3*x*y**4 - 2*x*y**3*z**2 - 2*x*y*z**3 + x*z**3 - 3*y*z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03061819076538086
+  ],
+  [
+   "-3*x**4 + 2*x*y**3 - x*y**2*z**2 + y*z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03599262237548828
+  ],
+  [
+   "3*x**3*y*z + 3*x**3*z**2 + x**2*y**3 + 2*x**2*y**2*z**2 - 3*x**2*y**2*z + 2*x**2*z**2 + 3*x*y*z**3 + 2*y**3*z**2 + 3*y**2*z**2",
+   "SUSPICIOUS",
+   "gutter {z=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero; zero direction [-0. -0. -1.]: nothing up to degree 6; zero direction [0. 0. 1.]: nothing up to degree 6",
+   1.7851953506469727
+  ],
+  [
+   "x**4 - 3*x**2*y**3*z - 2*x**2*z**4 + x*y*z**4 + 2*y**3*z**3 + y**2*z**4",
+   "NONISOLATED",
+   "critical point at 0 looks non-isolated",
+   1.3128106594085693
+  ],
+  [
+   "-2*x**5*y - 3*x**4*z + x**3*y + 2*x*y**5 + 2*x*y**2*z + 2*y**3*z**3 + 2*y**3*z + y*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04775500297546387
+  ],
+  [
+   "-2*x**2*y**2*z**2 - x**2*y*z + x**2*z**4 + x**2*z**3 + 3*y**2*z**4 + z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03210735321044922
+  ],
+  [
+   "-3*x**4 + 2*x**3*y**2*z - x**3*z + 3*x**2*y**2*z + 2*x**2*z**3 + x*y**4 + 3*y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.048075199127197266
+  ],
+  [
+   "x**4*z - x**2*y**2*z**2 - 3*x**2*y**2 + 2*x*y**2*z - 3*x*y*z**4 + 2*x*y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.043374061584472656
+  ],
+  [
+   "-3*x**3*y**2*z + 2*x**3*z**2 + 3*x**2*y**3*z + 2*x**2*y**3 + 3*x**2*y*z**2 + 2*x*y**5 - 3*y**4 + y**2*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.030232667922973633
+  ],
+  [
+   "-3*x**4*y + 3*x**4*z + 3*x**3*y*z - x**2*y**2 - x**2*y*z + 3*x**2*z**4 + 3*y**6 - 3*z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.036469459533691406
+  ],
+  [
+   "3*x**5*y - 2*x**2*z**3 - 3*x**2*z**2 - 2*x*y**2*z**2 - x*z**5 - 2*y**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.048012495040893555
+  ],
+  [
+   "x**2*y**3*z + x*y**3*z + 2*x*y**2*z - x*y*z**4 - 2*y**2*z**3 + 2*y**2*z**2 + 3*z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03486371040344238
+  ],
+  [
+   "-x**5 + 2*x**4*y**2 - 3*x**3*y**3 + 3*x**3*y**2 - 2*x**3*z**3 - 2*x*y**3*z**2 + 3*y**4*z**2 + 3*y**4",
+   "NONISOLATED",
+   "critical point at 0 looks non-isolated",
+   1.5185229778289795
+  ],
+  [
+   "-x**2*y**3*z - 3*x*y**2*z**2 - 3*y*z**5 + 3*y*z**3",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.025862932205200195
+  ],
+  [
+   "-3*x**4*y**2 + 3*x**3*y**3 + x**3*y*z**2 - x**3*y*z + 2*x**2*y**3 + x**2*z**2 - 2*x*y**2*z - z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03675580024719238
+  ],
+  [
+   "2*x**5*z - 2*x**5 + 3*x**3*y + x**3*z - x**2*y**4 - x**2*y**3*z - y**4 + 3*y**2*z**4 - 3*y*z**4 + y*z**3 - z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.0695652961730957
+  ],
+  [
+   "3*x**5*y + 3*x**5 - x**3*y*z - x**2*y**4 + 3*x**2*y*z**2 + 3*x**2*z**3 + x*y**3 + 2*x*z**5 + 3*x*z**4 + y**5 + y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04217720031738281
+  ],
+  [
+   "3*x**5*z - x**3*z**3 - x**3*z**2 + 2*x**2*y**2 + 3*x*y**4*z - 2*x*y**3*z + 2*y**5*z - z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03723502159118652
+  ],
+  [
+   "x**5 + x**4 + x**3*y**2*z + 3*x**3*y + 2*x**3*z + 3*x**2*y**3*z - x**2*y**2 - 2*x*y*z**3 - y**3*z**3 - 2*y**3*z**2 - 3*y**2*z**3 - 2*y*z**5 + 2*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.0652611255645752
+  ],
+  [
+   "-2*x**3*y**3 - 2*x**3*z**3 + 3*x**2*y*z**3 - x**2*z**2 + 3*x*z**5 - 2*x*z**4 - y**4*z**2 - 3*y**4 + y**3*z - 2*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05209660530090332
+  ],
+  [
+   "x**4*z + 2*x**3*y**3 - 2*x**3*y**2 + x**3*y*z**2 - 2*x**3*y*z - x**2*y**4 + 3*x**2*z**3 + 2*y**4*z**2 - 2*y*z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.012501001358032227
+  ],
+  [
+   "3*x**5*y - x**5 - 3*x*y**2*z**3 - 2*y**5*z + 3*y**5 - 2*y**3*z**3 + y**2*z**3 + y**2*z**2 + 3*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T6] weights (4, 5, 5), face degree 20",
+   0.07077264785766602
+  ],
+  [
+   "-3*x**6 - 3*x**4*z**2 - 2*x**3*z**3 - x**2*y**3*z + x*y**5 + x*y**4 + x*y**2*z**2 + 2*x*y*z**2 - 3*y**2*z**3 + 3*y*z**4 + 3*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.051683902740478516
+  ],
+  [
+   "-2*x**5*y + x**4*z - 2*x**3*z**3 - 2*x**3*z**2 + 3*x**3*z - 3*x**2*y**2 - x*y*z**4 + x*z**3 - 2*y**5*z + 3*y**3*z**3 + 3*y*z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.07830977439880371
+  ],
+  [
+   "x**4 + 3*x**3*y*z + 3*x**2*z**4 - 2*x**2*z**3 + 3*x**2*z**2 - x*y**5 - x*y**4*z - x*y**3*z - 3*x*y*z**2 + 2*y**2*z**2 + 2*y*z**5 + 3*z**5",
+   "UNSTABLE",
+   "[N13*] point-horn along [ 0.  0. -1.] (effective degree 5, coefficient -3)  (other horns degenerate: zero direction [-0.002  1.    -0.   ] of U_4 with degenerate transverse Hessian; zero direction [-0.002 -1.     0.   ] of U_4 with degenerate transverse Hessian)",
+   0.4090611934661865
+  ],
+  [
+   "-3*x**6 + x**3*z + x**2*y**2*z - 3*x*y**3 - 2*x*y*z**3 + 2*y**2*z**4 - y*z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.039287567138671875
+  ],
+  [
+   "3*x**3*y**2 - 3*x**3*z + 3*x**2*y*z - 2*x**2*z**3 - x**2*z**2 - 3*x*y**3 + x*y*z**2 + 3*y**5 - z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.06576895713806152
+  ],
+  [
+   "x**4 + 3*x**3*z**2 + 2*x**2*y**2*z + 3*x*y**4*z - 3*x*y**2*z**3 - 2*x*y**2*z**2 - 3*x*y*z**2 + 3*x*z**3 - 3*y**2*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04444742202758789
+  ],
+  [
+   "x**3*y**3 + x**2*y**3*z + 3*x**2*y*z**3 + 2*x*y**4*z + x*y**2*z**2 - 3*y**4*z",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.004767417907714844
+  ],
+  [
+   "3*x**5*z - x**4*y + x**2*y*z**2 - x*y**3*z + y**4*z - y**3*z**2",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.010680913925170898
+  ],
+  [
+   "x**5*z - 3*x**5 + 3*x**4*y*z - 3*x**4 + x**2*y**3*z - 2*x**2*y**2*z**2 + 2*x**2*z**2 + y**3*z**3 - y**2*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03772282600402832
+  ],
+  [
+   "-2*x**5*z + 3*x**4 + 2*x**3*y**3 + x**3*y*z**2 + x**2*y**3 - 2*x*z**4 + 3*y**3*z**2 - 2*y**2*z**4 + y*z**4 + 3*y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04354548454284668
+  ],
+  [
+   "-3*x**6 + 2*x**4*y*z - 3*x**2*y**2*z**2 + 3*x**2*y*z**3 - 3*y**2*z**3",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.005003690719604492
+  ],
+  [
+   "3*x**4 - 2*x**3*y*z**2 - 3*x**3*z**2 + 3*x**2*y*z**2 - x*y**3*z - x*y**3 - x*y**2*z**2 + x*y**2*z + 3*x*z**3 + 3*y**2*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.061483144760131836
+  ],
+  [
+   "-x**5 - x**3*y**2 + 2*x*y*z**2 + 2*y**4*z - y**3*z**2 + 2*y*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.021089553833007812
+  ],
+  [
+   "3*x**5*z + x**4*z**2 - x**2*y**2*z**2 + x**2*y*z**2 - 3*x*y*z**4 + 3*x*y*z**3 - x*y*z**2 - y**3*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03148913383483887
+  ],
+  [
+   "-x**6 + 2*x**4*z - x**3*y**2*z + x**3*z**3 + 2*x**2*y**4 - x**2*y*z + x*y**4*z + 2*x*y**4 + 3*y**4*z + 3*y**3*z**3 + 2*y**3*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.030675411224365234
+  ],
+  [
+   "3*x**4*y - x**3*y**2*z + 3*x**3*y**2 - 2*x**2*y**3 + 2*x**2*z**4 - 3*x*z**3 + 3*y**6 + 2*y*z**3",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.042923927307128906
+  ],
+  [
+   "-x**6 + 2*x**5*y - 3*x**4*y - 3*x**3*y**3 + 3*x**3*y**2 + x*y**5 - x*y**3*z - 3*x*y**2*z**3 + 3*x*y*z**2 + 2*y**3*z + y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04893779754638672
+  ],
+  [
+   "-2*x**4*y**2 + 3*x*y**5 + 2*x*y**3*z + 3*x*y**2*z - 3*x*z**3 - 3*y**5*z + y**5 - 3*z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04143691062927246
+  ],
+  [
+   "-3*x**5*y + 3*x**4*y**2 - 3*x**4 - 2*x**2*y*z**3 - 2*x**2*z**3 + 3*x**2*z**2 + 3*x*y**5 + 3*x*y**4*z + 3*x*y**3 - y**5 - 3*y**2*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05309033393859863
+  ],
+  [
+   "x**4*z**2 + 2*x**2*z**3 - 2*x*y**4*z - 2*x*y*z**4 - y**4*z**2 + y**4 + 2*y**3*z**2 - y**3*z - 2*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.04828453063964844
+  ],
+  [
+   "x**4*y**2 - 3*x**4 + 3*x**3*y*z - 3*x**2*y**2*z**2 + 2*x*y*z**3 + 2*y**3*z**3 + 3*y**3*z + y*z**3 + z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.052764177322387695
+  ],
+  [
+   "3*x**5*z + 2*x**4*y - x**3*z - 3*x**2*z**3 + x*y**4 - 2*x*y*z**4 - 3*y**3*z**2",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03949570655822754
+  ],
+  [
+   "2*x**5*y - 3*x**2*y*z - 3*x*y**2*z - 3*x*z**5 + 2*y**4 + 2*y**3*z**3 + 2*y**3*z - 3*z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.06397485733032227
+  ],
+  [
+   "2*x**5*y - x**2*y**4 + x**2*y**3*z + 2*x*y**5 + x*y*z**3 - 3*y**4 + 2*y**3*z**2 + y*z**3 - 3*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.04767346382141113
+  ],
+  [
+   "2*x**2*y**3*z + x*y**4 - 3*x*y**2*z**3",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.003422975540161133
+  ],
+  [
+   "-3*x**4*z**2 + 3*x**3*z**2 + 3*x*y**4*z + 3*x*y**3*z - 3*y**4*z**2 - y**2*z**4 - 3*y*z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.011482954025268555
+  ],
+  [
+   "-2*x**4 - 2*x**3*y**3 + 2*x**3*y + 2*y**5*z + 3*y**4 - 3*y**3*z**3",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.04603099822998047
+  ],
+  [
+   "2*x**4*y - 3*x**3*z - x**2*y**4 - x**2*y*z - 3*x**2*z**4 - 3*x*y**2*z**3 - x*y*z**2 + 2*y**4*z - y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.059491872787475586
+  ],
+  [
+   "-3*x**4 + 3*x**2*y**2*z - 3*x**2*y*z + x*y**5 + x*y**4*z - y**2*z**2 + y*z**5 + 3*y*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05011892318725586
+  ],
+  [
+   "3*x**5*z - 2*x**3*y**3 - 3*x**3*y**2 - 2*x**3*y*z**2 + x**2*y*z**3 + 2*x**2*z**4 + 3*x**2*z**3 - 2*x*y**2*z**2 - 2*x*y**2*z - 3*y**5*z - y**5 + 3*y**4*z - 3*y**3*z + y**2*z**4 - 2*z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.0457310676574707
+  ],
+  [
+   "-x**4*y**2 - 2*x**4*z - 3*x**3*y**3 - x**3*y**2 + x**2*y**2*z**2 - 3*x**2*y*z + 2*y**5 - y**4 + y**3*z",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.08931469917297363
+  ],
+  [
+   "-2*x**4*y**2 - 3*x**4*y*z + x**4*y + 3*x**3*y**2 + 2*x*y**2*z + 3*y**2*z**2 + 2*z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.038300514221191406
+  ],
+  [
+   "3*x**4 - x**3*y**2*z - 3*x**3*y*z - 2*x*y**3*z**2 + x*z**5 + 3*z**4",
+   "NONISOLATED",
+   "critical point at 0 looks non-isolated",
+   1.2132818698883057
+  ],
+  [
+   "-2*x**3*z**3 - 2*x**3*z**2 + x**2*y*z + y**2*z**2 - 2*y*z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.0347287654876709
+  ],
+  [
+   "-x**3*z**2 - 2*x**2*z**3 - 2*y**4 + y**3*z**2",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.026953935623168945
+  ],
+  [
+   "-x**4*y**2 - x**4*y - x**3*y**3 - x**3*y*z - 3*x**3*z - 2*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03170490264892578
+  ],
+  [
+   "-x**4*z + 3*x*y*z**4 + 3*x*z**3 + 3*y**2*z**2 - 2*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03777956962585449
+  ],
+  [
+   "3*x**2*y**4 - x**2*y**3 - 2*x*y**3 + 2*y**6 - 2*y**3*z**3 + 2*y**2*z**4 - 2*y**2*z**2 - 2*y*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.045432329177856445
+  ],
+  [
+   "-2*x**4*y*z + x**4*y + x**4*z - x**2*y*z**3 + 2*x**2*y*z - 2*x*y**2*z**3 + x*z**5 - y**5*z + y*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03234410285949707
+  ],
+  [
+   "-y*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.0018584728240966797
+  ],
+  [
+   "-2*x**5*y - 3*x**5 + x**3*y*z**2 + 2*x**2*y**2*z**2 + 2*x**2*y*z**3 + 2*x**2*z**2 - 2*x*z**3 + 3*y**4*z**2 - 2*z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.04732394218444824
+  ],
+  [
+   "2*x**4 - 2*x**3*y**2*z + x**2*y**3*z - 3*x**2*y**2*z + x*y**4*z - x*y**3 - 3*x*y*z**3 - 3*x*z**3 + 2*y**4 - 3*y**2*z**4 - 3*y**2*z**2 + 2*y*z**5 - 3*z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.06900787353515625
+  ],
+  [
+   "2*x**5*y - 2*x**3*y**2*z + 2*x**2*y**3 + x**2*z**3 - 2*x*y**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.004730224609375
+  ],
+  [
+   "2*x**4*y*z - x**3*y**3 + x**3*y**2 - x**3*z**3 + 2*x**2*y**4 + 2*x**2*y**2 - x*y**4 - 3*x*y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T6] weights (2, 1, 1), face degree 6",
+   0.08397603034973145
+  ],
+  [
+   "-x**4*y**2 - 2*x**2*y**2 + x**2*y*z**3 + 2*x**2*y*z**2 - 2*x*y**2*z + y**5*z - y**5 + y**2*z**4 - y**2*z**2 - 3*z**6 + z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05512523651123047
+  ],
+  [
+   "2*x**6 + 2*x**2*z**3 + 3*x*y**5 + x*y**3*z - y**4*z - 2*y*z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.005106925964355469
+  ],
+  [
+   "-2*x**6 - 3*x**5 - x**3*y + 3*x*z**5 - 2*y**3*z**3 + y**2*z**2 + 3*y*z**5 + 2*y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.050766706466674805
+  ],
+  [
+   "-2*x**4*y*z - 3*x**2*y**4 + 2*x**2*y**2 - x**2*y*z**3 + 2*x**2*y*z**2 + x*y**3*z - 3*x*y*z**3 - 3*x*z**5 + 3*y**5 + 3*y**4 - 3*y**2*z**2 + 3*y*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04246878623962402
+  ],
+  [
+   "-3*x**6 - 3*x**4*z - x**2*y**2*z**2 + 2*x**2*y*z - 2*x*y**3 + 2*x*y*z**3 - 2*x*y*z**2 + 2*y**4 + 2*y*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05584406852722168
+  ],
+  [
+   "x**2*y**2 - x*y**3 + x*y**2*z**2 - 2*x*z**3 + 2*y**6 - 2*y**3*z - 3*y*z**5 - 3*z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.051786184310913086
+  ],
+  [
+   "-2*x**5*y - x**5*z + 3*x**2*y**3 + 2*x**2*z**4 - 2*x*y**3 + 2*y**4 - y**3*z + z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.06458377838134766
+  ],
+  [
+   "3*x**2*y**4 - 3*x**2*y*z**3 + y**2*z**3 + 2*y**2*z**2",
+   "NONISOLATED",
+   "critical point at 0 looks non-isolated",
+   1.223775863647461
+  ],
+  [
+   "3*x**4*z**2 + 3*x**3*y**2*z + 2*x**3*y*z + x**2*y**2 + 3*x**2*y*z**3 - 3*x**2*y*z**2 + x**2*y*z - x*y**2*z**3 + x*y*z**3 - x*y*z**2 + 2*y**4 + 3*y**2*z**4 + 3*y**2*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.056580305099487305
+  ],
+  [
+   "3*x**6 - 2*x**3*y*z - x**2*y**3 + 3*x**2*y*z**3 - 2*x*y*z**4 - 2*y**5 - y**4*z - y*z**5 - z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.023730754852294922
+  ],
+  [
+   "2*x**6 + x**2*y**4 + x**2*y**3 - x**2*z**2 - x*y**4*z + x*y**3*z + 2*x*z**4 + 2*y**5 + 2*y**3*z**3 + 2*y**2*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.030517578125
+  ],
+  [
+   "x**5*y - 3*x**4*y**2 - 2*x**4*z - x**2*y**3*z + 3*x*z**4 - 3*y**4 + 2*y**2*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.02758502960205078
+  ],
+  [
+   "-3*x**3*z + 3*x**2*y*z + 2*x*y**5 + 3*x*y**2*z**2 - 3*x*y*z**2 - 2*y**2*z**2 + 2*y*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05109977722167969
+  ],
+  [
+   "x**5*z - x**3*y**2 + 3*x**3*y + 3*x**2*y**2 + 3*x**2*y*z**2 + 3*x*z**5 - 2*y**3*z**3 - 3*y*z**5 - 2*z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.042439937591552734
+  ],
+  [
+   "-3*x**5*y + 3*x**2*z**2 + 3*x*y**3*z + x*y**2*z**3 + 3*x*y**2*z**2 + 2*x*y*z**4 + 3*y**6 + 3*y**3*z**2",
+   "UNSTABLE",
+   "[N13*] gutter {z=0}: effective potential of degree 6 has simple zeros and is negative somewhere  (other horns degenerate: gutter {x=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero)",
+   0.45787811279296875
+  ],
+  [
+   "2*x**5 - 3*x**4*z**2 + 3*x**3*y**3 + 2*x**3*y**2 + 3*x**3*z - 3*x**2*y**3*z - 2*x**2*y**2*z + x**2*z**4 - x*y**3*z**2 - x*y**2*z**3 - 2*x*y**2*z**2 + 3*x*y*z**3 + y**5*z + y**3*z**3 - 3*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03679823875427246
+  ],
+  [
+   "-x**5 + 3*x**3*y*z**2 - x**2*y**3*z + 3*x**2*y**2*z**2 + x*y**3*z**2 - y**5*z - 2*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.011384963989257812
+  ],
+  [
+   "x**4*y**2 - 2*x**3*y**2*z + 3*x**3*y*z**2 + 3*x**3*y*z - 2*x**3*z**2 + 2*x**3*z + x**2*z**2 + 2*y**5 + y**4*z",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.04088783264160156
+  ],
+  [
+   "-3*x**4*z**2 + 2*x**3*y*z**2 - 3*x**3*z - x**2*z**4 - x**2*z**3 - 3*x*y**5 - 3*x*y**2*z - 2*x*y*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04760122299194336
+  ],
+  [
+   "-x**4*y**2 + 3*x**4*z**2 - 3*x*y**3 - 3*x*y**2*z**3 - y**2*z**3 - 3*y*z**3 + 2*z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04781508445739746
+  ],
+  [
+   "-3*x**4*y - 3*x**4*z**2 + 3*x**3*z**2 - x**3*z + 2*x**2*y**4 + x**2*y**2 + 3*x*y**3*z**2 - x*y*z**4 + 2*x*y*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04483628273010254
+  ],
+  [
+   "-3*x**5*y + x**4*y + 3*x**4*z**2 + 2*x**3*y*z - 3*x**3*y + x**3*z + 2*x**2*y**2*z**2 - 2*x*y**3 + x*z**3 - y**4*z**2 + 3*y**2*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.06302642822265625
+  ],
+  [
+   "-2*x**6 - x**5*z + x**4*z**2 - x**3*y + 3*x*y**5 + 3*x*y**2*z + x*z**3 + 3*y**6 + 3*y**3*z**3 - z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.06369733810424805
+  ],
+  [
+   "3*x**3*z**2 + 3*x**2*y**4 - 3*x**2*y**2*z**2 - 3*x*y**3*z**2 + 2*x*y**2*z - y**5*z - y**4*z**2 + 3*y*z**3 + z**5 - z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.043941497802734375
+  ],
+  [
+   "3*x**6 + 3*x**5*z - x**2*y**3 - 2*x*y**3*z - 2*x*y**3 + x*y**2*z**2 - 3*x*y*z**3 + 3*y*z**5 + 2*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03337287902832031
+  ],
+  [
+   "2*x**4*y*z + 2*x**4*y + x**4 + x**3*y**3 - 3*x**3*y + x**3*z + 3*x*y**4*z - y**5*z + y**2*z**3 - 3*y*z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.04695701599121094
+  ],
+  [
+   "x**3*y**2 + x**2*y**3*z + 2*x**2*y**2*z + 2*x**2*z**4 + 2*x*y**3 + 3*x*y**2*z**2 + 3*x*y*z**3 - 3*y**4*z**2 + y**4*z",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.030993223190307617
+  ],
+  [
+   "x**5 - 3*x**3*y*z - 2*x**3*z + 2*x**2*y**3 + 3*x*z**5 + 3*y**3*z**3 + 2*y**2*z**4 + 3*y**2*z**3 + 2*y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04332399368286133
+  ],
+  [
+   "2*x**5*z + x**4*y*z - 2*x**3*y*z**2 - y**6 - y**4*z**2 - y**2*z**4 - 2*z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_6 takes negative values and has no critical points except 0",
+   0.10587358474731445
+  ],
+  [
+   "-3*x**5*y - 3*x**2*y**3*z - 2*x*y**4*z + x*y**3*z**2 + 3*x*y**3 + x*z**5 + 3*y**4*z + y*z**5 - 3*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03355216979980469
+  ],
+  [
+   "-x**4*y**2 + x**4*y + 3*x**3*y - 2*x*y*z**4 - 2*y**2*z**3",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03551650047302246
+  ],
+  [
+   "3*x**4 - 3*x**3*y + 2*x**2*y**3 + 2*y**4*z + y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04881787300109863
+  ],
+  [
+   "x**4*y*z - 2*x**3*y**3 + 2*x**2*y**3 - 2*x**2*y**2 - 2*x**2*y*z - 2*x*y**2*z**2 + 2*x*y*z**2 - 2*x*z**3 + 2*y**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05813717842102051
+  ],
+  [
+   "2*x**4*z**2 - 3*x**2*y**2 + x**2*y*z**2 + x**2*y*z - 2*y**4 + 3*y**3*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04664278030395508
+  ],
+  [
+   "3*x**4*y + x**3*y*z - 3*x**2*z**3 - 3*x*y**3 + x*y**2*z - 3*x*y*z**2 + 2*y**4*z**2 + 2*y**4*z - 3*y**4 - 3*y*z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05405116081237793
+  ],
+  [
+   "2*x**4*y**2 + x**4*z - x**3*z**3 + x**2*y*z**3 + y**4*z**2 + 2*y**4*z - 3*y**3*z + z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04025554656982422
+  ],
+  [
+   "2*x**3*z**2 - 2*x**2*y**4 + 3*x**2*y*z**2 - 2*x**2*z**3 - x*y**5 - x*y**3*z - 3*x*y*z**4 + 3*z**4",
+   "SUSPICIOUS",
+   "gutter {z=0} of multiplicity 4 (non-Morse-Bott)",
+   1.7507858276367188
+  ],
+  [
+   "-x**3*y*z - 3*x**3*z**3 + 3*x*y**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.004279136657714844
+  ],
+  [
+   "x**4*z**2 - 3*x**2*y**2 + 2*x**2*y*z**3 + y**4*z + z**6 + 3*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03985929489135742
+  ],
+  [
+   "-x**2*y**2*z**2 + 2*x**2*y**2 - 3*x**2*z**3 - 3*x*y**5 - 2*y**3*z**3 + 3*y**3*z - 2*y**2*z**2 - y*z**3 + 2*z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05135011672973633
+  ],
+  [
+   "-3*x**4*y + 2*x**4*z**2 + 2*x**4*z - 2*x**3*y**2 - x**2*y**2*z**2 - 3*x**2*z**3 + x*y**3*z**2 + 2*y**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.0064105987548828125
+  ],
+  [
+   "-2*x**5*y - x**3*z**3 + 3*x**2*y**2*z + 3*x**2*z**4 - x*y**5 + 2*x*y**4*z + 2*y**2*z**4 - 2*y*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.011697053909301758
+  ],
+  [
+   "-3*x**5*z - x**2*y**4 - 2*x**2*y**3*z - 2*x*y**2*z**2 - 3*x*y**2*z - 3*y**5*z - 3*y**5 - 3*y**3*z**2 - 2*y*z**4 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.036267995834350586
+  ],
+  [
+   "3*x**4 - 2*x**3*y - 2*x**3*z**3 - 2*x**2*y**3 - x**2*z**2 - 2*x*y**3 + 3*x*y**2*z + x*y*z**3 + 3*x*z**5 + 3*y**3*z + y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.07202577590942383
+  ],
+  [
+   "2*x**4*y - x**2*y**2*z - 3*x*y*z**3 - 3*y**6 + 3*y**5*z",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.0046269893646240234
+  ],
+  [
+   "3*x**5*y + 2*x**3*y*z - x**2*y**2*z + x**2*z**3 + x**2*z**2 - x*y**5 + 3*y*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T6] weights (1, 1, 2), face degree 6",
+   0.11465787887573242
+  ],
+  [
+   "x**4*z + 3*x**2*y*z**2 + 2*x*y**5 + y**2*z**2 - y*z**4",
+   "SUSPICIOUS",
+   "gutter {y=0}: effective potential (degree 5): touching (even-order) zero; gutter {z=0}: effective potential (degree 6): touching (even-order) zero",
+   1.3830211162567139
+  ],
+  [
+   "3*x**6 - 2*x**4*y + 2*x**3*y*z**2 + 3*x*y**5 + 3*x*y**2*z**3 - 3*x*y**2*z**2 + 3*x*z**3 - 2*y**3*z**3 - 2*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03519749641418457
+  ],
+  [
+   "x**5 - x**3*y**2 - 2*x*y**3*z - x*y**3 - 3*x*y**2*z - 2*y**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04383540153503418
+  ],
+  [
+   "-3*x**6 - 2*x**4*y**2 - 2*x**4*y + x**2*y**3*z - x*y**4*z - 3*x*y**2*z**2 - y**3*z - y*z**4 + 2*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.032285213470458984
+  ],
+  [
+   "2*x**5*y + 2*x**2*y**2 + 3*x**2*z**3 + x*z**5 + y**3*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T6] weights (1, 3, 2), face degree 8",
+   0.08748793601989746
+  ],
+  [
+   "-2*x**5*y + x**4 + x**3*y*z**2 - 3*x**2*y**3*z + 3*x**2*y**2*z**2 - 2*x**2*y**2*z + 3*x**2*z**3 - 3*x*y**3*z**2 - x*y**2*z - 3*y**2*z**3 - 2*y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05388641357421875
+  ],
+  [
+   "-3*x**6 + x**4*y**2 - x**4*y - 2*x**2*y**2*z**2 + x*y**4*z + 3*x*y*z**2 - 2*y**5*z + 3*y**3*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.033991098403930664
+  ],
+  [
+   "x**5 + 2*x**4*y**2 - 2*x**3*y**2*z + 2*x**3*y*z + 2*x**2*z**3 - 2*x**2*z**2 + 2*x*y*z**3 + 3*x*z**5 + y**4*z - 3*y**4 + 2*y**2*z**3 + 3*y**2*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04191327095031738
+  ],
+  [
+   "3*x**5*z - x**4*y*z - x**4*z**2 - x**3*y**2 - 3*x**3*y*z**2 - 2*x**2*z**3 - 3*x*y**3*z - 3*x*y**2*z**3 - 3*x*y*z**2 + 3*x*z**3 - y**4*z**2 - y**2*z**2 - y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.058502197265625
+  ],
+  [
+   "-x**3*y*z + x**2*y**4 + 3*x**2*y**3*z - x**2*z**4 - x*y**3*z**2 - x*y*z**4 - 2*y**6 - y**4*z + y**2*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.007672548294067383
+  ],
+  [
+   "-2*x**2*z**3 - x*y**4 + 3*x*y**2*z + 2*y**5*z + y**2*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.033449649810791016
+  ],
+  [
+   "x**5*y - x**2*y**3*z + x**2*y*z**3 + 2*x**2*z**3 + 3*x*y*z**2 - 3*x*z**5 - 3*y**3*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.0295407772064209
+  ],
+  [
+   "-2*x**5*y + 3*x**3*y**2 + x**3*y*z**2 + 3*x**3*y - x**3*z**3 - x**2*y**3*z + x**2*y**2*z + x**2*y*z - x*y*z**3 - 3*y**5*z + 3*y**2*z**4 - 3*y**2*z**2 - y*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.0501856803894043
+  ],
+  [
+   "3*x**5*z - 3*x**4*y**2 + 3*x**4*y*z - x**4*y + 3*x**3*y**2 - 2*x**3*y*z**2 - 2*x**2*y**3*z + x**2*y**3 - x**2*y*z + x*y**4*z - y**5 - 2*y**4 - 3*y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04648137092590332
+  ],
+  [
+   "x**4*z + 3*x**4 - 2*x**3*z",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.055516958236694336
+  ],
+  [
+   "3*x**5 + 2*x**4*y**2 + 2*x**4 - 3*x**3*y**2*z - x**2*y**4 + 3*x**2*y**3 - x*y**3*z - y**6",
+   "SUSPICIOUS",
+   "gutter {x=0} of multiplicity 4 (non-Morse-Bott)",
+   1.6618525981903076
+  ],
+  [
+   "3*x**4*y - x**3*z**3 - 2*x**2*y**2 + x*y**2*z**3",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.028596878051757812
+  ],
+  [
+   "-3*x**2*y*z - 2*x*y**3 + x*z**4 + 3*x*z**3 + 2*y**4*z**2 + 3*y**4*z + y**3*z**3 + 3*y**2*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04705810546875
+  ],
+  [
+   "x**3*y*z**2 + x**3*y*z + 3*x**3*z**2 - 2*x**2*y**2*z**2 + 3*x**2*z**2 - x*y**4 + 3*x*y*z**2 + 3*y**4*z**2 - 3*y**3*z**3 - 3*y**2*z**2 - 2*z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.038216590881347656
+  ],
+  [
+   "x**4*y**2 - 3*x**3*y*z + x**3*z + 2*x**2*y**2*z**2 - x**2*z**4 - 3*x**2*z**3 - 2*x*y**4 + 2*x*y**3 + x*y**2*z - x*y*z**4 + y**5 + 2*z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05171322822570801
+  ],
+  [
+   "3*x**6 - 3*x**5 - 2*x**4*y*z + x**3*y*z + 3*x**2*y*z**3 - z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.019283771514892578
+  ],
+  [
+   "3*x**5*y - x**5*z + x**4*y - 3*x**3*y*z**2 + 3*x**2*y**2*z**2 + x*y**2*z**3 + x*z**5 + 3*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.006541013717651367
+  ],
+  [
+   "x**3*y*z + 3*x**3*z**2 - x**2*y**2 + 3*x**2*y*z**3 + 2*x*y**2*z**3 + 3*y**5*z - y**5 + 2*y**4*z**2 + 3*y**2*z**4 + y**2*z**3 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.041647911071777344
+  ],
+  [
+   "x**4*z**2 + x**3*y*z + x**2*y**4 - 3*x**2*z**3 + 2*x*y**2*z**2 + y**4*z**2",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.005590200424194336
+  ],
+  [
+   "-2*x**4*y + 3*x**4 - x**3*y**2*z - x**3*y*z - 3*x*z**4 - 2*y**2*z**3 - y**2*z**2 - y*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03869748115539551
+  ],
+  [
+   "-3*x**2*y**4 + 2*x**2*y*z**3 - 3*y**6 + 3*y*z**3",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03484487533569336
+  ],
+  [
+   "-x**5*y - x**5 - 2*x**2*y**2 - 3*x*y**3 + 3*y**4*z**2 - y*z**5 - y*z**4 - 3*z**6",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.040261030197143555
+  ],
+  [
+   "-x**4*y*z + 3*x**2*y**4 + 3*x**2*y*z + 2*y**4*z",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.028493642807006836
+  ],
+  [
+   "-x**3*y + 2*x**2*y**3*z + 3*x*z**5 - 2*y**5*z + 2*y**4*z + 3*y*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03299093246459961
+  ],
+  [
+   "2*x**3*z**3 + 3*x*y**4*z + 3*x*y**3*z + x*y**2*z**2 - 2*x*z**4 + 2*y**3*z**3 + y**2*z**3 + y**2*z**2",
+   "SUSPICIOUS",
+   "gutter {y=0}: effective potential (degree 5): touching (even-order) zero; gutter {z=0}: effective potential (degree 6): touching (even-order) zero",
+   1.8609075546264648
+  ],
+  [
+   "3*x**4*y*z + x**3*y**2*z + x**2*y**2",
+   "NONISOLATED",
+   "critical point at 0 looks non-isolated",
+   1.102220058441162
+  ],
+  [
+   "2*x**2*z**4 + 3*x**2*z**3 - 3*x*y*z**4 - x*y*z**2 - 3*y**6 + y**5 - 2*z**6 + 3*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.048593997955322266
+  ],
+  [
+   "-3*x**3*y*z**2 + x**3*z**2 + 3*x**2*y*z**2 + x*y**3 - 3*y**5 + y*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.02977776527404785
+  ],
+  [
+   "2*x**5*y - x**3*z**2 - x**2*y*z - 3*x**2*z**3 - 3*x*z**4 - 2*x*z**3 - y**6 + 3*y**5*z - y**3*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03796505928039551
+  ],
+  [
+   "x**5*y + 2*y**5 + y**4 - 3*y**3*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T6] weights (9, 15, 5), face degree 60",
+   0.0853266716003418
+  ],
+  [
+   "-3*x**4 - 2*x**2*y*z**2 + 3*x**2*y*z - 3*x**2*z**2 + x*y**3*z**2 + 3*x*y**2*z + 2*x*y*z**4 - x*y*z**3 + 3*x*z**4 - 2*y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.0610203742980957
+  ],
+  [
+   "-2*x**3*y + 3*x**2*y**2 + 3*x*y**3*z**2 - 3*x*y**3 - x*y**2*z**3 - 3*x*y*z**4 + 3*x*y*z**2 - 2*y**2*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.06441640853881836
+  ],
+  [
+   "-x**4*y*z + 2*x**3*z**3 + 3*x**2*y**3*z - 2*x**2*y*z + 3*x*y**4 + x*y**2*z**2 + 2*x*z**5 - y**2*z**2 + 3*y*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04088616371154785
+  ],
+  [
+   "2*x**4*y*z - 2*x**3*y*z + 2*x**3*y + 3*x**3*z**3 + 3*x*y*z**3 + y**2*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.03121185302734375
+  ],
+  [
+   "x**3*z**3 + x*y**3*z + 3*x*y**2*z**3 - y**3*z**3 + y**3*z + y*z**3 + z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03842306137084961
+  ],
+  [
+   "3*x**5*z + 2*x**4*y*z - x**3*y**2 + 3*x**2*y*z - 3*x*y**4*z - 3*y**6 + y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03501272201538086
+  ],
+  [
+   "2*x**2*y**3 + 3*x**2*y*z - 2*x*y**4 - 2*x*y**3 - 2*x*y**2*z - 3*y**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.043842315673828125
+  ],
+  [
+   "2*x**4*y - x**2*y**2*z**2 - 2*x**2*y*z**3 - 2*x**2*z**4 + x*y**5 + 3*x*y**2*z**3 - 3*x*y**2*z**2 - x*z**3 + 3*y**2*z**2",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.04352974891662598
+  ],
+  [
+   "3*x**6 + x**4*z**2 + x**4 - 3*x**2*z**4 + 2*x*y**3*z**2 + 2*y*z**5",
+   "NONISOLATED",
+   "critical point at 0 looks non-isolated",
+   1.2014484405517578
+  ],
+  [
+   "3*x**5*y + 2*x**4*y*z - 3*x**2*y**4 - x**2*y**2*z + x*y*z**2 - 3*x*z**3 - 3*y**6 + y**3*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04100465774536133
+  ],
+  [
+   "-x**5*z - 2*x**4*y - x**4 + x**3*z**3 - x**2*y**3 - 3*x*y**4*z - x*y**3*z + 3*y*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.02758312225341797
+  ],
+  [
+   "-x**4*y*z + x**2*y**3 + x*y**2*z**3 - 2*x*y*z**4 + y**3*z",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.029399633407592773
+  ],
+  [
+   "2*x**5*y + 3*x**4*y*z + 3*x**4*z**2 + 3*x**3*y**2*z - 3*x**3*y*z + x**3*z**3 - 3*x**3*z + 2*x**2*y**4 + x**2*y**3*z - 3*x*y**3*z**2 - 2*x*y*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04113149642944336
+  ],
+  [
+   "-x**4*y*z + 2*x**3*z**2 - 2*x*y**4 - 3*x*y**3 + 3*x*z**5 - 2*y**5*z - y**4*z**2 + y**3*z**3 + 2*y**3*z + 3*y**2*z**4 - z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05399131774902344
+  ],
+  [
+   "2*x**4*y**2 - x**3*y**3 - x**3*y**2*z + 3*x**2*y**2 + 2*x*y**5 - x*y**4 + 3*x*y**3*z**2 + 2*x*y**2*z - 2*x*y*z**4 - 2*y**6 - y**3*z - 3*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.048427581787109375
+  ],
+  [
+   "2*x**3*y - 2*x**3*z**3 - 3*x**3*z + 3*x**2*z**4 - 3*x*y**4*z + x*y**2*z**2 + 3*x*z**4 + 2*x*z**3 - 3*y**5 + 3*y*z**3 - 3*z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.06279873847961426
+  ],
+  [
+   "-3*x*y**4 + x*y**3*z**2 - 3*y**6 - 3*y**4*z + 2*y**3*z**3",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.004427433013916016
+  ],
+  [
+   "3*x**5*z - 3*x**3*y**3 + x*y**4 - x*y**3*z**2 + x*y**3 + 2*x*z**5 + 2*y**2*z**4",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_4 takes negative values",
+   0.02938532829284668
+  ],
+  [
+   "-x**2*y**3 + 3*x*y**3*z - x*y**2*z - 3*x*z**5 - 2*y**6 + 2*y**5 - y**3*z - z**6",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03896284103393555
+  ],
+  [
+   "-2*x**2*y**3*z - 3*x**2*y*z - 2*x**2*z**2 + 2*x*y*z**3 - 2*y**6 + 2*y**3*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03523755073547363
+  ],
+  [
+   "3*x**6 - 2*x**4*y - 2*x**3*z**2 - 2*x**2*y**3 + 2*x**2*y**2*z**2 + x**2*z**4 - 3*x*y**3*z**2 - y**4*z**2 + 3*y**4 - y*z**5 + z**5",
+   "SUSPICIOUS",
+   "gutter {y=0} of multiplicity 4 (non-Morse-Bott)",
+   1.88686203956604
+  ],
+  [
+   "2*x**4*y**2 - 2*x**3*y**2*z + x**3*y*z**2 - 3*x**3*y*z - x**3*z**3 + 3*x**2*y**3 - 2*x*y**4*z + 2*x*y**2*z**3 - y**5*z - y**3*z**2 + 2*z**5",
+   "UNSTABLE",
+   "[KP82] first nonzero form U_5 has odd degree",
+   0.010104179382324219
+  ],
+  [
+   "-3*x**4*y + x**4*z**2 + 2*x**2*y**2*z**2 - 3*x**2*y**2 - x**2*y*z - 3*x*y**4 - 3*y**4*z - 2*y**2*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03654980659484863
+  ],
+  [
+   "-3*x**5*z + 3*x**4*y**2 + 2*x**3*y**3 + 2*x**3*y**2 + 2*x**3*y*z - 3*x**3*z - 3*x**2*y*z**3 - x*y**4*z - 3*x*y**4 - 3*x*y**3 - 2*x*y*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.0570833683013916
+  ],
+  [
+   "-3*x**6 + 3*x**3*z**3 + x**2*y**2 - 3*y**6",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.4445919990539551
+  ],
+  [
+   "-x**4 + x**3*z**3 + 3*x**2*y**3*z + x**2*y**3 - x*y**2*z + 3*y**6 + 2*y**3*z - y**2*z**3 - 2*y*z**3",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.07437920570373535
+  ],
+  [
+   "-3*x**6 - 3*x**5*z - 2*x**4*z**2 - 2*x**3*y**2 - 2*x**3*z**3 + 2*x**2*y**3 + 3*x**2*y*z + 2*x*y**5 + 2*x*y**4 - x*y**3*z**2 + x*z**4",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03365135192871094
+  ],
+  [
+   "3*x**3*y*z**2 - 2*x**2*y**2 + 3*x*y**4*z + x*y**3*z**2 - 3*x*y*z**4 + 3*x*y*z**2 + y**5 + 3*y**2*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.04604625701904297
+  ],
+  [
+   "-2*x**5*z + x**3*y*z + 3*x**2*y**3 - x**2*y*z + 3*x*y*z**4 + y**4*z**2 - 3*y**4 + y**3*z + 2*y**2*z**2 + z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.05453610420227051
+  ],
+  [
+   "-x**4*y*z - x**4*y - 2*x**3*y**2*z + 3*x**2*y**2 - 2*x**2*z**3 - 3*x*y**2*z - 2*y**3*z**3 + 3*z**5",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.03769826889038086
+  ],
+  [
+   "-x**4*z**2 + 3*x**3*y**3 + x**3*y + 3*x**2*y*z - x*y**5 - x*y**2*z + x*y*z**2 + 2*y**5*z - 2*y**2*z**2",
+   "TOTALLY_UNSTABLE",
+   "[Pa20-T3] U_4 takes negative values and has no critical points except 0",
+   0.049286603927612305
+  ]
+ ]
+}
