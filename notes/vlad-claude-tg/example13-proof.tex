@@ -1,0 +1,302 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,urlcolor=blue!50!black,citecolor=green!35!black]{hyperref}
+
+\newtheorem{theorem}{Теорема}
+\newtheorem{lemma}{Лемма}
+\newtheorem{proposition}{Предложение}
+\theoremstyle{definition}
+\newtheorem{remark}{Замечание}
+
+\newcommand{\R}{\mathbb R}
+\newcommand{\eps}{\varepsilon}
+\DeclareMathOperator{\Sym}{Sym}
+\DeclareMathOperator{\diag}{diag}
+\newcommand{\tU}{\widetilde U}
+\setlist{itemsep=2pt,topsep=3pt}
+
+\title{Пример 13: доказательство тотальной неустойчивости\\[3pt]
+\large (вириальное поле, адаптированное к жёлобу)}
+\author{}
+\date{3 октября 2026 г.}
+
+\begin{document}
+\maketitle
+\vspace{-6mm}
+
+{\sloppy\noindent\emph{Markdown-версия этой заметки: \nolinkurl{notes/vlad-claude-tg/example13-proof.md}.
+Статусы: теорема~\ref{thm:main} --- [Доказано], ждёт независимой проверки; предложение~\ref{prop:gen} ---
+[Эскиз]; численные проверки \S\ref{sec:num} --- [Эксперимент].}\par}
+
+\begin{theorem}\label{thm:main}
+Пусть
+\[
+U(x,y,z)=(x^2+y^2-z^2)^2+z^5x+z^4xy+\tfrac12 z^6 .
+\]
+Существуют $\eps>0$ и $C>0$, такие что любое движение системы $\ddot q=-\nabla U(q)$ с энергией
+$h=\frac12|\dot q|^2+U(q)<0$, начинающееся в шаре $B_\eps=\{|q|<\eps\}$, покидает $B_\eps$ за время
+не больше $C/|h|$. В частности, положение равновесия $q=0$ неустойчиво по Ляпунову.
+\end{theorem}
+
+Напомню, чем пример интересен: гессиан нулевой, $U_3=0$, старшая форма $U_4=Q^2\ge0$
+($Q=x^2+y^2-z^2$) обращается в нуль на двух окружностях сферы (<<жёлоб>>), $\nabla U_4=0$ на жёлобе,
+а $U_6$ меняет знак на жёлобе. Поэтому не применимы ни критерий Ляпунова, ни критерии
+<<по первой ненулевой форме>> (Козлов--Паламодов, Паламодов), ни критерий Бургоса через вторую форму,
+а симметрий, сводящих задачу к $n=2$, нет. Изолированность критической точки в доказательстве
+не используется: она оказывается следствием.
+
+\paragraph{Идея.}
+(1) Вводятся координаты, в которых конус $\{Q=0\}$ --- координатная поверхность $\{d=0\}$ и
+\emph{точно} $Q^2=4s^2d^2$. (2) С весами $s\mapsto\lambda s$, $d\mapsto\lambda^2d$ главная часть
+потенциала равна $4s^2d^2+\frac{s^6}{8}G(\varphi)$. (3) Взвешенное поле Эйлера
+$E=s\partial_s+2d\partial_d$ даёт почти вириальное поле: $E(U)=6U+{}$(члены более высокого веса),
+$\Sym DE\approx\diag(1,1,2)$. (4) Две малые поправки исправляют знак у границы <<рога>> $\{U<0\}$,
+где $U\to0$ и ошибка $O(s^7)$ могла бы перевесить. Здесь используется единственное нетривиальное
+свойство примера: у функции $G$ на жёлобе нет кратных нулей.
+
+\section{Вириальная лемма}
+\begin{lemma}[см. основной текст, лемма 2; ср. Паламодов 1977/2020]\label{lem:virial}
+Пусть $B$ --- шар с центром $0$, $V$ --- ограниченное $C^1$-поле на $B\cap\{U<0\}$, $\alpha>0$ и
+\[
+\text{(i)}\ \ \langle\nabla U,V\rangle\le\alpha U,\qquad
+\text{(ii)}\ \ \langle DV(q)\xi,\xi\rangle\ge-\tfrac{\alpha}{2}|\xi|^2\ \ \forall\xi\in\R^3 .
+\]
+Тогда любая траектория с $h<0$, начинающаяся в $B$, покидает $B$ за время не больше
+$2M/(\alpha|h|)$, где $M=\sup|V|\cdot(2\sup_B|U|)^{1/2}$.
+\end{lemma}
+\begin{proof}
+На траектории $U\le h<0$. Для $F=\langle\dot q,V(q)\rangle$ имеем $|F|\le M$ и
+$\dot F=-\langle\nabla U,V\rangle+\langle DV\dot q,\dot q\rangle\ge-\alpha U-\frac\alpha2|\dot q|^2=\alpha|h|$.
+\end{proof}
+
+\section{Координаты, согласованные с жёлобом}
+В области $\{z>0,\ \rho>0\}$, где $\rho=\sqrt{x^2+y^2}$, $x=\rho\cos\varphi$, $y=\rho\sin\varphi$, положим
+\[
+s=\frac{\rho+z}{\sqrt2},\qquad d=\frac{\rho-z}{\sqrt2};\qquad\text{т.е.}\quad
+\rho=\frac{s+d}{\sqrt2},\quad z=\frac{s-d}{\sqrt2}.
+\]
+В каждой меридиональной полуплоскости $(s,d)$ --- повёрнутые декартовы координаты, поэтому
+\[
+|dq|^2=ds^2+dd^2+\rho^2d\varphi^2 .
+\]
+Ортонормированный репер: $e_s=\frac{e_\rho+e_z}{\sqrt2}$, $n=\frac{e_\rho-e_z}{\sqrt2}$, $e_\varphi$; при этом
+$\partial_s=e_s$, $\partial_d=n$, $\partial_\varphi=\rho e_\varphi=(-y,x,0)$. Полезные тождества:
+\begin{equation}\label{eq:ident}
+q=s\,e_s+d\,n,\qquad \nabla d=n,\qquad Dn=\frac{1}{\sqrt2\,\rho}\,e_\varphi\otimes e_\varphi,
+\end{equation}
+поскольку $\partial_\varphi n=e_\varphi/\sqrt2$ и $\nabla\varphi=e_\varphi/\rho$. Верхняя полость конуса --- это $\{d=0\}$,
+и на ней $s=|q|$.
+
+\begin{lemma}\label{lem:form}
+В этих координатах
+\[
+U=4s^2d^2+\sum_{j=0}^{6}a_j(\varphi)\,s^{6-j}d^j,\qquad a_0=\tfrac18G(\varphi),\quad
+a_1=-\tfrac18\sin2\varphi-\tfrac12\cos\varphi-\tfrac38,
+\]
+где $G(\varphi)=\cos\varphi\,(1+\sin\varphi)+\frac12$, а все $a_j$ --- тригонометрические многочлены.
+\end{lemma}
+\begin{proof}
+$Q=\rho^2-z^2=(\rho-z)(\rho+z)=2sd$, откуда $Q^2=4s^2d^2$. Далее
+$U_6=z^5x+z^4xy+\frac12z^6=z^4\bigl(z\rho\cos\varphi+\rho^2\sin\varphi\cos\varphi+\frac12z^2\bigr)$ ---
+однородный многочлен степени 6 от $(s,d)$ с тригонометрическими коэффициентами. При $d=0$ имеем
+$z=\rho=s/\sqrt2$ и $U_6=\frac{s^6}{8}\bigl(\cos\varphi+\sin\varphi\cos\varphi+\frac12\bigr)=\frac{s^6}{8}G$.
+Коэффициент $a_1$ получается прямым разложением (проверено символьно, см. \S\ref{sec:num}).
+\end{proof}
+
+\begin{lemma}[эффективный потенциал на жёлобе]\label{lem:G}
+$G'(\varphi)=-(2\sin\varphi-1)(1+\sin\varphi)$. Критические точки $G$: $\varphi=\pi/6,\,5\pi/6,\,3\pi/2$ со
+значениями $\frac12+\frac{3\sqrt3}{4}$, $\frac12-\frac{3\sqrt3}{4}\approx-0.799$, $\frac12$. В частности,
+\emph{$G$ и $G'$ не имеют общих нулей}; $G<0$ ровно на дуге $(\varphi_-,\varphi_+)\ni5\pi/6$,
+$\varphi_-\approx1.828$, $\varphi_+\approx3.600$, и нули $\varphi_\pm$ простые.
+\end{lemma}
+\begin{proof}
+$G'=-\sin\varphi(1+\sin\varphi)+\cos^2\varphi=1-\sin\varphi-2\sin^2\varphi=-(2\sin\varphi-1)(1+\sin\varphi)$.
+Значения в критических точках ненулевые, поэтому общих нулей нет. На $(\pi/2,3\pi/2)$ единственная
+критическая точка внутри области $G<0$ --- минимум $5\pi/6$; вне $(\pi/2,3\pi/2)$ имеем $\cos\varphi\ge0$ и
+$G\ge\frac12$.
+\end{proof}
+
+\section{Где живёт множество $\{U<0\}$}
+\begin{lemma}\label{lem:loc}
+Пусть $A=\max_{|q|=1}|U_6(q)|$ (из явного вида $A\le2$) и $0<|q|=r<1/\sqrt A$. Если $U(q)<0$ и $z\ge0$, то
+$z>0$, $\rho>0$ и $|d|<\sqrt{2A}\,s^2$. Если $U(q)<0$ и $z<0$, то то же верно для $-q$.
+\end{lemma}
+\begin{proof}
+Из $U<0$ следует $Q^2<|U_6|\le Ar^6$, т.е. $|Q|<\sqrt A\,r^3$. При $z,\rho\ge0$ имеем
+$|Q|=|\rho-z|(\rho+z)\ge|\rho-z|\,r$, откуда $|\rho-z|<\sqrt A\,r^2<r$. Значит, $\rho,z>0$ (иначе $|\rho-z|=r$),
+$|d|<\sqrt{A/2}\,r^2$ и $s^2=r^2-d^2\ge r^2/2$, так что $|d|<\sqrt{2A}\,s^2$. Второе утверждение следует из
+чётности $U(-q)=U(q)$.
+\end{proof}
+
+Положим $C_0=\sqrt{2A}$ и $N_+=\{z>0,\ \rho>0,\ |d|<2C_0s^2\}$, $N_-=-N_+$. По лемме~\ref{lem:loc}
+при малом $\eps$ имеем $B_\eps\cap\{U<0\}\subset N_+\cup N_-$, причём $N_+$ и $N_-$ не пересекаются.
+
+\paragraph{Перемасштабирование.} В $N_+$ положим $\eta=d/s^2$, $|\eta|<2C_0$. По лемме~\ref{lem:form}
+\begin{equation}\label{eq:scaled}
+U=s^6\,\tU(s,\varphi,\eta),\qquad \tU=4\eta^2+\sum_{j=0}^6a_j(\varphi)s^j\eta^j=\tU_0(\varphi,\eta)+s\,R(s,\varphi,\eta),
+\qquad \tU_0=4\eta^2+\tfrac18G(\varphi),
+\end{equation}
+где $R$ --- многочлен от $(s,\eta)$ с тригонометрическими коэффициентами; он и все его производные
+ограничены при $0\le s\le1$, $|\eta|\le2C_0$. Производные по $d$ и $\varphi$ при фиксированном $s$:
+\begin{equation}\label{eq:derivs}
+\partial_dU=s^4\,\tU_\eta,\qquad \partial_\varphi U=s^6\,\tU_\varphi .
+\end{equation}
+
+\section{Вириальное поле}
+На $N_+$ определим (с $\kappa=\frac1{100}$, $\kappa'=\frac1{50}$)
+\[
+V=\frac16\bigl(s\,\partial_s+2d\,\partial_d\bigr)\;-\;\kappa\,\frac{\partial_dU}{s^2}\,\partial_d\;-\;\kappa'\,\frac{\partial_\varphi U}{s^6}\,\partial_\varphi ,
+\]
+а на $N_-$ положим $V(q)=-V(-q)$. По \eqref{eq:ident} первое слагаемое равно $\frac16(q+d\,n)$.
+Поле гладкое на $N_\pm$ и $|V|\le C|q|$ в силу \eqref{eq:derivs}. Так как $U$ чётен, $\nabla U$ нечётен, и
+условия (i), (ii) для $N_-$ следуют из условий для $N_+$; дальше работаем в $N_+$.
+
+\begin{lemma}[условие (i)]\label{lem:i}
+Пусть $\alpha=\frac12$. Существует $\eps_1>0$, такое что $\langle\nabla U,V\rangle\le\alpha U$ на $N_+\cap\{U<0\}\cap B_{\eps_1}$.
+\end{lemma}
+\begin{proof}
+Поле $E=s\partial_s+2d\partial_d$ действует на одночлены как $E(s^ad^b)=(a+2b)s^ad^b$, поэтому
+$E(4s^2d^2)=6\cdot4s^2d^2$ и $E(s^{6-j}d^j)=(6+j)s^{6-j}d^j$. Значит,
+\[
+\langle\nabla U,V\rangle=\tfrac16E(U)+Z(U)=U+g-K,\qquad
+g=\tfrac16\sum_{j\ge1}j\,a_js^{6-j}d^j,\quad
+K=\kappa\frac{(\partial_dU)^2}{s^2}+\kappa'\frac{(\partial_\varphi U)^2}{s^6}.
+\]
+С учётом \eqref{eq:scaled}, \eqref{eq:derivs} получаем $g=s^7\hat g$, $\hat g=\frac16\sum_{j\ge1}ja_js^{j-1}\eta^j$, и
+\[
+\langle\nabla U,V\rangle-\alpha U=s^6\,\Phi(s,\varphi,\eta),\qquad
+\Phi=(1-\alpha)\tU+s\hat g-\kappa\tU_\eta^2-\kappa'\tU_\varphi^2 .
+\]
+Множество $K_0=\{(\varphi,\eta):\tU_0\le0\}$ компактно. На нём
+\[
+\Phi(0,\varphi,\eta)=(1-\alpha)\tU_0-64\kappa\,\eta^2-\tfrac{\kappa'}{64}\,G'(\varphi)^2<0 .
+\]
+Действительно, при $\tU_0<0$ отрицателен первый член, а при $\tU_0=0$ сумма двух последних членов может
+обратиться в нуль только при $\eta=0$, $G'(\varphi)=0$; но тогда $G(\varphi)=8\tU_0=0$, что противоречит лемме~\ref{lem:G}.
+По компактности $\Phi(0,\cdot)\le-2c$ на $K_0$ и $\Phi(0,\cdot)\le-c$ на $\{\tU_0\le\delta,\ |\eta|\le2C_0\}$ при некотором
+$\delta>0$. Наконец, $|\tU-\tU_0|\le C_1s$ и $|\Phi(s,\cdot)-\Phi(0,\cdot)|\le C_2s$ при $|\eta|\le2C_0$. Поэтому при
+$s<\min(\delta/C_1,\,c/(2C_2))$ из $\tU<0$ следует $\tU_0<\delta$, а значит, $\Phi<-c/2<0$. Остаётся заметить, что
+$s\le|q|$.
+\end{proof}
+
+\begin{lemma}[условие (ii)]\label{lem:ii}
+Существует $\eps_2>0$, такое что $\Sym DV\ge\frac1{12}I$ на $N_+\cap B_{\eps_2}$.
+\end{lemma}
+\begin{proof}
+Все $O(\cdot)$ ниже равномерны по $N_+$ при $s\to0$; используем $|\eta|<2C_0$ и $\rho=s(1+s\eta)/\sqrt2$.
+
+\emph{Главная часть.} По \eqref{eq:ident} $D(q+dn)=I+n\otimes n+\frac{d}{\sqrt2\rho}e_\varphi\otimes e_\varphi$ --- симметричная
+матрица с собственными значениями $1$, $2$, $1+O(s)$ (так как $|d|/\rho=O(s)$).
+
+\emph{Поправка $Z_1=-\kappa f_1n$, $f_1=s^{-2}\partial_dU=s^2\tU_\eta$.} Имеем $D(f_1n)=n\otimes\nabla f_1+f_1Dn$ и
+$\nabla f_1=(\partial_sf_1)e_s+\rho^{-1}(\partial_\varphi f_1)e_\varphi+(\partial_df_1)n$. Так как $\partial_d=s^{-2}\partial_\eta$ и
+$\partial_s\eta|_d=-2\eta/s$,
+\[
+\partial_df_1=\tU_{\eta\eta}=8+O(s^2),\quad
+\partial_sf_1=2s\tU_\eta+s^2\tU_{\eta s}-2s\eta\tU_{\eta\eta}=O(s),\quad
+\rho^{-1}\partial_\varphi f_1=\rho^{-1}s^2\tU_{\eta\varphi}=O(s^2),
+\]
+а $f_1Dn=O(s^2/\rho)=O(s)$. Итак, $DZ_1=-\kappa\,(8+O(s^2))\,n\otimes n+O(s)$.
+
+\emph{Поправка $Z_2=-\kappa' f_2\partial_\varphi$, $f_2=s^{-6}\partial_\varphi U=\tU_\varphi$.} Поле $\partial_\varphi$ --- поле вращений
+(киллингово), $D\partial_\varphi$ антисимметрична, поэтому $\Sym DZ_2=-\kappa'\Sym(e_\varphi\otimes\rho\nabla f_2)$ и
+$\|\Sym DZ_2\|\le\kappa'|\rho\nabla f_2|$. Из \eqref{eq:scaled}: $\tU_{\varphi\eta}=a_1's+O(s^2)$, $\tU_{\varphi s}=a_1'\eta+O(s)$,
+$\tU_{\varphi\varphi}=G''/8+O(s)$; отсюда
+\[
+\rho\,\partial_df_2=\rho s^{-2}\tU_{\varphi\eta}=\tfrac{a_1'}{\sqrt2}+O(s),\qquad
+\rho\cdot\rho^{-1}\partial_\varphi f_2=\tfrac{G''}{8}+O(s),\qquad
+\rho\,\partial_sf_2=\rho\bigl(\tU_{\varphi s}-\tfrac{2\eta}{s}\tU_{\varphi\eta}\bigr)=O(s).
+\]
+Так как $G''=-\cos\varphi(1+4\sin\varphi)$, $|G''|\le3$, и $a_1'=-\frac14\cos2\varphi+\frac12\sin\varphi$, $|a_1'|\le\frac34$, получаем
+$\|\Sym DZ_2\|\le\kappa'(\frac38+\frac{3}{4\sqrt2})+O(s)\le0.91\,\kappa'+O(s)$.
+
+\emph{Итог.} В репере $(e_s,e_\varphi,n)$
+\[
+\Sym DV\ \ge\ \diag\Bigl(\tfrac16,\ \tfrac16,\ \tfrac13-8\kappa\Bigr)-0.91\,\kappa'-O(s)
+\ \ge\ \bigl(\tfrac16-0.0182-O(s)\bigr)I\ \ge\ \tfrac1{12}I
+\]
+при малом $s$ (с $\kappa=0.01$ имеем $\frac13-8\kappa>\frac16$).
+\end{proof}
+
+\paragraph{Доказательство теоремы~\ref{thm:main}.}
+Возьмём $\eps<\min(1/\sqrt A,\eps_1,\eps_2)$, настолько малым, что $B_\eps\cap\{U<0\}\subset N_+\cup N_-$ (лемма~\ref{lem:loc}).
+Поле $V$ гладко и ограничено на $B_\eps\cap\{U<0\}$, удовлетворяет (i) с $\alpha=\frac12$ (лемма~\ref{lem:i}) и (ii),
+причём даже $\Sym DV\ge\frac1{12}I\ge-\frac\alpha2I$ (лемма~\ref{lem:ii}). По лемме~\ref{lem:virial} каждая траектория с
+$h<0$, стартовавшая в $B_\eps$, покидает $B_\eps$ за время не больше $4M/|h|$. Точки $q_0\to0$ с $U(q_0)<0$
+существуют (например, на луче $\varphi=5\pi/6$ верхней полости конуса, где $U=\frac{s^6}{8}G(5\pi/6)<0$), и
+траектории с данными $(q_0,0)$ покидают $B_\eps$. \qed
+
+\begin{remark}
+Из (i) следует $\nabla U\ne0$ на $\{U<0\}\cap B_\eps$. Поле $V$ не принадлежит классу $C^1$ в нуле (его
+производная однородна нулевой степени), поэтому теорема~2 Паламодова в форме <<поле класса $C^1$ вплоть до
+точки равновесия>> применяется не буквально; лемма~\ref{lem:virial} этого не требует.
+\end{remark}
+
+\section{Обобщение: жёлоб с регулярным эффективным потенциалом}
+Доказательство использует лишь три вещи: точную формулу $Q^2=4s^2d^2$, квазиоднородную структуру и простоту
+нулей $G$. Поэтому оно переносится дословно.
+
+\begin{proposition}\label{prop:gen}
+Пусть $U=(x^2+y^2-z^2)^2+W$, где $W$ аналитична в окрестности нуля, $W=W_m+W_{m+1}+\dots$, $m\ge5$. Положим
+$G_\pm(\varphi)=W_m\bigl(\tfrac{\cos\varphi}{\sqrt2},\tfrac{\sin\varphi}{\sqrt2},\pm\tfrac1{\sqrt2}\bigr)$ --- значения
+$W_m$ на двух окружностях жёлоба. Если $0$ --- регулярное значение $G_+$ и $G_-$ (т.е. у них нет кратных нулей) и
+хотя бы одна из них принимает отрицательные значения, то начало координат тотально неустойчиво. Если же
+$G_\pm>0$, то $0$ --- строгий локальный минимум.
+\end{proposition}
+\begin{proof}[Схема]
+Веса $s:1$, $d:w$, где $w=\frac{m-2}{2}>1$ (баланс $s^2d^2\sim s^m$). Подстановка $d=s^w\eta$ даёт
+$\tU=U/s^m=4\eta^2+G_+(\varphi)+O(s^\mu)$, $\mu=\min\bigl(1,\frac{m-4}{2}\bigr)>0$: все остальные члены разложения $W$ в
+координатах $(s,\varphi,d)$ имеют вес больше $m$, поскольку $w>1$. Берём $V=\frac1m(s\partial_s+w\,d\partial_d)
+-\kappa s^{-2}(\partial_dU)\partial_d-\kappa' s^{-m}(\partial_\varphi U)\partial_\varphi$. Тогда $Z_1(U)=-\kappa s^m\tU_\eta^2$, так как
+$2(m-w)-2=m$, и далее леммы~\ref{lem:loc}--\ref{lem:ii} проходят без изменений с заменой $O(s)$ на $O(s^\mu)$. Для нижней
+полости используются аналогичные координаты $s=(\rho-z)/\sqrt2$, $d=(\rho+z)/\sqrt2$. Утверждение о минимуме:
+по лемме~\ref{lem:loc} точки с $U\le0$ лежат в области $|\eta|\le C_0$, где $\tU\ge\min G_\pm-O(s^\mu)>0$.
+\end{proof}
+
+\begin{remark}
+Это утверждение содержит пример~13 ($m=6$) и в этой ситуации усиливает критерий Бургоса [Bu25, следствие~1.4]:
+там требуется $W_m<0$ \emph{во всех} точках жёлоба, а здесь достаточно простоты нулей. Ни в [Bu25], ни в [Pa20]
+я такого утверждения не встречал, но за полноту поиска не ручаюсь.
+\end{remark}
+
+\section{Где метод перестаёт работать}
+\begin{itemize}[leftmargin=*]
+\item \emph{Кратный нуль $G$.} Если $G(\varphi_0)=G'(\varphi_0)=0$, то в точке $(\varphi_0,0)$ границы <<рога>> обе поправки
+вырождаются, $\Phi(0,\varphi_0,0)=0$, и знак решают члены более высокого веса. Нужно ещё одно взвешенное раздутие в
+этой точке --- начало того самого каскада, о котором шла речь в основном тексте.
+\item \emph{Жёлоб надо искать} (пример 14 основного текста). Если в $U$ есть члены, линейные по $d$ и сравнимые по весу
+с главными, например $-2Qzm$, то истинное <<дно>> --- деформированный конус. Прежде чем строить поле, его нужно
+выпрямить заменой координат типа Ньютона--Пюизё; метрика при этом перестаёт быть диагональной.
+\item \emph{Вырожденная трансверсальная структура.} Здесь поперечная жёсткость $4s^2d^2$ невырождена. Если старшая
+форма зануляется на жёлобе в порядке выше второго, или жёлоб --- особая кривая (например, $U_4=x^2y^2$, пара
+пересекающихся окружностей), то нужны другие веса и отдельный анализ особых точек жёлоба.
+\end{itemize}
+Так что общая проблема Арнольда остаётся открытой, но <<генерический жёлоб>> закрывается элементарно.
+
+\section{Проверка вычислений}\label{sec:num}
+Скрипты лежат в \nolinkurl{experiments/vlad-claude-tg/example13/} (там же \texttt{README.md}).
+\begin{itemize}[leftmargin=*]
+\item \texttt{isolated\_check.py}: изолированность критической точки (единственный вещественный корень
+системы в переменных $a=x/z$, $b=y/z$ лежит вне окружности $a^2+b^2=1$) и минимум $|\nabla U|/r^5$ на сферах.
+\item \texttt{symbolic\_check.py} (SymPy): $Q^2=4s^2d^2$; $U-4s^2d^2$ однороден степени 6 по $(s,d)$; формулы для $a_0$,
+$a_1$; тождество $\frac16E(U)-U=\frac16\sum ja_js^{6-j}d^j$; $\tU(0,\varphi,\eta)=4\eta^2+G/8$. Результант числителей
+$G$ и $G'$ при $t=\tan(\varphi/2)$ равен $-23552\ne0$ (независимое подтверждение леммы~\ref{lem:G}).
+\item \texttt{numeric\_check.py}: по $2\cdot10^4$ случайных точек множества $\{U<0\}$ на сферах радиусов $r$ от $0.5$
+до $0.005$. Найдено $\min\langle\nabla U,V\rangle/U\ge1.000$ (нужно $\ge\alpha=0.5$), $\min\lambda_{\min}(\Sym DV)\in[0.151,0.160]$
+(нужно $\ge-\alpha/2$), $\max|d|/s^2\approx0.16$ (ср. $\sqrt{0.799/32}\approx0.158$). Условия выполнены уже при $r\le0.5$.
+\item \texttt{trajectories.py}, \texttt{trajectories\_fine.py}: метод Рунге--Кутты 4-го порядка, случайные начальные
+данные в <<роге>> с энергией $h\in(U(q_0),\,0.1\,U(q_0))$. Первый прогон: по 200 траекторий для $|q_0|=0.05,\,0.02,\,0.01$
+(при $|q_0|=0.01$ шаг грубоват, дрейф энергии велик относительно крошечного $|h|$). Второй прогон с шагом в 5 раз мельче:
+по 100 траекторий для $|q_0|=0.02,\,0.01$, дрейф энергии $\le3\%$ от $|h|$. Все траектории покинули шар радиуса $0.3$,
+и вдоль них $\dot F\ge2.0\,\alpha|h|$, что согласуется с леммой~\ref{lem:virial}.
+\end{itemize}
+
+\end{document}
