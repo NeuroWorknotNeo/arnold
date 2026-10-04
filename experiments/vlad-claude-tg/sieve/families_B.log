@@ -1,0 +1,2 @@
+Family B (N=200): {'TOTALLY_UNSTABLE': 115, 'UNSTABLE': 71, 'SUSPICIOUS': 7, 'NONISOLATED': 7}
+   by reason: {'[Pa20-T3]': 109, '[KP82]': 68, 'critical point at 0 looks non-isolated': 7, '[Pa20-T6]': 6, '[N13*]': 2, 'gutter {y=0}': 2, 'zero direction [ 1.    -0.001 -0.   ] of U_4 with degenerate': 1, 'gutter {z=0}': 1, 'gutter {z=0} of multiplicity 4 (non-Morse-Bott)': 1, 'gutter {x=0} of multiplicity 4 (non-Morse-Bott)': 1, 'gutter {y=0} of multiplicity 4 (non-Morse-Bott)': 1, '[SYM]': 1}

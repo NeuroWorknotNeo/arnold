@@ -1,0 +1,2 @@
+Family C (N=400): {'TOTALLY_UNSTABLE': 117, 'SUSPICIOUS': 207, 'UNSTABLE': 70, 'UNDECIDED': 4, 'NONISOLATED': 1, 'MIN': 1}
+   by reason: {'gutter {x**2 + y**2 - z**2=0}': 207, '[N13]': 111, '[SYM]': 68, '[Bu25]': 8, 'degenerate, but no negative values found (maybe a minimum)': 4, 'critical point at 0 looks non-isolated': 1, 'no negative horns found (probably a non-strict or strict min': 1}

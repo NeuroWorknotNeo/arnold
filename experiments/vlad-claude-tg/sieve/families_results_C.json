@@ -1,0 +1,2404 @@
+{
+ "C": [
+  [
+   "x**6*y**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*z**4 + y**4 + y**3*z**3 - 2*y**2*z**2 - z**8 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.9579861164093018
+  ],
+  [
+   "2*x**4*y**3*z + x**4 - 2*x**3*y*z**3 - 2*x**2*y**4*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**7 - x*y**2*z**2 + 2*y**8 + 2*y**4*z**3 + y**4 - 2*y**2*z**2 + 2*z**7 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.7564587593078613
+  ],
+  [
+   "x**4 - 2*x**3*y**4*z - 2*x**2*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**5*z**2 - y**6 - y**4*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.5112950801849365
+  ],
+  [
+   "-x**5*y*z**2 - x**4*y**4 + x**4 + x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.8959736824035645
+  ],
+  [
+   "x**4 - 2*x**2*y**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**3*z**4 - 2*x*y*z**6 + 2*x*z**6 + y**4 + y**3*z**5 - y**2*z**5 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.9973702430725098
+  ],
+  [
+   "x**4 + x**3*y**2*z**2 - x**2*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - y**3*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.8379426002502441
+  ],
+  [
+   "-2*x**6*y + x**4*y**4 - x**4*z + x**4 - 2*x**3*y*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*y**5*z**2 + y**4 - 2*y**2*z**2 + 2*y*z**5 - 2*z**6 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.5597705841064453
+  ],
+  [
+   "x**4*y*z**3 + x**4 + x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + 2*y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5929379463195801
+  ],
+  [
+   "-x**5*y**2*z + x**4*y + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + y*z**4 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.49199390411376953
+  ],
+  [
+   "-2*x**7*y + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**6*z + x*y*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5063655376434326
+  ],
+  [
+   "x**4 + 2*x**2*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**5 - 2*x**2*z**2 - 2*x*y**5 + x*y**4 - 2*y**6*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.103022575378418
+  ],
+  [
+   "x**5*z**3 + x**4*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y*z**6 + 2*x*y*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5645980834960938
+  ],
+  [
+   "x**4 + 2*x**3*y**3 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**6*z - y**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.7518048286437988
+  ],
+  [
+   "x**4 + x**2*y**6 + 2*x**2*y**2 - 2*x**2*z**2 - x*y*z**3 - y**4*z**3 + y**4 - 2*y**2*z**2 - 2*z**6 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.513552188873291
+  ],
+  [
+   "2*x**5*y*z**2 + x**4*y**2*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*y*z**4 - 2*x**2*y*z**3 - 2*x**2*z**2 - x*y**6*z + 2*y**8 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.580134153366089
+  ],
+  [
+   "x**4 - 2*x**3*y**2*z**2 - 2*x**2*y**2*z**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**3*z**3 - x*z**5 + y**4 + y**2*z**6 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5259149074554443
+  ],
+  [
+   "2*x**4*y**4 + x**4 - 2*x**3*y**5 + x**3*z**5 + x**2*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.2503795623779297
+  ],
+  [
+   "-2*x**4*y**2*z**2 + x**4 + x**3*y*z + x**2*y**5*z + 2*x**2*y**2 + 2*x**2*y*z**2 + 2*x**2*z**4 - 2*x**2*z**2 - 2*x*z**6 + 2*x*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5444912910461426
+  ],
+  [
+   "2*x**6*y**2 + x**4 + 2*x**2*y**2 + x**2*y*z**3 - 2*x**2*z**2 + y**4 + 2*y**3*z**3 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.49620938301086426
+  ],
+  [
+   "-x**4*z + x**4 + 2*x**2*y**4*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**2*z**3 + y**4 - y**2*z**6 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5301477909088135
+  ],
+  [
+   "2*x**5 + x**4 - x**2*y**4*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**6*z + x*y**2*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5457539558410645
+  ],
+  [
+   "-2*x**5*y**3 + x**5*y*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 8 has simple zeros and is negative somewhere",
+   0.5015623569488525
+  ],
+  [
+   "-2*x**6*y + x**4 + 2*x**3*y*z**4 - 2*x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.925978660583496
+  ],
+  [
+   "-x**7*y - x**4*z + x**4 - 2*x**3*y**5 - 2*x**3*z**4 + 2*x**2*y**2 + x**2*z**5 - 2*x**2*z**2 + 2*x*y*z**3 + y**4*z + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.6546134948730469
+  ],
+  [
+   "-2*x**4*z + x**4 + 2*x**2*y**2 - x**2*y*z**4 - 2*x**2*z**2 - 2*y**4*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5366916656494141
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z**2 + y**6*z - 2*y**4*z + y**4 - 2*y**2*z**2 - y*z**5 - z**6 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.9534764289855957
+  ],
+  [
+   "x**5 + x**4 + x**3*y**4 + x**3*y*z**2 + x**2*y**5 - 2*x**2*y**2*z**4 - x**2*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**3*z**3 - y**8 + y**4*z + y**4 - 2*y**2*z**2 + 2*z**6 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5735478401184082
+  ],
+  [
+   "-x**5*y**3 - x**4*z**4 + x**4 - x**2*y**3*z**2 + 2*x**2*y**2 + 2*x**2*z**5 - 2*x**2*z**2 - 2*y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): touching (even-order) zero",
+   2.266423463821411
+  ],
+  [
+   "-2*x**5*z + x**4 - 2*x**2*y**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**6*z - 2*y**4*z**2 + y**4 - 2*y**3*z**5 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5501976013183594
+  ],
+  [
+   "x**4 + 2*x**2*y**3*z**2 + 2*x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5403032302856445
+  ],
+  [
+   "-2*x**8 - x**4*y**3*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*z**6 - 2*y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.9284188747406006
+  ],
+  [
+   "-2*x**5*y*z**2 + 2*x**4*y**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 + y**2*z**6 - 2*y**2*z**2 + z**4",
+   "UNDECIDED",
+   "degenerate, but no negative values found (maybe a minimum): gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.8702914714813232
+  ],
+  [
+   "x**4 - 2*x**2*y**6 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**3*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): sign change at a multiple (odd-order) zero",
+   1.585634469985962
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**3*z**4 + 2*x*y**2*z**3 + 2*y**6*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.9455983638763428
+  ],
+  [
+   "x**4 + x**3*y**3*z - x**3*z**2 - x**2*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 - x*y**3*z - y**8 + y**5*z - 2*y**4*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5403149127960205
+  ],
+  [
+   "2*x**5*y**2*z + x**4 + 2*x**2*y**2 + x**2*z**6 - 2*x**2*z**2 - 2*x*y*z**6 + y**4 - 2*y**2*z**2 + y*z**7 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 8 has simple zeros and is negative somewhere",
+   0.513965368270874
+  ],
+  [
+   "x**5*z + x**4 - 2*x**3*y**2*z - 2*x**2*y**5 + 2*x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 - x*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5355165004730225
+  ],
+  [
+   "x**5*y + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**4 + y**4 + y**2*z**6 - 2*y**2*z**2 + 2*y*z**6 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.8718624114990234
+  ],
+  [
+   "-x**5*y**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 8): sign change at a multiple (odd-order) zero",
+   1.1595590114593506
+  ],
+  [
+   "-2*x**5*z**2 + 2*x**4*z**2 + x**4 - 2*x**3*z**3 + x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*y**4*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.0297842025756836
+  ],
+  [
+   "-x**7*z + x**5*y**2*z + x**4 + 2*x**3*y**2*z**3 - 2*x**3*y*z**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**3*z**4 + 2*x*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5783412456512451
+  ],
+  [
+   "-x**5*y*z**2 + 2*x**4*y + x**4 - x**3*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z - 2*x*z**5 + x*z**4 + 2*y**6*z - 2*y**5 - y**4*z**4 + y**4 - 2*y**2*z**2 + 2*z**7 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5707740783691406
+  ],
+  [
+   "-2*x**6*y**2 + x**4 - x**3*y**3 - x**2*y**3*z**3 + x**2*y**2*z**3 - 2*x**2*y**2*z**2 + 2*x**2*y**2 - x**2*y*z**3 - 2*x**2*z**2 - x*y**4*z**3 - y**5*z**2 + y**5 + y**4 - 2*y**2*z**2 - 2*y*z**4 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.6035566329956055
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.4758584499359131
+  ],
+  [
+   "x**6*y**2 + x**4 - x**3*y**4 + x**3*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**3*z**4 + y**4 - 2*y**3*z**3 + 2*y**3*z**2 - 2*y**2*z**2 - z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5621860027313232
+  ],
+  [
+   "2*x**6*y**2 - x**6*y + x**4 + x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5382170677185059
+  ],
+  [
+   "x**4 - x**2*y**2*z**3 + 2*x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*y*z**3 + 2*x**2*z**3 - 2*x**2*z**2 - 2*x*z**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.208220958709717
+  ],
+  [
+   "-x**5*y**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**6*z - x*y**5 - x*y**2*z**5 + y**6 + 2*y**4*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.388179063796997
+  ],
+  [
+   "x**4 + 2*x**3*y*z**2 + x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*y*z**2 - 2*x**2*z**2 - x*y**2*z**2 - x*y*z**6 + y**4 - y**3*z**2 - 2*y**2*z**6 - y**2*z**3 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5543696880340576
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**3*z - 2*x*z**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.597872018814087
+  ],
+  [
+   "2*x**5*y*z + x**4 - x**2*y**5*z + x**2*y**4*z**2 + 2*x**2*y**2 - x**2*y*z**5 - 2*x**2*y*z**3 - 2*x**2*z**2 - x*y**4*z**2 - 2*x*y**3*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   3.021914005279541
+  ],
+  [
+   "-x**4*y**3 + x**4 - x**2*y**6 + x**2*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 + 2*y**2*z**3 - 2*y**2*z**2 + y*z**5 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.569206714630127
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.580190896987915
+  ],
+  [
+   "x**5*y**3 + x**4 - x**3*y**3*z - x**3*y**2 + x**3*z**4 + 2*x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*z**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.361515522003174
+  ],
+  [
+   "x**4*y**2 + x**4*z**4 + x**4 + 2*x**2*y**4*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 - 2*z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5282633304595947
+  ],
+  [
+   "x**5*y**2*z - x**4*y**2 + x**4 - 2*x**3*y**3*z**2 + 2*x**2*y**2 + x**2*y*z**5 - 2*x**2*z**2 + 2*x*y**6*z - x*z**5 - 2*y**4*z**2 + 2*y**4*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.886660575866699
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**5*z**2 + y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): sign change at a multiple (odd-order) zero",
+   1.4978747367858887
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*y*z**2 - 2*x**2*z**2 + 2*y**7 - 2*y**6*z**2 + y**4 - 2*y**2*z**2 + 2*z**8 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.588371753692627
+  ],
+  [
+   "x**4 + x**3*y**4*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**2*z**2 + x*y*z**6 + y**4 - y**2*z**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.1285898685455322
+  ],
+  [
+   "x**7*z - x**6*z**2 + x**5*y*z - x**4*y**4 + x**4 + 2*x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**3*z**2 + 2*x*y**3*z - y**7 - 2*y**6*z + y**4 + y**2*z**6 - 2*y**2*z**2 - 2*y*z**7 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   3.1332619190216064
+  ],
+  [
+   "x**4*z + x**4 - 2*x**3*y**5 + 2*x**3*y**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.7324731349945068
+  ],
+  [
+   "-x**8 + x**4 - x**3*y*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**3*z**4 + 2*x*y**2*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5354053974151611
+  ],
+  [
+   "x**4 + 2*x**2*y**2 + 2*x**2*z**4 - 2*x**2*z**2 + x*y**2*z**5 + y**4 - 2*y**2*z**2 - 2*z**8 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.762662649154663
+  ],
+  [
+   "-2*x**8 + x**4 + x**3*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**2*z**4 - x*y*z**3 + y**4 - 2*y**2*z**2 + 2*z**6 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5175058841705322
+  ],
+  [
+   "x**5*y*z + x**4 + 2*x**2*y**4*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**7 + 2*x*y**6*z + x*y*z**5 + y**4 - y**3*z**2 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.422835350036621
+  ],
+  [
+   "x**4 - 2*x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5051431655883789
+  ],
+  [
+   "x**4 + 2*x**2*y**4*z**2 + x**2*y**3*z - 2*x**2*y**2*z**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y*z**5 + 2*x*z**4 - y**5*z + y**4 + y**2*z**6 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5396609306335449
+  ],
+  [
+   "x**6*y**2 + x**4 + 2*x**2*y**3*z + 2*x**2*y**2 - 2*x**2*y*z**3 - 2*x**2*z**2 - x*y**4*z**3 + x*y*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.3803412914276123
+  ],
+  [
+   "2*x**5*y + 2*x**4*y*z**3 + x**4 + 2*x**2*y**6 + x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.2121715545654297
+  ],
+  [
+   "x**6*y*z + x**5*y + x**4*y**2*z + x**4 - x**3*y**2*z + x**3*z**3 - 2*x**2*y**4 + x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.75907826423645
+  ],
+  [
+   "2*x**4*y**4 - 2*x**4*y*z + x**4 - x**3*y**3 + 2*x**2*y**2 + x**2*y*z**5 + x**2*z**6 + x**2*z**3 - 2*x**2*z**2 + x*y**3*z - 2*x*y*z**6 + y**4 - 2*y**3*z**2 - y**2*z**3 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.582597017288208
+  ],
+  [
+   "x**4*y**4 + x**4 + x**2*y**5*z + 2*x**2*y**2 + x**2*y*z**5 - 2*x**2*z**2 + 2*x*y**5 + 2*x*y**3*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.384220600128174
+  ],
+  [
+   "x**4 - 2*x**2*y**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*y**7 + y**4 + 2*y**3*z**2 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.6165070533752441
+  ],
+  [
+   "-2*x**4*y*z**3 - x**4*y*z + x**4 - x**3*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 + y**8 - y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.184685468673706
+  ],
+  [
+   "-2*x**5*y*z - 2*x**5*z + x**4 + 2*x**2*y**2 + 2*x**2*z**4 - 2*x**2*z**2 - 2*x*y**4*z**3 + y**4 - 2*y**2*z**2 - y*z**6 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.2423577308654785
+  ],
+  [
+   "x**4 + x**3*y**3 + 2*x**2*y**2 - x**2*y*z**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.6426448822021484
+  ],
+  [
+   "-x**5*y**2 - x**4*z**4 + x**4 - 2*x**3*z**3 + 2*x**2*y**2 - x**2*y*z**5 + 2*x**2*z**4 - 2*x**2*z**2 - y**4*z**4 + y**4 - 2*y**2*z**2 - y*z**7 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.593578577041626
+  ],
+  [
+   "-2*x**5*y**2*z + x**4*z + x**4 + x**3*y**2*z**2 + 2*x**2*y**3*z - x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y*z**5 + y**4 - 2*y**2*z**2 + y*z**5 + 2*z**6 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.665998697280884
+  ],
+  [
+   "-2*x**4*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5467038154602051
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4*z + 2*x*z**6 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5115716457366943
+  ],
+  [
+   "x**8 + x**4 - 2*x**2*y**5 + 2*x**2*y**2 - 2*x**2*z**2 - x*y*z**6 - 2*y**7*z - 2*y**4*z**3 - 2*y**4*z + y**4 - 2*y**2*z**2 + y*z**5 - 2*y*z**4 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.4226839542388916
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*y*z**4 - 2*x**2*z**2 + x*y**7 + 2*x*y**2*z**5 - 2*x*y*z**5 + 2*x*z**6 + y**4 - 2*y**2*z**2 - z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.534935712814331
+  ],
+  [
+   "x**5*y**2*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**5*z - 2*y**4*z**4 + y**4 - 2*y**2*z**5 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): touching (even-order) zero",
+   1.9558024406433105
+  ],
+  [
+   "x**4 + 2*x**2*y**2 + x**2*z**6 - 2*x**2*z**2 - x*z**6 + y**7 + y**4 - 2*y**2*z**2 + 2*y*z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.4987215995788574
+  ],
+  [
+   "-x**4*y**2*z + x**4 - x**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*z**4 + y**4 - 2*y**2*z**2 - 2*z**5 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5560147762298584
+  ],
+  [
+   "x**4 - x**3*y**5 - 2*x**2*y**2*z**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[Bu25] U_8 < 0 on the whole zero set of U_4",
+   0.49039411544799805
+  ],
+  [
+   "x**7*z + x**4 + 2*x**2*y**2 - 2*x**2*z**3 - 2*x**2*z**2 + y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.6447384357452393
+  ],
+  [
+   "x**4 - 2*x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**6 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5244674682617188
+  ],
+  [
+   "2*x**4*y*z - 2*x**4*y + x**4 + x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 - 2*z**6 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5612492561340332
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "NONISOLATED",
+   "critical point at 0 looks non-isolated",
+   1.0706396102905273
+  ],
+  [
+   "-x**4*y**3 + x**4 + x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**4*z + x*y**2*z**4 + y**4 - 2*y**2*z**2 - 2*z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5350961685180664
+  ],
+  [
+   "-x**5 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*y**6 + 2*y**4*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.7215054035186768
+  ],
+  [
+   "-x**6*z**2 + x**4 + 2*x**2*y**2 + 2*x**2*z**6 - 2*x**2*z**2 + 2*y**8 - y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "MIN",
+   "no negative horns found (probably a non-strict or strict minimum)",
+   1.6784782409667969
+  ],
+  [
+   "-x**5*y**3 - 2*x**4*y + x**4 + x**3*y**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**7 - x*y**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.4980545043945312
+  ],
+  [
+   "x**4 + 2*x**3*y*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**7 - y**6*z + y**4 - 2*y**2*z**2 - 2*y*z**5 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.9468848705291748
+  ],
+  [
+   "x**4*y**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 + y**3*z**5 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5429580211639404
+  ],
+  [
+   "x**4 - x**2*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**2*z**2 + 2*x*z**7 + y**4 - y**2*z**5 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5887167453765869
+  ],
+  [
+   "x**4*y**4 + x**4 - x**3*y**5 - 2*x**2*y**4*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**5*z + x*y**3*z**2 + 2*y**6*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.6209213733673096
+  ],
+  [
+   "x**4 + 2*x**3*y**5 + x**2*y**3*z**3 - x**2*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 - x*z**5 + y**4 - 2*y**2*z**2 - 2*z**7 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5480926036834717
+  ],
+  [
+   "2*x**4*y**2*z + x**4 + 2*x**2*y**2 - 2*x**2*y*z**3 - 2*x**2*z**2 + y**8 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.8894915580749512
+  ],
+  [
+   "x**4 + x**3*z**4 + 2*x**2*y**2 - 2*x**2*y*z**2 - 2*x**2*z**2 - y**5*z + y**4 - 2*y**3*z**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.9271228313446045
+  ],
+  [
+   "-2*x**5*y**2*z + x**4*y*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**6 + y**4 - 2*y**2*z**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5317871570587158
+  ],
+  [
+   "x**4 + x**3*y*z**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**7 - 2*x*y**3*z**3 + 2*x*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.519350528717041
+  ],
+  [
+   "x**4 - x**3*y**3 + x**3*z**4 - x**2*y**4*z**2 + 2*x**2*y**2 + x**2*z**4 - 2*x**2*z**2 + x*y**5 + y**6*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.541283369064331
+  ],
+  [
+   "2*x**4*z**3 + x**4 + 2*x**2*y**2 + 2*x**2*z**3 - 2*x**2*z**2 - 2*x*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5350544452667236
+  ],
+  [
+   "2*x**6*z**2 - 2*x**5*z**3 + x**4*y**3*z + x**4 - x**3*y*z**3 - x**2*y**5*z + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**4*z**2 + 2*x*y**3*z + y**4 - 2*y**2*z**2 + y*z**5 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   3.451249837875366
+  ],
+  [
+   "2*x**6*y + 2*x**4*y**2 + x**4 - 2*x**3*y*z + 2*x**2*y**5 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.930220603942871
+  ],
+  [
+   "-x**6 + x**4*y**2 + x**4 - 2*x**3*y**2*z**2 + 2*x**3*y*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.0208983421325684
+  ],
+  [
+   "-x**5*y - 2*x**4*y**2 + x**4 + 2*x**2*y**2 + x**2*y*z**5 + 2*x**2*z**4 - 2*x**2*z**2 - x*y**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.4118168354034424
+  ],
+  [
+   "x**4 + 2*x**3*y**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**6*z + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5148875713348389
+  ],
+  [
+   "2*x**4*y*z + x**4 - x**3*y**3*z**2 + x**2*y**2*z**3 + 2*x**2*y**2 + x**2*y*z**4 - 2*x**2*z**2 + 2*y**7*z + 2*y**4*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.6299891471862793
+  ],
+  [
+   "x**5 + x**4*y*z**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**4*z**2 + y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.1100785732269287
+  ],
+  [
+   "x**4 + x**3*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - y**2*z**5 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.506197452545166
+  ],
+  [
+   "-x**5*z**3 + x**4 - 2*x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**4 + 2*x**2*z**3 - 2*x**2*z**2 + y**4 + y**2*z**6 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.547640323638916
+  ],
+  [
+   "-2*x**4*y*z + x**4 - 2*x**3*y*z**3 + 2*x**3*z**5 - 2*x**2*y**6 - x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y*z**5 - x*y*z**3 + y**5*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5752458572387695
+  ],
+  [
+   "2*x**5 + x**4 - 2*x**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**2*z**3 + 2*y**6*z + y**4 - 2*y**3*z**5 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.082030773162842
+  ],
+  [
+   "x**5*z**2 - 2*x**5 - 2*x**4*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**6*z + y**4 + y**3*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.0589828491210938
+  ],
+  [
+   "-x**4*y**2*z + x**4 - x**2*y**5 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**6*z + x*y**3*z**3 - y**7*z + 2*y**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.712463855743408
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5107588768005371
+  ],
+  [
+   "x**7*z - x**6*y**2 + 2*x**5*z**2 + x**4*y**4 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y*z**4 - 2*y**7 - y**4*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5331811904907227
+  ],
+  [
+   "2*x**5 + x**4 + x**2*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**4*z**3 - y**5*z**2 + 2*y**5 - 2*y**4*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5336365699768066
+  ],
+  [
+   "-2*x**6*z**2 + x**4 + 2*x**3*y**3 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4*z**2 + 2*x*y**4 + 2*x*y**3*z**2 + 2*x*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.7439820766448975
+  ],
+  [
+   "x**4 - x**3*y**2*z - 2*x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**5*z**2 - x*y**2*z**5 + y**7 + y**4 + y**3*z**2 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.4426112174987793
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.47550415992736816
+  ],
+  [
+   "-2*x**7*z - 2*x**4*z**4 + x**4 + 2*x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**6 - 2*x**2*z**2 - x*y**4 + y**4 - 2*y**2*z**2 - z**7 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5773611068725586
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.4969043731689453
+  ],
+  [
+   "-x**5*y**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**7 - 2*x*y**4 + y**4 - 2*y**3*z**5 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.9689314365386963
+  ],
+  [
+   "x**4 - x**3*y**3 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**6*z - x*z**7 + 2*x*z**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.0241572856903076
+  ],
+  [
+   "x**5*z**2 - 2*x**4*y + x**4 + 2*x**3*y**2*z**3 + 2*x**2*y**2 - x**2*y*z**3 - 2*x**2*z**2 + y**4 + y**2*z**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.2529356479644775
+  ],
+  [
+   "-2*x**6*y**2 - 2*x**6*z**2 + x**4 + x**3*y*z + 2*x**2*y**2 - 2*x**2*y*z**4 - 2*x**2*z**2 + y**4 + 2*y**2*z**3 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5258984565734863
+  ],
+  [
+   "2*x**7 + x**4 + x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5194156169891357
+  ],
+  [
+   "x**4 + x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**3 - 2*x**2*z**2 + y**6 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5236937999725342
+  ],
+  [
+   "x**4 - 2*x**2*y**2*z**4 + 2*x**2*y**2 + x**2*z**6 - 2*x**2*z**2 - 2*y**5 + y**4 - y**2*z**6 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5873420238494873
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y*z**3 + 2*y**5*z**3 + y**4 - 2*y**2*z**2 - y*z**7 + y*z**6 - 2*z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5414068698883057
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z - y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.6003985404968262
+  ],
+  [
+   "x**4 + 2*x**3*y**5 + 2*x**3*y**2*z**2 - x**3*y*z**4 - 2*x**2*y**5*z + x**2*y**4 + 2*x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.7978603839874268
+  ],
+  [
+   "-2*x**5*y**3 + x**4 - 2*x**2*y**2*z**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**6 - y**6*z + y**4 + 2*y**2*z**4 - 2*y**2*z**2 + z**4",
+   "UNDECIDED",
+   "degenerate, but no negative values found (maybe a minimum): gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.214667558670044
+  ],
+  [
+   "2*x**5*z**2 + x**4 - x**3*y**4 - 2*x**3*y*z**2 + 2*x**2*y**3*z**3 + 2*x**2*y**2 + x**2*y*z**3 - 2*x**2*z**2 - y**8 - y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.574660062789917
+  ],
+  [
+   "x**4*z**3 + x**4 + 2*x**2*y**2 + 2*x**2*z**4 - 2*x**2*z**2 - 2*x*y**2*z**4 + y**4 + 2*y**3*z**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.259767532348633
+  ],
+  [
+   "x**5 + x**4*y*z + x**4 + x**3*y**2*z + 2*x**2*y**2 - 2*x**2*z**6 - 2*x**2*z**2 - 2*y**5*z + y**4 + y**3*z**2 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.548346996307373
+  ],
+  [
+   "-2*x**6*y + x**4 - x**3*y*z**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): touching (even-order) zero",
+   1.7028748989105225
+  ],
+  [
+   "x**4 - 2*x**3*y**3*z - x**3*y*z + 2*x**2*y**2 - 2*x**2*z**2 + x*y**3*z**3 + x*y**3*z**2 + y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.7753705978393555
+  ],
+  [
+   "-2*x**6*y - 2*x**5*y**3 - 2*x**4*y**3 + x**4*y*z**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 + y**2*z**3 - 2*y**2*z**2 + 2*z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5824239253997803
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**8 + y**4 - 2*y**2*z**2 - 2*y*z**6 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.511577844619751
+  ],
+  [
+   "2*x**5*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5217123031616211
+  ],
+  [
+   "-2*x**5*y**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**3*z**3 - 2*x*y**2*z**3 + 2*y**4*z + y**4 + 2*y**2*z**3 - 2*y**2*z**2 - 2*y*z**5 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.7137813568115234
+  ],
+  [
+   "x**4 + 2*x**2*y**2 + x**2*z**6 - 2*x**2*z**2 + x*y**6*z + x*y**3*z + y**4*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.1303212642669678
+  ],
+  [
+   "x**4 + x**3*y*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**6*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.649949073791504
+  ],
+  [
+   "-2*x**5*y + 2*x**4*y**2 + x**4 + 2*x**3*y**3 + 2*x**2*y**2 - x**2*z**3 - 2*x**2*z**2 + 2*x*y**5*z**2 + 2*y**4*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.379378318786621
+  ],
+  [
+   "-x**7*y + x**4 + 2*x**2*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.1905646324157715
+  ],
+  [
+   "-x**7*z + x**6*y**2 + 2*x**4*y**2*z**2 + x**4 - 2*x**3*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**3*z**2 + y**4*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.469796657562256
+  ],
+  [
+   "x**4 - x**3*y*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.6600823402404785
+  ],
+  [
+   "2*x**4*z**2 + x**4 - x**3*y**5 + x**3*y**3*z - x**3*y**2*z**2 - x**3*z**5 - 2*x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.615121603012085
+  ],
+  [
+   "-x**4*y**4 - 2*x**4*y**2*z + 2*x**4*y**2 - 2*x**4*y*z**3 + x**4 + x**2*y**4*z + x**2*y**4 + 2*x**2*y**2 + x**2*y*z**5 - 2*x**2*z**2 - 2*x*y**3*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere  (other horns degenerate: gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero)",
+   0.5709125995635986
+  ],
+  [
+   "-2*x**4*y**3*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**3*z**2 + 2*y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.940732479095459
+  ],
+  [
+   "-x**7*y + 2*x**4*z**2 + 2*x**4*z + x**4 + x**2*y**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.0402708053588867
+  ],
+  [
+   "-2*x**4*y**2*z**2 + x**4 - x**3*z**3 + 2*x**2*y**3*z**3 - 2*x**2*y**2*z**4 + 2*x**2*y**2 + 2*x**2*y*z**3 - 2*x**2*z**2 + y**6*z**2 + y**4 + y**3*z**2 - 2*y**2*z**2 + 2*z**7 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.9191367626190186
+  ],
+  [
+   "2*x**4*y**3 + x**4*y + x**4 - x**2*y**5 + 2*x**2*y**2 + x**2*z**6 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.625349760055542
+  ],
+  [
+   "-2*x**6*y - x**4*y**2*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**2*z**2 - x*z**6 + 2*x*z**5 + y**4 - 2*y**2*z**2 - 2*y*z**6 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.238475799560547
+  ],
+  [
+   "x**8 - 2*x**7 - x**6*y + x**4*y**2*z**2 + x**4 + 2*x**2*y**2 + x**2*z**5 - 2*x**2*z**2 - x*y**4*z + 2*x*y**3*z**2 + y**4 - 2*y**2*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.848261594772339
+  ],
+  [
+   "-2*x**5*y*z**2 - 2*x**4*z**4 + x**4 + x**3*y*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**5*z**2 - x*y**4*z + y**4 + 2*y**2*z**6 - 2*y**2*z**2 + y*z**6 + 2*y*z**5 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.815392255783081
+  ],
+  [
+   "2*x**6*y*z + x**4 - 2*x**2*y**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[Bu25] U_6 < 0 on the whole zero set of U_4",
+   0.5279676914215088
+  ],
+  [
+   "-2*x**5*y*z**2 + 2*x**4*z**2 + x**4 - x**3*y**3 + 2*x**2*y**6 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 - 2*y*z**6 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.401031017303467
+  ],
+  [
+   "x**4 - x**3*y**2*z**2 + 2*x**2*y**2 - x**2*z**6 - 2*x**2*z**2 + y**4 + 2*y**3*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.9823710918426514
+  ],
+  [
+   "-2*x**5*y**2 - 2*x**4*y**3 - x**4*y**2 + x**4 + x**3*y**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*y*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5951218605041504
+  ],
+  [
+   "x**4 - x**3*y**2*z**2 - 2*x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**6 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.84592866897583
+  ],
+  [
+   "x**5 - x**4*z**4 - 2*x**4*z**3 + x**4 + 2*x**3*y**4 - 2*x**3*y*z**2 + 2*x**2*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.6207847595214844
+  ],
+  [
+   "x**5*z**3 + x**4 - x**3*y**2*z**2 + 2*x**2*y**4 + 2*x**2*y**3*z**3 - x**2*y**3 + 2*x**2*y**2 + x**2*y*z**4 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 - 2*z**6 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.573317766189575
+  ],
+  [
+   "x**6*y**2 + x**4*y*z**3 - 2*x**4*y*z**2 + x**4 - 2*x**3*y**2*z**3 + 2*x**3*y*z + 2*x**2*y**2 + x**2*y*z**5 - 2*x**2*z**2 - 2*x*y**3*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   3.0245351791381836
+  ],
+  [
+   "-x**6*z**2 + x**4 - 2*x**3*y**2*z**3 + x**2*y**5 + 2*x**2*y**4*z + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y*z**5 + y**4 - 2*y**3*z**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.5497148036956787
+  ],
+  [
+   "2*x**6*y - x**4*y**4 + x**4*y*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**2*z**5 + x*y*z**6 + x*y*z**3 + 2*x*z**6 + 2*x*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5470798015594482
+  ],
+  [
+   "x**7*y + x**4 - 2*x**3*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 - 2*y**4*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 8 has simple zeros and is negative somewhere",
+   0.5539696216583252
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*z**7 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 8 has simple zeros and is negative somewhere",
+   0.46820664405822754
+  ],
+  [
+   "2*x**5*y**3 + x**4*y**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**4*z**3 - 2*y**6*z**2 + y**4 + y**2*z**5 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.264724016189575
+  ],
+  [
+   "2*x**8 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5644636154174805
+  ],
+  [
+   "2*x**5*y + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**6*z + y**4 + y**3*z**5 - 2*y**2*z**2 - 2*z**8 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.0952911376953125
+  ],
+  [
+   "-2*x**6 + 2*x**5*z - 2*x**4*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*y**8 + 2*y**4*z**2 + y**4 + y**3*z**5 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.094637393951416
+  ],
+  [
+   "x**7 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + 2*z**8 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5605764389038086
+  ],
+  [
+   "-2*x**4*y**2*z**2 + x**4 + x**3*y**5 + x**3*y*z**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**2*z**2 + y**4 - 2*y**2*z**2 + y*z**5 + 2*z**7 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.5342369079589844
+  ],
+  [
+   "x**5*y**2 - x**4*y**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5783379077911377
+  ],
+  [
+   "x**4 + x**2*y**5 - 2*x**2*y**4*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 + y**3*z**5 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5788764953613281
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 - 2*y*z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.4743192195892334
+  ],
+  [
+   "2*x**4*y**2 + x**4 - x**3*y**3 + x**3*z**5 - 2*x**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z**4 - y**5*z**2 + y**4 - y**2*z**6 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.941774845123291
+  ],
+  [
+   "-x**6*y + x**5 + x**4 + 2*x**3*z**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**5*z**2 - 2*x*z**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.1396093368530273
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*y**5*z + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.7130687236785889
+  ],
+  [
+   "-2*x**4*y**3 + x**4 + x**3*y**5 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): touching (even-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): sign change at a multiple (odd-order) zero",
+   1.789156436920166
+  ],
+  [
+   "-2*x**6*y + x**4 + 2*x**2*y**2 + x**2*z**3 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5430788993835449
+  ],
+  [
+   "x**5*y*z**2 + x**5*y*z + x**4 + 2*x**2*y**2 - x**2*y*z**2 - 2*x**2*z**2 + 2*x*y**3*z**3 - 2*x*y*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.3989779949188232
+  ],
+  [
+   "x**4 - 2*x**3*y**3 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*z**7 + 2*y**5*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.8359761238098145
+  ],
+  [
+   "x**4 - 2*x**3*y**3*z**2 + x**3*y*z**3 + 2*x**2*y**2 + 2*x**2*z**6 - 2*x**2*z**2 + 2*x*y**5 + y**4 - 2*y**2*z**2 + 2*z**8 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.247185468673706
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*y*z**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5197129249572754
+  ],
+  [
+   "-x**7 - 2*x**5*y**2 - x**4*y**4 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**5*z**2 + 2*x*y**4 + x*y**2*z**4 - 2*x*y*z**3 + y**4 - 2*y**2*z**2 + z**8 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.6147241592407227
+  ],
+  [
+   "x**4 - 2*x**3*z**3 + 2*x**2*y**2 - x**2*z**3 - 2*x**2*z**2 - 2*x*y**6*z - x*y**6 + y**4 - y**2*z**5 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5666029453277588
+  ],
+  [
+   "2*x**5 + 2*x**4*y**3*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y*z**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.9521121978759766
+  ],
+  [
+   "-x**5 + x**4 - x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**6 - 2*x*y**4 + x*y**3*z**3 - 2*y**6*z + y**4 - 2*y**2*z**2 - y*z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5663139820098877
+  ],
+  [
+   "-2*x**6*y**2 + x**4*z + x**4 + x**2*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y*z**3 - x*z**7 + y**4 - y**3*z**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5620019435882568
+  ],
+  [
+   "x**5*z**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**5*z**2 - 2*x*z**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 8): sign change at a multiple (odd-order) zero",
+   1.6075143814086914
+  ],
+  [
+   "-x**5*z**3 + 2*x**4*z**4 + x**4*z**2 + x**4 + 2*x**3*y*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**8 + y**6*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNDECIDED",
+   "degenerate, but no negative values found (maybe a minimum): gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.5071656703948975
+  ],
+  [
+   "2*x**6 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.6108336448669434
+  ],
+  [
+   "-2*x**5*z**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**2*z**4 + 2*y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): touching (even-order) zero",
+   1.7638850212097168
+  ],
+  [
+   "x**4 + 2*x**2*y**2 + x**2*y*z**4 - 2*x**2*z**2 + x*y**3*z**2 - 2*y**5*z**3 + y**4 - 2*y**2*z**2 - 2*z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.6055514812469482
+  ],
+  [
+   "x**4 - x**3*y**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.6305103302001953
+  ],
+  [
+   "x**4 + 2*x**3*y*z + 2*x**2*y**3*z + 2*x**2*y**2 - x**2*z**3 - 2*x**2*z**2 - x*y**3*z**3 - y**7 + y**4 - 2*y**2*z**2 + y*z**6 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.327867031097412
+  ],
+  [
+   "x**6*y**2 + x**5*y*z + 2*x**5*z**3 + x**4*y**2*z**2 + x**4*y**2 + x**4 - 2*x**3*y**3*z - 2*x**3*z**2 + 2*x**2*y**2 + x**2*y*z**2 - 2*x**2*z**4 - 2*x**2*z**2 - 2*x*y**6*z + y**4 - 2*y**2*z**6 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   3.4476640224456787
+  ],
+  [
+   "x**4 - x**3*z**3 + 2*x**2*y**5 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4 + y**4 - 2*y**3*z**2 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.134641647338867
+  ],
+  [
+   "-x**5 + x**4*y*z**3 - x**4*z + x**4 - x**3*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**3*z**3 - 2*x*z**5 + 2*x*z**4 - 2*y**6*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.851652145385742
+  ],
+  [
+   "x**4 + 2*x**3*y*z + x**3*z**3 + 2*x**2*y**3 - 2*x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5216772556304932
+  ],
+  [
+   "x**4*y**2*z**2 + x**4 + x**3*y*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*z**4 - y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5370635986328125
+  ],
+  [
+   "x**4 + x**3*y**2*z**2 - 2*x**2*y**3*z + 2*x**2*y**2 - 2*x**2*z**6 - 2*x**2*z**2 + x*z**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.0530412197113037
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.4920675754547119
+  ],
+  [
+   "x**4 + 2*x**3*y**2 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z**3 - 2*x*z**5 + y**5*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.010425090789795
+  ],
+  [
+   "-x**4*y**2*z**2 - 2*x**4*y*z**2 - 2*x**4*z**2 + x**4 - 2*x**3*y**2*z**3 + 2*x**3*z**5 + 2*x**2*y**5 + 2*x**2*y**2 - 2*x**2*z**2 + 2*y**5*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.6423287391662598
+  ],
+  [
+   "2*x**4*y**2*z + x**4 + x**3*y**2*z**2 + 2*x**3*z**5 - 2*x**2*y**5 - x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 - y**8 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.3488123416900635
+  ],
+  [
+   "x**4 - 2*x**3*z**5 + 2*x**2*y**2 + 2*x**2*y*z**5 - 2*x**2*z**2 - 2*y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): sign change at a multiple (odd-order) zero",
+   1.718623399734497
+  ],
+  [
+   "-x**6*z**2 - x**4*y**4 + x**4 - x**3*z**2 + 2*x**2*y**2 - x**2*y*z**5 - 2*x**2*z**4 - 2*x**2*z**2 + 2*x*y**5*z**2 + y**4 - 2*y**2*z**2 + y*z**6 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.9849939346313477
+  ],
+  [
+   "2*x**4*y + x**4 + x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y*z**3 + y**4 - y**3*z**2 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.9112730026245117
+  ],
+  [
+   "x**4 - x**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5597248077392578
+  ],
+  [
+   "x**4 + x**3*y**3 + x**3*y*z**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**4 + 2*y**5*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.1828455924987793
+  ],
+  [
+   "x**4 - 2*x**3*y**2 + x**2*y**3*z**2 + 2*x**2*y**2 - x**2*y*z**5 - 2*x**2*z**2 - 2*x*y**6*z + y**4 - 2*y**2*z**2 - z**8 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.2406466007232666
+  ],
+  [
+   "-2*x**4*y**2*z**2 - 2*x**4*y + x**4 + 2*x**3*z**5 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**4 - 2*y**5*z**3 + y**4 + y**2*z**5 - 2*y**2*z**2 + y*z**4 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5482485294342041
+  ],
+  [
+   "-2*x**4*z**3 + x**4 - 2*x**3*y**2*z + 2*x**2*y**4*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*y**4*z + y**4 + 2*y**3*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.2165958881378174
+  ],
+  [
+   "x**6*y*z - x**4*z**4 + x**4 - x**2*y**4*z**2 + 2*x**2*y**2 - x**2*z**5 - 2*x**2*z**2 + 2*y**4*z**4 + y**4 - 2*y**2*z**2 - 2*y*z**4 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5365965366363525
+  ],
+  [
+   "x**4 + 2*x**3*y**4 + x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y*z**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.8792304992675781
+  ],
+  [
+   "-2*x**5*y**2 + x**4*z**4 + 2*x**4*z**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.0702574253082275
+  ],
+  [
+   "-x**4*y*z**2 - x**4*y*z - x**4*y + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**6*z - 2*x*y**6 + 2*x*y**3*z - y**5*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5514364242553711
+  ],
+  [
+   "2*x**4*y**4 + 2*x**4*y**2*z - 2*x**4*y**2 + x**4 + 2*x**3*y**2*z - x**2*y**5 + 2*x**2*y**2 - 2*x**2*z**2 + x*y*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.549302339553833
+  ],
+  [
+   "x**4*y*z**2 + x**4 - x**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**5*z - 2*y**6*z**2 - y**4*z**3 + y**4 + 2*y**3*z**3 + 2*y**2*z**5 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.574506998062134
+  ],
+  [
+   "-2*x**5*y**2 + x**4 + x**2*y**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**3*z**2 - 2*x*y**3*z - x*y*z**4 - y**6*z**2 + y**4 - 2*y**2*z**2 - y*z**7 + y*z**4 + z**6 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.6346328258514404
+  ],
+  [
+   "-2*x**4*y**2*z + x**4 + x**3*y**2*z - 2*x**3*y*z + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y*z**4 + y**5*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.3232853412628174
+  ],
+  [
+   "-x**5 + x**4 + 2*x**3*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 - 2*z**6 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.7813644409179688
+  ],
+  [
+   "-x**7*z + x**6*y + x**4 + x**3*y*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.937601089477539
+  ],
+  [
+   "-2*x**4*y*z + 2*x**4*y + x**4 + 2*x**3*y**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*z**4 + 2*y**6 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5729563236236572
+  ],
+  [
+   "-2*x**6*z**2 + x**4 - 2*x**2*y**2*z**4 - 2*x**2*y**2*z**2 + 2*x**2*y**2 - x**2*z**4 - x**2*z**3 - 2*x**2*z**2 - y**7*z + 2*y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5356783866882324
+  ],
+  [
+   "x**4 - x**3*y**3*z**2 + x**2*y**4*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): touching (even-order) zero",
+   1.84134840965271
+  ],
+  [
+   "-x**6*y**2 + x**4 - 2*x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**3*z + 2*y**7 - 2*y**4*z**2 + y**4 - y**2*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.1528217792510986
+  ],
+  [
+   "-x**6*z**2 + x**4 + x**3*y**5 - x**3*z**5 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z**4 - y**5 + y**4 - 2*y**3*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.378912925720215
+  ],
+  [
+   "x**4*y*z**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 + 2*y**2*z**4 - 2*y**2*z**2 - z**8 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.8318185806274414
+  ],
+  [
+   "x**6*z + x**6 + 2*x**4*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - y**7*z + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5530364513397217
+  ],
+  [
+   "-2*x**6*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4*z**3 - 2*y**8 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5391347408294678
+  ],
+  [
+   "-2*x**6 + x**4 - 2*x**2*y**3*z**3 - 2*x**2*y**3*z + 2*x**2*y**2 + x**2*y*z**2 - x**2*z**6 - 2*x**2*z**2 + 2*x*y**6*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.4272842407226562
+  ],
+  [
+   "x**5*y**3 + 2*x**4*z**2 + x**4 + 2*x**2*y**2 + x**2*z**3 - 2*x**2*z**2 + 2*y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.8435819149017334
+  ],
+  [
+   "x**4*y*z**3 + x**4 - x**3*y**2*z - x**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**4*z**2 + x*y**4*z + y**4 - y**3*z**3 - 2*y**2*z**2 - 2*y*z**7 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.6496667861938477
+  ],
+  [
+   "-2*x**4*y*z**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z**4 + x*y**3*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): sign change at a multiple (odd-order) zero",
+   1.971550464630127
+  ],
+  [
+   "x**5*y**2 + 2*x**5*z**2 + x**4 - 2*x**3*z**3 + 2*x**2*y**2 + 2*x**2*y*z**4 - 2*x**2*z**2 + x*y*z**5 + y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.3840925693511963
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*z**6 - y**5*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.5959444046020508
+  ],
+  [
+   "x**4*y*z + x**4 - x**2*y**4*z**2 + x**2*y**3 + 2*x**2*y**2 + 2*x**2*y*z**4 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5566058158874512
+  ],
+  [
+   "-x**7*z - 2*x**6 + x**4 + 2*x**3*y**4 + 2*x**2*y**4 + 2*x**2*y**2 - x**2*y*z**5 - 2*x**2*z**2 - 2*x*z**5 + 2*y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.5638763904571533
+  ],
+  [
+   "-x**6*y - 2*x**4*y**2*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4*z + 2*x*y**2*z**3 + y**6*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.278229236602783
+  ],
+  [
+   "-2*x**6*z**2 - x**5*y**2*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5252664089202881
+  ],
+  [
+   "-x**6*y + x**4 + 2*x**3*y**2*z**3 + 2*x**2*y**2 + 2*x**2*y*z**4 - x**2*z**6 - 2*x**2*z**2 - 2*x*y*z**4 - x*z**6 - y**8 + y**4 - 2*y**2*z**2 - 2*y*z**7 - z**8 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5571284294128418
+  ],
+  [
+   "x**4 + x**3*y**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**2*z**3 + y**4 + y**2*z**3 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5270485877990723
+  ],
+  [
+   "x**6*y - x**5*z**3 - x**4*y*z**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**6*z + x*y**4 - 2*x*y**2*z**3 - 2*x*y**2*z**2 + y**4 + 2*y**3*z**5 - y**2*z**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.920837163925171
+  ],
+  [
+   "-2*x**5*z**2 + x**4 + x**3*y**2 + x**2*y**3*z**2 - 2*x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**4 - 2*x**2*z**2 + x*y**3*z**3 + x*z**6 - y**5 + y**4 - 2*y**2*z**2 + y*z**4 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.7113444805145264
+  ],
+  [
+   "x**4*z + x**4 - 2*x**2*y**4 + x**2*y**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + 2*z**8 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.9178855419158936
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - x**2*z**6 - 2*x**2*z**2 - 2*y**6*z**2 + y**4 - y**2*z**6 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[Bu25] U_8 < 0 on the whole zero set of U_4",
+   0.50752854347229
+  ],
+  [
+   "2*x**5*y**2*z + x**4 - x**3*z**5 + x**3*z**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*z**6 + y**4 - 2*y**2*z**2 - z**7 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.5404112339019775
+  ],
+  [
+   "x**4 + 2*x**3*y**3*z + x**3*y*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*y**5*z**2 + y**4 - 2*y**2*z**2 - 2*z**6 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[Bu25] U_6 < 0 on the whole zero set of U_4",
+   0.5165548324584961
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**5 - 2*x*y*z**3 + y**4 - 2*y**2*z**2 + y*z**4 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5013740062713623
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - x**2*y*z**5 - 2*x**2*z**2 + x*y**3*z**2 - x*z**6 + y**4 - y**3*z**5 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.1862447261810303
+  ],
+  [
+   "-x**4*y**3 + x**4 - 2*x**3*y*z**2 - 2*x**2*y**6 + 2*x**2*y**2 - 2*x**2*z**2 - y**4*z**2 + y**4 + 2*y**2*z**6 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5428159236907959
+  ],
+  [
+   "-x**4*y**4 + x**4 - x**2*y**5 + 2*x**2*y**2 - x**2*y*z**5 - 2*x**2*z**2 - x*y**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.036998987197876
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*y**6*z - y**4*z**3 + y**4*z + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5303192138671875
+  ],
+  [
+   "-x**6*z**2 + x**4 + 2*x**2*y**2 + 2*x**2*z**5 - 2*x**2*z**2 - 2*x*y**2*z**5 + 2*y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.0015347003936768
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y*z**4 + y**4 - 2*y**2*z**2 + 2*y*z**4 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5058538913726807
+  ],
+  [
+   "x**4 - x**3*z**5 + x**3*z**4 + x**2*y**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 - 2*y**4*z**4 + y**4 - 2*y**3*z**2 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.286383628845215
+  ],
+  [
+   "2*x**7*z + x**5*y**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - y**6*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 8 has simple zeros and is negative somewhere",
+   0.51226806640625
+  ],
+  [
+   "-2*x**4*y**2*z + x**4 - x**3*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**3*z**5 + 2*y**2*z**5 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.0786216259002686
+  ],
+  [
+   "-x**8 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5525968074798584
+  ],
+  [
+   "x**5*y**2 + x**4 + x**2*y**3*z + 2*x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**4*z + 2*x*y**3*z**2 - y**8 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.308772087097168
+  ],
+  [
+   "x**4 - x**3*y**5 + 2*x**3*y**4*z - x**3*y**4 + 2*x**2*y**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**2*z**5 - 2*y**6*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): sign change at a multiple (odd-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): touching (even-order) zero",
+   2.484079599380493
+  ],
+  [
+   "2*x**6*y**2 + x**6*y + x**5*y**2 + x**4 - 2*x**2*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**2*z**3 + x*y*z**4 - 2*y**5*z**3 + y**4 + y**2*z**6 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5776832103729248
+  ],
+  [
+   "2*x**6*y*z + x**6*y - x**4*y**4 - x**4*y**3*z + 2*x**4*y*z**3 + x**4 + 2*x**3*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 + y**4*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.5793612003326416
+  ],
+  [
+   "x**5*z**3 + x**4*y**3*z + x**4*y**2*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - y**5*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): touching (even-order) zero",
+   1.9803104400634766
+  ],
+  [
+   "-2*x**4*z**2 + x**4 - x**3*z**5 + 2*x**2*y**2 + x**2*y*z**4 - 2*x**2*z**2 + y**8 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.977207899093628
+  ],
+  [
+   "x**4 + x**3*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 + 2*y**3*z**2 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.7283525466918945
+  ],
+  [
+   "2*x**4*y**2 + x**4*y + x**4 - 2*x**3*y**5 - 2*x**3*y**4*z - x**3*y*z + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.320835590362549
+  ],
+  [
+   "-2*x**6*y**2 - x**5*y*z + 2*x**4*y**2*z + x**4 + x**2*y**2*z**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 - z**7 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.5485141277313232
+  ],
+  [
+   "-x**4*z**4 + x**4 - x**3*z**2 - 2*x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 - x*y**6 + 2*x*y**4*z + 2*x*y**2*z**2 + 2*x*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5430591106414795
+  ],
+  [
+   "-x**5*y + x**4 + x**2*y**4*z**2 + 2*x**2*y**2 + 2*x**2*z**5 - 2*x**2*z**2 - x*y**3*z**4 + 2*x*y*z**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.3448853492736816
+  ],
+  [
+   "2*x**7*z + 2*x**6 - x**4*y**2 + x**4 + 2*x**3*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.9342474937438965
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.4974172115325928
+  ],
+  [
+   "-2*x**7*y + x**5*y**2*z + x**4 + 2*x**2*y**5*z + 2*x**2*y**2 - 2*x**2*z**2 + y**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.005298137664795
+  ],
+  [
+   "x**4*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.6226933002471924
+  ],
+  [
+   "-x**4*y**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**2*z**4 + x*y*z**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): touching (even-order) zero",
+   1.8289921283721924
+  ],
+  [
+   "x**7*y + x**4 + 2*x**3*y**4*z + 2*x**2*y**2 - 2*x**2*z**3 - 2*x**2*z**2 - 2*x*y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.0473718643188477
+  ],
+  [
+   "2*x**4*y**2*z + x**4 + 2*x**2*y**2 + x**2*z**4 - 2*x**2*z**2 - 2*x*y**3*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "UNDECIDED",
+   "degenerate, but no negative values found (maybe a minimum): gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.016915798187256
+  ],
+  [
+   "-2*x**4*z**3 + x**4 + 2*x**2*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z**3 + x*z**7 - y**4*z**2 + y**4 - 2*y**2*z**2 - 2*z**6 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[Bu25] U_6 < 0 on the whole zero set of U_4",
+   0.5539915561676025
+  ],
+  [
+   "2*x**7*y - 2*x**4*y**2 + x**4 + 2*x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**5 + x*y**2*z**3 - 2*y**4*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.277531623840332
+  ],
+  [
+   "x**5*z**2 + x**4 - 2*x**3*y**4*z + x**3*y**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*y**6 + 2*y**4*z + y**4 - 2*y**2*z**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5540261268615723
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 + y**2*z**3 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.4995126724243164
+  ],
+  [
+   "-x**4*z**2 + x**4 + 2*x**3*y**2*z**2 + 2*x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**5*z**2 + 2*x*y**2*z**2 + y**6*z + 2*y**4*z**3 - 2*y**4*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.691122055053711
+  ],
+  [
+   "-x**4*y**4 - 2*x**4*y**2 - 2*x**4*z**3 + x**4 - x**3*y**2*z**3 + x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**5*z**2 + 2*y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.600370168685913
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**5*z - x*y**2*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): sign change at a multiple (odd-order) zero",
+   1.8607289791107178
+  ],
+  [
+   "x**4 + x**3*y*z**2 - x**3*z**5 + 2*x**2*y**2 - x**2*z**3 - 2*x**2*z**2 - y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.4974343776702881
+  ],
+  [
+   "2*x**4*y*z**3 + x**4 + x**3*y**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - y**3*z**2 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.9420487880706787
+  ],
+  [
+   "x**5*y**3 + x**4 + x**3*y*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**6 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.5158822536468506
+  ],
+  [
+   "-2*x**4*y**4 + 2*x**4*y**2 + x**4 - x**3*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 + x*y**4*z**2 + x*y**3*z**3 - y**5*z**3 + y**4 + 2*y**3*z**5 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.847123861312866
+  ],
+  [
+   "x**4*y**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y*z**3 + y**4 - y**3*z**3 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5037322044372559
+  ],
+  [
+   "-x**7*z + 2*x**4*y*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5336973667144775
+  ],
+  [
+   "2*x**5*y + x**4 + x**3*y*z**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*y**4*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5131573677062988
+  ],
+  [
+   "-x**4*y**2 + x**4 - x**3*y*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*z**6 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.8546807765960693
+  ],
+  [
+   "x**4*y*z**3 + x**4 + 2*x**2*y**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - y**2*z**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[Bu25] U_6 < 0 on the whole zero set of U_4",
+   0.5036401748657227
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**5*z + y**6*z + 2*y**4*z**4 + y**4 - 2*y**2*z**2 - 2*y*z**4 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.516413688659668
+  ],
+  [
+   "-2*x**4*z**2 + x**4 - 2*x**3*y*z + 2*x**2*y**2 - 2*x**2*z**2 - y**4*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.7995450496673584
+  ],
+  [
+   "x**4 - 2*x**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**3*z + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5238656997680664
+  ],
+  [
+   "-x**4*y**3*z + x**4 + 2*x**3*y**3 + 2*x**2*y**2 + x**2*y*z**2 - 2*x**2*z**2 - y**4*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.151428461074829
+  ],
+  [
+   "-x**4*y**2*z + 2*x**4*z + x**4 - x**3*y**5 + 2*x**2*y**2 - 2*x**2*z**2 - y**5*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.9962198734283447
+  ],
+  [
+   "-x**5*z**3 + 2*x**4*y*z**2 + x**4 + 2*x**3*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4 + y**4 + y**3*z**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.326995611190796
+  ],
+  [
+   "-2*x**5 + x**4 + 2*x**2*y**3*z**3 + 2*x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 - 2*y**4*z + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5060553550720215
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.4967827796936035
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**5*z - 2*x*y**4*z**3 + 2*x*y**4*z**2 + 2*x*z**6 + y**4 - 2*y**3*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.3605849742889404
+  ],
+  [
+   "-x**5*z**3 + 2*x**4*y**2*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**5 + x*y**3*z**4 - 2*y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.3125858306884766
+  ],
+  [
+   "-x**5*y**2*z - x**5*z**2 + x**4 + x**3*y**3*z**2 + x**2*y**3*z + 2*x**2*y**2 - x**2*z**4 - 2*x**2*z**2 - x*y*z**6 - x*y*z**4 + x*y*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5797429084777832
+  ],
+  [
+   "x**6 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y*z**5 - y**5*z + y**4*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.8490722179412842
+  ],
+  [
+   "-2*x**5*y**2*z - 2*x**5*y*z**2 + x**4 + 2*x**2*y**2 - x**2*z**6 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + 2*y*z**7 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 8 has simple zeros and is negative somewhere",
+   0.5360028743743896
+  ],
+  [
+   "2*x**5*y*z - x**5*z**2 + x**4 - 2*x**3*y*z**4 + x**3*z**4 - 2*x**2*y**4*z - x**2*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*z**4 + y**8 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5808026790618896
+  ],
+  [
+   "-2*x**4*z**2 + x**4 - x**3*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5245761871337891
+  ],
+  [
+   "x**6 + x**4 + 2*x**2*y**2 - 2*x**2*y*z**5 - 2*x**2*z**2 - y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5702223777770996
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**2*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.4948904514312744
+  ],
+  [
+   "x**4 + 2*x**2*y**2 + 2*x**2*z**6 - 2*x**2*z**2 + y**4 + 2*y**2*z**3 - 2*y**2*z**2 + z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5015120506286621
+  ],
+  [
+   "-2*x**5*y + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**4*z - y**6 + y**5*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5221922397613525
+  ],
+  [
+   "x**4 + x**2*y**4 + 2*x**2*y**2 - x**2*z**6 - 2*x**2*z**2 + x*y**2*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5283288955688477
+  ],
+  [
+   "2*x**4*y*z - x**4*z**3 + x**4 + 2*x**3*y**2*z**3 - x**3*y**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.216562032699585
+  ],
+  [
+   "x**4 - x**3*z**5 + 2*x**2*y**6 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4*z - x*y**4 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5632908344268799
+  ],
+  [
+   "x**6*z**2 + x**4*y*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**2*z**2 - 2*y**4*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.0032541751861572
+  ],
+  [
+   "-2*x**7*z + x**4 - x**3*z**4 + x**2*y**5*z + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4*z**3 - x*y**2*z**2 + 2*y**6 + y**5 + y**4 - 2*y**2*z**2 + 2*y*z**5 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.6296982765197754
+  ],
+  [
+   "2*x**6*z**2 + x**4 + 2*x**3*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*z**6 - 2*y**6*z**2 + y**4 + y**3*z**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.5664505958557129
+  ],
+  [
+   "x**4 + x**3*y**4 + 2*x**3*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**5*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.8398683071136475
+  ],
+  [
+   "2*x**6*y*z + x**5*z**3 + x**4 + 2*x**3*y*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**2*z**3 - 2*y**6*z**2 + y**4 - 2*y**2*z**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5363402366638184
+  ],
+  [
+   "-x**6*z + 2*x**5*z**3 - x**4*y**3 + x**4 - x**2*y**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - y**2*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.1123788356781006
+  ],
+  [
+   "-x**6*y + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4*z + y**4 - 2*y**2*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.7337536811828613
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**4*z**2 + y**4 - 2*y**2*z**2 - y*z**7 + 2*y*z**4 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.49777722358703613
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - x**2*z**5 - 2*x**2*z**2 + x*y*z**4 + y**4 + 2*y**2*z**5 - 2*y**2*z**2 - y*z**5 + 2*z**7 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.983611822128296
+  ],
+  [
+   "x**7*z + x**4 + x**2*y**4*z + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + 2*y*z**6 - z**7 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.5202322006225586
+  ],
+  [
+   "x**4 + 2*x**3*z**5 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**2*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 8 has simple zeros and is negative somewhere",
+   0.5183432102203369
+  ],
+  [
+   "-2*x**5*y**2*z - 2*x**5*z + x**4 + x**3*y**3 + 2*x**3*y*z - 2*x**3*z**2 + 2*x**2*y**2 + x**2*z**4 - 2*x**2*z**2 - x*y**2*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.544696569442749
+  ],
+  [
+   "-2*x**5*y*z**2 + 2*x**4*y**3*z + x**4 - 2*x**3*y**5 - x**3*z**5 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 - z**6 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[Bu25] U_6 < 0 on the whole zero set of U_4",
+   0.556769609451294
+  ],
+  [
+   "-x**5 + x**4 - x**2*y**3*z**2 - x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + y*z**7 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.867699146270752
+  ],
+  [
+   "-2*x**5*y*z**2 + x**5*z**3 - 2*x**4*z + x**4 + 2*x**3*y**2 + 2*x**3*y*z**3 + 2*x**2*y**4*z + 2*x**2*y**2 + x**2*z**4 - 2*x**2*z**2 - x*y**6 + 2*x*y**3*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   3.0409092903137207
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*y**4*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5039262771606445
+  ],
+  [
+   "x**5*y**2*z + x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**3*z**2 + y**4*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.8784763813018799
+  ],
+  [
+   "x**4 + 2*x**2*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**4*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5209476947784424
+  ],
+  [
+   "2*x**5*y**2 + 2*x**4*y*z**2 + x**4 + 2*x**3*y**3*z**2 - 2*x**3*z**3 + 2*x**2*y**2 - 2*x**2*y*z**3 - 2*x**2*z**2 + y**4 - y**3*z**2 - 2*y**2*z**2 - 2*z**7 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.5784029960632324
+  ],
+  [
+   "2*x**5 - 2*x**4*z**2 + x**4 + x**3*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.948209285736084
+  ],
+  [
+   "x**4 - x**2*y**2*z + 2*x**2*y**2 - x**2*y*z**3 - 2*x**2*z**2 + x*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.490201473236084
+  ],
+  [
+   "2*x**5*z**2 + x**4 - 2*x**2*y**3*z + x**2*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - y**3*z**5 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero; gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.1015982627868652
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.46543312072753906
+  ],
+  [
+   "-x**4*z + x**4 + 2*x**2*y**4 - 2*x**2*y**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.9309475421905518
+  ],
+  [
+   "x**4 - 2*x**2*y**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**5*z**2 + y**5*z - 2*y**4*z**3 + 2*y**4*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.2451651096343994
+  ],
+  [
+   "2*x**6*y*z + x**4 + x**3*z**4 + 2*x**2*y**2 + x**2*y*z**3 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.9784002304077148
+  ],
+  [
+   "2*x**8 + x**4*z**2 + x**4 + x**3*y**4*z + x**2*y**4*z + 2*x**2*y**4 + 2*x**2*y**2 + 2*x**2*y*z**4 - 2*x**2*z**2 + x*y**4*z**3 + x*y**4*z**2 - x*z**7 + y**5*z + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.6070349216461182
+  ],
+  [
+   "-2*x**5*y**2 - 2*x**4*y**3 + x**4 - x**3*y**5 - x**2*y**4*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**3*z**4 - 2*x*z**6 - 2*y**6*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.5950486660003662
+  ],
+  [
+   "-x**7*y + x**4 + x**2*y**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**7*z + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 8 has simple zeros and is negative somewhere",
+   0.5659325122833252
+  ],
+  [
+   "x**4 - x**3*y**3*z + 2*x**2*y**2 + 2*x**2*y*z**2 - 2*x**2*z**2 - x*z**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.908266544342041
+  ],
+  [
+   "-2*x**4*y*z**2 + x**4 - x**3*y**5 - 2*x**3*y**3*z - 2*x**2*y**5 - x**2*y**2*z**2 + 2*x**2*y**2 + 2*x**2*y*z**3 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.526369571685791
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**4*z - x*y**3*z**4 - y**4*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.9544250965118408
+  ],
+  [
+   "-2*x**5*z + x**4 + x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y*z**3 + y**4 - 2*y**2*z**6 - 2*y**2*z**2 + 2*y*z**5 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5141558647155762
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z + y**4 - y**2*z**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.659886121749878
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**2*z**4 + 2*y**7*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): touching (even-order) zero",
+   1.5905475616455078
+  ],
+  [
+   "x**4 + 2*x**2*y**6 + 2*x**2*y**2*z**4 - 2*x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[Bu25] U_6 < 0 on the whole zero set of U_4",
+   0.530137300491333
+  ],
+  [
+   "x**6*z**2 + x**5*z + x**4 + 2*x**2*y**2 - 2*x**2*y*z**2 - 2*x**2*z**2 + 2*x*y*z**3 + 2*y**8 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.9794352054595947
+  ],
+  [
+   "x**6*y**2 + x**6*z + x**5*y**3 + x**4*y**3 + x**4 + 2*x**2*y**4*z + 2*x**2*y**2 + x**2*y*z**2 - 2*x**2*z**2 + x*z**4 - y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5941677093505859
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 - y*z**4 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.467940092086792
+  ],
+  [
+   "-x**5*y*z + x**4 + 2*x**3*y**2*z**2 - 2*x**2*y**6 + 2*x**2*y**5 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 - y*z**7 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.5547595024108887
+  ],
+  [
+   "x**4 + 2*x**2*y**4*z + 2*x**2*y**2 - 2*x**2*y*z**4 - 2*x**2*z**2 + x*z**7 + y**4 - 2*y**3*z**5 - 2*y**2*z**2 + y*z**7 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 7): touching (even-order) zero",
+   2.0755882263183594
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**3*z + y**4 + 2*y**2*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   1.6022534370422363
+  ],
+  [
+   "-2*x**5 + x**4 + 2*x**2*y**2*z**2 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**3*z**4 + 2*x*y**3*z**2 - x*y**2*z**4 + 2*y**8 + y**4*z + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5815792083740234
+  ],
+  [
+   "-x**7 + 2*x**6*z**2 - x**4*y**2*z + x**4 - x**3*y**4*z + 2*x**2*y**2 - 2*x**2*z**2 + x*y**5*z**2 + x*y**2*z**3 + y**4 + 2*y**3*z**5 - 2*y**2*z**2 + z**8 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.851233959197998
+  ],
+  [
+   "x**4 + x**3*y*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**2*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.6999659538269043
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.516446590423584
+  ],
+  [
+   "x**4 + x**3*y**3 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**6 - 2*x*y**2*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   1.8406884670257568
+  ],
+  [
+   "x**4 + 2*x**2*y**2 + 2*x**2*y*z**2 - 2*x**2*z**2 + 2*x*y**3*z + y**4 - 2*y**2*z**2 + y*z**7 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5119032859802246
+  ],
+  [
+   "x**6*z + x**4 + 2*x**3*y*z**4 + x**3*y*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*y**4*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.0684587955474854
+  ],
+  [
+   "-x**5*y**2*z - x**4*y**3 + x**4 + x**2*y**2*z**4 + 2*x**2*y**2 + 2*x**2*y*z**4 - 2*x**2*z**2 - 2*x*y**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.4302637577056885
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**3*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 8): sign change at a multiple (odd-order) zero",
+   1.3454933166503906
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**4*z + y**4 - 2*y**2*z**2 - 2*z**7 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5433425903320312
+  ],
+  [
+   "2*x**4*y**2*z + 2*x**4*y*z**2 + x**4 - x**3*y**3*z**2 - 2*x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**2*z**2 + y**4 + 2*y**3*z**3 - 2*y**2*z**5 - 2*y**2*z**2 + y*z**5 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   3.015285015106201
+  ],
+  [
+   "-2*x**5*y**2 - 2*x**5*z**3 + 2*x**4*y*z**2 + x**4 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**4*z - x*y**2*z**5 - x*y*z**3 + 2*y**7 - 2*y**6 + y**4 - 2*y**2*z**5 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5791957378387451
+  ],
+  [
+   "x**4 + 2*x**3*y**3 - x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 + x*y**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere  (other horns degenerate: gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero)",
+   0.5135998725891113
+  ],
+  [
+   "x**5 + x**4 + 2*x**3*y**4 - x**3*z**3 + 2*x**2*y**2 - 2*x**2*z**5 - 2*x**2*z**2 - x*y**4 - 2*x*y**2*z**4 + y**4 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5399243831634521
+  ],
+  [
+   "x**6*z**2 + 2*x**4*y**4 + x**4 - 2*x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 - y**7 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.6380894184112549
+  ],
+  [
+   "x**4*z**3 + x**4 + 2*x**2*y**2 - 2*x**2*z**6 - 2*x**2*z**2 - 2*x*y**3*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   1.9275867938995361
+  ],
+  [
+   "x**4 - 2*x**3*z**2 + 2*x**2*y**2 + 2*x**2*y*z**4 - 2*x**2*z**2 - 2*x*y**6*z + 2*x*z**6 - y**6*z**2 + y**4 - 2*y**2*z**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.348541498184204
+  ],
+  [
+   "x**4 + 2*x**3*y**4*z + 2*x**2*y**2 - x**2*y*z**2 - 2*x**2*z**2 + x*y*z**4 + y**4 + 2*y**2*z**3 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5163207054138184
+  ],
+  [
+   "x**4 + 2*x**3*y**2 - 2*x**2*y**4*z**2 + 2*x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**7 - 2*x*y**4*z**3 - 2*x*y**3*z**3 + x*y**3*z - y**6*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   3.275826930999756
+  ],
+  [
+   "-x**6*y**2 - 2*x**4*y*z**3 + x**4 + 2*x**3*y**3*z + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*z**6 + y**4 + y**3*z**5 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 7 has simple zeros and is negative somewhere",
+   0.5448353290557861
+  ],
+  [
+   "x**4*y**2 + x**4 + x**3*y*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + 2*x*y**6*z + y**4 + 2*y**2*z**6 - 2*y**2*z**2 + 2*z**7 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): touching (even-order) zero",
+   2.2241106033325195
+  ],
+  [
+   "x**4 - 2*x**2*y**4*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**4*z**2 - 2*x*z**7 + y**4 + y**3*z**3 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.1259758472442627
+  ],
+  [
+   "-2*x**5 + x**4 + 2*x**3*y**5 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   1.660980224609375
+  ],
+  [
+   "x**4 + 2*x**3*y**2*z**2 - x**3*y*z**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 6): sign change at a multiple (odd-order) zero",
+   2.0088229179382324
+  ],
+  [
+   "x**4 + x**2*y**3 + 2*x**2*y**2 - 2*x**2*z**2 - y**5*z + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [0, 1, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5177278518676758
+  ],
+  [
+   "x**4 + 2*x**2*y**2 + x**2*z**3 - 2*x**2*z**2 + x*z**5 - y**4*z**3 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5497415065765381
+  ],
+  [
+   "-x**4*y**4 + x**4*z**4 + x**4 - x**3*y*z**3 + x**3*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**2*z**4 + y**4 - 2*y**2*z**5 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.5611331462860107
+  ],
+  [
+   "-2*x**6*z**2 + x**4 - x**3*z**4 + 2*x**2*y**2 + 2*x**2*z**3 - 2*x**2*z**2 + y**4*z**2 + y**4 - 2*y**2*z**4 - 2*y**2*z**2 + y*z**5 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.2484211921691895
+  ],
+  [
+   "x**5*y**3 - x**4*y**2*z**2 + x**4 - 2*x**3*y*z**3 - 2*x**3*z**4 + 2*x**2*y**2 - 2*x**2*z**2 - 2*x*y**6*z + y**5 + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): sign change at a multiple (odd-order) zero",
+   2.566200017929077
+  ],
+  [
+   "x**4 - 2*x**2*y**3*z**3 - x**2*y**2*z**3 + 2*x**2*y**2 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + y*z**4 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 5 has simple zeros and is negative somewhere",
+   0.5007472038269043
+  ],
+  [
+   "2*x**5*y**2 + x**4*y**2*z**2 - x**4*z + x**4 - x**3*z**3 + 2*x**2*y**2 + 2*x**2*z**3 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.5687403678894043
+  ],
+  [
+   "x**6*z - x**4*z**3 + x**4 - x**3*y**2*z**3 + 2*x**3*y**2*z + 2*x**2*y**2 - 2*x**2*z**2 - x*y**6*z - 2*x*y**4*z**3 - 2*x*y**4*z + y**4*z + y**4 - 2*y**2*z**2 + z**4",
+   "UNSTABLE",
+   "[SYM] invariant plane spanned by [1, 0, 0], [0, 0, 1]; U on it is not a minimum (n=2 theorem)",
+   0.6262645721435547
+  ],
+  [
+   "-2*x**6*z**2 + x**4 - 2*x**3*y*z**4 - x**3*y*z**2 + 2*x**2*y**2 - 2*x**2*z**2 - x*y**4 - y**6*z + 2*y**5*z + y**4 - 2*y**2*z**2 + z**4",
+   "SUSPICIOUS",
+   "gutter {x**2 + y**2 - z**2=0}: effective potential (degree 5): touching (even-order) zero",
+   2.388363838195801
+  ],
+  [
+   "x**4 + 2*x**2*y**2 - 2*x**2*z**2 - x*z**6 + 2*x*z**5 - y**6 + y**4 - 2*y**2*z**6 - 2*y**2*z**2 + z**4",
+   "TOTALLY_UNSTABLE",
+   "[N13] gutter {x**2 + y**2 - z**2=0}: effective potential of degree 6 has simple zeros and is negative somewhere",
+   0.5138568878173828
+  ]
+ ]
+}

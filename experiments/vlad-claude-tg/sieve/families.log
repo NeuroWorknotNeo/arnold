@@ -1,0 +1,8 @@
+Family A (N=200): {'UNSTABLE': 186, 'NONISOLATED': 1, 'TOTALLY_UNSTABLE': 10, 'SUSPICIOUS': 3}
+   by reason: {'[KP82]': 85, '[Lyapunov]': 81, '[Ko86]': 20, '[Pa20-T3]': 10, 'corank-2 Hessian with degenerate reduced 2D potential (expec': 3, 'critical point at 0 looks non-isolated': 1}
+Family B (N=200): {'TOTALLY_UNSTABLE': 115, 'UNSTABLE': 71, 'SUSPICIOUS': 7, 'NONISOLATED': 7}
+   by reason: {'[Pa20-T3]': 109, '[KP82]': 68, 'critical point at 0 looks non-isolated': 7, '[Pa20-T6]': 6, '[N13*]': 3, 'gutter {y=0}': 2, 'zero direction [ 1.    -0.001 -0.   ] of U_4 with degenerate': 1, 'gutter {z=0}': 1, 'gutter {z=0} of multiplicity 4 (non-Morse-Bott)': 1, 'gutter {x=0} of multiplicity 4 (non-Morse-Bott)': 1, 'gutter {y=0} of multiplicity 4 (non-Morse-Bott)': 1}
+Family C (N=400): {'TOTALLY_UNSTABLE': 223, 'SUSPICIOUS': 117, 'UNSTABLE': 55, 'UNDECIDED': 4, 'MIN': 1}
+   by reason: {'[N13]': 217, 'gutter {x**2 + y**2 - z**2=0}': 117, '[SYM]': 53, '[Bu25]': 8, 'degenerate, but no negative values found (maybe a minimum)': 4, 'no negative horns found (probably a non-strict or strict min': 1}
+Family D (N=240): {'TOTALLY_UNSTABLE': 105, 'NONISOLATED': 90, 'SUSPICIOUS': 9, 'UNSTABLE': 30, 'UNDECIDED': 4, 'MIN': 2}
+   by reason: {'critical point at 0 looks non-isolated': 90, '[Pa20-T6]': 59, '[N13*]': 58, '[SYM]': 15, 'zero direction [ 0.  0. -1.] of U_4 with degenerate transver': 7, 'degenerate, but no negative values found (maybe a minimum)': 4, '[Bu25]': 3, 'no negative horns found (probably a non-strict or strict min': 2, 'zero direction [-0.002  1.     0.   ] of U_4 with degenerate': 2}
