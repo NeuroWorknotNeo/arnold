@@ -1,0 +1,232 @@
+==============================================================================================================
+u1, Q1={x2>0, x1>x2^2}
+--------------------------------------------------------------------------------------------------------------
+r=1e-01: arc=(0.0000000000, 1.4716142829), grid 400433 pts; eps=sup(|phi|-pi/2)^+=9.727e-02; max|phi|=1.668065 (<pi); lamB=2.0, lamH=-7.891e-01; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=-2.94e-13; #(Delta+>0 & Delta-<0)=0; max|Delta|=9.727e-02 (eps1=1.973e-01)
+  (III): slopes of Delta in [-0.7891, 0.0000] vs [lamH, lamB]=[-0.7891, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-2.043, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 8.376e-02 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.675e-01 (central difference, h=0.02, 399726 of 400433 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.1914 at alpha=1.469660715 (Delta=-9.57e-02, Delta_a=-0.789/-0.789, rDelta_r=-1.67e-01); min mu with r*Delta_r:=0 over all pts: 0.2078
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-02: arc=(0.0000000000, 1.5607971600), grid 400433 pts; eps=sup(|phi|-pi/2)^+=9.997e-03; max|phi|=1.580793 (<pi); lamB=2.0, lamH=-7.999e-02; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=-3.12e-13; #(Delta+>0 & Delta-<0)=0; max|Delta|=9.997e-03 (eps1=2.000e-02)
+  (III): slopes of Delta in [-0.0800, 0.0000] vs [lamH, lamB]=[-0.0800, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-2.000, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 8.007e-02 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.079e-02 (central difference, h=0.002, 400289 of 400433 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9195 at alpha=1.560775113 (Delta=-1.00e-02, Delta_a=-0.080/-0.080, rDelta_r=-1.08e-02); min mu with r*Delta_r:=0 over all pts: 0.9200
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-03: arc=(0.0000000000, 1.5697963276), grid 400433 pts; eps=sup(|phi|-pi/2)^+=1.000e-03; max|phi|=1.571796 (<pi); lamB=2.0, lamH=-8.000e-03; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=-3.14e-13; #(Delta+>0 & Delta-<0)=0; max|Delta|=1.000e-03 (eps1=2.000e-03)
+  (III): slopes of Delta in [-0.0080, 0.0000] vs [lamH, lamB]=[-0.0080, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-2.000, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 7.963e-02 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.008e-03 (central difference, h=0.0002, 400333 of 400433 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9920 at alpha=1.569796079 (Delta=-1.00e-03, Delta_a=-0.008/-0.008, rDelta_r=-1.01e-03); min mu with r*Delta_r:=0 over all pts: 0.9920
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+==============================================================================================================
+u1, Q2={x2<0, x1<x2^2}
+--------------------------------------------------------------------------------------------------------------
+r=1e-01: arc=(3.1415926536, 4.8115710243), grid 400414 pts; eps=sup(|phi|-pi/2)^+=0.000e+00; max|phi|=1.570796 (<pi); lamB=2.0, lamH=-4.000e-01; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=-9.73e-02, max((phi-pi/2)-Delta)=-3.34e-13; #(Delta+>0 & Delta-<0)=0; max|Delta|=0.000e+00 (eps1=1.000e-01)
+  (III): slopes of Delta in [0.0000, 0.0000] vs [lamH, lamB]=[-0.4000, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [0.000, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 0.000e+00 of arc length
+  (2): min cos(phi-Delta)=3.338e-13  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 0.000e+00 (central difference, h=0.02, 399778 of 400414 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 1.0000 at alpha=3.141592654 (Delta=0.00e+00, Delta_a=0.000/0.000, rDelta_r=0.00e+00); min mu with r*Delta_r:=0 over all pts: 1.0000
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-02: arc=(3.1415926536, 4.7223881472), grid 400414 pts; eps=sup(|phi|-pi/2)^+=0.000e+00; max|phi|=1.570796 (<pi); lamB=2.0, lamH=-4.000e-02; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=-1.00e-02, max((phi-pi/2)-Delta)=-3.16e-13; #(Delta+>0 & Delta-<0)=0; max|Delta|=0.000e+00 (eps1=1.000e-02)
+  (III): slopes of Delta in [0.0000, 0.0000] vs [lamH, lamB]=[-0.0400, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [0.000, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 0.000e+00 of arc length
+  (2): min cos(phi-Delta)=3.160e-13  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 0.000e+00 (central difference, h=0.002, 400277 of 400414 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 1.0000 at alpha=3.141592654 (Delta=0.00e+00, Delta_a=0.000/0.000, rDelta_r=0.00e+00); min mu with r*Delta_r:=0 over all pts: 1.0000
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-03: arc=(3.1415926536, 4.7133889796), grid 401022 pts; eps=sup(|phi|-pi/2)^+=0.000e+00; max|phi|=1.570796 (<pi); lamB=2.0, lamH=-4.000e-03; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=-1.00e-03, max((phi-pi/2)-Delta)=-3.14e-13; #(Delta+>0 & Delta-<0)=0; max|Delta|=0.000e+00 (eps1=1.000e-03)
+  (III): slopes of Delta in [0.0000, 0.0000] vs [lamH, lamB]=[-0.0040, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [0.000, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 0.000e+00 of arc length
+  (2): min cos(phi-Delta)=3.143e-13  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 0.000e+00 (central difference, h=0.0002, 400929 of 401022 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 1.0000 at alpha=3.141592654 (Delta=0.00e+00, Delta_a=0.000/0.000, rDelta_r=0.00e+00); min mu with r*Delta_r:=0 over all pts: 1.0000
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+==============================================================================================================
+u2 (one horn)
+--------------------------------------------------------------------------------------------------------------
+r=1e-01: arc=(0.1296547067, 6.3513347474), grid 401685 pts; eps=sup(|phi|-pi/2)^+=1.400e-01; max|phi|=1.710795 (<pi); lamB=2.0, lamH=-9.600e-01; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=2.22e-16, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=1.400e-01 (eps1=2.400e-01)
+  (III): slopes of Delta in [-0.9600, 0.2352] vs [lamH, lamB]=[-0.9600, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-3.444, 2.352e-01]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 2.344e-02 of arc length
+  (2): min cos(phi-Delta)=-1.608e-16  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 2.792e-01 (central difference, h=0.02, 401086 of 401685 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = -0.0039 at alpha=0.132485571 (Delta=1.37e-01, Delta_a=-0.960/-0.960, rDelta_r=2.79e-01); min mu with r*Delta_r:=0 over all pts: 0.0349
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-1.040e+00 (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-02: arc=(0.0109988609, 6.2921847200), grid 404169 pts; eps=sup(|phi|-pi/2)^+=1.150e-02; max|phi|=1.582292 (<pi); lamB=2.0, lamH=-8.598e-02; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=1.150e-02 (eps1=2.150e-02)
+  (III): slopes of Delta in [-0.0860, 2.0000] vs [lamH, lamB]=[-0.0860, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-3.499, 3.668e+01]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 2.129e-02 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.824e-02 (central difference, h=0.002, 403889 of 404169 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9134 at alpha=0.011023867 (Delta=1.15e-02, Delta_a=-0.086/-0.086, rDelta_r=1.32e-02); min mu with r*Delta_r:=0 over all pts: 0.9139
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-1.002e+00 (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-03: arc=(0.0010316219, 6.2841536837), grid 405922 pts; eps=sup(|phi|-pi/2)^+=1.047e-03; max|phi|=1.571844 (<pi); lamB=2.0, lamH=-8.190e-03; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=1.047e-03 (eps1=2.047e-03)
+  (III): slopes of Delta in [-0.0082, 2.0000] vs [lamH, lamB]=[-0.0082, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-3.491, 3.913e+02]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 2.036e-02 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.361e-03 (central difference, h=0.0002, 405724 of 405922 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9918 at alpha=3.140519222 (Delta=-8.99e-04, Delta_a=-0.008/-0.008, rDelta_r=-1.36e-03); min mu with r*Delta_r:=0 over all pts: 0.9918
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-1.000e+00 (need <=eta1=2.0; -inf: none)
+==============================================================================================================
+u3 (one horn)
+--------------------------------------------------------------------------------------------------------------
+r=1e-01: arc=(0.2997804194, 5.9834048877), grid 400444 pts; eps=sup(|phi|-pi/2)^+=1.344e-01; max|phi|=1.705158 (<pi); lamB=2.0, lamH=-9.374e-01; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=-4.44e-16, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=1.344e-01 (eps1=2.344e-01)
+  (III): slopes of Delta in [-0.9374, 0.0000] vs [lamH, lamB]=[-0.9374, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-2.471, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 5.044e-02 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.728e-01 (central difference, h=0.02, 399709 of 400444 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.0387 at alpha=5.980705166 (Delta=-1.32e-01, Delta_a=-0.937/-0.937, rDelta_r=-1.73e-01); min mu with r*Delta_r:=0 over all pts: 0.0574
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-02: arc=(0.0994238646, 6.1837614426), grid 400447 pts; eps=sup(|phi|-pi/2)^+=4.910e-02; max|phi|=1.619900 (<pi); lamB=2.0, lamH=-2.364e-01; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=4.910e-02 (eps1=5.910e-02)
+  (III): slopes of Delta in [-0.2364, 0.0000] vs [lamH, lamB]=[-0.2364, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-2.496, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 6.827e-02 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 3.528e-02 (central difference, h=0.002, 400131 of 400447 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.7604 at alpha=6.183654967 (Delta=-4.91e-02, Delta_a=-0.236/-0.236, rDelta_r=-3.53e-02); min mu with r*Delta_r:=0 over all pts: 0.7624
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-03: arc=(0.0316043531, 6.2515809541), grid 401744 pts; eps=sup(|phi|-pi/2)^+=1.578e-02; max|phi|=1.586579 (<pi); lamB=2.0, lamH=-6.713e-02; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=1.578e-02 (eps1=1.678e-02)
+  (III): slopes of Delta in [-0.0671, 0.0000] vs [lamH, lamB]=[-0.0671, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-2.500, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 7.560e-02 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 8.922e-03 (central difference, h=0.0002, 401497 of 401744 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9324 at alpha=6.251577456 (Delta=-1.58e-02, Delta_a=-0.067/-0.067, rDelta_r=-8.92e-03); min mu with r*Delta_r:=0 over all pts: 0.9327
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+==============================================================================================================
+u4=-(x2-x1^2)^2-x1^6 (whole circle, periodic)
+--------------------------------------------------------------------------------------------------------------
+r=1e-01: arc=(0.0000000000, 6.2831853072) periodic, grid 405479 pts; eps=sup(|phi|-pi/2)^+=6.372e-02; max|phi|=1.634515 (<pi); lamB=2.0, lamH=-6.549e-01; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=4.44e-16, max((phi-pi/2)-Delta)=4.44e-16; #(Delta+>0 & Delta-<0)=0; max|Delta|=6.372e-02 (eps1=1.637e-01)
+  (III): slopes of Delta in [-0.6549, 2.0000] vs [lamH, lamB]=[-0.6549, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-1.003, 3.056e+01]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 0.000e+00 of arc length
+  (2): min cos(phi-Delta)=-3.829e-16  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 2.149e-01 (central difference, h=0.02, 405479 of 405479 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.3357 at alpha=3.013101514 (Delta=-5.80e-02, Delta_a=-0.655/-0.655, rDelta_r=-1.15e-01); min mu with r*Delta_r:=0 over all pts: 0.3439
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-1.018e+00 (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-02: arc=(0.0000000000, 6.2831853072) periodic, grid 407934 pts; eps=sup(|phi|-pi/2)^+=9.651e-03; max|phi|=1.580447 (<pi); lamB=2.0, lamH=-7.860e-02; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=5.55e-17; #(Delta+>0 & Delta-<0)=0; max|Delta|=9.651e-03 (eps1=1.965e-02)
+  (III): slopes of Delta in [-0.0786, 2.0000] vs [lamH, lamB]=[-0.0786, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-1.000, 3.310e+03]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 0.000e+00 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.106e-02 (central difference, h=0.002, 407934 of 407934 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9210 at alpha=0.010194468 (Delta=9.65e-03, Delta_a=-0.079/-0.079, rDelta_r=1.01e-02); min mu with r*Delta_r:=0 over all pts: 0.9214
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-1.000e+00 (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-03: arc=(0.0000000000, 6.2831853072) periodic, grid 405925 pts; eps=sup(|phi|-pi/2)^+=9.964e-04; max|phi|=1.571793 (<pi); lamB=2.0, lamH=-7.986e-03; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=9.964e-04 (eps1=1.996e-03)
+  (III): slopes of Delta in [-0.0080, 2.0000] vs [lamH, lamB]=[-0.0080, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-1.000, 1.082e+03]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 0.000e+00 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 8.788e-03 (central difference, h=0.0002, 405925 of 405925 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9919 at alpha=0.125490919 (Delta=6.94e-09, Delta_a=-0.000/-0.008, rDelta_r=-2.13e-03); min mu with r*Delta_r:=0 over all pts: 0.9920
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=inf (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-1.000e+00 (need <=eta1=2.0; -inf: none)
+==============================================================================================================
+u5=(x2-x1^2)(x2-x1^3), horn x1^3<x2<x1^2
+--------------------------------------------------------------------------------------------------------------
+r=1e-01: arc=(0.0099986671, 0.0991820439), grid 400390 pts; eps=sup(|phi|-pi/2)^+=1.999e-02; max|phi|=1.590786 (<pi); lamB=2.0, lamH=-4.800e-01; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=-9.73e-02, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=1.999e-02 (eps1=1.200e-01)
+  (III): slopes of Delta in [-0.4800, 0.0000] vs [lamH, lamB]=[-0.4800, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-3.551, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 4.670e-01 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 4.931e-02 (central difference, h=0.02, 389469 of 400390 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.5181 at alpha=0.010402668 (Delta=1.98e-02, Delta_a=-0.480/-0.480, rDelta_r=4.93e-02); min mu with r*Delta_r:=0 over all pts: 0.5199
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=7.728e-02 (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-02: arc=(0.0001000000, 0.0099991668), grid 400353 pts; eps=sup(|phi|-pi/2)^+=2.000e-04; max|phi|=1.570996 (<pi); lamB=2.0, lamH=-4.080e-02; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=-1.00e-02, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=2.000e-04 (eps1=1.020e-02)
+  (III): slopes of Delta in [-0.0408, 0.0000] vs [lamH, lamB]=[-0.0408, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-3.044, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 4.952e-01 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 4.081e-04 (central difference, h=0.002, 399272 of 400353 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9592 at alpha=0.000100442 (Delta=2.00e-04, Delta_a=-0.041/-0.041, rDelta_r=4.08e-04); min mu with r*Delta_r:=0 over all pts: 0.9592
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=9.797e-03 (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-03: arc=(0.0000010000, 0.0009999992), grid 401204 pts; eps=sup(|phi|-pi/2)^+=2.000e-06; max|phi|=1.570798 (<pi); lamB=2.0, lamH=-4.008e-03; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=-1.00e-03, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=2.000e-06 (eps1=1.002e-03)
+  (III): slopes of Delta in [-0.0040, 0.0000] vs [lamH, lamB]=[-0.0040, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-3.004, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 4.995e-01 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 4.008e-06 (central difference, h=0.0002, 400964 of 401204 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9960 at alpha=0.000009904 (Delta=1.96e-06, Delta_a=-0.004/-0.004, rDelta_r=3.97e-06); min mu with r*Delta_r:=0 over all pts: 0.9960
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=9.980e-04 (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+==============================================================================================================
+u6=(x2-x1^2)^2-x1^6, right horn
+--------------------------------------------------------------------------------------------------------------
+r=1e-01: arc=(0.0894408030, 0.1088580087), grid 400363 pts; eps=sup(|phi|-pi/2)^+=7.840e-02; max|phi|=1.649201 (<pi); lamB=2.0, lamH=-7.136e-01; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=-5.12e-02, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=7.840e-02 (eps1=1.784e-01)
+  (III): slopes of Delta in [-0.7136, -0.7136] vs [lamH, lamB]=[-0.7136, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-36.935, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 1.000e+00 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.113e-01 (central difference, h=0.02, 319865 of 400363 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.2758 at alpha=0.091007771 (Delta=7.73e-02, Delta_a=-0.714/-0.714, rDelta_r=1.11e-01); min mu with r*Delta_r:=0 over all pts: 0.2844
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=3.734e-02 (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-02: arc=(0.0098991965, 0.0100991365), grid 401736 pts; eps=sup(|phi|-pi/2)^+=9.797e-03; max|phi|=1.580594 (<pi); lamB=2.0, lamH=-7.919e-02; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=-4.16e-04, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=9.797e-03 (eps1=1.980e-02)
+  (III): slopes of Delta in [-0.0792, -0.0792] vs [lamH, lamB]=[-0.0792, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-3335.556, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 1.000e+00 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.037e-02 (central difference, h=0.002, 321449 of 401736 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9204 at alpha=0.009918792 (Delta=9.80e-03, Delta_a=-0.079/-0.079, rDelta_r=1.04e-02); min mu with r*Delta_r:=0 over all pts: 0.9208
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=3.997e-04 (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-03: arc=(0.0009989992, 0.0010009992), grid 401188 pts; eps=sup(|phi|-pi/2)^+=9.980e-04; max|phi|=1.571794 (<pi); lamB=2.0, lamH=-7.992e-03; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=-4.02e-06, max((phi-pi/2)-Delta)=0.00e+00; #(Delta+>0 & Delta-<0)=0; max|Delta|=9.980e-04 (eps1=1.998e-03)
+  (III): slopes of Delta in [-0.0080, -0.0080] vs [lamH, lamB]=[-0.0080, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-332779.257, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 1.000e+00 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.004e-03 (central difference, h=0.0002, 320992 of 401188 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9920 at alpha=0.000999999 (Delta=9.98e-04, Delta_a=-0.008/-0.008, rDelta_r=1.00e-03); min mu with r*Delta_r:=0 over all pts: 0.9920
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=4.000e-06 (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+==============================================================================================================
+u6=(x2-x1^2)^2-x1^6, left horn
+--------------------------------------------------------------------------------------------------------------
+r=1e-01: arc=(3.0327346449, 3.0521518506), grid 400341 pts; eps=sup(|phi|-pi/2)^+=7.840e-02; max|phi|=1.649201 (<pi); lamB=2.0, lamH=-7.136e-01; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=-5.12e-02; #(Delta+>0 & Delta-<0)=0; max|Delta|=7.840e-02 (eps1=1.784e-01)
+  (III): slopes of Delta in [-0.7136, -0.7136] vs [lamH, lamB]=[-0.7136, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-36.935, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 1.000e+00 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.113e-01 (central difference, h=0.02, 319865 of 400341 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.2758 at alpha=3.050584882 (Delta=-7.73e-02, Delta_a=-0.714/-0.714, rDelta_r=-1.11e-01); min mu with r*Delta_r:=0 over all pts: 0.2844
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=3.734e-02 (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-02: arc=(3.1314935171, 3.1316934571), grid 401712 pts; eps=sup(|phi|-pi/2)^+=9.797e-03; max|phi|=1.580594 (<pi); lamB=2.0, lamH=-7.919e-02; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=-4.16e-04; #(Delta+>0 & Delta-<0)=0; max|Delta|=9.797e-03 (eps1=1.980e-02)
+  (III): slopes of Delta in [-0.0792, -0.0792] vs [lamH, lamB]=[-0.0792, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-3335.556, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 1.000e+00 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.037e-02 (central difference, h=0.002, 321449 of 401712 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9204 at alpha=3.131673859 (Delta=-9.80e-03, Delta_a=-0.079/-0.079, rDelta_r=-1.04e-02); min mu with r*Delta_r:=0 over all pts: 0.9208
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=3.997e-04 (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)
+--------------------------------------------------------------------------------------------------------------
+r=1e-03: arc=(3.1405916544, 3.1405936544), grid 400972 pts; eps=sup(|phi|-pi/2)^+=9.980e-04; max|phi|=1.571794 (<pi); lamB=2.0, lamH=-7.992e-03; eps1<=eta1*gamma1/2: True
+  (I): max(Delta-(phi+pi/2))=0.00e+00, max((phi-pi/2)-Delta)=-4.02e-06; #(Delta+>0 & Delta-<0)=0; max|Delta|=9.980e-04 (eps1=1.998e-03)
+  (III): slopes of Delta in [-0.0080, -0.0080] vs [lamH, lamB]=[-0.0080, 2.0] (cells longer than 1e-9 arc length); slopes of tau=Delta_0 in [-332779.199, 0.000e+00]
+  endpoint pieces (extremum attained at an arc end and Delta != tau): 1.000e+00 of arc length
+  (2): min cos(phi-Delta)=6.123e-17  (>=0 <=> <v,grad u> <= 0)
+  (IV): max|r Delta_r| = 1.004e-03 (central difference, h=0.0002, 320822 of 400972 pts inside arcs at r(1-h), r, r(1+h))
+  (3): min mu = 0.9920 at alpha=3.140592654 (Delta=-9.98e-04, Delta_a=-0.008/-0.008, rDelta_r=-1.00e-03); min mu with r*Delta_r:=0 over all pts: 0.9920
+  lemma 5 (relevant pairs 0<b-a<=gamma1): (6') min(phi(b)-phi(a)+pi)=4.000e-06 (need >=0; inf: none), (7') max (phi(b)-phi(a)-pi)/(b-a)=-inf (need <=eta1=2.0; -inf: none)

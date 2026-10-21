@@ -1,0 +1,8 @@
+M - expected (after expand_trig): Matrix([[0, 0], [0, 0]])
+max |M - expected| at 200 random points: 3.61710661422876e-13
+trace(sym)/2 = (-16*D_a*sin(Delta)*sin(alpha)**5 + 10*D_a*sin(Delta)*sin(alpha) - 5*D_a*sin(Delta)*sin(3*alpha) + D_a*sin(Delta)*sin(5*alpha) + 16*D_a*cos(Delta)*cos(alpha) - 16*D_r*r*sin(Delta)*cos(alpha) - 16*sin(Delta)*sin(alpha)**5 + 10*sin(Delta)*sin(alpha) - 5*sin(Delta)*sin(3*alpha) + sin(Delta)*sin(5*alpha) + 32*cos(Delta)*cos(alpha))/(32*cos(alpha))
+(s11-s22)^2+4 s12^2 = ((-16*D_a*sin(Delta)*sin(alpha)**5 + 10*D_a*sin(Delta)*sin(alpha) - 5*D_a*sin(Delta)*sin(3*alpha) + D_a*sin(Delta)*sin(5*alpha) + 16*D_a*cos(Delta)*cos(alpha) + 16*D_r*r*sin(Delta)*cos(alpha) - 16*sin(Delta)*sin(alpha)**5 + 10*sin(Delta)*sin(alpha) - 5*sin(Delta)*sin(3*alpha) + sin(Delta)*sin(5*alpha))**2 + (-16*D_a*sin(Delta)*cos(alpha) - 16*D_a*sin(alpha)**5*cos(Delta) + 10*D_a*sin(alpha)*cos(Delta) - 5*D_a*sin(3*alpha)*cos(Delta) + D_a*sin(5*alpha)*cos(Delta) + 16*D_r*r*cos(Delta)*cos(alpha) - 16*sin(alpha)**5*cos(Delta) + 10*sin(alpha)*cos(Delta) - 5*sin(3*alpha)*cos(Delta) + sin(5*alpha)*cos(Delta))**2)/(256*cos(alpha)**2)
+for expected matrix: tr/2 = D_a*cos(Delta)/2 - D_r*r*sin(Delta)/2 + cos(Delta) ; (s11-s22)^2+4s12^2 = D_a**2 + D_r**2*r**2
+mu formula identical: True
+min(mu - lower bound) over 2e5 random samples: 6.257360525241396e-05
+<v/|v|, g/|g|> = -cos(Delta - phi)

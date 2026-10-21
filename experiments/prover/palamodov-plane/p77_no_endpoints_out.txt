@@ -1,0 +1,16 @@
+u1, Q1={x2>0, x1>x2^2}                                  r=1e-02, lamH=-0.08: a: tau(a)=0 | b: tau=-1.00e-02, segment 1464 cells, slope range [-2, -2], cells with slope in [lamH,lamB]: 0
+u1, Q1={x2>0, x1>x2^2}                                  r=1e-03, lamH=-0.008: a: tau(a)=0 | b: tau=-1.00e-03, segment 292 cells, slope range [-2, -2], cells with slope in [lamH,lamB]: 0
+u1, Q2={x2<0, x1<x2^2}                                  r=1e-02, lamH=-0.04: a: tau(a)=0 | b: tau(b)=0
+u1, Q2={x2<0, x1<x2^2}                                  r=1e-03, lamH=-0.004: a: tau(a)=0 | b: tau(b)=0
+u2 (one horn)                                           r=1e-02, lamH=-0.086: a: tau=+1.15e-02, segment 785 cells, slope range [-3.5, -1.02], cells with slope in [lamH,lamB]: 0 | b: tau(b)=0
+u2 (one horn)                                           r=1e-03, lamH=-0.00819: a: tau=+1.05e-03, segment 293 cells, slope range [-3.5, -1], cells with slope in [lamH,lamB]: 0 | b: tau(b)=0
+u3 (one horn)                                           r=1e-02, lamH=-0.236: a: tau=+4.91e-02, segment 1650 cells, slope range [-2.5, -2.01], cells with slope in [lamH,lamB]: 0 | b: tau=-4.91e-02, segment 1634 cells, slope range [-2.5, -2.01], cells with slope in [lamH,lamB]: 0
+u3 (one horn)                                           r=1e-03, lamH=-0.0671: a: tau=+1.58e-02, segment 651 cells, slope range [-2.5, -2], cells with slope in [lamH,lamB]: 0 | b: tau=-1.58e-02, segment 634 cells, slope range [-2.5, -2], cells with slope in [lamH,lamB]: 0
+u4=-(x2-x1^2)^2-x1^6 (whole circle, periodic)           r=1e-02: periodic, no arc ends
+u4=-(x2-x1^2)^2-x1^6 (whole circle, periodic)           r=1e-03: periodic, no arc ends
+u5=(x2-x1^2)(x2-x1^3), horn x1^3<x2<x1^2                r=1e-02, lamH=-0.0408: a: tau=+2.00e-04, segment 2832 cells, slope range [-3.04, -2.99], cells with slope in [lamH,lamB]: 0 | b: tau(b)=0
+u5=(x2-x1^2)(x2-x1^3), horn x1^3<x2<x1^2                r=1e-03, lamH=-0.00401: a: tau=+2.00e-06, segment 381 cells, slope range [-3, -3], cells with slope in [lamH,lamB]: 0 | b: tau(b)=0
+u6=(x2-x1^2)^2-x1^6, right horn                         r=1e-02, lamH=-0.0792: a: tau=+9.80e-03, segment 194144 cells, slope range [-3.34e+03, -4], cells with slope in [lamH,lamB]: 0 | b: tau(b)=0
+u6=(x2-x1^2)^2-x1^6, right horn                         r=1e-03, lamH=-0.00799: a: tau=+9.98e-04, segment 199497 cells, slope range [-3.33e+05, -4], cells with slope in [lamH,lamB]: 0 | b: tau(b)=0
+u6=(x2-x1^2)^2-x1^6, left horn                          r=1e-02, lamH=-0.0792: a: tau(a)=0 | b: tau=-9.80e-03, segment 194132 cells, slope range [-3.34e+03, -4], cells with slope in [lamH,lamB]: 0
+u6=(x2-x1^2)^2-x1^6, left horn                          r=1e-03, lamH=-0.00799: a: tau(a)=0 | b: tau=-9.98e-04, segment 199474 cells, slope range [-3.33e+05, -4], cells with slope in [lamH,lamB]: 0
