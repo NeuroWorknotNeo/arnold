@@ -1,0 +1,11 @@
+min P/(t^2+e^4) on grid: 0.4966541109888117
+min (t P_t + e P_e/2)/P  (DE, w=1/2): 1.9711938556425352
+kappa=0.001: min (k t P_t + c e P_e)/P with c=3/2: -0.4620;  with c2=kappa/2: 0.00197 (= 1.9712 kappa)
+kappa=0.05: min (k t P_t + c e P_e)/P with c=3/2: -0.3578;  with c2=kappa/2: 0.09856 (= 1.9712 kappa)
+kappa=0.1: min (k t P_t + c e P_e)/P with c=3/2: -0.2515;  with c2=kappa/2: 0.19712 (= 1.9712 kappa)
+kappa=0.2: min (k t P_t + c e P_e)/P with c=3/2: -0.0389;  with c2=kappa/2: 0.39424 (= 1.9712 kappa)
+kappa=0.3: min (k t P_t + c e P_e)/P with c=3/2: 0.1737;  with c2=kappa/2: 0.59136 (= 1.9712 kappa)
+c2=c: ratio >= 0 from kappa ~ 0.219
+(14-sqrt(192))*c = 0.21539030917347368
+r_W=1/4: min (t P_t + e P_e/2)/P on K: 1.9549352975107497
+r_W=1/4: m(r_W/2) = 0.00018314059300738412  delta_0 = m/8 = 2.2892574125923015e-05  (exact (3/4)(1/8)^4/8 = 2.288818359375e-05 )

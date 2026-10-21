@@ -1,0 +1,9 @@
+delta=1e-5, kappa(delta)= 0.0010198
+  s=0.01   W (lam=c-kappa/2)  boundary min =   0.00203757   interior min =      -6.7697
+  s=0.01   Mb (lam=0)         boundary min =    -0.436621   interior min =     0.116391
+  s=0.001  W (lam=c-kappa/2)  boundary min =   0.00203958   interior min =    -0.991095
+  s=0.001  Mb (lam=0)         boundary min =    -0.436621   interior min =     0.116391
+  s=0.0001 W (lam=c-kappa/2)  boundary min =   0.00203958   interior min =     0.243817
+  s=0.0001 Mb (lam=0)         boundary min =    -0.436621   interior min =     0.116391
+  s=1.0e-6 W (lam=c-kappa/2)  boundary min =   0.00203958   interior min =     0.303676
+  s=1.0e-6 Mb (lam=0)         boundary min =    -0.436621   interior min =     0.116391

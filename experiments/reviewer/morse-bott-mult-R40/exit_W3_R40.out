@@ -1,0 +1,35 @@
+C_M = 23.4856
+
+=== delta = 1.0e-5:  R_theta = 0.007303,  kappa(delta) by (2.3) = 0.0010198
+  kappa=0.00102: Euler ratio min on {P=delta}: c2=kappa/2 -> 0.0020396;  c2=c -> -0.4619
+    s=1.0e-8 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =   0.00203958   at ('bdry', '-0.003578', '0.03401')   max|E|/rho^b=4.3e-81
+    s=1.0e-8 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =    -0.436621   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=4.3e-81
+    s=1.0e-14 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =   0.00203958   at ('bdry', '-0.003578', '0.03401')   max|E|/rho^b=4.3e-81
+    s=1.0e-14 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =    -0.436621   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=3.3e-81
+    s=1.0e-20 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =   0.00203958   at ('bdry', '-0.003578', '0.03401')   max|E|/rho^b=6.5e-81
+    s=1.0e-20 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =    -0.436621   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=4.9e-81
+  kappa=0.05: Euler ratio min on {P=delta}: c2=kappa/2 -> 0.1;  c2=c -> -0.35637
+    s=1.0e-8 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =    0.0999995   at ('bdry', '-0.003578', '0.03401')   max|E|/rho^b=2.9e-81
+    s=1.0e-8 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =    -0.331496   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=2.9e-81
+    s=1.0e-14 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =    0.0999995   at ('bdry', '-0.003578', '0.03401')   max|E|/rho^b=4.3e-81
+    s=1.0e-14 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =    -0.331496   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=3.3e-81
+    s=1.0e-20 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =    0.0999995   at ('bdry', '-0.003578', '0.03401')   max|E|/rho^b=4.9e-81
+    s=1.0e-20 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =    -0.331496   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=6.5e-81
+  kappa=0.1: Euler ratio min on {P=delta}: c2=kappa/2 -> 0.2;  c2=c -> -0.24863
+    s=1.0e-8 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =     0.199999   at ('bdry', '-0.003578', '0.03401')   max|E|/rho^b=4.3e-81
+    s=1.0e-8 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =    -0.224183   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=2.9e-81
+    s=1.0e-14 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =     0.199999   at ('bdry', '-0.003578', '0.03401')   max|E|/rho^b=4.3e-81
+    s=1.0e-14 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =    -0.224183   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=3.3e-81
+    s=1.0e-20 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =     0.199999   at ('bdry', '-0.003578', '0.03401')   max|E|/rho^b=4.9e-81
+    s=1.0e-20 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =    -0.224183   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=4.9e-81
+  kappa=0.2: Euler ratio min on {P=delta}: c2=kappa/2 -> 0.4;  c2=c -> -0.033163
+    s=1.0e-8 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =     0.376823   at ('int', '-0.003165', '0.01139', 12)   max|E|/rho^b=2.9e-81
+    s=1.0e-8 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =  -0.00955723   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=2.9e-81
+    s=1.0e-14 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =     0.376823   at ('int', '-0.003165', '0.01139', 12)   max|E|/rho^b=3.3e-81
+    s=1.0e-14 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =  -0.00955723   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=3.3e-81
+    s=1.0e-20 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =     0.376823   at ('int', '-0.003165', '0.01139', 12)   max|E|/rho^b=6.5e-81
+    s=1.0e-20 Mb (lam=0)         min (rho/lam)Xi/(delta rho^b) =  -0.00955723   at ('bdry', '-0.003578', '-0.03401')   max|E|/rho^b=6.5e-81
+
+=== delta = 0.002:  R_theta = 0.10346,  kappa(delta) by (2.3) = 0.0010162
+  kappa=0.001016: Euler ratio min on {P=delta}: c2=kappa/2 -> 0.0020305;  c2=c -> -0.46191
+    s=1.0e-8 W (lam=c-kappa/2)  min (rho/lam)Xi/(delta rho^b) =   0.00203049   at ('bdry', '-0.05062', '0.1279')   max|E|/rho^b=4.3e-81

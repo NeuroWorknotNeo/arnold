@@ -1,0 +1,34 @@
+(5.1) Psi_s                                             OK
+(5.1) Psi_theta                                         OK
+(5.1) Psi_zeta                                          OK
+(5.2) Y omega-comp                                      OK
+(5.2) Y ell-comp                                        OK
+(5.2) Y n-comp                                          OK
+(5.2) h                                                 OK
+(5.3) d_theta Y [o] (with nu~)                          OK
+(5.3) d_theta Y [l] (with nu~)                          OK
+(5.3) d_theta Y [n] (with nu~)                          OK
+(5.3) d_s Y [o]                                         OK
+(5.3) d_zeta Y [o]                                      OK
+(5.3) d_s Y [l]                                         OK
+(5.3) d_zeta Y [l]                                      OK
+(5.3) d_s Y [n]                                         OK
+(5.3) d_zeta Y [n]                                      OK
+(5.4) s D_Y Y [o]                                       OK
+(5.4) s D_Y Y [l]                                       OK
+(5.4) s D_Y Y [n]                                       OK
+(5.4) negative control (lambda terms removed) fails     OK
+decomp w: omega                                         OK
+decomp w: ell                                           OK
+decomp w: n                                             OK
+(5.5) s<w, D_w Y>                                       OK
+(5.5) negative control (lambda a^zeta w_n removed) fails OK
+(5.6) <w,Y> with w_o substituted                        OK
+aux s eps_s = k eta0_s - eps                            OK
+aux eps_theta                                           OK
+aux nu~_theta                                           OK
+aux s nu~_s                                             OK
+(5.7) beta W - rho Y W                                  OK
+Part A all OK: True
+Part B (loxodrome, R^3 Jacobian vs frame formulas (5.2),(5.4),(5.5)): max |diff| = 4.5918e-41
+k_g of the loxodrome (non-constant): 2*sqrt(2)*tan(theta/3)/3
