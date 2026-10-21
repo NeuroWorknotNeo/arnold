@@ -1,0 +1,4 @@
+1 (трубка, xi=(kappa theta, c2 e)): Matrix([[0, 0, 0]])
+2 (трубка, теорема Md, xi=(I+A)b), Y* -- функция: Matrix([[0, 0, s*(Subs(Derivative(Ystar(_xi_1, b1*s**alpha + theta0 + tau(s)), _xi_1), _xi_1, s) - Subs(Derivative(Ystar(s, T), s), T, b1*s**alpha + theta0 + tau(s)))]])
+2 (тот же остаток при Y* = общий многочлен степени (4,2) с символьными коэффициентами): Matrix([[0, 0, 0]])
+3 (гномоническая, теорема 2U): Matrix([[0, 0]])
