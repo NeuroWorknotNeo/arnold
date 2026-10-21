@@ -1,0 +1,8 @@
+Phi_x  (5.3): True
+Phi_u  (5.3): True
+Phi_z  (5.3): True
+x Phi_xx (5.4): True
+x d_u Phi_x (5.4): True
+x d_z Phi_x (5.4): True
+x^2 vt_xx - x^2 tau'' - 2u/x = 0
+ALL: True

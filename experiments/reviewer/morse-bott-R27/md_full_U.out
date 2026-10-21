@@ -1,0 +1,12 @@
+==============================================================================
+U_A (ничья, k0=2, нечётные члены в Q_V)  beta=8 alpha=0.5 c'=3 a=0.0625
+  x=  0.001  tau_v= 0.0265836501251  tau_v/x^(1/2)= 0.8406488292  Ghat(x,tau_v)/(-a x^gamma)= 0.9992935175  min_grid Ghat - Ghat(tau_v)=  1.18e-10  sup|F-F0|=4.428e-5
+  x= 0.0001  tau_v=0.00840871641761  tau_v/x^(1/2)= 0.8408716418  Ghat(x,tau_v)/(-a x^gamma)= 0.9999292956  min_grid Ghat - Ghat(tau_v)=  5.62e-12  sup|F-F0|=4.42e-6
+  x= 1.0e-5  tau_v=0.00265914011394  tau_v/x^(1/2)= 0.8408939378  Ghat(x,tau_v)/(-a x^gamma)=  0.999992929  min_grid Ghat - Ghat(tau_v)=  1.18e-12  sup|F-F0|=4.42e-7
+  x= 1.0e-6  tau_v=0.000840896167502  tau_v/x^(1/2)= 0.8408961675  Ghat(x,tau_v)/(-a x^gamma)= 0.9999992929  min_grid Ghat - Ghat(tau_v)=  6.25e-14  sup|F-F0|=4.419e-8
+==============================================================================
+U_B (вырожденный угловой минимум, k0=4)  beta=7 alpha=0.25 c'=2.5 a=0.08838834765
+  x= 0.0001  tau_v=             0.0  tau_v/x^(1/2)=          0.0  Ghat(x,tau_v)/(-a x^gamma)=          1.0  min_grid Ghat - Ghat(tau_v)=       0.0  sup|F-F0|=6.508e-6
+  x= 1.0e-6  tau_v=             0.0  tau_v/x^(1/2)=          0.0  Ghat(x,tau_v)/(-a x^gamma)=          1.0  min_grid Ghat - Ghat(tau_v)=       0.0  sup|F-F0|=6.51e-7
+  x= 1.0e-8  tau_v=             0.0  tau_v/x^(1/2)=          0.0  Ghat(x,tau_v)/(-a x^gamma)=          1.0  min_grid Ghat - Ghat(tau_v)=       0.0  sup|F-F0|=6.51e-8
+  x=1.0e-10  tau_v=             0.0  tau_v/x^(1/2)=          0.0  Ghat(x,tau_v)/(-a x^gamma)=          1.0  min_grid Ghat - Ghat(tau_v)=       0.0  sup|F-F0|=6.51e-9
