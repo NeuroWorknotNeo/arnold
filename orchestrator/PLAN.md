@@ -74,9 +74,15 @@ Claude по указаниям владельца; дальше его ведё�
 
 ## Вопросы владельцу
 
-Пока нет.
+- (21.10) Math-Net.Ru с сервера недоступен. Нужны PDF: Паламодов 1977 (ФАН 11:4, faa2105) и
+  Паламодов 2020 (УМН 75:3, rm9945) в `~/papers/` (не в репозиторий). Без них не сверить [P77],
+  [P20] и не написать обзор, который просил владелец.
 
 ## В работе
+
+**Поручение владельца (21.10, приоритет):** самодостаточный обзор решения Паламодова для $n=2$
+(ФАН 11:4, 1977) с определениями всех терминов → `notes/literature/palamodov1977-obzor.md`
+(+ PDF). Пишу сам. Ждём PDF статьи от владельца; пока — общая часть (определения, критерий).
 
 Этап 1, ревизия. Опись (п. 1) составлена: `orchestrator/AUDIT.md`. Постановку (п. 2) ГА
 проверил: формулировки верны; уточнение к замечанию 6 и сомнение по A-418 — в AUDIT.md.
@@ -87,11 +93,13 @@ Claude по указаниям владельца; дальше его ведё�
 |---|---|---|---|
 | L1 | literature | KNOWN_RESULTS §1–§2, текст задачи 1971-4, D'Acunto–Kurdyka | `notes/literature/2026-10-21-classical.md` |
 | L2 | literature | §3–§4: гладкие контрпримеры, нестрогие минимумы, Brunella, Rauch | **готово** 21.10 ~14:45, `notes/literature/2026-10-21-counterexamples-nonstrict.md` |
-| L3 | literature | §5: Паламодов 1977/1995/2020, Burgos 2021/2025, новые работы | `notes/literature/2026-10-21-total-instability.md` |
-| R1 | reviewer | лемма M, пример к теореме 3 (max-gluing.md), лемма 1 (theoremB-proof §1) | `notes/reviewer/2026-10-21-max-gluing.md` |
+| L3 | literature | §5: Паламодов 1977/1995/2020, Burgos 2021/2025, новые работы | **готово** 21.10 ~15:05, `notes/literature/2026-10-21-total-instability.md` |
+| R1 | reviewer | лемма M, пример к теореме 3 (max-gluing.md), лемма 1 (theoremB-proof §1) | **готово** 21.10 ~15:00, ошибок нет; `notes/reviewer/2026-10-21-max-gluing.md` |
 | R2 | reviewer | теорема B и пример $(x^2+y^2-z^2)^2+xz^4$ | `notes/reviewer/2026-10-21-theoremB-proof.md` |
 | R3 | reviewer | пример 13: теорема 1, предложение 1 | `notes/reviewer/2026-10-21-example13-proof.md` |
 | N1 | numerics | воспроизведение `experiments/` (запущен 21.10 ~14:50) | `experiments/numerics/2026-10-21-reproduce/README.md` |
+| R4 | reviewer | лемма R (запущен 21.10 ~15:10) | `notes/reviewer/2026-10-21-lemmaR-proof.md` |
+| R5 | reviewer | разбор ошибки Burgos + overview §3.2, сверка с arXiv:2108.05829v4 (запущен 21.10 ~15:10) | `notes/reviewer/2026-10-21-burgos-review.md` |
 
 Фоновые процессы и подагенты не переживают перезапуск Claude Code. Если после перезапуска
 отзывов нет, задачу надо запустить заново.
@@ -100,9 +108,6 @@ Claude по указаниям владельца; дальше его ведё�
 
 Вторая волна этапа 1 (по мере освобождения мест):
 
-- R4 — `reviewer`: лемма R (`notes/vlad-claude/lemmaR-proof.md`).
-- R5 — `reviewer`: разбор ошибки Burgos (`notes/vlad-claude/burgos-review.md` §3–§4) со сверкой
-  с текстом arXiv:2108.05829v4.
 - R6 — `reviewer`: утверждения overview.tex — A-404, A-405, A-409, A-411, A-412, A-413.
 - R7 — `reviewer`: честность пробелов в эскизах — n2-sketch.md, theoremC-draft.md, лемма G
   (toolkit.md §3), A-417.
