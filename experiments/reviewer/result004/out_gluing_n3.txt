@@ -1,0 +1,21 @@
+G1: E1-data, J={r,0,1}, phi_alpha = psi(theta)
+  r=1e-4: max||DA-L||_F=0.592571  /r^kappa=5.92571  min eig sym DA=0.88041121  max|A(U)-dU-(1-chi)U+|/r^d=5.66e-80
+  r=1e-8: max||DA-L||_F=0.055931  /r^kappa=5.5931  min eig sym DA=0.99854047  max|A(U)-dU-(1-chi)U+|/r^d=2.57e-79
+  r=1e-12: max||DA-L||_F=0.0055625  /r^kappa=5.5625  min eig sym DA=0.99993814  max|A(U)-dU-(1-chi)U+|/r^d=3.63e-78
+  r=1e-16: max||DA-L||_F=0.000555949  /r^kappa=5.55949  min eig sym DA=0.99999446  max|A(U)-dU-(1-chi)U+|/r^d=3.71e-77
+  r=1e-20: max||DA-L||_F=5.55919e-5  /r^kappa=5.55919  min eig sym DA=0.99999945  max|A(U)-dU-(1-chi)U+|/r^d=4.05e-76
+  r=1e-24: max||DA-L||_F=5.55916e-6  /r^kappa=5.55916  min eig sym DA=0.99999995  max|A(U)-dU-(1-chi)U+|/r^d=3.64e-75
+G2: E1-data, J={r,0,1}, phi_alpha = psi(theta + 0.3 y) (not angular-only)
+  r=1e-4: max||DA-L||_F=0.737315  /r^kappa=7.37315  min eig sym DA=0.82299396  max|A(U)-dU-(1-chi)U+|/r^d=5.66e-80
+  r=1e-8: max||DA-L||_F=0.0700047  /r^kappa=7.00047  min eig sym DA=0.99794374  max|A(U)-dU-(1-chi)U+|/r^d=2.57e-79
+  r=1e-12: max||DA-L||_F=0.00696808  /r^kappa=6.96808  min eig sym DA=0.99993814  max|A(U)-dU-(1-chi)U+|/r^d=3.63e-78
+  r=1e-16: max||DA-L||_F=0.000696492  /r^kappa=6.96492  min eig sym DA=0.99999446  max|A(U)-dU-(1-chi)U+|/r^d=3.71e-77
+  r=1e-20: max||DA-L||_F=6.9646e-5  /r^kappa=6.9646  min eig sym DA=0.99999945  max|A(U)-dU-(1-chi)U+|/r^d=4.05e-76
+  r=1e-24: max||DA-L||_F=6.96457e-6  /r^kappa=6.96457  min eig sym DA=0.99999995  max|A(U)-dU-(1-chi)U+|/r^d=3.64e-75
+G3: E2-data (e=1/4), J={1}, phi_alpha = psi(theta + 0.3 y) (not angular-only)
+  r=1e-4: max||DA-L||_F=0.685554  /r^kappa=6.85554  min eig sym DA=0.85082716  max|A(U)-dU-(1-chi)U+|/r^d=4.4e-80
+  r=1e-8: max||DA-L||_F=0.061774  /r^kappa=6.1774  min eig sym DA=0.99945951  max|A(U)-dU-(1-chi)U+|/r^d=3.6e-79
+  r=1e-12: max||DA-L||_F=0.00613521  /r^kappa=6.13521  min eig sym DA=0.99994541  max|A(U)-dU-(1-chi)U+|/r^d=3.61e-78
+  r=1e-16: max||DA-L||_F=0.000613238  /r^kappa=6.13238  min eig sym DA=0.99999454  max|A(U)-dU-(1-chi)U+|/r^d=4.56e-77
+  r=1e-20: max||DA-L||_F=6.1321e-5  /r^kappa=6.1321  min eig sym DA=0.99999945  max|A(U)-dU-(1-chi)U+|/r^d=3.19e-76
+  r=1e-24: max||DA-L||_F=6.13207e-6  /r^kappa=6.13207  min eig sym DA=0.99999995  max|A(U)-dU-(1-chi)U+|/r^d=4.57e-75
