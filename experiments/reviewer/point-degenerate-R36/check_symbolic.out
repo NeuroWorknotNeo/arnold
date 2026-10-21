@@ -1,0 +1,49 @@
+[OK] C': E(s^-e R) = s^-e (xi.gradR + e/N R): 0
+[OK] Lambda: F = -1 + Q + s b1 + s^4 b2^4: 0
+[OK] Lambda: u4 = (yz-k/2 x^2)^2 + (1-k^2/4) x^4 + y^4: 0
+[OK] Lambda: <(C-I)b, gradQ> = 4Q: 0
+[OK] Lambda: <Cb,gradQ> = 8b1^4 - 7k b1^2 b2 + 6 b2^2: 0
+   discriminant 49k^2-192 = 20449/10000
+   at (1,1.16): Q = 93/2500  <Cb,gradQ> = -213/2500
+   1 - k^2/4 = 399/40000
+[OK] X: F: 0
+[OK] X: <Cb,gradQ> - 10Q = 2 b1^6: 0
+[OK] X: <Cb,grad cross> + (e/N) cross = 10 cross  (e=2,N=2): 0
+[OK] X: dU/dy factorization: 0
+[OK] X: dU/dx at y=0: 0
+[OK] X: dU/dz at y=0: 0
+   X levels L_c: [6*c1, 6*c2, 4*c2 + 2, 2*c1 + 2*c2 + 2, c1 + 11]
+   pure x^6,y^6: c=2,2; levels=[12, 12, 10, 10, 13]; min=10
+   pure x^6,y^4z^2: c=2,5/2; levels=[12, 15, 12, 11, 13]; min=11
+   pure xz^11,y^6: c=1,2; levels=[6, 12, 10, 8, 12]; min=6
+   pure xz^11,y^4z^2: c=1,5/2; levels=[6, 15, 12, 9, 12]; min=6
+[OK] SV: xi.grad b1 = alpha b1: 0
+[OK] SV: xi.grad t = 2 alpha t: 0
+[OK] SV: xi.grad(A t^2) = (4 alpha A + xi.gradA) t^2: 0
+   SV: D xi = Matrix([[alpha, 0], [alpha*(b1*Derivative(phi(b1), (b1, 2)) - Derivative(phi(b1), b1)), 2*alpha]])
+[OK] SV: F: 0
+[OK] SV: <Cb,gradQ> - 8Q = 4 b1^6: 0
+[OK] SV: u6: 0
+[OK] SV: u6 = x^6+y^6+y^2 z^4: 0
+[OK] SH: u6 = x^6+y^6+y^2 z^4: 0
+   SH direct map levels: {s: b1, s**(-2): b1**2, s**12: b2**6, 1/s: 2*b1*(b1**2 - b2), 1: b1**6 + b1**4 - 2*b1**2*b2 + b2**2 - 1}
+[OK] SH direct: s^-2 b1^2 + s^-1(2b1^3-2b1b2) + (b2-b1^2)^2 is (b2-b1^2-b1/s)^2: 0
+[OK] SH shifted: F: 0
+[OK] R: h quasihomogeneous deg 6: 0
+[OK] R: F = -1 + s^-4 (|b|^2-1)^2 + s^3 b1: 0
+[OK] R plane: F = 4b^2-1-4s^2b^3+s^4b^4+s^5b-s^3: 0
+   R, y=0: dU/dx = 4*x**3 - 4*x*z**3 + z**8 ; dU/dz = -2*z**2*(3*x**2 - 4*x*z**5 + 4*z**5 - 3*z**3)
+   resultant_x = -8*z**19*(256*z**10 - 1600*z**5 + 1083*z**3 + 1024*z**2 - 768)
+   R grad on z=0, y=i x: [0, 0, 0]
+[OK] E: F = -1 + Q + s b1: 0
+   E: d = 4  Q_d = b2**4
+[OK] E: u12 = x^12+y^12: 0
+   E: min degree of other monomials = 14
+   E: levels L_c (c=(2,2)) = [24, 25]
+[OK] E: D xi^eps formula: 0
+[OK] E: xi^eps = (1-chi)xi0 + chi b: 0
+[OK] S: x d_x F_> = -beta x^-beta r + x^-beta (x r_x + <Cy, grad_y r>): 0
+   K0: order bound for |alpha|=a at level beta: -a*(beta - m)/2 + beta ; at a=3 minus m: (-beta + m)/2
+   c=(2,3): <Cb,gradQ> at b2=b1^2(1+1/6): b1**4*(72*b1**2 - 1)/6
+[OK] SV-field on Q=(b2-b1^2)^2+b1^6: xi.gradQ = 4 t^2 + 6 b1^6: 0
+ALL OK

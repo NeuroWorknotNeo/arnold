@@ -1,0 +1,8 @@
+Lambda, Y=q/z: delta=0.05, rho=1.0e-03: min (rho/lam)Xi/(delta rho^beta) = 3.89543 at (b1,b2,theta)=(1.4532666481835952, 2.038690292625419, 0.0); points in D: 808
+Lambda, Y=q/z: delta=0.05, rho=1.0e-04: min (rho/lam)Xi/(delta rho^beta) = 4.01174 at (b1,b2,theta)=(0.35349729280141506, -0.09857020203140296, 0.0); points in D: 806
+Lambda, Y=e_z: delta=0.05, rho=1.0e-03: min (rho/lam)Xi/(delta rho^beta) = -2.94867 at (b1,b2,theta)=(-1.1783243093380502, 1.5596491472713039, 0.0); points in D: 808
+Lambda, Y=e_z: delta=0.05, rho=1.0e-04: min (rho/lam)Xi/(delta rho^beta) = -2.63088 at (b1,b2,theta)=(1.2961567402718552, 1.8175943793850582, 0.0); points in D: 806
+Lambda, Y=q/z: delta=0.01, rho=1.0e-03: min (rho/lam)Xi/(delta rho^beta) = 3.65811 at (b1,b2,theta)=(0.8930586857195741, 0.8458119503354963, 0.0); points in D: 807
+Lambda, Y=q/z: delta=0.01, rho=1.0e-04: min (rho/lam)Xi/(delta rho^beta) = 3.96603 at (b1,b2,theta)=(0.9455915495854315, 0.8458119503354963, 0.0); points in D: 809
+Lambda, Y=e_z: delta=0.01, rho=1.0e-03: min (rho/lam)Xi/(delta rho^beta) = -2.56204 at (b1,b2,theta)=(-0.7879929579878595, 0.6974963028696434, 0.0); points in D: 807
+Lambda, Y=e_z: delta=0.01, rho=1.0e-04: min (rho/lam)Xi/(delta rho^beta) = -2.67341 at (b1,b2,theta)=(0.8667922537866455, 0.8128529175653068, 0.0); points in D: 809

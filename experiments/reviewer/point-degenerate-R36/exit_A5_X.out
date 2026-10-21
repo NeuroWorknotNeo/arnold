@@ -1,0 +1,4 @@
+X, Y=e_z: delta=0.05, rho=1.0e-03: min (rho/lam)Xi/(delta rho^beta) = 10.0091 at (b1,b2,theta)=(0.01593275856382658, -0.3599728999268338, 0.0); points in D: 633
+X, Y=e_z: delta=0.05, rho=1.0e-05: min (rho/lam)Xi/(delta rho^beta) = 10.0199 at (b1,b2,theta)=(0.0, -0.47168862749033397, 0.0); points in D: 173
+X, Y=e_z: delta=0.01, rho=1.0e-03: min (rho/lam)Xi/(delta rho^beta) = 9.95765 at (b1,b2,theta)=(0.1827625603235032, -0.01660195771588399, 0.0); points in D: 576
+X, Y=e_z: delta=0.01, rho=1.0e-05: min (rho/lam)Xi/(delta rho^beta) = 10.0199 at (b1,b2,theta)=(0.0, -0.3154371966017958, 0.0); points in D: 173

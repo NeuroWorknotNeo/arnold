@@ -1,0 +1,8 @@
+R ring, Y=e_z+(3/2)(x,y)/z: delta=0.05, rho=1e-02: min = 1.00627 at (theta, (|b|^2-1)/s^2)=(0.0, 0.20324861623145188); points: 2376
+R ring, Y=e_z+(3/2)(x,y)/z: delta=0.05, rho=1e-04: min = 2.54044 at (theta, (|b|^2-1)/s^2)=(0.0, 0.21466467245450518); points: 2376
+R ring, Y=e_z+(3/2)(x,y)/z: delta=0.05, rho=1e-06: min = 2.68912 at (theta, (|b|^2-1)/s^2)=(0.0, 0.21466252798660507); points: 2376
+R ring, Y=e_z+(3/2)(x,y)/z: delta=0.05, rho=1e-08: min = 2.70395 at (theta, (|b|^2-1)/s^2)=(0.0, 0.21466252584212644); points: 2376
+R ring, Y=e_z+(3/2)(x,y)/z: delta=0.01, rho=1e-02: min = -3.35063 at (theta, (|b|^2-1)/s^2)=(0.0, 0.05663567780118818); points: 2298
+R ring, Y=e_z+(3/2)(x,y)/z: delta=0.01, rho=1e-04: min = 2.32787 at (theta, (|b|^2-1)/s^2)=(0.0, 0.096004799880006); points: 2376
+R ring, Y=e_z+(3/2)(x,y)/z: delta=0.01, rho=1e-06: min = 2.66799 at (theta, (|b|^2-1)/s^2)=(0.0, 0.09600000479999989); points: 2376
+R ring, Y=e_z+(3/2)(x,y)/z: delta=0.01, rho=1e-08: min = 2.70184 at (theta, (|b|^2-1)/s^2)=(0.0, 0.0960000000048); points: 2376

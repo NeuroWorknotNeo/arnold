@@ -1,0 +1,7 @@
+SV2: F - expected = 0
+SV2: xi.gradQ - (4 t^2 + 8 b1^8) = 0
+SV2: <Cb,gradQ> at t=b1^3/4: b1**6*(32*b1**2 - 1)/2
+SV2: diag (1,2) field at t=b1^3/4: b1**6*l1*(32*b1**2 - 1)/4
+SV2: lowest degree = 8 ; u8 = x**8 + y**8
+SV2, SV field (x/z, 2y/z - x^3/z^3, 1): delta=0.05, rho=1e-03: min = 3.98342 at (b1,t)=(0.23466261748485195, -0.22304778075560402); points: 5423
+SV2, SV field (x/z, 2y/z - x^3/z^3, 1): delta=0.05, rho=1e-05: min = 4.03038 at (b1,t)=(0.34296844093939904, -0.22304778075560402); points: 5433
