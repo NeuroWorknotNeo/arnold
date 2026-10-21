@@ -1,0 +1,26 @@
+======================================================================
+M1
+  support S = [(0, 4), (1, 0), (1, 3), (2, 2), (3, 0), (3, 1), (4, 0)]
+  phi_{0,2r} = 1
+  gamma_* = 1/4, N = 4, beta' = 1, 2r gamma_* = 1, j = 5, c = 5/4
+  face = [(0, 4), (1, 0)]   Phi_0 = epsilon**4 + sin(phi)**5 + cos(phi)**5
+  U~ = epsilon**4 - 4*epsilon**3*sigma**3*cos(phi)**2 + 6*epsilon**2*sigma**6*cos(phi)**4 - 4*epsilon*sigma**9*cos(phi)**6 + sigma**12*cos(phi)**8 + sigma**8*sin(phi)**6*cos(phi) + sigma**8*sin(phi)*cos(phi)**6 + sin(phi)**5 + cos(phi)**5
+  (2.1): lhs - rhs = 0
+======================================================================
+M2
+  support S = [(0, 4), (1, 1), (2, 0), (2, 5)]
+  phi_{0,2r} = 1
+  gamma_* = 1/3, N = 3, beta' = 4/3, 2r gamma_* = 4/3, j = 16/3, c = 4/3
+  face = [(0, 4), (1, 1)]   Phi_0 = epsilon*(epsilon**3 + sin(phi)**4 + sin(phi)*cos(phi)**3 + cos(phi)**4)
+  U~ = 2*epsilon**5*sigma**7*sin(phi) + epsilon**5*sigma**7*cos(phi) + epsilon**4 + epsilon*sin(phi)**4 + epsilon*sin(phi)*cos(phi)**3 + epsilon*cos(phi)**4 + sigma**2*cos(phi)**6
+  (2.1): lhs - rhs = 0
+M1: d^k Phi0/deps^k at eps=0, k=1..4: [0, 0, 0, 24]
+M2: Phi0(e0+e)-G, при 4e0^3=-f : e**2*(e**2 + 4*e*e0 + 6*e0**2)  == e^2((e+2e0)^2+2e0^2)? True
+M2: G = Phi0(e0) с 4e0^3=-f -> (3/4) f e0 : True
+======================================================================
+Случайные носители: проверка утверждения о первом ребре
+  нарушений: 0
+======================================================================
+Связь с 008, r=1
+  g_{m+1} = b0    g_{m+2} = -b1**2/(2*h) + c0
+  b0=0: g_{m+2} - (c0 - b1^2/(2h)) = 0
