@@ -88,8 +88,7 @@ cat <<EOF
 Готово. Дальше:
   1) systemctl start $SERVICE
   2) sudo -iu $AGENT_USER tmux attach -t arnold
-     Ответьте на вопросы Claude Code: доверять папке — да, включить Remote Control — да,
-     режим без подтверждений (bypass permissions) — принять.
+     Ответьте на вопросы Claude Code: доверять папке — да, включить Remote Control — да.
      Выйти, не останавливая агента: Ctrl+B, затем D.
      Уведомления на телефон уже включены, разрешите их приложению Claude на телефоне.
   3) В приложении Claude откройте сессию «Арнольд — главный».

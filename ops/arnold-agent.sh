@@ -10,6 +10,8 @@ REPO="${ARNOLD_REPO:-$HOME/arnold}"
 NAME="${ARNOLD_SESSION_NAME:-Арнольд — главный}"
 MODEL="${ARNOLD_MODEL:-claude-opus-5-5}"
 EFFORT="${ARNOLD_EFFORT:-max}"
+# auto: без подтверждений, но классификатор блокирует опасные действия.
+PERMISSION_MODE="${ARNOLD_PERMISSION_MODE:-auto}"
 STATE_DIR="$HOME/.arnold-agent"
 
 export PATH="$HOME/.local/bin:$PATH"
@@ -24,7 +26,7 @@ cd "$REPO" || { echo "Нет папки $REPO" >&2; exit 1; }
 mkdir -p "$STATE_DIR"
 command -v claude >/dev/null || { echo "Не найден claude в PATH ($PATH)" >&2; exit 1; }
 
-FLAGS=(--remote-control "$NAME" --model "$MODEL" --effort "$EFFORT" --permission-mode bypassPermissions)
+FLAGS=(--remote-control "$NAME" --model "$MODEL" --effort "$EFFORT" --permission-mode "$PERMISSION_MODE")
 fast_fails=0
 while true; do
   started=$(date +%s)
