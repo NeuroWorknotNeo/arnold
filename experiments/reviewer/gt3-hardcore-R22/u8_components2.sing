@@ -1,0 +1,18 @@
+// R22: U8 -- local structure of the critical set at 0 (complement to u8_components.sing)
+LIB "primdec.lib";
+ring r=0,(x,y,z),dp;
+poly Q0 = x2+y2-z2;
+poly f8  = (Q0+z3)^2+x*z6+x*y*z5+1/2*z7;
+ideal J = jacob(f8);
+// the 1-dimensional component <x2+y2, z> consists of critical points:
+ideal C1 = x2+y2, z;
+"J contained in <x2+y2,z> (curve is critical):"; size(reduce(J, std(C1)))==0;
+list L = minAssGTZ(J);
+ideal P2 = L[2];
+"0-dim component: number of points (vdim) and a generator set:"; vdim(std(P2)); P2;
+// local Milnor number of U7 and 9.6 already finite (milnor.out); here: local vdim at 0 is infinite
+ring rl=0,(x,y,z),ds;
+poly Q0 = x2+y2-z2;
+poly f8  = (Q0+z3)^2+x*z6+x*y*z5+1/2*z7;
+"local dim of jacobian ideal of U8 at 0 (1 = curve germ):"; dim(std(jacob(f8)));
+quit;

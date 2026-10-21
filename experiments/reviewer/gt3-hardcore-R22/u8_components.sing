@@ -1,0 +1,16 @@
+// R22: minimal associated primes of the Jacobian ideal of U8 (global ring), components through 0
+LIB "primdec.lib";
+ring r=0,(x,y,z),dp;
+poly Q0 = x2+y2-z2;
+poly f8  = (Q0+z3)^2+x*z6+x*y*z5+1/2*z7;
+ideal J = jacob(f8);
+"dim J (global) ="; dim(std(J));
+list L = minAssGTZ(J);
+int i;
+for (i=1; i<=size(L); i++) {
+  ideal P = L[i];
+  ideal P0 = subst(subst(subst(P,x,0),y,0),z,0);
+  "component", i, " dim=", dim(std(P)), " passes through 0:", (size(P0)==0);
+  if (dim(std(P))>0) { P; }
+}
+quit;

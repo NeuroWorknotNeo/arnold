@@ -1,0 +1,8 @@
+dim J (global) =
+1
+component 1  dim= 1  passes through 0: 1
+P[1]=x2+y2
+P[2]=z
+// ** redefining P (  ideal P = L[i];) u8_components.sing:11
+// ** redefining P0 (  ideal P0 = subst(subst(subst(P,x,0),y,0),z,0);) u8_components.sing:12
+component 2  dim= 0  passes through 0: 0

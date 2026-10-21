@@ -1,0 +1,8 @@
+U7: <grad U,q> - (4U + 2 z^3 P1 + 3 z^7) = 0
+U7 on family: -3*tau**7/4
+<grad U7, q> on family: tau**(13/2) - 6*tau**7
+U8: <grad U,q> - (4U + 2 z^3 P + 3 u7) = 0
+U8 zeta=0.01: u7=-7.908e-15, U=-5.931e-15, <grad U,q>=4.148e-14, ratio <gradU,q>/|U| = 6.994
+U8 zeta=0.001: u7=-7.982e-22, U=-5.986e-22, <grad U,q>=2.346e-20, ratio <gradU,q>/|U| = 39.19
+U8 zeta=0.0001: u7=-7.99e-29, U=-5.992e-29, <grad U,q>=8.459e-27, ratio <gradU,q>/|U| = 141.2
+U8 zeta=1.0e-5: u7=-7.99e-36, U=-5.993e-36, <grad U,q>=2.779e-33, ratio <gradU,q>/|U| = 463.7

@@ -1,0 +1,12 @@
+// R22: Milnor numbers (local ordering ds) of examples 9.6, 9.7 (s=0), 9.7 (s=1) of gt3-hardcore
+// finite vdim of std(jacob(f)) in ds  <=>  0 is an isolated critical point over C (hence over R)
+ring r=0,(x,y,z),ds;
+poly f96 = (x2-z2)^2+(y2-z2)^2+z5;
+poly f7  = (x2-z2+z3)^2+(y2-z2)^2+z7;
+poly Q0 = x2+y2-z2;
+poly f8  = (Q0+z3)^2+x*z6+x*y*z5+1/2*z7;
+"mu(9.6) ="; vdim(std(jacob(f96)));
+"mu(U7)  ="; vdim(std(jacob(f7)));
+"mu(U8)  ="; vdim(std(jacob(f8)));
+// also tjurina-type check: is f in jacobian ideal locally (quasi-homogeneity irrelevant here)
+quit;

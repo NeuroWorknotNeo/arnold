@@ -1,0 +1,42 @@
+(6.2) P_s = omega                                       True
+(6.2) P_theta = (s - k eta) T                           True
+(6.2) P_eta = n                                         True
+(6.2) |P|^2 = s^2 + eta^2                               True
+(6.1) circle: |T| = 1                                   True
+(6.1) circle: T' = -omega + 1*n                         True
+(6.1) circle: n' = -1*T                                 True
+(9) circle: n = (-cos,-sin,1)/sqrt2                     True
+(6.4) Psi_s                                             True
+(6.4) Psi_theta                                         True
+(6.4) Psi_zeta                                          True
+(6.5) s d_s eps = k eta*_s - eps                        True
+(6.5) d_theta eps = (k eta + k eta*_theta)/s            True
+K1 Phi_X                                                True
+K1 Phi_Y                                                True
+K1 Phi_zeta                                             True
+K1 B_XY                                                 True
+K1 B_Xzeta                                              True
+K1 B_XX - 1                                             True
+K1 B_YY - 1                                             True
+K1 B_Yzeta                                              True
+K1 Phi_XY = Phi_YX (consistency)                        True
+K1 Phi_XX                                               True
+K1 Phi_XY                                               True
+K1 Phi_Xzeta                                            True
+K1 grad F0(0) = [Subs(Derivative(G(_xi_1), _xi_1), _xi_1, 0), 0]
+K1 Hess F0(0) = Matrix([[j*G(0) + Subs(Derivative(G(_xi_1), (_xi_1, 2)), _xi_1, 0), 0], [0, h(0)]])
+   with G'(0)=0: Matrix([[j*G(0) + Subs(Derivative(G(_xi_1), (_xi_1, 2)), _xi_1, 0), 0], [0, h(0)]])
+(8.2) Y                                                 True
+(8.2) h = |Y|^2                                         True
+(8.3) x d_x^2 Phi                                       True
+(8.3) x d_x eps = -kap th k' eta/x + k p - eps          True
+(8.4) d_theta Y                                         True
+(8.4) d_s Y                                             True
+(8.4) d_zeta Y                                          True
+(8.3)=(8.4) consistency nabla_Y Y                       True
+K2 step5 decomposition of w                             True
+K2 step5 x<w,D_wY> = wT^2(1/(1-eps)-kappa) + E          True
+K2 step7 Euler identity                                 True
+K2 Gamma_* <= bound: bound - Gamma = 2sqrt2 kappa^2 sqrt(a0/l0) True
+K2 (8.5): Gbound^2 = j*kappa at kappa = kmax            True
+ALL OK: True
