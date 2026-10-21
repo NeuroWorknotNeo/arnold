@@ -17,3 +17,9 @@ __pycache__/
 # Результаты расчётов, собранные локально
 compute/job-template/out/
 compute/job-template/.deps/
+
+# Вспомогательные файлы LaTeX в заметках
+notes/**/*.aux
+notes/**/*.toc
+notes/**/*.out
+notes/**/*.log

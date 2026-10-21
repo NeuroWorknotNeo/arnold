@@ -1,0 +1,6 @@
+case A, m=4
+r=1e-2: N(U<0)=22/120; min eig sym DA: on U<0 0.19797848, on whole sample 0.19600161; max|A(U)/U-1|=2.47e-50; max|A|/|x|=0.20004; max|DV-I-P_N/2|=0.024271; sqrt(r)=0.1
+r=1e-3: N(U<0)=26/120; min eig sym DA: on U<0 0.19936078, on whole sample 0.19873791; max|A(U)/U-1|=3.29e-49; max|A|/|x|=0.2; max|DV-I-P_N/2|=0.0075741; sqrt(r)=0.0316
+r=1e-4: N(U<0)=29/120; min eig sym DA: on U<0 0.19980198, on whole sample 0.19960587; max|A(U)/U-1|=1.55e-50; max|A|/|x|=0.2; max|DV-I-P_N/2|=0.0023607; sqrt(r)=0.01
+r=1e-6: N(U<0)=27/120; min eig sym DA: on U<0 0.19998002, on whole sample 0.1999601; max|A(U)/U-1|=5.55e-49; max|A|/|x|=0.2; max|DV-I-P_N/2|=0.00023793; sqrt(r)=0.001
+r=1e-8: N(U<0)=22/120; min eig sym DA: on U<0 0.1999979, on whole sample 0.19999606; max|A(U)/U-1|=5.05e-49; max|A|/|x|=0.2; max|DV-I-P_N/2|=2.3663e-5; sqrt(r)=0.0001
