@@ -113,22 +113,23 @@ Claude по указаниям владельца; дальше его ведё�
 | R3 | reviewer | пример 13: теорема 1, предложение 1 | **готово** 21.10 ~15:30: ошибок нет; пробел в побочном утверждении об изолированности; `notes/reviewer/2026-10-21-example13-proof.md` |
 | P1 | prover | `results/002-theorem-B.md`: исправления по отзыву R2 (запущен ~15:35) | затем новый рецензент |
 | P2 | prover | `results/003-example13.md`: исправления по отзыву R3 (запущен ~15:35) | затем новый рецензент |
-| N1 | numerics | воспроизведение `experiments/` (запущен 21.10 ~14:50) | `experiments/numerics/2026-10-21-reproduce/README.md` |
-| R4 | reviewer | лемма R (запущен 21.10 ~15:10) | `notes/reviewer/2026-10-21-lemmaR-proof.md` |
-| R5 | reviewer | разбор ошибки Burgos + overview §3.2, сверка с arXiv:2108.05829v4 (запущен 21.10 ~15:10) | `notes/reviewer/2026-10-21-burgos-review.md` |
+| N1 | numerics | воспроизведение `experiments/` | **готово** ~16:10: почти всё воспроизводится; не подтверждён вывод theoremC-draft (A-505); `experiments/numerics/2026-10-21-reproduce/README.md` |
+| R4 | reviewer | лемма R | **готово** ~16:10: ошибок нет, поправки к (Φ); `notes/reviewer/2026-10-21-lemmaR-proof.md` |
+| R5 | reviewer | разбор ошибки Burgos + overview §3.2 | **готово** ~16:10: §3a верно (опровергнут шаг, не формулировка), §3b — пробел; `notes/reviewer/2026-10-21-burgos-review.md` |
+| R6 | reviewer | утверждения overview.tex §2–§4 (запущен ~16:15) | `notes/reviewer/2026-10-21-overview.md` |
+| R7 | reviewer | честность эскизов: n2-sketch, theoremC-draft, toolkit §3–§4, example13 §5 (запущен ~16:15) | `notes/reviewer/2026-10-21-sketches.md` |
+| L4 | literature | A-313, A-406, A-408, A-418, A-419 (запущен ~16:15) | `notes/literature/2026-10-21-revision-rest.md` |
 
 Фоновые процессы и подагенты не переживают перезапуск Claude Code. Если после перезапуска
 отзывов нет, задачу надо запустить заново.
 
 ## Следующие шаги
 
-Вторая волна этапа 1 (по мере освобождения мест):
+Все пункты ревизии назначены. Когда вернутся L1, R6, R7, L4, P1, P2:
 
-- R6 — `reviewer`: утверждения overview.tex — A-404, A-405, A-409, A-411, A-412, A-413.
-- R7 — `reviewer`: честность пробелов в эскизах — n2-sketch.md, theoremC-draft.md, лемма G
-  (toolkit.md §3), A-417.
-- L4 — `literature`: A-313 (теорема B не покрыта известным), A-418 (Тужрон, Kuo), A-419
-  (литература overview §1.2), A-408.
+- правки KNOWN_RESULTS.md (L1–L4), PROBLEM.md (A-007 — уточнение), STATE.md;
+- повторная проверка `results/002`, `results/003` новыми рецензентами;
+- лемма R → `results/004` после правок условия (Φ) (низкий приоритет).
 
 После волны 2 — итоги (п. 6): `results/`, исправления `problem/` и STATE.md, сводка владельцу;
 затем предложение о структуре (п. 7).

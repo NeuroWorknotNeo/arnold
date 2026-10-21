@@ -1,0 +1,12 @@
+kappa=0.01 kappa'=0.02 alpha=0.5
+r=0.5     min <gradU,V>/U = 1.0007   min eig Sym DV = 0.1506   max|V|/r = 0.167   max|d|/s^2 = 0.164
+r=0.3     min <gradU,V>/U = 1.0003   min eig Sym DV = 0.1545   max|V|/r = 0.167   max|d|/s^2 = 0.163
+r=0.2     min <gradU,V>/U = 1.0001   min eig Sym DV = 0.1564   max|V|/r = 0.167   max|d|/s^2 = 0.162
+r=0.1     min <gradU,V>/U = 1.0000   min eig Sym DV = 0.1581   max|V|/r = 0.167   max|d|/s^2 = 0.160
+r=0.05    min <gradU,V>/U = 1.0000   min eig Sym DV = 0.1590   max|V|/r = 0.167   max|d|/s^2 = 0.159
+r=0.02    min <gradU,V>/U = 1.0000   min eig Sym DV = 0.1595   max|V|/r = 0.167   max|d|/s^2 = 0.158
+r=0.01    min <gradU,V>/U = 1.0000   min eig Sym DV = 0.1596   max|V|/r = 0.167   max|d|/s^2 = 0.158
+r=0.005   min <gradU,V>/U = 1.0000   min eig Sym DV = 0.1597   max|V|/r = 0.167   max|d|/s^2 = 0.158
+r0=0.05  N=200 escaped=200  t_esc in [471, 1.62e+03]   min (dF/dt)/(alpha|h|) = 2.05   max rel. energy drift 3.3e-03
+r0=0.02  N=200 escaped=200  t_esc in [3.02e+03, 8.8e+03]   min (dF/dt)/(alpha|h|) = 2.03   max rel. energy drift 1.7e-01
+r0=0.01  N=200 escaped=200  t_esc in [1.23e+04, 3.49e+04]   min (dF/dt)/(alpha|h|) = 2.12   max rel. energy drift 3.0e+01
