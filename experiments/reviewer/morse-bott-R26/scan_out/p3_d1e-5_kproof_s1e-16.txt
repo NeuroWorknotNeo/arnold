@@ -1,0 +1,5 @@
+p=3 delta=1.0e-5 kappa=4.497e-6 (proof value 4.497e-6) s=1.0e-16 R_theta=0.2771 R_e=0.004472 a0=0.1768
+points: 318, time 147s, max fit residual 3.55e-15, max |E|/rho^j 2.59e-27
+min r = 0.299033  at theta=-0.1931, e=0.0004992, K/(delta rho^b)=0
+kappa/2 = 2.24869e-06;  min r / kappa = 6.649e+04;  #(r<=0) = 0
+min r over K,e for each theta: -0.193:0.299 -0.161:2.09 -0.129:2.76 -0.097:2.96 -0.064:3 -0.032:3 +0.000:3 +0.032:3 +0.064:3 +0.097:2.96 +0.129:2.76 +0.161:2.09 +0.193:0.299

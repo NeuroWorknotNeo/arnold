@@ -1,0 +1,34 @@
+Comparison configs (as in scan_A5.out):
+p=2 delta=1e-04 kappa=5.133e-05: min r = 0.0120272, r/kappa = 234.3, at theta=-0.1544, K/(delta rho^b)=8.29e-08
+p=2 delta=1e-04 kappa=0.5: min r = -7.63935, r/kappa = -15.28, at theta=0.1263, K/(delta rho^b)=0.552
+p=2 delta=1e-04 kappa=0.05: min r = 0.0485693, r/kappa = 0.9714, at theta=-0.1524, K/(delta rho^b)=0.0545
+p=2 delta=1e-06 kappa=5.133e-06: min r = 0.14366, r/kappa = 2.799e+04, at theta=-0.04818, K/(delta rho^b)=8.28e-09
+p=2 delta=1e-06 kappa=0.5: min r = -33.5446, r/kappa = -67.09, at theta=-0.03741, K/(delta rho^b)=0.654
+p=2 delta=1e-06 kappa=0.01: min r = 0.056178, r/kappa = 5.618, at theta=-0.04818, K/(delta rho^b)=0.033
+p=3 delta=1e-05 kappa=4.497e-06: min r = 0.0395071, r/kappa = 8784, at theta=-0.1961, K/(delta rho^b)=1.04e-08
+p=3 delta=1e-05 kappa=0.5: min r = -48.6303, r/kappa = -97.26, at theta=0.1554, K/(delta rho^b)=0.754
+p=3 delta=1e-05 kappa=0.005: min r = 0.0168587, r/kappa = 3.372, at theta=-0.1961, K/(delta rho^b)=0.0132
+p=3 delta=1e-07 kappa=2.087e-07: min r = 0.220866, r/kappa = 1.058e+06, at theta=-0.08985, K/(delta rho^b)=4.74e-10
+p=3 delta=1e-07 kappa=0.5: min r = -244.106, r/kappa = -488.2, at theta=-0.0733, K/(delta rho^b)=0.727
+p=1 delta=1e-04 kappa=0.5: min r = 0.584869, r/kappa = 1.17, at theta=-0.02288, K/(delta rho^b)=0.0746
+p=1 delta=1e-06 kappa=0.5: min r = 0.58476, r/kappa = 1.17, at theta=-0.002288, K/(delta rho^b)=0.0746
+
+Critical kappa (largest kappa in a geometric grid with min r > 0) vs delta:
+p=1 delta=1e-03: kappa_crit ~ 0.5 (proof kappa 0.000763); kappa_crit/delta^(1-1/p) = 0.5
+p=1 delta=1e-04: kappa_crit ~ 0.5 (proof kappa 0.000763); kappa_crit/delta^(1-1/p) = 0.5
+p=1 delta=1e-05: kappa_crit ~ 0.5 (proof kappa 0.000763); kappa_crit/delta^(1-1/p) = 0.5
+p=1 delta=1e-06: kappa_crit ~ 0.5 (proof kappa 0.000763); kappa_crit/delta^(1-1/p) = 0.5
+p=1 delta=1e-07: kappa_crit ~ 0.5 (proof kappa 0.000763); kappa_crit/delta^(1-1/p) = 0.5
+p=1 delta=1e-08: kappa_crit ~ 0.5 (proof kappa 0.000763); kappa_crit/delta^(1-1/p) = 0.5
+p=2 delta=1e-03: kappa_crit ~ 0.166 (proof kappa 0.000162); kappa_crit/delta^(1-1/p) = 5.26
+p=2 delta=1e-04: kappa_crit ~ 0.0554 (proof kappa 5.13e-05); kappa_crit/delta^(1-1/p) = 5.54
+p=2 delta=1e-05: kappa_crit ~ 0.0153 (proof kappa 1.62e-05); kappa_crit/delta^(1-1/p) = 4.85
+p=2 delta=1e-06: kappa_crit ~ 0.00736 (proof kappa 5.13e-06); kappa_crit/delta^(1-1/p) = 7.36
+p=2 delta=1e-07: kappa_crit ~ 0.00354 (proof kappa 1.62e-06); kappa_crit/delta^(1-1/p) = 11.2
+p=2 delta=1e-08: kappa_crit ~ 0.0017 (proof kappa 5.13e-07); kappa_crit/delta^(1-1/p) = 17
+p=3 delta=1e-03: kappa_crit ~ 0.096 (proof kappa 9.69e-05); kappa_crit/delta^(1-1/p) = 9.6
+p=3 delta=1e-04: kappa_crit ~ 0.0266 (proof kappa 2.09e-05); kappa_crit/delta^(1-1/p) = 12.3
+p=3 delta=1e-05: kappa_crit ~ 0.00885 (proof kappa 4.5e-06); kappa_crit/delta^(1-1/p) = 19.1
+p=3 delta=1e-06: kappa_crit ~ 0.00294 (proof kappa 9.69e-07); kappa_crit/delta^(1-1/p) = 29.4
+p=3 delta=1e-07: kappa_crit ~ 0.00118 (proof kappa 2.09e-07); kappa_crit/delta^(1-1/p) = 54.6
+p=3 delta=1e-08: kappa_crit ~ 0.000565 (proof kappa 4.5e-08); kappa_crit/delta^(1-1/p) = 122

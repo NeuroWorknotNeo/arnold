@@ -1,0 +1,14 @@
+(2.5) Psi_s     : [0, 0, 0]
+(2.5) Psi_theta : [0, 0, 0]
+(2.5) Psi_zeta  : [0, 0, 0]
+(6.3) Y         : [0, 0, 0]
+(L1)  h         : 0
+(6.5) s D_Y Y   : [0, 0, 0]
+coeffs a^s, a^theta, a^zeta: [0, 0, 0]
+(6.7) s<w,D_wY> - (1+...+7): 0
+w perp Y        : 0
+(Mc, kappa=0)   : 0
+(6.4) Euler     : 0
+(6.2) identity  : 0
+Lemma M square  : 0
+C_Gamma         : 0

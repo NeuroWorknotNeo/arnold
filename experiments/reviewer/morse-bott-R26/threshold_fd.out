@@ -1,0 +1,6 @@
+p=2 delta=1e-06 kappa=0.004354 (0.8 kappa_crit): leading-order min r = 0.003466 at theta=0.04875, K/(delta rho^b)=0.00212; full model (s=1e-18, same K, e=0, theta=0.048753): min_alpha r = 0.003466 (fit residual 2.1e-17)
+p=2 delta=1e-06 kappa=0.006802 (1.25 kappa_crit): leading-order min r = -0.006841 at theta=0.04872, K/(delta rho^b)=0.00477; full model (s=1e-18, same K, e=0, theta=0.04872): min_alpha r = -0.006841 (fit residual 4.9e-17)
+p=2 delta=1e-06 kappa=5.133e-06 (0.000943 kappa_crit): leading-order min r = 2.05e-05 at theta=0.04878, K/(delta rho^b)=2.61e-09; full model (s=1e-18, same K, e=0, theta=0.048779): min_alpha r = 2.05e-05 (fit residual 6.8e-21)
+p=3 delta=1e-07 kappa=0.0001877 (0.8 kappa_crit): leading-order min r = 0.0002225 at theta=0.091, K/(delta rho^b)=0.000135; full model (s=1e-18, same K, e=0, theta=0.091002): min_alpha r = 0.0002225 (fit residual 1.9e-18)
+p=3 delta=1e-07 kappa=0.0002932 (1.25 kappa_crit): leading-order min r = -0.0004456 at theta=0.091, K/(delta rho^b)=0.000304; full model (s=1e-18, same K, e=0, theta=0.091): min_alpha r = -0.0004456 (fit residual 2.2e-18)
+p=3 delta=1e-07 kappa=2.087e-07 (0.00089 kappa_crit): leading-order min r = 1.25e-06 at theta=0.091, K/(delta rho^b)=1.66e-10; full model (s=1e-18, same K, e=0, theta=0.091004): min_alpha r = 1.25e-06 (fit residual 2.1e-22)

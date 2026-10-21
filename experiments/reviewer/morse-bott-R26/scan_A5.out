@@ -1,0 +1,90 @@
+p=1 delta=0.0001 kappa=0.5 (proof value 0.000763) s=1.0e-14 R_theta=0.06727 R_e=0.01414 a0=0.1768
+points: 298, time 85s, max fit residual 4.44e-15, max |E|/rho^j 1.85e-27
+min r = 0.791185  at theta=-0.02344, e=-0.0006793, K/(delta rho^b)=0.01
+kappa/2 = 0.25;  min r / kappa = 1.582;  #(r<=0) = 0
+min r over K,e for each theta: -0.023:0.791 -0.020:1.15 -0.016:1.81 -0.012:2.35 -0.008:2.7 -0.004:2.93 +0.000:3 +0.004:2.93 +0.008:2.7 +0.012:2.35 +0.016:1.81 +0.020:1.15 +0.023:0.791
+
+p=1 delta=1.0e-6 kappa=0.5 (proof value 0.000763) s=1.0e-16 R_theta=0.006727 R_e=0.001414 a0=0.1768
+points: 298, time 81s, max fit residual 2.66e-15, max |E|/rho^j 8.08e-28
+min r = 0.791022  at theta=-0.002344, e=-6.776e-05, K/(delta rho^b)=0.01
+kappa/2 = 0.25;  min r / kappa = 1.582;  #(r<=0) = 0
+min r over K,e for each theta: -0.002:0.791 -0.002:1.15 -0.002:1.81 -0.001:2.35 -0.001:2.7 -0.000:2.93 +0.000:3 +0.000:2.93 +0.001:2.7 +0.001:2.35 +0.002:1.81 +0.002:1.15 +0.002:0.791
+
+p=2 delta=0.0001 kappa=0.05 (proof value 5.133e-5) s=1.0e-14 R_theta=0.2594 R_e=0.01414 a0=0.1768
+points: 314, time 135s, max fit residual 4.44e-15, max |E|/rho^j 8.26e-27
+min r = 0.111348  at theta=-0.152, e=-0.0009107, K/(delta rho^b)=0.03
+kappa/2 = 0.025;  min r / kappa = 2.227;  #(r<=0) = 0
+min r over K,e for each theta: -0.152:0.111 -0.127:1.53 -0.101:2.34 -0.076:2.76 -0.051:2.93 -0.025:2.99 +0.000:3 +0.025:2.99 +0.051:2.93 +0.076:2.76 +0.101:2.34 +0.127:1.53 +0.152:0.111
+
+p=2 delta=0.0001 kappa=0.5 (proof value 5.133e-5) s=1.0e-14 R_theta=0.2594 R_e=0.01414 a0=0.1768
+points: 314, time 132s, max fit residual 9.33e-15, max |E|/rho^j 8.26e-27
+min r = -7.25915  at theta=0.1267, e=-0.001086, K/(delta rho^b)=0.5
+kappa/2 = 0.25;  min r / kappa = -14.52;  #(r<=0) = 52
+min r over K,e for each theta: -0.152:-1.18 -0.127:-7.26 -0.101:-4.73 -0.076:-3.45 -0.051:-0.374 -0.025:2.17 +0.000:3 +0.025:2.17 +0.051:-0.374 +0.076:-3.45 +0.101:-4.73 +0.127:-7.26 +0.152:-1.18
+
+p=2 delta=0.0001 kappa=5.133e-5 (proof value 5.133e-5) s=1.0e-14 R_theta=0.2594 R_e=0.01414 a0=0.1768
+points: 314, time 133s, max fit residual 4.44e-15, max |E|/rho^j 8.26e-27
+min r = 0.189723  at theta=-0.152, e=0.001257, K/(delta rho^b)=8.86e-24
+kappa/2 = 2.56636e-05;  min r / kappa = 3696;  #(r<=0) = 0
+min r over K,e for each theta: -0.152:0.19 -0.127:1.64 -0.101:2.44 -0.076:2.82 -0.051:2.97 -0.025:3 +0.000:3 +0.025:3 +0.051:2.97 +0.076:2.82 +0.101:2.44 +0.127:1.64 +0.152:0.19
+
+p=2 delta=0.0001 kappa=5.133e-5 (proof value 5.133e-5) s=1.0e-6 R_theta=0.2594 R_e=0.01414 a0=0.1768
+points: 314, time 149s, max fit residual 5.33e-15, max |E|/rho^j 5.67e-27
+min r = 0.191604  at theta=-0.152, e=0.001261, K/(delta rho^b)=1.09e-23
+kappa/2 = 2.56636e-05;  min r / kappa = 3733;  #(r<=0) = 0
+min r over K,e for each theta: -0.152:0.192 -0.127:1.64 -0.101:2.44 -0.076:2.83 -0.051:2.97 -0.025:3 +0.000:3 +0.025:3 +0.051:2.97 +0.076:2.83 +0.101:2.44 +0.127:1.64 +0.152:0.192
+
+p=2 delta=1.0e-6 kappa=0.01 (proof value 5.133e-6) s=1.0e-16 R_theta=0.08202 R_e=0.001414 a0=0.1768
+points: 314, time 139s, max fit residual 4.44e-15, max |E|/rho^j 6.55e-28
+min r = 0.0827346  at theta=-0.04807, e=-8.163e-05, K/(delta rho^b)=0.03
+kappa/2 = 0.005;  min r / kappa = 8.273;  #(r<=0) = 0
+min r over K,e for each theta: -0.048:0.0827 -0.040:1.57 -0.032:2.39 -0.024:2.79 -0.016:2.95 -0.008:2.99 +0.000:3 +0.008:2.99 +0.016:2.95 +0.024:2.79 +0.032:2.39 +0.040:1.57 +0.048:0.0827
+
+p=2 delta=1.0e-6 kappa=0.5 (proof value 5.133e-6) s=1.0e-16 R_theta=0.08202 R_e=0.001414 a0=0.1768
+points: 314, time 134s, max fit residual 2.71e-14, max |E|/rho^j 6.55e-28
+min r = -31.6881  at theta=-0.04006, e=-0.000106, K/(delta rho^b)=0.5
+kappa/2 = 0.25;  min r / kappa = -63.38;  #(r<=0) = 112
+min r over K,e for each theta: -0.048:-8.36 -0.040:-31.7 -0.032:-24.3 -0.024:-23.1 -0.016:-13.5 -0.008:-3.89 +0.000:3 +0.008:-3.89 +0.016:-13.5 +0.024:-23.1 +0.032:-24.3 +0.040:-31.7 +0.048:-8.36
+
+p=2 delta=1.0e-6 kappa=5.133e-6 (proof value 5.133e-6) s=1.0e-16 R_theta=0.08202 R_e=0.001414 a0=0.1768
+points: 314, time 145s, max fit residual 4.44e-15, max |E|/rho^j 6.55e-28
+min r = 0.16999  at theta=0.04807, e=0.000119, K/(delta rho^b)=1.73e-22
+kappa/2 = 2.56636e-06;  min r / kappa = 3.312e+04;  #(r<=0) = 0
+min r over K,e for each theta: -0.048:0.17 -0.040:1.63 -0.032:2.44 -0.024:2.82 -0.016:2.97 -0.008:3 +0.000:3 +0.008:3 +0.016:2.97 +0.024:2.82 +0.032:2.44 +0.040:1.63 +0.048:0.17
+
+p=3 delta=1.0e-5 kappa=0.005 (proof value 4.497e-6) s=1.0e-16 R_theta=0.2771 R_e=0.004472 a0=0.1768
+points: 318, time 144s, max fit residual 4.44e-15, max |E|/rho^j 2.59e-27
+min r = 0.276009  at theta=-0.1931, e=-0.0004735, K/(delta rho^b)=0.01
+kappa/2 = 0.0025;  min r / kappa = 55.2;  #(r<=0) = 0
+min r over K,e for each theta: -0.193:0.276 -0.161:2.06 -0.129:2.74 -0.097:2.95 -0.064:2.99 -0.032:3 +0.000:3 +0.032:3 +0.064:2.99 +0.097:2.95 +0.129:2.74 +0.161:2.06 +0.193:0.276
+
+p=3 delta=1.0e-5 kappa=0.5 (proof value 4.497e-6) s=1.0e-16 R_theta=0.2771 R_e=0.004472 a0=0.1768
+points: 318, time 145s, max fit residual 4.26e-14, max |E|/rho^j 2.59e-27
+min r = -43.061  at theta=-0.1288, e=-0.0002244, K/(delta rho^b)=0.9
+kappa/2 = 0.25;  min r / kappa = -86.12;  #(r<=0) = 120
+min r over K,e for each theta: -0.193:-10.3 -0.161:-41 -0.129:-43.1 -0.097:-30.9 -0.064:-18.7 -0.032:-6.48 +0.000:3 +0.032:-6.48 +0.064:-18.7 +0.097:-30.9 +0.129:-43.1 +0.161:-41 +0.193:-10.3
+
+p=3 delta=1.0e-5 kappa=4.497e-6 (proof value 4.497e-6) s=1.0e-16 R_theta=0.2771 R_e=0.004472 a0=0.1768
+points: 318, time 147s, max fit residual 3.55e-15, max |E|/rho^j 2.59e-27
+min r = 0.299033  at theta=-0.1931, e=0.0004992, K/(delta rho^b)=0
+kappa/2 = 2.24869e-06;  min r / kappa = 6.649e+04;  #(r<=0) = 0
+min r over K,e for each theta: -0.193:0.299 -0.161:2.09 -0.129:2.76 -0.097:2.96 -0.064:3 -0.032:3 +0.000:3 +0.032:3 +0.064:3 +0.097:2.96 +0.129:2.76 +0.161:2.09 +0.193:0.299
+
+p=3 delta=1.0e-5 kappa=4.497e-6 (proof value 4.497e-6) s=1.0e-6 R_theta=0.2771 R_e=0.004472 a0=0.1768
+points: 322, time 169s, max fit residual 3.55e-15, max |E|/rho^j 2.54e-27
+min r = 0.3185  at theta=-0.1931, e=0.0005112, K/(delta rho^b)=7.77e-24
+kappa/2 = 2.24869e-06;  min r / kappa = 7.082e+04;  #(r<=0) = 0
+min r over K,e for each theta: -0.193:0.319 -0.161:2.11 -0.129:2.78 -0.097:2.98 -0.064:3.02 -0.032:3.02 +0.000:3.02 +0.032:3.02 +0.064:3.02 +0.097:2.98 +0.129:2.78 +0.161:2.11 +0.193:0.319
+
+p=3 delta=1.0e-7 kappa=0.5 (proof value 2.087e-7) s=1.0e-18 R_theta=0.1286 R_e=0.0004472 a0=0.1768
+points: 318, time 143s, max fit residual 1.71e-13, max |E|/rho^j 1.91e-28
+min r = -220.484  at theta=-0.05976, e=-2.214e-05, K/(delta rho^b)=0.9
+kappa/2 = 0.25;  min r / kappa = -441;  #(r<=0) = 188
+min r over K,e for each theta: -0.090:-58.9 -0.075:-206 -0.060:-220 -0.045:-164 -0.030:-107 -0.015:-50.8 +0.000:3 +0.015:-50.8 +0.030:-107 +0.045:-164 +0.060:-220 +0.075:-206 +0.090:-58.9
+
+p=3 delta=1.0e-7 kappa=2.087e-7 (proof value 2.087e-7) s=1.0e-18 R_theta=0.1286 R_e=0.0004472 a0=0.1768
+points: 318, time 146s, max fit residual 4.44e-15, max |E|/rho^j 1.91e-28
+min r = 0.259169  at theta=-0.08964, e=4.647e-05, K/(delta rho^b)=1.74e-22
+kappa/2 = 1.04375e-07;  min r / kappa = 1.242e+06;  #(r<=0) = 0
+min r over K,e for each theta: -0.090:0.259 -0.075:2.08 -0.060:2.76 -0.045:2.96 -0.030:3 -0.015:3 +0.000:3 +0.015:3 +0.030:3 +0.045:2.96 +0.060:2.76 +0.075:2.08 +0.090:0.259
+
