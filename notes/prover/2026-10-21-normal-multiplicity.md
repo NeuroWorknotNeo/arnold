@@ -4,15 +4,17 @@
   008 на компоненту-кривую $\Sigma_0$, вдоль которой $D^2u_m$ на нормали вырожден, а
   $u_m\asymp\operatorname{dist}(\cdot,\text{конус над }\Sigma_0)^{2r}$, $r\ge2$; проверить примеры
   полигона M1, M2.
-- **Статус:** по пунктам — таблица в §0. Независимой проверки нет.
+- **Статус:** по пунктам — таблица в §0. Вторая редакция (21.10.2026): внесены замечания рецензентов
+  R30 (`notes/reviewer/2026-10-21-normal-mult-A.md`, §1–§2: ошибок нет) и R31
+  (`notes/reviewer/2026-10-21-normal-mult-B.md`, §3–§5: ошибок нет); перечень правок — §9. Оформление
+  результата — [`results/011-normal-multiplicity.md`](../../results/011-normal-multiplicity.md).
 - **Зависит от:**
   - [007] = [`results/007-gt3.md`](../../results/007-gt3.md) [Проверено: R16, R17]: теорема A,
     лемма 1, шаги 1, 3, 6 доказательства теоремы 2;
-  - [008] = [`results/008-class-K.md`](../../results/008-class-K.md): §1 (формула (1.1)), лемма K3,
-    лемма 2′ (§8) и доказательство теоремы 2′ (§9). Доказательства проверены рецензентами R20–R22
-    в записке `notes/prover/2026-10-21-gt3-hardcore.md`, но **результат 008 окончательно не
-    принят** (текст на финальной проверке). Формулы (10.2)–(10.4) из 008 здесь выведены заново
-    (§4.2) и проверены символьно для дна вида ряда Пюизё;
+  - [008] = [`results/008-class-K.md`](../../results/008-class-K.md) [Проверено: R20–R24; ждёт проверки
+    человеком]: §1 (формула (1.1)), лемма K3 (§6), лемма 2′ (§8) и доказательство теоремы 2′ (§9).
+    Формулы (10.2)–(10.4) из 008 здесь выведены заново (§4.2) и проверены символьно для дна вида
+    ряда Пюизё;
   - стандартные теоремы: аналитическая теорема о неявной функции, оценки Коши, теорема
     Ньютона–Пюизё (только в лемме N3; [Литература: стандартная, например E. Casas-Alvero,
     *Singularities of plane curves*, LMS LN 276, 2000, гл. 1; не сверено с первоисточником]).
@@ -44,12 +46,13 @@
 | M1 | $(z-x^2)^4+x^5+y^5+xy^6+yx^6$: $2r=4$, $j=5$, $c=\frac54$, $G=\cos^5\phi+\sin^5\phi$, профиль $e^4$ ($r'=2$), минимумы $G=-1$, $G''=5$ в $-e_x,-e_y$ ⇒ асимптотические траектории | [Доказано] |
 | M2 | $z^4+z(x^4+x^3y+y^4)+x^6+xz^5+2yz^5$: $2r=4$, $j=\frac{16}3$, $c=\frac43$, $G=-3\cdot4^{-4/3}f^{4/3}$, профиль невырожден после сдвига на $\varepsilon_0=-(f/4)^{1/3}$ ($r'=1$), минимумы $G$ в $\phi_*\approx0.22005$ и $\frac\pi2$ (и $+\pi$) ⇒ асимптотические траектории | [Доказано] |
 
-В M1 и в M2 при $\phi=\frac\pi2$ выполнено $G''+jG=0$ (точно), то есть декартова карта развёртки
-(теорема K1) не работает уже во втором порядке; нужна поворачивающаяся карта.
+В минимумах $G$ у M1 ($\phi=\pi,\frac{3\pi}2$) и у M2 в минимуме $\phi=\frac\pi2$ выполнено $G''+jG=0$ (точно), то есть
+декартова карта развёртки (теорема K1) там не работает уже во втором порядке; нужна поворачивающаяся
+карта.
 
 ## 1. Постановка и обозначения
 
-**1.1. Дуга и трубка.** $n=3$. $\omega:\Lambda'\to S^2$ — аналитическая дуга с натуральным параметром
+**1.1. Дуга и трубка.** $n=3$. $\omega:\Lambda'\to S^2$ — аналитическая вложенная (инъективная) дуга с натуральным параметром
 $\theta$ на открытом интервале $\Lambda'\ni0$, $\omega(0)=\omega^*$; $\ell=\omega'$, $n=\omega\times\ell$;
 репер Дарбу
 $$\omega'=\ell,\qquad \ell'=-\omega+k_gn,\qquad n'=-k_g\ell \tag{1.1}$$
@@ -102,7 +105,8 @@ $$U\big(s\omega(\theta)+s^{1+\gamma}\varepsilon\,n(\theta)\big)=s^{m+\beta'}\,\t
 1. $\varphi$ вещественно-аналитична в окрестности компакта $\{0\}\times\Lambda\times\{0\}$, поэтому
    продолжается до голоморфной функции в его комплексной окрестности. По компактности найдутся
    $\rho_s,\rho_y\in(0,1)$, комплексная окрестность $V\supset\Lambda$ и $M>0$ такие, что продолжение
-   голоморфно и по модулю не больше $M$ на $\{|s|\le2\rho_s\}\times\overline V\times\{|y|\le2\rho_y\}$. По
+   голоморфно и по модулю не больше $M$ на $\{|s|\le2\rho_s\}\times\overline V\times\{|y|\le2\rho_y\}$; уменьшив $\rho_s$,
+   считаем $2\rho_s<R_0/3$ (чтобы в п. 4 работало тождество 1.2). По
    оценкам Коши (по $(s,y)$ при фиксированном $\theta\in V$) $|\varphi_{il}(\theta)|\le M(2\rho_s)^{-i}(2\rho_y)^{-l}$ на
    $V$, и $\varphi(s,\theta,y)=\sum\varphi_{il}(\theta)s^iy^l$ при $|s|<2\rho_s$, $|y|<2\rho_y$.
 2. Для $(i,l)\in\mathcal S$ показатель $k_{il}:=Ni+N\gamma l-N\beta'$ — целое $\ge0$ (определение $\beta'$). Возьмём
@@ -121,8 +125,8 @@ $$U\big(s\omega(\theta)+s^{1+\gamma}\varepsilon\,n(\theta)\big)=s^{m+\beta'}\,\t
 Пусть выполнено (M) и есть $(i,l)\in\mathcal S$ с $l<2r$. Положим
 $$\gamma_*:=\min\Big\{\frac i{2r-l}:\ (i,l)\in\mathcal S,\ l<2r\Big\},\qquad j:=m+2r\gamma_*,\qquad c:=1+\gamma_*,\qquad G_{\min}(\theta):=\min_{\varepsilon\in\mathbb R}\Phi_0^{(\gamma_*)}(\theta,\varepsilon).$$
 
-**Утверждение** [Доказано]. $\gamma_*>0$ — наклон ребра многоугольника Ньютона носителя $\mathcal S$ в
-плоскости $(i,l)$, примыкающего к вершине $(0,2r)$; $\beta'(\gamma_*)=2r\gamma_*$ и
+**Утверждение** [Доказано]. $\gamma_*>0$ — наклон (в координатах $(l,i)$, то есть ребро $i=\gamma_*(2r-l)$) ребра
+многоугольника Ньютона носителя $\mathcal S$, примыкающего к вершине $(0,2r)$; $\beta'(\gamma_*)=2r\gamma_*$ и
 $$\Phi_0^{(\gamma_*)}(\theta,\varepsilon)=a(\theta,0)\,\varepsilon^{2r}+\sum_{l<2r,\ (\gamma_*(2r-l),\,l)\in\mathcal S}\varphi_{\gamma_*(2r-l),\,l}(\theta)\,\varepsilon^l .$$
 *Доказательство.* $(0,l)\notin\mathcal S$ при $l<2r$ по (M), поэтому в определении $\gamma_*$ все $i\ge1$ и
 $\gamma_*>0$; минимум существует (дроби $\frac i{2r-l}$ с $l<2r$ образуют дискретное множество в
@@ -136,21 +140,26 @@ $(0,2r)\in\mathcal S$. $\square$
 
 Связь с 008: при $r=1$ и $g_{m+1}=u_{m+1}|_\Sigma\not\equiv0$ имеем $\gamma_*=\frac12$, $j=m+1$, $c=\frac32$,
 $\Phi_0=\frac12h_n\varepsilon^2+g_{m+1}$; при $g_{m+1}\equiv0$ (и $(1,1)$ или $(2,0)\in\mathcal S$) первое ребро даёт $\gamma_*=1$, $j=m+2$ и
-$G_{\min}=u_{m+2}|_\Sigma-\frac{b_1^2}{2h_n}=g_{m+2}$ — те же $j$, $G$, $c=\frac{j-m+2}2$, что в [008]. В общем случае
-$c=1+\frac{j-m}{2r}$ [проверено вручную].
+$G_{\min}=u_{m+2}|_\Sigma-\frac{b_1^2}{2h_n}=g_{m+2}$. Если при этом $G_{\min}\not\equiv0$, то это те же $j$, $G$, $c=\frac{j-m+2}2$, что в
+[008]. Оговорка: в [008] $j$ — номер первого ненулевого $g_k$, а здесь $j$ — показатель первого ребра; они
+различаются, если $G_{\min}\equiv0$ (например, $g_{m+1}\equiv0$, $(1,1)\in\mathcal S$, $g_{m+2}\equiv0$: здесь $j=m+2$, в [008] $j>m+2$).
+В общем случае $c=1+\frac{j-m}{2r}$ (так как $j-m=2r\gamma_*$).
 
 ### Лемма N2 (функция дна) — [Доказано]
 
 Пусть выполнено (M) на $\Lambda'$ и $\gamma_*<\infty$; $\Lambda\subset\Lambda'$ — компактный интервал. Найдутся
-$y_2\in(0,1)$, $s_2>0$, $C>0$ такие, что при $0<y_1\le y_2$, $0<s<s_2$ (с $s_2$, зависящим от $y_1$) и
+$y_2\in(0,1)$, $C>0$ и $E\ge1$ такие, что для каждого $y_1\in(0,y_2]$ найдётся $s_2=s_2(y_1)>0$, и при $0<s<s_2$,
 $\theta\in\Lambda$
 $$\Big|\min_{|y|\le y_1}\varphi(s,\theta,y)-s^{2r\gamma_*}G_{\min}(\theta)\Big|\le C\,s^{2r\gamma_*+1/N},$$
 то есть **функция дна** $F_{\rm fl}(s,\theta):=\min_{|\eta|\le y_1s}U\big(s\omega(\theta)+\eta n(\theta)\big)=s^m\min_{|y|\le y_1}\varphi$
 удовлетворяет
 $$F_{\rm fl}(s,\theta)=s^{j}\big(G_{\min}(\theta)+O(s^{1/N})\big)\quad\text{равномерно по }\theta\in\Lambda. \tag{2.2}$$
-Кроме того, минимум достигается при $|y|\le E\,s^{\gamma_*}$ с некоторым $E$, не зависящим от $s,\theta$.
-Поскольку $F_{\rm fl}$ определена через нормальный слой (он зависит только от точки $\omega(\theta)$), $j$ и
-$G_{\min}$ — инварианты дуги, не зависящие от параметризации.
+Кроме того, все точки минимума лежат в $|y|\le E\,s^{\gamma_*}$; в частности, при малых $s$ функция $F_{\rm fl}$ не
+зависит от $y_1$. **Инвариантность.** Функция $\varphi(s,\theta,\cdot)$ зависит только от точки $\omega(\theta)$ и от
+нормали $n(\theta)$, а нормаль определена с точностью до знака; замена $n\to-n$ — это $y\to-y$, она сохраняет
+$\mathcal S$ (и (M)) и заменяет $\Phi_0(\theta,\varepsilon)$ на $\Phi_0(\theta,-\varepsilon)$. Поэтому $\gamma_*$, $j$, $c$ и $G_{\min}$ (как функция
+точки дуги) не зависят от параметризации и выбора нормали [Доказано, элементарно]. Восстановить $j$ по
+одной функции $F_{\rm fl}$ можно лишь при $G_{\min}\not\equiv0$: при $G_{\min}\equiv0$ имеем $F_{\rm fl}=O(s^{j+1/N})$.
 
 *Доказательство.*
 
@@ -166,13 +175,13 @@ $G_{\min}$ — инварианты дуги, не зависящие от па�
 3. *Где лежат минимумы $\Phi_0$.* $\Phi_0(\theta,\varepsilon)-\Phi_0(\theta,0)\ge a_{\min}|\varepsilon|^{2r}-\sum_{1\le l<2r}C'|\varepsilon|^l>0$ при
    $|\varepsilon|\ge E_0$ (константа $C'$ — максимум модулей коэффициентов на $\Lambda$). Значит, $G_{\min}$
    достигается при $|\varepsilon|<E_0$, и $|G_{\min}|\le G_+$ на $\Lambda$ для некоторого $G_+$.
-4. *Выбор $E$ и внутренняя зона.* Возьмём $E\ge\max\big(E_0,\ 8rC_B/a_{\min},\ (4(G_++1)/a_{\min})^{1/(2r)}\big)$ и
+4. *Выбор $E$ и внутренняя зона.* Возьмём $E\ge\max\big(1,\ E_0,\ 8rC_B/a_{\min},\ (4(G_++1)/a_{\min})^{1/(2r)}\big)$ и
    применим лемму N1 с этим $E$: при $|y|\le Es^{\gamma_*}$, то есть $y=s^{\gamma_*}\varepsilon$, $|\varepsilon|\le E$,
    $\varphi=s^{2r\gamma_*}\tilde U(\sigma,\theta,\varepsilon)$, $\sigma=s^{1/N}$, и $|\tilde U-\Phi_0|\le C_E\sigma$ ($\tilde U$ класса $C^1$ на компакте).
    Поэтому минимум $\varphi$ по внутренней зоне лежит в $s^{2r\gamma_*}[G_{\min}-C_E\sigma,\ G_{\min}+C_E\sigma]$.
 5. По п. 2 во внешней зоне $\varphi\ge(G_++1)s^{2r\gamma_*}\ge(G_{\min}+1)s^{2r\gamma_*}$. При $C_E\sigma<1$ и
-   $Es^{\gamma_*}\le y_1$ минимум по $|y|\le y_1$ достигается во внутренней зоне и равен
-   $s^{2r\gamma_*}(G_{\min}+O(\sigma))$. $\square$
+   $Es^{\gamma_*}\le y_1$ (это и определяет $s_2(y_1)$) все точки минимума по $|y|\le y_1$ лежат во внутренней зоне, и
+   минимум равен $s^{2r\gamma_*}(G_{\min}+O(\sigma))$ с константой $C=C_E$, не зависящей от $y_1$. $\square$
 
 ### Лемма N3 (ветви критических точек в слое) — [Доказано] по модулю теоремы Ньютона–Пюизё
 
@@ -186,10 +195,12 @@ $G_{\min}$ — инварианты дуги, не зависящие от па�
   сходящийся ряд Пюизё по $s$; его старший член — $s^jG_{\min}(\theta)$, если $G_{\min}(\theta)\ne0$ (лемма N2).
 
 *Доказательство.* $f(s,y):=\partial_y\varphi(s,\theta,y)$ аналитична около $(0,0)$ и
-$f(0,y)=y^{2r-1}\big(2ra(\theta,0)+O(y)\big)$ имеет порядок $2r-1$. По теореме Ньютона–Пюизё
-[Литература: стандартная; не сверено] при $0<s<s_3$ нули $f(s,\cdot)$ в $|y|<y_3$ с кратностями — это
-$2r-1$ значений сходящихся рядов Пюизё $\psi_k(s)$ (вообще говоря, с комплексными коэффициентами),
-$\psi_k(0)=0$. При $s>0$ функция $\operatorname{Im}\psi_k(s)$ — сходящийся вещественный ряд Пюизё: либо $\equiv0$,
+$f(0,y)=y^{2r-1}\big(2ra(\theta,0)+O(y)\big)$ имеет порядок $2r-1$. По подготовительной теореме Вейерштрасса
+$f=e\cdot W$, где $e(0,0)\ne0$, а $W$ — многочлен Вейерштрасса степени $2r-1$ по $y$; поэтому при $|s|<s_3$ у
+$f(s,\cdot)$ в $|y|<y_3$ ровно $2r-1$ нулей с кратностями. По теореме Ньютона–Пюизё [Литература:
+стандартная; Casas-Alvero, гл. 1 «Newton–Puiseux algorithm» — сверено только название главы, текст не
+сверен] при $0<s<s_3$ это значения сходящихся рядов Пюизё $\psi_k(s)$ (вообще говоря, с комплексными
+коэффициентами), $\psi_k(0)=0$. При $s>0$ функция $\operatorname{Im}\psi_k(s)$ — сходящийся вещественный ряд Пюизё: либо $\equiv0$,
 либо $\ne0$ при всех малых $s>0$; отсюда (a). (b): при $Es^{\gamma_*}\le y_1$ по п. 2 леммы N2
 $\varphi(s,\theta,\pm y_1)\ge\frac{a_{\min}}4y_1^{2r}>0$, а $\varphi(s,\theta,0)=B_0(s,\theta)\to0$; значит, при малых $s$ минимум
 достигается внутри и является критической точкой, то есть лежит на вещественной ветви. Разности
@@ -227,11 +238,14 @@ $\partial_\varepsilon\Phi_0(\theta,\varepsilon_0(\theta))=0$ и $\partial_\varep
 - **(d)** если $\hat G\equiv0$, то $\nabla U=0$ на поверхности $\{s\omega(\theta)+\eta^*(s,\theta)n(\theta)\}$, примыкающей к $0$:
   критическая точка $0$ неизолирована.
 
-*Доказательство.* (a) На компакте $\{|\sigma|\le\sigma_2,\ \theta\in\Lambda_1,\ |\varepsilon-\varepsilon_0(\theta)|\le e_2\}$ при малых $\sigma_2,e_2$
+*Доказательство.* Лемма N1 применяется с компактным $\Lambda\supset\Lambda_1$ и $E\ge\max_{\Lambda_1}|\varepsilon_0|+e_2+1$: тогда отрезки
+$[\varepsilon^*,\varepsilon^*+e]$ при $|e|\le1$ лежат в области (2.1) (это нужно и в (c) при $k=0$). (a) На компакте
+$\{|\sigma|\le\sigma_2,\ \theta\in\Lambda_1,\ |\varepsilon-\varepsilon_0(\theta)|\le e_2\}$ при малых $\sigma_2,e_2$
 по непрерывности $\partial_\varepsilon^2\tilde U\ge c_0>0$ и $\pm\partial_\varepsilon\tilde U(\sigma,\theta,\varepsilon_0\pm e_2)>0$; строгая выпуклость даёт
 единственную критическую точку (минимум), аналитическая теорема о неявной функции — её
 аналитичность (как в лемме K1 [008]). (b) Дифференцируя (2.1) по $\varepsilon$:
-$s^c\partial_\eta U(s\omega+s^c\varepsilon n)=s^\beta\partial_\varepsilon\tilde U$, это $0$ при $\varepsilon=\varepsilon^*$. Остальное — (2.1).
+$s^c\partial_\eta U(s\omega+s^c\varepsilon n)=s^\beta\partial_\varepsilon\tilde U$, это $0$ при $\varepsilon=\varepsilon^*$; локальный минимум — из
+$s^{2c}\partial_\eta^2U=s^\beta\partial_\varepsilon^2\tilde U>0$. Остальное — (2.1).
 (c) Формула Тейлора по $\varepsilon$ в точке $\varepsilon^*$ ($\partial_\varepsilon\tilde U=0$):
 $\tilde U(\sigma,\theta,\varepsilon^*+e_1)=\hat G+e_1^2M(\sigma,\theta,e_1)$. Подставим $e_1=\tau^ke$, $\sigma=\tau^2$:
 $s^\beta\tilde U=s^\beta\tau^{2k}[\hat G^{(k)}(\tau^2,\theta)+e^2M(\tau^2,\theta,\tau^ke)]$, $s^\beta\tau^{2k}=s^{\beta''}$, а $s^c\tau^ke=s^{c'}e$.
@@ -241,9 +255,11 @@ $s^\beta\tilde U=s^\beta\tau^{2k}[\hat G^{(k)}(\tau^2,\theta)+e^2M(\tau^2,\theta
 $\langle\nabla U,(s-k_g\eta^*)\ell+\eta^*_\theta n\rangle=0$, откуда $\langle\nabla U,\omega\rangle=\langle\nabla U,\ell\rangle=0$ (при малых $s$
 $s-k_g\eta^*\ne0$). Точки поверхности ненулевые и стремятся к $0$. $\square$
 
-Лемма N4(c) — аналог леммы K2 [008]: при невырожденном нормальном профиле итерации
-«сдвинуть на точное дно и перемасштабировать» сводят всё к случаю $G\not\equiv0$; по (d) у изолированной
-точки процесс останавливается.
+Лемма N4(c) — аналог леммы K2 [008]: при невырожденном нормальном профиле уточнение делается за
+**один** шаг (итераций не нужно: $\hat G$ — точное значение на дне), а по (d) у изолированной точки $\hat G\not\equiv0$.
+Это не значит, что условия теоремы N выполнены: $G_k$ может обращаться в нуль в нужной точке (пример
+R30: $\tilde U=(\varepsilon^2-1)^2+\sigma\theta\varepsilon+\sigma^2g$, ветвь $\varepsilon_0=1$, $\hat G=\sigma\theta+O(\sigma^2)$, $G_1=\theta$), и тогда каскад
+переходит в угловое направление (§7, п. 4).
 
 ### Определения: нормальный профиль и эффективный потенциал
 
@@ -256,7 +272,7 @@ $$P(\theta,e):=\Phi_0^{(\gamma)}(\theta,\varepsilon_0(\theta)+e)-G(\theta)=e^{2r
 $\varepsilon_0(0)$ функции $\Phi_0(0,\cdot)$: ветвь существует и аналитична по теореме о неявной функции), и
 **вырожден**, если $r'\ge2$. Если $\varepsilon_0(\theta)$ — точка глобального минимума $\Phi_0(\theta,\cdot)$, то $G=G_{\min}$.
 Примеры: у M1 $\gamma_*=\frac14$, $\Phi_0=\varepsilon^4+G(\phi)$, $\varepsilon_0=0$, $r'=r=2$ (вырожденный профиль $e^4$); у M2
-$\gamma_*=\frac13$, $\Phi_0=\varepsilon^4+f(\phi)\varepsilon$, минимум $\varepsilon^4+s f\,y$ (в переменной $y$) сдвинут в $y^*\sim s^{1/3}\varepsilon_0$, и после
+$\gamma_*=\frac13$, $\Phi_0=\varepsilon^4+f(\phi)\varepsilon$, минимум $y^4+s f\,y$ (в переменной $y$) сдвинут в $y^*\sim s^{1/3}\varepsilon_0$, и после
 сдвига профиль невырожден, $r'=1$ (§5).
 
 ## 3. Теорема 2″: расщепление поперечных переменных
@@ -290,7 +306,8 @@ $U$ **принадлежит классу (GT3″)**, если выполнен�
 асимптотическая траектория $q(t)=\Phi(x(t),u(t))$, $x(t)\downarrow0$, $-k_2x^{\beta/2}\le\dot x\le-k_1x^{\beta/2}$
 ($0<k_1\le k_2$), причём $b(t)\in\overline{\Omega_\delta}$ при всех $t\ge0$, где $\Omega_\delta$ — компонента связности множества
 $\{b\in B_{r_1}:\ Q(b)<2\delta\}$, содержащая $0$; в частности $|b'(t)|\le\sqrt{2\delta/\lambda_0}$ и $q_0(|b''(t)|)\le2\delta$.
-Равновесие неустойчиво по Ляпунову; $\beta\ge2$.
+Кроме того, для любой заданной функции $g:(0,s_0)\to[0,\infty)$ с $g(x)\to0$ при $x\to0$ траекторию можно выбрать
+так, что $g(x(t))\le\delta$ при всех $t\ge0$. Равновесие неустойчиво по Ляпунову; $\beta\ge2$.
 
 ### Доказательство
 
@@ -342,14 +359,15 @@ $$\frac{L_2\cdot2C_1\delta/\lambda_0}{\sqrt\delta}+4C_1\sqrt{\frac{2\delta}{\lam
 и (для п. 1 леммы 2′) $8\gamma_1'\delta$. Пусть $\delta_*\le\min(a_0/2,\delta_1)$ таково, что при $\delta\le\delta_*$ первое $\le\mu/8$, а
 $8\gamma_1'\delta\le\frac12\sqrt{a_0/h_1}$. Для данного $\delta\in(0,\delta_*]$ выберем $\sigma_*$ так, чтобы $\varepsilon_0\le\frac14$, $\varepsilon_1\le\frac\mu{16}$,
 $\frac{(L_1+L_2)\bar\varpi}{\sqrt\delta}+4\bar\varpi\le\frac\mu{16}$ и $4\sqrt\delta\,\bar\varpi\le\frac12\sqrt{a_0/h_1}$ (все эти величины стремятся к $0$ при
-$\sigma_*\to0$ и фиксированном $\delta$). Тогда условие п. 1 леммы 2′ выполнено
+$\sigma_*\to0$ и фиксированном $\delta$); уменьшив $\sigma_*$ ещё, добьёмся и $\sup_{x<\sigma_*}g(x)\le\delta$ (все условия на $\sigma_*$ —
+оценки сверху; аналог условия $\sigma_*\le\sqrt\delta$ в [008], §9, п. 5). Тогда условие п. 1 леммы 2′ выполнено
 ($4\sqrt\delta(\theta_1+2\gamma_1'\sqrt\delta)\le\sqrt{a_0/h_1}$), $\varepsilon_0\le\frac12$, и скобка в (8.1) [008] не меньше
 $\frac\mu2\cdot\frac34-\frac\mu{16}-\frac\mu8-\frac\mu{16}=\frac\mu8>0$.
 
 *Шаг 6.* Лемма 2′ [008] даёт (D4), (A4), (A5); теорема A [007] — решение $(q(t),v(t))\in\overline\Omega$, $q(t)\ne0$,
 $q(t)\to0$, $v(t)\to0$, и неустойчивость (шаг 6 теоремы A). Как в шаге 6 [007], п. 3: $q(t)\in D_{\sigma_*}$,
 $q=\Phi(x,u)$, $x=\rho(q)$, и п. 1 леммы 2′ даёт $-k_2x^{\beta/2}\le\dot x\le-k_1x^{\beta/2}$ с $k_1=\frac12\sqrt{a_0/h_1}$,
-$k_2=\sqrt{2(a_0+\delta/2)/h_0}+k_1$; $b(t)\in\overline{\Omega_\delta}$ (как в п. 4 [007]). $\beta\ge2$ — как п. 1 шага 6 [007]: там
+$k_2=\sqrt{2(a_0+\delta/2)/h_0}+k_1$; $b(t)\in\overline{\Omega_\delta}$ (как в п. 4 [007]); $x(t)<\sigma_*$, поэтому $g(x(t))\le\delta$. $\beta\ge2$ — как п. 1 шага 6 [007]: там
 используются только $(\Phi0)$, $|\partial_x\Phi|=\sqrt h\le\sqrt{3/2}$ и $U\in C^2$. $\square$
 
 **Замечание 3.1.** Препятствие R3 из [007] (замечание 7: при $C_1>0$ и $Q\sim|b|^4$ член $\theta_2/\sqrt\delta$ не мал)
@@ -362,13 +380,15 @@ $k_2=\sqrt{2(a_0+\delta/2)/h_0}+k_1$; $b(t)\in\overline{\Omega_\delta}$ (как 
 ### 4.1. Данные и формулировка
 
 **(NF) — нормальная форма оврага над дугой.** Дуга $\omega$, репер (1.1), $\theta_K$, $t_1$ — как в 1.1. Заданы
-$N\in\mathbb N$, $c>1$, $\beta>0$, $\theta_1\in(0,\theta_K)$, $\sigma_1>0$, $e_1>0$ и функции
+$N\in\mathbb N$, $c>1$, $\beta>0$, $\Theta\in(0,\theta_K)$, $\sigma_1>0$, $e_1>0$ и функции
 
-- $y_0\in C^2\big([0,\sigma_1]\times[-\theta_1,\theta_1]\big)$ (односторонние производные при $\sigma=0$), $y_0(0,\theta)=0$;
-- $\tilde F:[0,\sigma_1]\times[-\theta_1,\theta_1]\times[-e_1,e_1]\to\mathbb R$, непрерывная вместе с $\partial_\theta\tilde F$, $\partial_e\tilde F$, причём
-  $\sup_{\theta,e}|\sigma\partial_\sigma\tilde F(\sigma,\theta,e)|\to0$ при $\sigma\to0$,
+- $y_0\in C^2\big([0,\sigma_1]\times[-\Theta,\Theta]\big)$ (односторонние производные при $\sigma=0$), $y_0(0,\theta)=0$;
+- $\tilde F:[0,\sigma_1]\times[-\Theta,\Theta]\times[-e_1,e_1]\to\mathbb R$, непрерывная вместе с $\partial_\theta\tilde F$, $\partial_e\tilde F$, причём
+  $\sup_{\theta,e}|\sigma\partial_\sigma\tilde F(\sigma,\theta,e)|\to0$ при $\sigma\to0$ (производная $\partial_\sigma\tilde F$ при $\sigma>0$ существует
+  автоматически: из (NF) $\tilde F=\sigma^{-N\beta}U(\dots)$, а $U\in C^2$, $y_0\in C^2$),
 
-такие, что при $0<s\le\sigma_1^N$, $|\theta|\le\theta_1$, $|e|\le e_1$
+такие, что при $0<s\le\sigma_1^N$, $|\theta|\le\Theta$, $|e|\le e_1$ (полуширину интервала по $\theta$ обозначаем $\Theta$, чтобы не
+путать с константами $\theta_1,\theta_2,\theta_3$ леммы 2′)
 $$U\Big(s\,\omega(\theta)+\big(s\,y_0(s^{1/N},\theta)+s^c e\big)\,n(\theta)\Big)=s^\beta\,\tilde F\big(s^{1/N},\theta,e\big). \tag{NF}$$
 Обозначим $\eta_0(s,\theta):=s\,y_0(s^{1/N},\theta)$ (**приближённое дно**).
 
@@ -386,8 +406,8 @@ $q_0(t)=\frac{\mathsf p_0}2t^{2r'}$. Следовательно, есть $\delt
 $$q(t)=s(t)\,\omega(\theta(t))+\big(\eta_0(s(t),\theta(t))+s(t)^c e(t)\big)\,n(\theta(t)),\qquad s(t)\downarrow0,\quad-k_2s^{\beta/2}\le\dot s\le-k_1s^{\beta/2},$$
 $$|\theta(t)|\le\sqrt{2\delta/\lambda_0},\qquad \mathsf p_0\,|e(t)|^{2r'}\le4\delta ,$$
 и равновесие неустойчиво по Ляпунову. При $\beta>2$ $s(t)\asymp t^{-2/(\beta-2)}$. Траектория касается конуса
-над дугой ($\operatorname{dist}(q,\mathbb R_+\omega(\theta))\le|\eta_0|+s^c|e|=o(|q|)$) и лежит в конусе раствора $O(\sqrt\delta)$ вокруг
-луча $\mathbb R_+\omega^*$.
+над дугой ($\operatorname{dist}(q,\mathbb R_+\omega(\theta))\le|\eta_0|+s^c|e|=o(|q|)$), и её можно выбрать в конусе раствора
+$O(\sqrt\delta)$ вокруг луча $\mathbb R_+\omega^*$: $\big|q(t)/|q(t)|-\omega^*\big|\le\sqrt\delta+\sqrt{2\delta/\lambda_0}$ при всех $t\ge0$.
 
 Ни аналитичность $U$, ни изолированность критической точки здесь не предполагаются; ни $r$
 (нормальная кратность $u_m$), ни сама $u_m$ в формулировке не участвуют — всё в (NF), (G).
@@ -418,7 +438,7 @@ $\eta_0\in C^2$ при $s>0$).
 
 ### 4.3. Малые величины
 
-**Лемма N5** [Доказано]. Пусть $r_0\le\min(\theta_1/2,e_1,\frac14)$. На множестве
+**Лемма N5** [Доказано]. Пусть $r_0\le\min(\Theta/2,e_1,\frac14)$. На множестве
 $\{0<s<\sigma_1^N,\ |\theta|\le r_0,\ |\zeta|\le r_0s^c\}$ величины
 $$\frac{\eta}s,\ \epsilon,\ \nu,\ \eta_{0,s},\ \frac{\eta_{0,\theta}}s,\ \partial_\theta\epsilon,\ s\partial_s\epsilon,\ \partial_\theta\nu,\ s\partial_s\nu,\ x\partial_x\epsilon,\ x\partial_x\nu$$
 стремятся к $0$ при $s\to0$ равномерно по $(\theta,\zeta)$.
@@ -432,17 +452,20 @@ $\partial_\theta\nu=\eta_{0,s\theta}-\kappa\eta_{0,\theta}/s-\kappa\theta\eta_{0
 $x\partial_x\epsilon=-\kappa\theta k_g'\eta/x+k_g\nu-\epsilon\to0$; $x\partial_x\nu=s\partial_s\nu-\kappa\theta\partial_\theta\nu\to0$ ($k_g,k_g'$ ограничены). $\square$
 
 Пусть $\varpi_1(x)$ — супремум суммы модулей восьми величин $\epsilon,\nu,\partial_\theta\epsilon,s\partial_s\epsilon,\partial_\theta\nu,s\partial_s\nu,x\partial_x\epsilon,x\partial_x\nu$ по
-$\{s\le x\}$; $\varpi_1\to0$. Положим $\varpi:=10(1+\bar k_g)\varpi_1$, $\bar k_g:=\max_{|\theta|\le\theta_1}|k_g|$.
+$\{s\le x\}$; $\varpi_1\to0$. Положим $\varpi:=10(1+\bar k_g)\varpi_1$, $\bar k_g:=\max_{|\theta|\le\Theta}|k_g|$.
 
 ### 4.4. Доказательство теоремы N
 
-*Порядок выбора констант.* $\kappa$ — по (4.0); $r_1$ — по п. 7 ниже (не зависит от $\kappa\le\frac12$); затем
-$r_0\in(r_1,\min(\theta_1/2,e_1,\frac14)]$; затем $s_0<\sigma_1^N$ так, что на $\mathcal N=\{0<x<s_0,\ |b|<r_0\}$:
+*Порядок выбора констант.* $\kappa$ — по (4.0); $r_1$ — по п. 7 ниже (не зависит от $\kappa\le\frac12$), причём
+$r_1<\min(\Theta/2,e_1,\frac14)$ и квадрат $\{|\theta|,|e|\le r_1\}$ лежит в окрестности $(0,0)$, где $\mathsf p\in C^1$ и $G\in C^2$
+(уменьшение $r_1$ ничего не портит); затем $r_0\in(r_1,\min(\Theta/2,e_1,\frac14)]$; затем $s_0<\sigma_1^N$ так, что на
+$\mathcal N=\{0<x<s_0,\ |b|<r_0\}$:
 $|\epsilon|\le\frac14$, $|\nu|\le\frac14$, $|\eta_{0,s}|+\frac43|\eta_{0,\theta}|/x\le1$, $|\eta|<\min(t_1,\frac14)\,x$ (лемма N5) и образ лежит в $B_r$.
 
 1. **$(\Phi0)$.** $\Phi=\Pi\circ T\circ L$, где $L(x,u,\zeta)=(x,ux^{-\kappa},\zeta)$ — $C^\infty$-диффеоморфизм $\{x>0\}\times\mathbb R^2$ на себя,
-   $T(s,\theta,\zeta)=(s,\theta,\eta_0(s,\theta)+\zeta)$ — $C^2$-диффеоморфизм $\{s>0,|\theta|<\theta_1\}\times\mathbb R$ на себя (обратный
-   $(s,\theta,\eta)\mapsto(s,\theta,\eta-\eta_0)$; $\eta_0\in C^2$ при $s>0$, так как $s\mapsto s^{1/N}$ аналитично), а $T(L(\mathcal N))\subset\mathcal P$ по
+   $T(s,\theta,\zeta)=(s,\theta,\eta_0(s,\theta)+\zeta)$ — $C^2$-диффеоморфизм $\{0<s<\sigma_1^N,|\theta|<\Theta\}\times\mathbb R$ на себя (обратный
+   $(s,\theta,\eta)\mapsto(s,\theta,\eta-\eta_0)$; $\eta_0$ задана при $s\le\sigma_1^N$ и класса $C^2$ при $s>0$, так как $s\mapsto s^{1/N}$
+   аналитично), а $T(L(\mathcal N))\subset\mathcal P$ по
    выбору $s_0$; $\Pi$ — аналитический диффеоморфизм $\mathcal P$ на открытое множество (лемма K3 [008]).
    $|\Phi|^2=x^2+\eta^2$, $|\eta|\le x/4$, так что $x\le|\Phi|\le2x$.
 2. **$(\Phi1')$.** По (4.3) $1\le h\le1+\frac14\cdot\frac1{16}\cdot\frac{25}{16}+\frac1{16}<\frac32$.
@@ -461,7 +484,7 @@ $|\epsilon|\le\frac14$, $|\nu|\le\frac14$, $|\eta_{0,s}|+\frac43|\eta_{0,\theta}
 
    Итого $|\mathcal E_r|\le\big[(\frac{11}3\kappa\bar k_g+\frac5{16}\kappa^2)|\theta|+6(1+\bar k_g)\varpi_1\big]|w|^2\le(C_1|\theta|+\varpi)|w|^2$, и
    $x\langle w,D_wY\rangle\ge-(C_1|b'|+\varpi)|w|^2$.
-6. **(F).** $U(\Phi(x,u,\zeta))=U\big(x\omega(\theta)+(\eta_0(x,\theta)+x^ce)n(\theta)\big)=x^\beta\tilde F(x^{1/N},\theta,e)$ по (NF) ($|\theta|<r_0\le\theta_1$,
+6. **(F).** $U(\Phi(x,u,\zeta))=U\big(x\omega(\theta)+(\eta_0(x,\theta)+x^ce)n(\theta)\big)=x^\beta\tilde F(x^{1/N},\theta,e)$ по (NF) ($|\theta|<r_0\le\Theta$,
    $|e|<r_0\le e_1$). $F(\varsigma,b):=\tilde F(\varsigma,\theta,e)$ непрерывна с $\nabla_bF$ на $[0,s_0^{1/N})\times B_{r_0}$, и $\sup|\varsigma\partial_\varsigma F|\to0$.
 7. **$(V'')$.** $F_0(\theta,e)=G(\theta)+e^{2r'}\mathsf p(\theta,e)$, $F_0(0)=-a_0<0$, $Q=G(\theta)-G(0)+e^{2r'}\mathsf p$. Возьмём $r_1$ так, что при
    $|\theta|,|e|<r_1$: $G(\theta)-G(0)\ge\frac14G''(0)\theta^2$ и $\theta G'(\theta)-(G(\theta)-G(0))\ge\frac14G''(0)\theta^2$ (обе левые части равны
@@ -476,9 +499,12 @@ $|\epsilon|\le\frac14$, $|\nu|\le\frac14$, $|\eta_{0,s}|+\frac43|\eta_{0,\theta}
    $q_s=s\omega^*+\eta_0(s,0)n$ имеет $|q_s|\le2s$, а $U(q_s)=s^\beta\tilde F(s^{1/N},0,0)$ и $\tilde F(\sigma,0,0)\to G(0)\ne0$; так как
    $|U(q)|\le M|q|^2$ около $0$ ($U\in C^2$, $U(0)=0$, $\nabla U(0)=0$), то $s^\beta|G(0)|/2\le4Ms^2$ при малых $s$, откуда $\beta\ge2>\kappa$.
 
-Условия класса (GT3″) выполнены; теорема 2″ даёт траекторию $q=\Phi(x,u,\zeta)=x\omega(\theta)+(\eta_0+x^ce)n(\theta)$ с
-$b(t)\in\overline{\Omega_\delta}$: $|\theta|\le\sqrt{2\delta/\lambda_0}$, $\frac{\mathsf p_0}2|e|^{2r'}\le2\delta$. Расстояние до луча $\mathbb R_+\omega(\theta)$ не больше $|\eta|=o(x)$,
-а $|\omega(\theta)-\omega^*|\le|\theta|$. $\square$
+Условия класса (GT3″) выполнены. Применим теорему 2″ с функцией
+$g(x):=\big(\sup_{|\theta|\le r_0}|y_0(x^{1/N},\theta)|+r_0x^{c-1}\big)^2\to0$ (лемма N5). Она даёт траекторию
+$q=\Phi(x,u,\zeta)=x\omega(\theta)+(\eta_0+x^ce)n(\theta)$ с $b(t)\in\overline{\Omega_\delta}$: $|\theta|\le\sqrt{2\delta/\lambda_0}$, $\frac{\mathsf p_0}2|e|^{2r'}\le2\delta$, и
+$|\eta|/x\le|y_0|+r_0x^{c-1}\le\sqrt{g(x)}\le\sqrt\delta$. Расстояние до луча $\mathbb R_+\omega(\theta)$ не больше $|\eta|=o(x)$. Конус: так
+как $q=x\omega(\theta)+\eta n(\theta)$ и $\omega\perp n$, $\big|q/|q|-\omega(\theta)\big|^2=2-2/\sqrt{1+(\eta/x)^2}\le(\eta/x)^2$, а $|\omega(\theta)-\omega^*|\le|\theta|$
+(единичная скорость); отсюда $\big|q/|q|-\omega^*\big|\le\sqrt\delta+\sqrt{2\delta/\lambda_0}$. $\square$
 
 **Замечание 4.1 (что изменилось по сравнению с K2 [008]).** (i) Профиль по $e$ может быть вырожденным
 ($r'\ge2$); (ii) дно $\eta_0$ — функция от $s^{1/N}$, а не аналитическая по $s$; (iii) $\lambda_0=G''(0)/4$ вместо
@@ -488,14 +514,14 @@ $\frac14\min(G''(0),h_n(0))$: нормальная жёсткость в (U2) н
 ### 4.5. Следствия
 
 **Следствие N′ (аналитический $U$, данные Ньютона)** [Доказано]. Пусть $U$ аналитична, дуга — как в
-1.1, $\gamma>0$ рационально, $\Phi_0=\Phi_0^{(\gamma)}$, и на $[-\theta_1,\theta_1]$ есть ветвь $\varepsilon_0\in C^2$ постоянной кратности (E) с
+1.1, $\gamma>0$ рационально, $\Phi_0=\Phi_0^{(\gamma)}$, и на $[-\Theta,\Theta]$ есть ветвь $\varepsilon_0\in C^2$ постоянной кратности (E) с
 $G(\theta)=\Phi_0(\theta,\varepsilon_0(\theta))$, $G(0)<0$, $G'(0)=0<G''(0)$. Тогда выполнены (NF), (G) с $\beta=m+\beta'(\gamma)$, $c=1+\gamma$,
 $N$ — знаменатель $\gamma$, $y_0(\sigma,\theta)=\sigma^{N\gamma}\varepsilon_0(\theta)$, $\tilde F(\sigma,\theta,e)=\tilde U(\sigma,\theta,\varepsilon_0(\theta)+e)$, и по теореме N есть
 асимптотическая траектория. При $r'=1$ достаточно, чтобы $\varepsilon_0(0)$ была невырожденным локальным
 минимумом $\Phi_0(0,\cdot)$, а условия на $G$ выполнялись для ветви, продолженной по теореме о неявной
 функции. Типичный выбор — $\gamma=\gamma_*$ (первое ребро) при условии (M).
 
-*Доказательство.* Лемма N1 с $\Lambda=[-\theta_1,\theta_1]$ и $E\ge\max|\varepsilon_0|+e_1$: (2.1) при $\varepsilon=\varepsilon_0(\theta)+e$ — это
+*Доказательство.* Лемма N1 с $\Lambda=[-\Theta,\Theta]$ и $E\ge\max|\varepsilon_0|+e_1$: (2.1) при $\varepsilon=\varepsilon_0(\theta)+e$ — это
 (NF), так как $s^{1+\gamma}(\varepsilon_0+e)=s\cdot s^\gamma\varepsilon_0+s^ce$ и $s^\gamma=\sigma^{N\gamma}$. $y_0\in C^2$, $y_0(0,\cdot)=0$ ($N\gamma\ge1$).
 $\tilde F$ непрерывна, $\partial_\theta\tilde F=\partial_\theta\tilde U+\partial_\varepsilon\tilde U\,\varepsilon_0'$ и $\partial_e\tilde F=\partial_\varepsilon\tilde U$ непрерывны, $\sigma\partial_\sigma\tilde F=\sigma\partial_\sigma\tilde U\to0$.
 $\tilde F(0,\theta,e)=\Phi_0(\theta,\varepsilon_0+e)=G+e^{2r'}\mathsf p$ по (E) и формуле Тейлора многочлена; $\mathsf p$ — многочлен по $e$ с
@@ -563,7 +589,9 @@ $\tilde F_U(0,\cdot)$. $\square$
 - Константы (4.0): в $\phi^*$ $a_0=0.54439$, $\lambda_0=0.73683$, $\kappa\le0.01778$; в $\frac\pi2$ $a_0=0.47247$, $\lambda_0=0.62996$, $\kappa\le0.01752$.
 - **Вывод** [Доказано]: по следствию N′ (с $r'=1$) у M2 есть асимптотические траектории вдоль четырёх
   направлений $\pm\omega(\phi^*)$, $\pm e_y$: $q=s\omega(\theta)+s^{4/3}(\varepsilon_0(\phi)+e)e_z$, $|\theta|\le\sqrt{2\delta/\lambda_0}$,
-  $|e|\le\sqrt{2\delta/3}\,/|\varepsilon_0(\phi^*)|$ ($\mathsf p_0=6\varepsilon_0^2$). Невырожденный профиль: здесь годится и теорема 2′ [008].
+  $|e|\le\sqrt{2\delta/3}\,/|\varepsilon_0(\phi^\circ)|$, где $\mathsf p_0=6\varepsilon_0(\phi^\circ)^2$ берётся в той точке $\phi^\circ$, вдоль которой строится
+  траектория ($\varepsilon_0(\phi^*)=-0.652674$, $\varepsilon_0(\frac\pi2)=-4^{-1/3}$). Невырожденный профиль: здесь годится и
+  теорема 2′ [008].
 
 ### 5.3. Сравнение с численными данными [Эксперимент]
 
@@ -593,16 +621,18 @@ $\tilde F_U(0,\cdot)$. $\square$
   изолированность не используются. Вся «конечность типа» — в (NF), (G): вдоль дна
   $U=s^\beta(G(\theta)+o(1))$ с $G(0)<0$, поперёк — степенные стенки с запасом Эйлера.
 - **Следствие N″** делает это явным: условия теоремы N — условия на конечную струю $j^KU$, $K+1>\beta$, и
-  для $U\in C^{K+1}$ они достаточны. С гладкими контрпримерами (Пенлеве–Уинтнер, Лалуа; по
-  `problem/KNOWN_RESULTS.md`, с первоисточниками не сверено) это не конфликтует: у них никакая конечная
-  струя не даёт ветви с $G(0)<0$. Пример Уреньи касается тотальной неустойчивости; теорема N даёт одну
-  асимптотическую траекторию.
+  для $U\in C^{K+1}$ они достаточны. [Эскиз] С гладкими контрпримерами (Пенлеве–Уинтнер, Лалуа; по
+  `problem/KNOWN_RESULTS.md`, с первоисточниками не сверено) это не конфликтует: в известных
+  формулировках у них все струи потенциала в нуле нулевые (плоские функции), так что никакая
+  конечная струя не даёт ветви с $G(0)<0$; конструкции по первоисточникам не проверялись. Пример
+  Уреньи касается тотальной неустойчивости; теорема N даёт одну асимптотическую траекторию.
 - **Аналитичность работает** (i) в лемме N1: сходимость $\tilde U$ и непрерывность при $\sigma=0$ (это даёт (F)); (ii) в
   леммах N2–N4: описание дна, каноничность $j$ и $G_{\min}$, ветви Пюизё; (iii) в утверждениях «процесс
   останавливается»: если $(i,l)\in\mathcal S$ с $l<2r$ нет, то $\varphi=y^{2r}A$, $U(s\omega+\eta n)=s^{m-2r}\eta^{2r}A$ и $\nabla U=0$ на
   конусе над дугой (производная по $\eta$ — от $\eta^{2r}$, $2r\ge2$; вдоль конуса $U\equiv0$); если в лемме N4 $\hat G\equiv0$, то
-  по N4(d) — поверхность критических точек. Для $C^\infty$ обе альтернативы ломаются: коэффициенты
-  $\varphi_{il}$ могут быть «плоскими», и тогда нет ни конечного $\gamma_*$ или $k$, ни критического множества.
+  по N4(d) — поверхность критических точек. [Эскиз] Для $C^\infty$ обе альтернативы ломаются: к $U$ можно
+  добавить плоскую функцию (например, $z^4+e^{-1/(x^2+y^2)}g$, пример R30), не меняющую коэффициентов Тейлора,
+  и тогда $\gamma_*=\infty$ (или $k=\infty$) уже не влечёт существования критического конуса (поверхности).
 - **Изолированность** используется только в (iii): у изолированной критической точки $\gamma_*<\infty$, и
   уточнение леммы N4(c) останавливается. Ни в теореме N, ни в примерах она не нужна (M1, M2
   изолированы, но это не используется).
@@ -635,10 +665,12 @@ $\tilde F_U(0,\cdot)$. $\square$
 4. **Угловые каскады** ($G\ge0$ с нулями) и $G\equiv{\rm const}<0$ на замкнутой $\Sigma_0$ — как в замечании 6 [008].
 5. **Особые точки $\Sigma$** и точечные компоненты с вырожденным нормальным гессианом (типа $x^4+y^4-z^6$, P1):
    для последних, по-видимому, работает уже случай $(V_0)$ теоремы 2 [007] с прямой картой ([Гипотеза]:
-   так прочитано в valleys README; здесь не проверялось). Формально теорема 2″ с $I'=\varnothing$ тоже их
-   охватывает при коэрцитивном профиле с неравенством Эйлера.
-6. **Сведение (A) к «задаче на дне».** Пусть $u_m\ge0$ и $\Sigma$ — объединение конечного числа замкнутых гладких
-   кривых, вдоль каждой из которых выполнено (M). [Доказано, элементарно, по лемме N2 и рассуждению
+   так прочитано в valleys README; здесь не проверялось). [Эскиз] В определении (GT3″) оба множества $I'$, $I''$
+   непусты; однако доказательство теоремы 2″ проходит и при $I'=\varnothing$ (тогда $R'=0$, $\gamma_1=\gamma_2=C_1=0$,
+   $\delta_1=q_0(r_1/4)/2$, условие на $\lambda_0$ и (U2) отпадают), и такой вариант охватил бы точечные компоненты
+   с коэрцитивным профилем и неравенством Эйлера. Отдельно это не выписано.
+6. **Сведение (A) к «задаче на дне».** [Эскиз] Пусть $u_m\ge0$ и $\Sigma$ — объединение конечного числа замкнутых гладких
+   кривых, вдоль каждой из которых выполнено (M). [Набросок по лемме N2 и рассуждению
    K4(c) [008]: вне трубок $\{s\omega+\eta n:\ |\eta|<y_1s\}$ направления отделены от $\Sigma$, там $u_m\ge c|q|^m$ и $U>0$; в
    трубке $U\ge F_{\rm fl}$ по определению; трубки замкнутых кривых — по лемме K3 [008] для периодического
    $\theta$.] Тогда $0$ — локальный минимум $U$ тогда и только тогда, когда $F_{\rm fl}(s,\theta)\ge0$ при малых $s>0$ на всех
@@ -662,3 +694,29 @@ $\tilde F_U(0,\cdot)$. $\square$
   вдоль потока; 120 точек множества выхода на каждую строку, 16 направлений $v_\perp$, контроль
   $|V-\delta\rho^\beta|/(\delta\rho^\beta)<10^{-15}$ в каждой точке; запуск `exit_nm.py M1`, `exit_nm.py M2`, `exit_nm.py M2 deep`
   (mpmath 30/50 знаков, $x$ до $10^{-31}$).
+- Независимые проверки рецензентов [Эксперимент]: `experiments/reviewer/normal-mult-R30/` (R30: носители и
+  $\gamma_*$, функция дна, лемма N4) и `experiments/reviewer/normal-mult-R31/` (R31: формулы карты, константы,
+  оценки $(\Phi2'')$, $(\Phi3'')$, примеры).
+
+## 9. Вторая редакция: правки по отзывам R30, R31
+
+Математика основных утверждений не менялась; оба рецензента ошибок не нашли.
+
+**R30** (`notes/reviewer/2026-10-21-normal-mult-A.md`, §1–§2):
+З1 — в лемме N2 $E\ge1$ включено в максимум; З2 — инвариантность $j$, $G_{\min}$ обоснована через зависимость
+$\varphi$ только от точки дуги и нормали (с точностью до знака), добавлено, что $F_{\rm fl}$ при малых $s$ не зависит от
+$y_1$ и что по $F_{\rm fl}$ показатель $j$ восстанавливается лишь при $G_{\min}\not\equiv0$; З3 — оговорка о различии $j$
+здесь (первое ребро) и в [008] (первый ненулевой $g_k$); З4 — $2\rho_s<R_0/3$ в лемме N1; З5 — выбор $\Lambda\supset\Lambda_1$ и
+$E$ в лемме N4; З6 — подготовительная теорема Вейерштрасса в лемме N3, уточнена сверка литературы; З7 —
+замечание после N4: уточнение делается за один шаг, $G_k$ может обращаться в нуль в нужной точке
+(пример R30); З8 — опечатка $y^4+sf\,y$; З9 — наклон в координатах $(l,i)$; З10 — дуга вложенная (нужно
+для леммы K3); З11 — порядок кванторов в лемме N2.
+
+**R31** (`notes/reviewer/2026-10-21-normal-mult-B.md`, §3–§5):
+1 — в теорему 2″ добавлено условие $g(x(t))\le\delta$ для любой заданной $g\to0$ (уменьшение $\sigma_*$, аналог
+$\sigma_*\le\sqrt\delta$ в [008]); в теореме N из него выведена оценка конуса
+$|q/|q|-\omega^*|\le\sqrt\delta+\sqrt{2\delta/\lambda_0}$; 2 — порядок констант в §4.4 ($r_1<\min(\Theta/2,e_1,\frac14)$, квадрат
+$|\theta|,|e|\le r_1$ внутри области (G)); 3 — область определения $T$; 4 — полуширина интервала в (NF)
+переименована $\theta_1\to\Theta$; 5 — существование $\partial_\sigma\tilde F$ при $\sigma>0$; 6 — оценка $|e|$ для направления $e_y$ в
+M2; 7 — фраза §0 о $G''+jG=0$; 8 — статус [008] в шапке; 9 — метки [Эскиз] в §6 (гладкие контрпримеры);
+10 — §7, п. 5 согласован с определением (GT3″), вариант $I'=\varnothing$ помечен [Эскиз]; 11 — §7, п. 6 помечен [Эскиз].
