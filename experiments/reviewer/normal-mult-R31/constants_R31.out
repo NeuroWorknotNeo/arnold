@@ -1,0 +1,8 @@
+L1 - 3 beta sqrt(3a0/2) = 0 ; L2 - 4 sqrt(a0) = 0
+Gamma'(delta=a0/2) - Gamma_* = 0
+delta-only terms - C1 sqrt(delta)(8 sqrt(a0)/lam0 + 4 sqrt2/sqrt(lam0)) = 0
+bracket lower bound = mu/8
+h upper bound = 1113/1024 < 3/2
+theta coefficient = kappa*(15*kappa + 176*kbar)/48 ;  C1 - coef = kappa*(60*kappa*kbar + 45*kappa + 16*kbar)/48
+Euler identity diff = 0
+bound - Gamma_* = 2*sqrt(2)*sqrt(a0)*kappa**2/sqrt(lambda0) (= 2 sqrt2 kappa^2 sqrt(a0/lam0) >= 0)

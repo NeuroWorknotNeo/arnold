@@ -1,0 +1,25 @@
+Psi_s                        OK
+Psi_th                       OK
+Psi_z                        OK
+Y (4.3)                      OK
+h (4.3)                      OK
+x Phi_xx (4.4)               OK
+x d_x eps                    OK
+d eta/dx = nu                OK
+d_theta Y (4.5)              OK
+d_s Y (4.5)                  OK
+d_zeta Y (4.5)               OK
+s d_s eps                    OK
+w decomposition              OK
+(4.6)                        OK
+w perp Y => w_omega          OK
+N5 eta0_s                    OK
+N5 eta0_th/s                 OK
+N5 s eta0_ss                 OK
+N5 eta0_sth                  OK
+N5 eta0_thth/s               OK
+N5 d_th nu                   OK
+N5 s d_s nu                  OK
+N5 d_th eps                  OK
+N5 x d_x nu                  OK
+ALL OK
