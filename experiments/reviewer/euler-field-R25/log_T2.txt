@@ -1,0 +1,66 @@
+--- T2 nested tree: d=8, N=2
+b1=   0.0316  min xi.logQ=       8.0 (b2=-9.968)  max|grad c|=   7.73221 (b2=0.03262) fd-err=6.38e-54
+b1=     0.01  min xi.logQ=       8.0 (b2=-0.99)  max|grad c|=   7.60337 (b2=0.0101) fd-err=5.66e-52
+b1=  0.00316  min xi.logQ=       8.0 (b2=-0.2371)  max|grad c|=   7.56181 (b2=0.003172) fd-err=5.43e-50
+b1=    0.001  min xi.logQ=       8.0 (b2=-0.1778)  max|grad c|=    7.5486 (b2=0.001001) fd-err=5.37e-48
+b1= 0.000316  min xi.logQ=       8.0 (b2=-0.1334)  max|grad c|=   7.54441 (b2=0.0003163) fd-err=5.34e-46
+b1=   0.0001  min xi.logQ=       8.0 (b2=-0.1)  max|grad c|=   7.54309 (b2=0.0001) fd-err=5.34e-44
+b1=  3.16e-5  min xi.logQ=       8.0 (b2=-0.07499)  max|grad c|=   7.54267 (b2=3.162e-5) fd-err=5.33e-42
+b1=   1.0e-5  min xi.logQ=       8.0 (b2=-0.05623)  max|grad c|=   7.54253 (b2=1.0e-5) fd-err=5.33e-40
+b1=  3.16e-6  min xi.logQ=       8.0 (b2=-0.04217)  max|grad c|=   7.54249 (b2=3.162e-6) fd-err=5.33e-38
+b1=   1.0e-6  min xi.logQ=       8.0 (b2=-0.03162)  max|grad c|=   7.54248 (b2=1.0e-6) fd-err=5.33e-36
+b1=  -0.0316  min xi.logQ=       8.0 (b2=-10.03)  max|grad c|=   7.34515 (b2=-0.03062) fd-err=5.31e-54
+b1=    -0.01  min xi.logQ=       8.0 (b2=-1.01)  max|grad c|=   7.48082 (b2=-0.0099) fd-err=5.33e-52
+b1= -0.00316  min xi.logQ=       8.0 (b2=0.2371)  max|grad c|=   7.52306 (b2=-0.003152) fd-err=5.33e-50
+b1=   -0.001  min xi.logQ=       8.0 (b2=0.1778)  max|grad c|=   7.53634 (b2=-0.000999) fd-err=5.33e-48
+b1=-0.000316  min xi.logQ=       8.0 (b2=0.1334)  max|grad c|=   7.54053 (b2=-0.0003161) fd-err=5.33e-46
+b1=  -0.0001  min xi.logQ=       8.0 (b2=0.1)  max|grad c|=   7.54186 (b2=-9.999e-5) fd-err=5.33e-44
+b1= -3.16e-5  min xi.logQ=       8.0 (b2=0.07499)  max|grad c|=   7.54228 (b2=-3.162e-5) fd-err=5.33e-42
+b1=  -1.0e-5  min xi.logQ=       8.0 (b2=0.05623)  max|grad c|=   7.54241 (b2=-1.0e-5) fd-err=5.33e-40
+b1= -3.16e-6  min xi.logQ=       8.0 (b2=0.04217)  max|grad c|=   7.54245 (b2=-3.162e-6) fd-err=5.33e-38
+b1=  -1.0e-6  min xi.logQ=       8.0 (b2=0.03162)  max|grad c|=   7.54247 (b2=-1.0e-6) fd-err=5.33e-36
+    overall: min xi.logQ = 8.0, max|grad c| = 7.73221
+--- T2 nested tree: d=8, N=8
+b1=   0.0316  min xi.logQ=       8.0 (b2=10.03)  max|grad c|=   31.0355 (b2=0.03262) fd-err=9.43e-52
+b1=     0.01  min xi.logQ=       8.0 (b2=1.01)  max|grad c|=   30.4532 (b2=0.0101) fd-err=8.37e-50
+b1=  0.00316  min xi.logQ=       8.0 (b2=-0.2371)  max|grad c|=   30.2604 (b2=0.003172) fd-err=8.04e-48
+b1=    0.001  min xi.logQ=       8.0 (b2=-0.1778)  max|grad c|=   30.1986 (b2=0.001001) fd-err=7.94e-46
+b1= 0.000316  min xi.logQ=       8.0 (b2=-0.1334)  max|grad c|=    30.179 (b2=0.0003163) fd-err=7.91e-44
+b1=   0.0001  min xi.logQ=       8.0 (b2=-0.1)  max|grad c|=   30.1728 (b2=0.0001) fd-err=7.9e-42
+b1=  3.16e-5  min xi.logQ=       8.0 (b2=-0.07499)  max|grad c|=   30.1708 (b2=3.162e-5) fd-err=7.89e-40
+b1=   1.0e-5  min xi.logQ=       8.0 (b2=-0.05623)  max|grad c|=   30.1702 (b2=1.0e-5) fd-err=7.89e-38
+b1=  3.16e-6  min xi.logQ=       8.0 (b2=-0.04217)  max|grad c|=     30.17 (b2=3.162e-6) fd-err=7.89e-36
+b1=   1.0e-6  min xi.logQ=       8.0 (b2=-0.03162)  max|grad c|=   30.1699 (b2=1.0e-6) fd-err=7.89e-34
+b1=  -0.0316  min xi.logQ=       8.0 (b2=9.968)  max|grad c|=   29.2211 (b2=-0.03062) fd-err=7.84e-52
+b1=    -0.01  min xi.logQ=       8.0 (b2=0.99)  max|grad c|=   29.8782 (b2=-0.0099) fd-err=7.89e-50
+b1= -0.00316  min xi.logQ=       8.0 (b2=0.2371)  max|grad c|=   30.0785 (b2=-0.003152) fd-err=7.89e-48
+b1=   -0.001  min xi.logQ=       8.0 (b2=0.1778)  max|grad c|=   30.1411 (b2=-0.000999) fd-err=7.89e-46
+b1=-0.000316  min xi.logQ=       8.0 (b2=0.1334)  max|grad c|=   30.1608 (b2=-0.0003161) fd-err=7.89e-44
+b1=  -0.0001  min xi.logQ=       8.0 (b2=0.1)  max|grad c|=    30.167 (b2=-9.999e-5) fd-err=7.89e-42
+b1= -3.16e-5  min xi.logQ=       8.0 (b2=0.07499)  max|grad c|=    30.169 (b2=-3.162e-5) fd-err=7.89e-40
+b1=  -1.0e-5  min xi.logQ=       8.0 (b2=0.05623)  max|grad c|=   30.1696 (b2=-1.0e-5) fd-err=7.89e-38
+b1= -3.16e-6  min xi.logQ=       8.0 (b2=0.04217)  max|grad c|=   30.1698 (b2=-3.162e-6) fd-err=7.89e-36
+b1=  -1.0e-6  min xi.logQ=       8.0 (b2=0.03162)  max|grad c|=   30.1699 (b2=-1.0e-6) fd-err=7.89e-34
+    overall: min xi.logQ = 8.0, max|grad c| = 31.0355
+--- T2 nested tree: d=8, N=81
+b1=   0.0316  min xi.logQ=       8.0 (b2=10.03)  max|grad c|=   310.793 (b2=0.03262) fd-err=1.07e-48
+b1=     0.01  min xi.logQ=       8.0 (b2=1.01)  max|grad c|=   308.093 (b2=0.0101) fd-err=9.86e-47
+b1=  0.00316  min xi.logQ=       8.0 (b2=-0.2371)  max|grad c|=    306.39 (b2=0.003172) fd-err=9.5e-45
+b1=    0.001  min xi.logQ=       8.0 (b2=-0.1778)  max|grad c|=    305.77 (b2=0.001001) fd-err=9.39e-43
+b1= 0.000316  min xi.logQ=       8.0 (b2=-0.1334)  max|grad c|=   305.566 (b2=0.0003163) fd-err=9.35e-41
+b1=   0.0001  min xi.logQ=       8.0 (b2=-0.1)  max|grad c|=     305.5 (b2=0.0001) fd-err=9.34e-39
+b1=  3.16e-5  min xi.logQ=       8.0 (b2=-0.07499)  max|grad c|=    305.48 (b2=3.162e-5) fd-err=9.33e-37
+b1=   1.0e-5  min xi.logQ=       8.0 (b2=-0.05623)  max|grad c|=   305.473 (b2=1.0e-5) fd-err=9.33e-35
+b1=  3.16e-6  min xi.logQ=       8.0 (b2=-0.04217)  max|grad c|=   305.471 (b2=3.162e-6) fd-err=9.33e-33
+b1=   1.0e-6  min xi.logQ=       8.0 (b2=-0.03162)  max|grad c|=    305.47 (b2=1.0e-6) fd-err=9.33e-31
+b1=  -0.0316  min xi.logQ=       8.0 (b2=9.968)  max|grad c|=   291.844 (b2=-0.03062) fd-err=8.93e-49
+b1=    -0.01  min xi.logQ=       8.0 (b2=0.99)  max|grad c|=   302.021 (b2=-0.0099) fd-err=9.29e-47
+b1= -0.00316  min xi.logQ=       8.0 (b2=0.2371)  max|grad c|=   304.468 (b2=-0.003152) fd-err=9.33e-45
+b1=   -0.001  min xi.logQ=       8.0 (b2=0.1778)  max|grad c|=   305.162 (b2=-0.000999) fd-err=9.33e-43
+b1=-0.000316  min xi.logQ=       8.0 (b2=0.1334)  max|grad c|=   305.374 (b2=-0.0003161) fd-err=9.33e-41
+b1=  -0.0001  min xi.logQ=       8.0 (b2=0.1)  max|grad c|=    305.44 (b2=-9.999e-5) fd-err=9.33e-39
+b1= -3.16e-5  min xi.logQ=       8.0 (b2=0.07499)  max|grad c|=   305.461 (b2=-3.162e-5) fd-err=9.33e-37
+b1=  -1.0e-5  min xi.logQ=       8.0 (b2=0.05623)  max|grad c|=   305.467 (b2=-1.0e-5) fd-err=9.33e-35
+b1= -3.16e-6  min xi.logQ=       8.0 (b2=0.04217)  max|grad c|=   305.469 (b2=-3.162e-6) fd-err=9.33e-33
+b1=  -1.0e-6  min xi.logQ=       8.0 (b2=0.03162)  max|grad c|=    305.47 (b2=-1.0e-6) fd-err=9.33e-31
+    overall: min xi.logQ = 8.0, max|grad c| = 310.793

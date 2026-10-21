@@ -1,0 +1,12 @@
+--- T6 left half-plane: d=12, N=253
+b1=  -0.0316  min xi.logQ=    11.686 (b2=0.0332)  max|grad c|=   1267.77 (b2=0.001032) fd-err=3.41e-45
+b1=    -0.01  min xi.logQ=   11.9017 (b2=0.01032)  max|grad c|=   1265.26 (b2=0.000101) fd-err=1.08e-42
+b1= -0.00316  min xi.logQ=   11.9689 (b2=0.003219)  max|grad c|=   1265.03 (b2=1.003e-5) fd-err=3.41e-40
+b1=   -0.001  min xi.logQ=   11.9902 (b2=0.001018)  max|grad c|=    1265.0 (b2=1.001e-6) fd-err=1.08e-37
+b1=-0.000316  min xi.logQ=   11.9969 (b2=0.0003219)  max|grad c|=    1265.0 (b2=1.0e-7) fd-err=3.41e-35
+b1=  -0.0001  min xi.logQ=    11.999 (b2=0.0001018)  max|grad c|=    1265.0 (b2=1.0e-8) fd-err=1.08e-32
+b1= -3.16e-5  min xi.logQ=   11.9997 (b2=3.219e-5)  max|grad c|=    1265.0 (b2=1.0e-9) fd-err=3.41e-30
+b1=  -1.0e-5  min xi.logQ=   11.9999 (b2=1.018e-5)  max|grad c|=    1265.0 (b2=1.0e-10) fd-err=1.08e-27
+b1= -3.16e-6  min xi.logQ=      12.0 (b2=3.219e-6)  max|grad c|=    1265.0 (b2=1.0e-11) fd-err=3.41e-25
+b1=  -1.0e-6  min xi.logQ=      12.0 (b2=1.018e-6)  max|grad c|=    1265.0 (b2=1.0e-12) fd-err=1.08e-22
+    overall: min xi.logQ = 11.686, max|grad c| = 1267.77

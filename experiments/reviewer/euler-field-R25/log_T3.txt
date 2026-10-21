@@ -1,0 +1,66 @@
+--- T3 Puiseux 5/2: d=4, N=2
+b1=   0.0316  min xi.logQ=       4.0 (b2=-0.4217)  max|grad c|=   6.00833 (b2=0.001) fd-err=9.49e-55
+b1=     0.01  min xi.logQ=       4.0 (b2=-0.3162)  max|grad c|=   6.00083 (b2=0.0001) fd-err=3.0e-53
+b1=  0.00316  min xi.logQ=       4.0 (b2=-0.2371)  max|grad c|=   6.00008 (b2=1.0e-5) fd-err=9.49e-52
+b1=    0.001  min xi.logQ=       4.0 (b2=-0.1778)  max|grad c|=   6.00001 (b2=1.0e-6) fd-err=3.0e-50
+b1= 0.000316  min xi.logQ=       4.0 (b2=-0.1334)  max|grad c|=       6.0 (b2=1.0e-7) fd-err=9.49e-49
+b1=   0.0001  min xi.logQ=       4.0 (b2=-0.1)  max|grad c|=       6.0 (b2=1.0e-8) fd-err=3.0e-47
+b1=  3.16e-5  min xi.logQ=       4.0 (b2=-0.07499)  max|grad c|=       6.0 (b2=1.0e-9) fd-err=9.49e-46
+b1=   1.0e-5  min xi.logQ=       4.0 (b2=-0.05623)  max|grad c|=       6.0 (b2=1.0e-10) fd-err=3.0e-44
+b1=  3.16e-6  min xi.logQ=       4.0 (b2=-0.04217)  max|grad c|=       6.0 (b2=1.0e-11) fd-err=9.49e-43
+b1=   1.0e-6  min xi.logQ=       4.0 (b2=-0.03162)  max|grad c|=       6.0 (b2=1.0e-12) fd-err=3.0e-41
+b1=  -0.0316  min xi.logQ=       4.0 (b2=-1.777)  max|grad c|= 0.0632456 (b2=0.001316) fd-err=2.95e-63
+b1=    -0.01  min xi.logQ=       4.0 (b2=-0.3162)  max|grad c|=      0.02 (b2=0.0001178) fd-err=9.3e-64
+b1= -0.00316  min xi.logQ=       4.0 (b2=-0.2371)  max|grad c|=0.00632456 (b2=1.1e-5) fd-err=2.94e-64
+b1=   -0.001  min xi.logQ=       4.0 (b2=-0.1778)  max|grad c|=     0.002 (b2=1.056e-6) fd-err=9.3e-65
+b1=-0.000316  min xi.logQ=       4.0 (b2=-0.1334)  max|grad c|=0.000632456 (b2=1.032e-7) fd-err=2.94e-65
+b1=  -0.0001  min xi.logQ=       4.0 (b2=-0.1)  max|grad c|=    0.0002 (b2=1.018e-8) fd-err=9.3e-66
+b1= -3.16e-5  min xi.logQ=       4.0 (b2=-0.07499)  max|grad c|=6.32456e-5 (b2=1.01e-9) fd-err=2.94e-66
+b1=  -1.0e-5  min xi.logQ=       4.0 (b2=-0.05623)  max|grad c|=    2.0e-5 (b2=1.006e-10) fd-err=9.3e-67
+b1= -3.16e-6  min xi.logQ=       4.0 (b2=-0.04217)  max|grad c|=6.32456e-6 (b2=1.003e-11) fd-err=2.94e-67
+b1=  -1.0e-6  min xi.logQ=       4.0 (b2=-0.03162)  max|grad c|=    2.0e-6 (b2=1.002e-12) fd-err=9.3e-68
+    overall: min xi.logQ = 4.0, max|grad c| = 6.00833
+--- T3 Puiseux 5/2: d=4, N=8
+b1=   0.0316  min xi.logQ=   4.00002 (b2=-0.4217)  max|grad c|=    24.044 (b2=0.001) fd-err=6.45e-53
+b1=     0.01  min xi.logQ=       4.0 (b2=-0.3162)  max|grad c|=   24.0044 (b2=0.0001) fd-err=2.04e-51
+b1=  0.00316  min xi.logQ=       4.0 (b2=-0.2371)  max|grad c|=   24.0004 (b2=1.0e-5) fd-err=6.45e-50
+b1=    0.001  min xi.logQ=       4.0 (b2=-0.1778)  max|grad c|=      24.0 (b2=1.0e-6) fd-err=2.04e-48
+b1= 0.000316  min xi.logQ=       4.0 (b2=-0.1334)  max|grad c|=      24.0 (b2=1.0e-7) fd-err=6.45e-47
+b1=   0.0001  min xi.logQ=       4.0 (b2=-0.1)  max|grad c|=      24.0 (b2=1.0e-8) fd-err=2.04e-45
+b1=  3.16e-5  min xi.logQ=       4.0 (b2=-0.07499)  max|grad c|=      24.0 (b2=1.0e-9) fd-err=6.45e-44
+b1=   1.0e-5  min xi.logQ=       4.0 (b2=-0.05623)  max|grad c|=      24.0 (b2=1.0e-10) fd-err=2.04e-42
+b1=  3.16e-6  min xi.logQ=       4.0 (b2=-0.04217)  max|grad c|=      24.0 (b2=1.0e-11) fd-err=6.45e-41
+b1=   1.0e-6  min xi.logQ=       4.0 (b2=-0.03162)  max|grad c|=      24.0 (b2=1.0e-12) fd-err=2.04e-39
+b1=  -0.0316  min xi.logQ=       4.0 (b2=-1.777)  max|grad c|= 0.0632459 (b2=0.001316) fd-err=1.18e-62
+b1=    -0.01  min xi.logQ=       4.0 (b2=-0.3162)  max|grad c|=      0.02 (b2=0.0001178) fd-err=3.72e-63
+b1= -0.00316  min xi.logQ=       4.0 (b2=-0.2371)  max|grad c|=0.00632456 (b2=1.1e-5) fd-err=1.18e-63
+b1=   -0.001  min xi.logQ=       4.0 (b2=-0.1778)  max|grad c|=     0.002 (b2=1.056e-6) fd-err=3.72e-64
+b1=-0.000316  min xi.logQ=       4.0 (b2=-0.1334)  max|grad c|=0.000632456 (b2=1.032e-7) fd-err=1.18e-64
+b1=  -0.0001  min xi.logQ=       4.0 (b2=-0.1)  max|grad c|=    0.0002 (b2=1.018e-8) fd-err=3.72e-65
+b1= -3.16e-5  min xi.logQ=       4.0 (b2=-0.07499)  max|grad c|=6.32456e-5 (b2=1.01e-9) fd-err=1.18e-65
+b1=  -1.0e-5  min xi.logQ=       4.0 (b2=-0.05623)  max|grad c|=    2.0e-5 (b2=1.006e-10) fd-err=3.72e-66
+b1= -3.16e-6  min xi.logQ=       4.0 (b2=-0.04217)  max|grad c|=6.32456e-6 (b2=1.003e-11) fd-err=1.18e-66
+b1=  -1.0e-6  min xi.logQ=       4.0 (b2=-0.03162)  max|grad c|=    2.0e-6 (b2=1.002e-12) fd-err=3.72e-67
+    overall: min xi.logQ = 4.0, max|grad c| = 24.044
+--- T3 Puiseux 5/2: d=4, N=29
+b1=   0.0316  min xi.logQ=   4.00006 (b2=-0.4217)  max|grad c|=   87.1699 (b2=0.001) fd-err=3.08e-51
+b1=     0.01  min xi.logQ=       4.0 (b2=-0.3162)  max|grad c|=    87.017 (b2=0.0001) fd-err=9.75e-50
+b1=  0.00316  min xi.logQ=       4.0 (b2=-0.2371)  max|grad c|=   87.0017 (b2=1.0e-5) fd-err=3.08e-48
+b1=    0.001  min xi.logQ=       4.0 (b2=-0.1778)  max|grad c|=   87.0002 (b2=1.0e-6) fd-err=9.75e-47
+b1= 0.000316  min xi.logQ=       4.0 (b2=-0.1334)  max|grad c|=      87.0 (b2=1.0e-7) fd-err=3.08e-45
+b1=   0.0001  min xi.logQ=       4.0 (b2=-0.1)  max|grad c|=      87.0 (b2=1.0e-8) fd-err=9.75e-44
+b1=  3.16e-5  min xi.logQ=       4.0 (b2=-0.07499)  max|grad c|=      87.0 (b2=1.0e-9) fd-err=3.08e-42
+b1=   1.0e-5  min xi.logQ=       4.0 (b2=-0.05623)  max|grad c|=      87.0 (b2=1.0e-10) fd-err=9.75e-41
+b1=  3.16e-6  min xi.logQ=       4.0 (b2=-0.04217)  max|grad c|=      87.0 (b2=1.0e-11) fd-err=3.08e-39
+b1=   1.0e-6  min xi.logQ=       4.0 (b2=-0.03162)  max|grad c|=      87.0 (b2=1.0e-12) fd-err=9.75e-38
+b1=  -0.0316  min xi.logQ=       4.0 (b2=-1.777)  max|grad c|= 0.0632469 (b2=0.001316) fd-err=4.27e-62
+b1=    -0.01  min xi.logQ=       4.0 (b2=-0.3162)  max|grad c|=      0.02 (b2=0.0001178) fd-err=1.35e-62
+b1= -0.00316  min xi.logQ=       4.0 (b2=-0.2371)  max|grad c|=0.00632456 (b2=1.1e-5) fd-err=4.26e-63
+b1=   -0.001  min xi.logQ=       4.0 (b2=-0.1778)  max|grad c|=     0.002 (b2=1.056e-6) fd-err=1.35e-63
+b1=-0.000316  min xi.logQ=       4.0 (b2=-0.1334)  max|grad c|=0.000632456 (b2=1.032e-7) fd-err=4.26e-64
+b1=  -0.0001  min xi.logQ=       4.0 (b2=-0.1)  max|grad c|=    0.0002 (b2=1.018e-8) fd-err=1.35e-64
+b1= -3.16e-5  min xi.logQ=       4.0 (b2=-0.07499)  max|grad c|=6.32456e-5 (b2=1.01e-9) fd-err=4.26e-65
+b1=  -1.0e-5  min xi.logQ=       4.0 (b2=-0.05623)  max|grad c|=    2.0e-5 (b2=1.006e-10) fd-err=1.35e-65
+b1= -3.16e-6  min xi.logQ=       4.0 (b2=-0.04217)  max|grad c|=6.32456e-6 (b2=1.003e-11) fd-err=4.26e-66
+b1=  -1.0e-6  min xi.logQ=       4.0 (b2=-0.03162)  max|grad c|=    2.0e-6 (b2=1.002e-12) fd-err=1.35e-66
+    overall: min xi.logQ = 4.0, max|grad c| = 87.1699

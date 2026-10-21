@@ -1,0 +1,20 @@
+--- T1: d=6, N=0
+b1=     0.01  min xi.logQ=  -19988.0 (b2=0.000102)  max|grad c|=    0.0206 (b2=0.0001)
+b1=    0.001  min xi.logQ=-1.99999e+6 (b2=1.002e-6)  max|grad c|=  0.002006 (b2=1.0e-6)
+b1=   -0.001  min xi.logQ=-1.99999e+6 (b2=9.98e-7)  max|grad c|=  0.001994 (b2=1.0e-6)
+    overall: min xi.logQ = -1.99999e+6, max|grad c| = 0.0206
+--- T1: d=6, N=1
+b1=     0.01  min xi.logQ=       6.0 (b2=-0.3162)  max|grad c|=   4.06085 (b2=0.0001015)
+b1=    0.001  min xi.logQ=       6.0 (b2=-0.1778)  max|grad c|=   4.06038 (b2=1.002e-6)
+b1=   -0.001  min xi.logQ=       6.0 (b2=-0.1778)  max|grad c|=   4.06038 (b2=9.995e-7)
+    overall: min xi.logQ = 6.0, max|grad c| = 4.06085
+--- T4: d=8, N=0
+b1=     0.01  min xi.logQ=  -44985.5 (b2=9.999e-5)  max|grad c|=  0.020006 (b2=9.999e-5)
+b1=    0.001  min xi.logQ=-4.49999e+6 (b2=1.0e-6)  max|grad c|=0.00200001 (b2=1.0e-6)
+b1=   -0.001  min xi.logQ=-4.49999e+6 (b2=1.0e-6)  max|grad c|=0.00200001 (b2=1.0e-6)
+    overall: min xi.logQ = -4.49999e+6, max|grad c| = 0.020006
+--- T4: d=8, N=1
+b1=     0.01  min xi.logQ=       8.0 (b2=-0.3162)  max|grad c|=   6.23588 (b2=0.0001)
+b1=    0.001  min xi.logQ=       8.0 (b2=-0.1778)  max|grad c|=   6.22668 (b2=1.0e-6)
+b1=   -0.001  min xi.logQ=       8.0 (b2=-0.1778)  max|grad c|=   6.22668 (b2=1.0e-6)
+    overall: min xi.logQ = 8.0, max|grad c| = 6.23588
