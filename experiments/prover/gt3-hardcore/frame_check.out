@@ -1,0 +1,16 @@
+rot: Y formula ok: True
+rot: x*Phi_xx formula ok: True
+rot: x d_x eps formula ok: True
+rot: d_theta Y formula ok: True
+rot: d_s Y = (0, kappa*theta*d_s eps, d_s p): True
+rot: d_zeta Y = (0, kappa*theta*k/s, 0): True
+Psi_s = (1, 0, 4*S**3*TH**3*a3_3 + 4*S**3*TH**2*a3_2 + 4*S**3*TH*a3_1 + 4*S**3*a3_0 + 3*S**2*TH**3*a2_3 + 3*S**2*TH**2*a2_2 + 3*S**2*TH*a2_1 + 3*S**2*a2_0 + 2*S*TH**3*a1_3 + 2*S*TH**2*a1_2 + 2*S*TH*a1_1 + 2*S*a1_0 + TH**3*a0_3 + TH**2*a0_2 + TH*a0_1 + a0_0)
+Psi_theta = (0, -S**4*TH**6*a3_3*k3 - S**4*TH**5*a3_2*k3 - S**4*TH**5*a3_3*k2 - S**4*TH**4*a3_1*k3 - S**4*TH**4*a3_2*k2 - S**4*TH**4*a3_3*k1 - S**4*TH**3*a3_0*k3 - S**4*TH**3*a3_1*k2 - S**4*TH**3*a3_2*k1 - S**4*TH**3*a3_3*k0 - S**4*TH**2*a3_0*k2 - S**4*TH**2*a3_1*k1 - S**4*TH**2*a3_2*k0 - S**4*TH*a3_0*k1 - S**4*TH*a3_1*k0 - S**4*a3_0*k0 - S**3*TH**6*a2_3*k3 - S**3*TH**5*a2_2*k3 - S**3*TH**5*a2_3*k2 - S**3*TH**4*a2_1*k3 - S**3*TH**4*a2_2*k2 - S**3*TH**4*a2_3*k1 - S**3*TH**3*a2_0*k3 - S**3*TH**3*a2_1*k2 - S**3*TH**3*a2_2*k1 - S**3*TH**3*a2_3*k0 - S**3*TH**2*a2_0*k2 - S**3*TH**2*a2_1*k1 - S**3*TH**2*a2_2*k0 - S**3*TH*a2_0*k1 - S**3*TH*a2_1*k0 - S**3*a2_0*k0 - S**2*TH**6*a1_3*k3 - S**2*TH**5*a1_2*k3 - S**2*TH**5*a1_3*k2 - S**2*TH**4*a1_1*k3 - S**2*TH**4*a1_2*k2 - S**2*TH**4*a1_3*k1 - S**2*TH**3*a1_0*k3 - S**2*TH**3*a1_1*k2 - S**2*TH**3*a1_2*k1 - S**2*TH**3*a1_3*k0 - S**2*TH**2*a1_0*k2 - S**2*TH**2*a1_1*k1 - S**2*TH**2*a1_2*k0 - S**2*TH*a1_0*k1 - S**2*TH*a1_1*k0 - S**2*a1_0*k0 - S*TH**6*a0_3*k3 - S*TH**5*a0_2*k3 - S*TH**5*a0_3*k2 - S*TH**4*a0_1*k3 - S*TH**4*a0_2*k2 - S*TH**4*a0_3*k1 - S*TH**3*a0_0*k3 - S*TH**3*a0_1*k2 - S*TH**3*a0_2*k1 - S*TH**3*a0_3*k0 - S*TH**2*a0_0*k2 - S*TH**2*a0_1*k1 - S*TH**2*a0_2*k0 - S*TH*a0_0*k1 - S*TH*a0_1*k0 - S*a0_0*k0 + S - TH**3*Z*k3 - TH**2*Z*k2 - TH*Z*k1 - Z*k0, S*(3*S**3*TH**2*a3_3 + 2*S**3*TH*a3_2 + S**3*a3_1 + 3*S**2*TH**2*a2_3 + 2*S**2*TH*a2_2 + S**2*a2_1 + 3*S*TH**2*a1_3 + 2*S*TH*a1_2 + S*a1_1 + 3*TH**2*a0_3 + 2*TH*a0_2 + a0_1))
+Psi_zeta = (0, 0, 1)
+cart: Phi_X ok: True
+cart: Phi_Y ok: True
+cart: Phi_zeta = n: True
+cart: B_XY formula ok: True
+cart: Phi_XX formula ok: True
+cart: Phi_XY formula ok: True
+cart: Phi_Xzeta = (0, sin*k/r, 0): True
