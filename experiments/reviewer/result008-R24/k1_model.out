@@ -1,0 +1,5 @@
+k_g = 0.684137  C1 = 7 kbar = 4.78896
+  X=  0.01: |YoPhi-Phi_X|= 2.49e-61  3max|B-I|=   0.04364  |B_xu|=   0.01477  res(Phi2)=     0.0122  res(Phi3)=    -0.0882
+  X= 0.001: |YoPhi-Phi_X|=  2.2e-61  3max|B-I|=  0.004406  |B_xu|=  0.001489  res(Phi2)=  0.0009667  res(Phi3)=   -0.04844
+  X=0.0001: |YoPhi-Phi_X|= 2.36e-61  3max|B-I|= 0.0004415  |B_xu|= 0.0001493  res(Phi2)= -0.0007249  res(Phi3)=   -0.06553
+  X=1.0e-5: |YoPhi-Phi_X|= 1.78e-61  3max|B-I|=  4.411e-5  |B_xu|=  1.491e-5  res(Phi2)=  -5.346e-5  res(Phi3)=    -0.0194

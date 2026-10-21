@@ -1,0 +1,15 @@
+k_g = 0.684137  lambda0 = 3/40  a0 = 1/10  kappa_max(U3) = 0.00803496
+
+--- 1. map inequalities (Phi2'), (Phi3): max residual over random samples, by x ---
+  residual1 = |<grad rho - Y/h, w>| - gamma1|b|;  residual2 = x|<Phi_xx,w>| - gamma2|b| - C1|b|^2;
+  residual3 = -(x<w,D_wY>) - C1|b|   (all for unit w perp Y; must be <= varpi(x) -> 0)
+
+--- 2. strict exit on the (A5) set: min (rho/lambda) Xi / (delta rho^beta) vs mu/8 = kappa/8 ---
+
+--- 3. strict exit, targeted sampling of the (A5) set: Q(b) = (1-tau) delta, K_perp = tau delta x^beta ---
+  b = r_b (cos psi, sin psi) with r_b solving Q(b) = (1-tau) delta; v_perp direction random in Y^perp
+
+--- 4. strict exit near purely angular b (e ~ 0), small K_perp, 16 directions of v_perp ---
+  delta=0.0001 x=1.0e-8: min Xi_hat = 0.0157285 at (-2.6284569528499038, 6.13278777855451e-93, 1e-06, 8)   [kappa/8 = 0.001004, 2kappa = 0.01607]
+  delta=2.0e-7 x=1.0e-11: min Xi_hat = 0.0160078 at (-2.5839790550812354, 6.0290107288464175e-93, 1e-06, 14)   [kappa/8 = 0.001004, 2kappa = 0.01607]
+exit 0

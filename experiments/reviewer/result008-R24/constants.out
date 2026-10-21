@@ -1,0 +1,29 @@
+OK   sqrt(17)/4 * X <= 3X/2 (so 2r <= 3X)
+OK   sqrt6*41/16 < 7
+OK   sqrt6*8 <= 20
+OK   5/16+9/4 = 41/16
+OK   sqrt(17)/8 < 1
+OK   (17/16)^(1/4)/sqrt(2) < 1
+OK   grad F0(0) = 0
+OK   H11 = G''(0) + j G(0)
+OK   H12 = 0
+OK   H22 = h_n(0)
+OK   Gamma'(delta=a0/2) == Gamma* (equality at the endpoint)
+OK   dGamma'/ddelta >= 0 (so Gamma' <= Gamma* for delta <= a0/2)
+OK   L1 = 3 beta sqrt(3 a0/2)
+OK   L2 = 4 sqrt(a0)
+OK   curvature term = C1 sqrt(delta)(16 sqrt(a0)/lambda0 + 8/sqrt(lambda0))
+OK   bracket: mu/2*3/4 - mu/16 - mu/8 - mu/16 = mu/8
+OK   Lemma 2' AM-GM (random, worst=8.080e-05) >= -1e-12
+OK   beta mu <= mu(2beta - mu) for mu<=beta
+OK   2(a1-delta) >= a1 when delta <= a1/2
+OK   sqrt(3) <= 2
+OK   sqrt(3/2) <= 2
+OK   h bound 1.0869 <= 3/2
+OK   main term 4/5 - 1/2 > 0
+OK   c - kappa >= 1
+OK   Gamma* <= kappa sqrt(a0/l0)(15sqrt3/8 j + 2sqrt2)
+OK   at kappa = kmax: (bound)^2 == j kappa
+   example 3: kappa_max = 0.0174171
+OK   example 3: kappa_max >= 0.0174
+ALL OK

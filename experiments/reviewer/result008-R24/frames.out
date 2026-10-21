@@ -1,0 +1,30 @@
+OK  (6.2) Pi_s = omega
+OK  (6.2) Pi_theta = (s - kg eta) ell
+OK  (6.2) Pi_eta = n
+OK  (6.4) Psi_s
+OK  (6.4) Psi_theta
+OK  (6.4) Psi_zeta
+OK  (6.5) s d_s eps
+OK  (6.5) d_theta eps
+OK  (7.1) Phi_X
+OK  (7.1) Phi_Yd
+OK  (7.1) Phi_zeta
+OK  (7.1) B_XYd
+OK  (7.1) B_Xzeta
+OK  (7.1) Phi_XX
+OK  (7.1) Phi_XYd
+OK  (7.1) Phi_Xzeta
+OK  B_XX - 1
+OK  B_YY - 1
+OK  (10.2) Y
+OK  (10.2) h
+OK  (10.3) x d_x eps
+OK  (10.3) x d_x^2 Phi
+OK  (10.4) d_theta Y
+OK  (10.4) d_s Y
+OK  (10.4) d_zeta Y
+OK  (10.2) vs Psi
+OK  item 5: w = DPsi a
+OK  item 5: x<w,D_wY> = w_l^2(1/(1-eps)-kappa) + E_r
+OK  item 3: <Y,w>=0 <=> w_omega = ...
+ALL OK

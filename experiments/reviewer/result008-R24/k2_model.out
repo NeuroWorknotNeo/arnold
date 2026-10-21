@@ -1,0 +1,24 @@
+k_g = 0.684137  lambda0 = 3/40  a0 = 1/10  kappa_max(U3) = 0.00803496
+
+--- 1. map inequalities (Phi2'), (Phi3): max residual over random samples, by x ---
+  residual1 = |<grad rho - Y/h, w>| - gamma1|b|;  residual2 = x|<Phi_xx,w>| - gamma2|b| - C1|b|^2;
+  residual3 = -(x<w,D_wY>) - C1|b|   (all for unit w perp Y; must be <= varpi(x) -> 0)
+  x=  0.01: |Y o Phi - Phi_x|max= 2.62e-91  res1=    0.01355  res2=    0.01344  res3=  -0.001421
+  x= 0.001: |Y o Phi - Phi_x|max= 2.47e-91  res1=   0.001281  res2=   0.001301  res3=  -0.001004
+  x=0.0001: |Y o Phi - Phi_x|max= 3.69e-91  res1=  -2.098e-5  res2=   1.635e-5  res3=  -0.002313
+  x=1.0e-5: |Y o Phi - Phi_x|max= 3.69e-91  res1=  -1.757e-5  res2=  -1.234e-6  res3= -0.0008024
+
+--- 2. strict exit on the (A5) set: min (rho/lambda) Xi / (delta rho^beta) vs mu/8 = kappa/8 ---
+  delta=  0.01 x= 0.001: min Xi_hat =   0.168828   (kappa/8 = 0.001004, kappa = 0.008035)
+  delta=  0.01 x=1.0e-6: min Xi_hat =   0.518271   (kappa/8 = 0.001004, kappa = 0.008035)
+  delta=  0.01 x=1.0e-9: min Xi_hat =    0.36389   (kappa/8 = 0.001004, kappa = 0.008035)
+  delta=  0.01 x=1.0e-12: min Xi_hat =    1.91162   (kappa/8 = 0.001004, kappa = 0.008035)
+  delta=0.0001 x= 0.001: min Xi_hat =    2.06673   (kappa/8 = 0.001004, kappa = 0.008035)
+  delta=0.0001 x=1.0e-6: min Xi_hat =    1.02009   (kappa/8 = 0.001004, kappa = 0.008035)
+  delta=0.0001 x=1.0e-9: min Xi_hat =    1.03376   (kappa/8 = 0.001004, kappa = 0.008035)
+  delta=0.0001 x=1.0e-12: min Xi_hat =    2.31712   (kappa/8 = 0.001004, kappa = 0.008035)
+  delta=2.0e-7 x= 0.001: min Xi_hat =   -1.41903   (kappa/8 = 0.001004, kappa = 0.008035)
+  delta=2.0e-7 x=1.0e-6: min Xi_hat =    0.99948   (kappa/8 = 0.001004, kappa = 0.008035)
+  delta=2.0e-7 x=1.0e-9: min Xi_hat =   0.644906   (kappa/8 = 0.001004, kappa = 0.008035)
+  delta=2.0e-7 x=1.0e-12: min Xi_hat =    1.37628   (kappa/8 = 0.001004, kappa = 0.008035)
+exit 0
