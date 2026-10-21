@@ -1,0 +1,3 @@
+режим C , пример C2 : U = x*y*z**6 - z**7 + (x**2 + y**2 + z**3 - z**2)**2 , beta = 7 , a0 = 0.088388348
+delta=0.02   sigma=0.01  : min (rho/lambda)Xi/(delta rho^beta) = 5.0004  [s=9.04e-6, b=(5.25, 0.0707), tau=0]
+delta=0.005  sigma=0.001 : min (rho/lambda)Xi/(delta rho^beta) = 5.0001  [s=9.04e-7, b=(5.25, 0.0354), tau=0]

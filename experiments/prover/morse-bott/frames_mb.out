@@ -1,0 +1,16 @@
+Psi_s = omega + eta*_s n            : True
+Psi_theta = s(1-eps)T + eta*_theta n : True
+Psi_zeta = n                         : True
+Y = omega - k.th(1-eps)T + pi n      : True
+s D_Y Y formula                      : True
+разложение w по Psi_s,Psi_th,Psi_z   : True
+s<w,D_wY> = сумма 7 членов           : True
+D: Phi_x = omega + kt(1-eps)T + (eta*_s + kt eta*_th/x) n : True
+D: Phi_u = (1-eps)T + (eta*_th/x) n  : True
+D: Phi_zeta = n                      : True
+D: x Phi_xx formula                  : True
+D: Psi_sth = (1-k eta*_s)T + eta*_sth n : True
+D: Psi_thth formula                  : True
+D: x d_u Phi_x formula               : True
+D: x d_zeta Phi_x = -kt k T          : True
+EXIT 0

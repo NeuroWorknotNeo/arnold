@@ -1,0 +1,3 @@
+режим D3 , пример D3 : U = x*z**8 + y**2*z**6 + (x**2 + y**2 + z**3 - z**2)**2 , beta = 9 , a0 = 0.044194174
+delta=0.02   sigma=0.01  : min (rho/lambda)Xi/(delta rho^beta) = 3.0266  [s=0.00192, b=(-0.4, 0.00316), tau=0]
+delta=0.005  sigma=0.001 : min (rho/lambda)Xi/(delta rho^beta) = 3.0162  [s=0.000192, b=(-0.2, 0.00158), tau=0]

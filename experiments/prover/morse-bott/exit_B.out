@@ -1,0 +1,9 @@
+режим B , пример B : U = x*y*z**5 + 4*y**4*z**2 - z**6 + (x**2 + y**2 - z**2)**2 , beta = 6 , a0 = 0.125
+kappa=0      delta=0.02   sigma=0.01  : min (rho/lambda)Xi/(delta rho^beta) = -0.0087745  [s=0.00581, b=(0.327, 0.0013), tau=0]
+kappa=0      delta=0.005  sigma=0.001 : min (rho/lambda)Xi/(delta rho^beta) = -0.00046908  [s=0.000581, b=(0.227, 0.000902), tau=0]
+kappa=0.003  delta=0.02   sigma=0.01  : min (rho/lambda)Xi/(delta rho^beta) = 0.0022623  [s=0.00581, b=(0.327, 0.0013), tau=0]
+kappa=0.003  delta=0.005  sigma=0.001 : min (rho/lambda)Xi/(delta rho^beta) = 0.011079  [s=0.000581, b=(0.227, 0.000902), tau=0]
+kappa=0.02   delta=0.02   sigma=0.01  : min (rho/lambda)Xi/(delta rho^beta) = 0.064804  [s=0.00581, b=(0.327, 0.0013), tau=0]
+kappa=0.02   delta=0.005  sigma=0.001 : min (rho/lambda)Xi/(delta rho^beta) = 0.076521  [s=0.000581, b=(0.227, 0.000902), tau=0]
+kappa=0.1    delta=0.02   sigma=0.01  : min (rho/lambda)Xi/(delta rho^beta) = 0.34812  [s=0.00581, b=(0.327, 0.0013), tau=0.001]
+kappa=0.1    delta=0.005  sigma=0.001 : min (rho/lambda)Xi/(delta rho^beta) = 0.36459  [s=0.000581, b=(0.227, 0.000902), tau=0.001]
