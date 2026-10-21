@@ -1,0 +1,56 @@
+====================================================================================================
+M1 : U = x**6*y + x**5 + x*y**6 + y**5 + (-x**2 + z)**4 , m = 4
+  phi(0,theta,y) = u_m(omega+y n) = y**4  => 2r = 4 , a(theta,0) = 1
+  носитель phi (i = степень s, l = степень y): [(0, 4), (1, 0), (1, 3), (2, 2), (3, 0), (3, 1), (4, 0)]
+  наклон первого ребра gamma* = 1/4 , точки ребра: [(0, 4), (1, 0)]
+  beta' = 2r gamma* = 1 , j = m + beta' = 5 , c = 1 + gamma* = 5/4 , N = 4 , p = 1
+  весовая начальная форма Phi_0(theta,eps) = C**5 + S**5 + epsilon**4
+  U~(sigma,theta,eps) = C**8*sigma**12 + C**6*S*sigma**8 - 4*C**6*epsilon*sigma**9 + C**5 + 6*C**4*epsilon**2*sigma**6 - 4*C**2*epsilon**3*sigma**3 + C*S**6*sigma**8 + S**5 + epsilon**4
+  U~(0,theta,eps) - Phi_0 = 0
+  тождество U(s omega + s^c eps n) = s^j U~ : True
+  M1: eps_0 = 0, Phi_0(theta, e) - G = e**4  => r' = 2, p = 1
+  G(theta) = sin(theta)**5 + cos(theta)**5 ;  G'(theta) =  -5*(-sin(theta) + cos(theta))*(sin(theta)**2 + sin(theta)*cos(theta) + cos(theta)**2)*sin(theta)*cos(theta)
+    в omega* = (0,-1,0): G = -1, G' = 0, G'' = 5, G''+jG = 0
+    в omega* = (-1,0,0): G = -1, G' = 0, G'' = 5, G''+jG = 0
+    критические точки G: sin*cos*(sin^3-cos^3) = 0 => theta in {0, pi/2, pi, 3pi/2, pi/4, 5pi/4}
+      theta = 0        G = 1              G'' = -5
+      theta = pi/2     G = 1              G'' = -5
+      theta = pi       G = -1             G'' = 5
+      theta = 3*pi/2   G = -1             G'' = 5
+      theta = pi/4     G = sqrt(2)/4      G'' = 15*sqrt(2)/4
+      theta = 5*pi/4   G = -sqrt(2)/4     G'' = -15*sqrt(2)/4
+  F~(sigma,theta,e) (theta от omega*=(0,-1,0)) = e**4 - 4*e**3*sigma**3*sin(theta)**2 + 6*e**2*sigma**6*sin(theta)**4 - 4*e*sigma**9*sin(theta)**6 + sigma**12*sin(theta)**8 - sigma**8*sin(theta)**6*cos(theta) + sigma**8*sin(theta)*cos(theta)**6 + sin(theta)**5 - cos(theta)**5
+====================================================================================================
+M2 : U = x**6 + x*z**5 + 2*y*z**5 + z**4 + z*(x**4 + x**3*y + y**4) , m = 4
+  phi(0,theta,y) = u_m(omega+y n) = y**4  => 2r = 4 , a(theta,0) = 1
+  носитель phi (i = степень s, l = степень y): [(0, 4), (1, 1), (2, 0), (2, 5)]
+  наклон первого ребра gamma* = 1/3 , точки ребра: [(0, 4), (1, 1)]
+  beta' = 2r gamma* = 4/3 , j = m + beta' = 16/3 , c = 1 + gamma* = 4/3 , N = 3 , p = 1
+  весовая начальная форма Phi_0(theta,eps) = C**4*epsilon + C**3*S*epsilon + S**4*epsilon + epsilon**4
+  U~(sigma,theta,eps) = C**6*sigma**2 + C**4*epsilon + C**3*S*epsilon + C*epsilon**5*sigma**7 + S**4*epsilon + 2*S*epsilon**5*sigma**7 + epsilon**4
+  U~(0,theta,eps) - Phi_0 = 0
+  тождество U(s omega + s^c eps n) = s^j U~ : True
+  M2: f(theta) = коэффициент при eps в Phi_0 = sin(theta)**4 + sin(theta)*cos(theta)**3 + cos(theta)**4
+      f = 3/4 + cos(4th)/4 + sin(2th)/4 + sin(4th)/8 : True  => f >= 1/8 > 0
+      d/deps Phi_0 (eps_0) = 0
+      G = Phi_0(eps_0) = -3*2**(1/3)*f**(4/3)/8  = -3*4^(-4/3) f^(4/3): True
+      Phi_0(eps_0+e) - G = e^2 * ( e**2 - 2*2**(1/3)*e*f**(1/3) + 3*2**(2/3)*f**(2/3)/2 )  [= e^2 ((e+2 eps_0)^2 + 2 eps_0^2)]: True
+      f'(theta)/cos^4 через t = tan theta: 4*t**3 - 3*t**2 - 4*t + 1
+      изолирующие интервалы корней (точно): [(-0.82632147, -0.82632050), (0.22366864, 0.22366909), (1.3526510, 1.3526517)]
+      f'(pi/2) = 0
+      f'' = -4 cos 4th - sin 2th - 2 sin 4th : True
+      cub(0.22) = 1087/62500 > 0,  cub(0.23) = -1877/62500 < 0
+      t* = 0.22366883689323696911 , theta* = atan t* = 0.22004706151312498993
+      на [atan 0.22, atan 0.23]: 4theta in [0.866201, 0.904274] subset (0, pi/2), cos(4*0.2262) = 0.618257 > 0.6 => f'' < -2.4
+      f(theta*) = 1.11211501717934 , f''(theta*) = -4.51576641143834
+      G(theta*) = -0.544386742010529 , G''(theta*) = 2.94732508350147 , eps_0(theta*) = -0.652674389010901
+      проверка G'' дифференцированием: 2.94732508350147 , G'(theta*) = -8.0777e-42
+      G''+jG в theta* = 0.04392912611  (декартова карта K1-типа: нужен знак +)
+      направление дна omega* = (cos, sin, 0) = 0.9758871780 0.2182755500
+      theta = pi/2: f = 1, f'' = -4, G = -0.472470393711, G'' = 2.51984209979
+  M2: F~(0,theta,e) - [G(theta) + e^2 p(theta,e)] = 0
+====================================================================================================
+Константы (U2): kappa <= beta lambda_0 / (a_0 (15 sqrt3/8 beta + 2 sqrt2)^2), lambda_0 = G''(0)/4
+  M1 (omega*=(0,-1,0)): beta=5, a0=1, lambda0=5/4: kappa <= 0.0171926
+  M2 (theta*):           beta=16/3, a0=0.54438674, lambda0=0.73683127: kappa <= 0.0177810
+  M2 (theta=pi/2):       a0=0.47247039, lambda0=0.62996052: kappa <= 0.0175159

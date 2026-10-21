@@ -1,0 +1,17 @@
+пример M2 : beta = 5.33333 , c = 1.33333 , theta* = 0.220047061513 , a0 = -G = 0.544386742 , G'' = 2.947325084 , lambda0 = G''/4 = 0.73683127
+контроль: в каждой точке |V - delta rho^beta|/(delta rho^beta) < 1e-15 (иначе остановка)
+kappa=0      delta=0.05   sigma=0.05   (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.1848    [x=0.0112, theta=0.0115, e=0.0013, K/(delta rho^beta)=0.147]
+kappa=0      delta=0.01   sigma=0.01   (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.2348    [x=0.00102, theta=0.00797, e=0.00642, K/(delta rho^beta)=0.117]
+kappa=0      delta=0.002  sigma=0.001  (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.0211    [x=9.23e-5, theta=0.00236, e=0.00716, K/(delta rho^beta)=0.0519]
+kappa=0.017  delta=0.05   sigma=0.05   (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.1849    [x=0.0112, theta=0.0115, e=0.0013, K/(delta rho^beta)=0.147]
+kappa=0.017  delta=0.01   sigma=0.01   (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.2346    [x=0.00102, theta=0.00797, e=0.00642, K/(delta rho^beta)=0.117]
+kappa=0.017  delta=0.002  sigma=0.001  (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.021     [x=9.23e-5, theta=0.00236, e=0.00716, K/(delta rho^beta)=0.0519]
+kappa=0.05   delta=0.05   sigma=0.05   (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.185     [x=0.0112, theta=0.0115, e=0.0013, K/(delta rho^beta)=0.147]
+kappa=0.05   delta=0.01   sigma=0.01   (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.2342    [x=0.00102, theta=0.00797, e=0.00642, K/(delta rho^beta)=0.117]
+kappa=0.05   delta=0.002  sigma=0.001  (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.0208    [x=9.23e-5, theta=0.00236, e=0.00716, K/(delta rho^beta)=0.0519]
+kappa=0.2    delta=0.05   sigma=0.05   (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.1854    [x=0.0112, theta=0.0115, e=0.0013, K/(delta rho^beta)=0.147]
+kappa=0.2    delta=0.01   sigma=0.01   (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.2325    [x=0.00102, theta=0.00797, e=0.00642, K/(delta rho^beta)=0.117]
+kappa=0.2    delta=0.002  sigma=0.001  (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.0199    [x=9.23e-5, theta=0.00236, e=0.00716, K/(delta rho^beta)=0.0519]
+kappa=0.5    delta=0.05   sigma=0.05   (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.1864    [x=0.0112, theta=0.0115, e=0.0013, K/(delta rho^beta)=0.147]
+kappa=0.5    delta=0.01   sigma=0.01   (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.2291    [x=0.00102, theta=0.00797, e=0.00642, K/(delta rho^beta)=0.117]
+kappa=0.5    delta=0.002  sigma=0.001  (120 точек): min (rho/lambda)Xi/(delta rho^beta) = -1.0181    [x=9.23e-5, theta=0.00236, e=0.00716, K/(delta rho^beta)=0.0519]
