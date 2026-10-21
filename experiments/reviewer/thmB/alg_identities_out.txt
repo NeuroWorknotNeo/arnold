@@ -1,0 +1,12 @@
+(1) |B^T M0 B - M| = 2.1538326677728037e-14
+(1) |B^T M0 B - M| = 5.684341886080802e-14
+(1) |B^T M0 B - M| = 4.440892098500626e-14
+(1) |B^T M0 B - M| = 3.019806626980426e-14
+(1) |B^T M0 B - M| = 5.3290705182007514e-14
+(2) True
+(3) R(F)=1: True
+    U_+ = r^{m+2} p: True
+    R(W) = r q: True
+    A(U) = U: True
+    A = V/(m+1) + r(c1 V + Y) gives A(U)=U: True
+(4) gamma meets R at 3*lambda0/4 and Lambda + lambda0/4
