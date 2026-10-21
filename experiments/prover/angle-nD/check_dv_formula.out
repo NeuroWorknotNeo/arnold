@@ -1,0 +1,2 @@
+n=3: max |Q_direct - Q_formula| over 20 random points: 0.e-165
+n=2: Dv - (матрица обзора/P77) = Matrix([[0, 0], [0, 0]])
