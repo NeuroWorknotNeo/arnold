@@ -1,0 +1,4 @@
+delta=0.02, sigma=0.2: min (rho/lam) Xi/(delta rho^6) over 3000 boundary points = 3.4595
+delta=0.005, sigma=0.05: min (rho/lam) Xi/(delta rho^6) over 3000 boundary points = 3.0498
+delta=0.001, sigma=0.02: min (rho/lam) Xi/(delta rho^6) over 3000 boundary points = 2.6306
+delta=0.0002, sigma=0.01: min (rho/lam) Xi/(delta rho^6) over 3000 boundary points = 2.3514

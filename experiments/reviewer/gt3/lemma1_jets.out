@@ -1,0 +1,2 @@
+n= 2 [0, 0, F_rho*F_rho**(beta - 1)*beta*delta - F_rho**beta*beta*delta]
+n= 3 [0, 0, F_rho*F_rho**(beta - 1)*beta*delta - F_rho**beta*beta*delta]
