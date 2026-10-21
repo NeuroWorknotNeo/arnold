@@ -1,0 +1,4 @@
+режим F , eps_h = 0.1 , eta = 0.5
+delta=0.01  sigma=2e-05   (153 точек стенки): min (rho/lambda)Xi/(delta rho^6) = 0.1944  [z=1.71e-5, s/smax=0.00193, phi=5.22, tau=0.001]
+delta=0.01  sigma=2e-06   (154 точек стенки): min (rho/lambda)Xi/(delta rho^6) = 0.2  [z=1.71e-6, s/smax=0.00193, phi=5.22, tau=0]
+delta=0.005 sigma=2e-07   (154 точек стенки): min (rho/lambda)Xi/(delta rho^6) = 0.2  [z=5.11e-8, s/smax=0.0408, phi=4.09, tau=0]

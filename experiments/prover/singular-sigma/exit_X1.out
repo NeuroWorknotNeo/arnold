@@ -1,0 +1,5 @@
+пример X1 : U = x**6 + x**2*y**2 + y**6 - z**6 + z*(x**4 + y**4) , beta = 6
+kappa=0     delta=0.02   sigma=0.01  : min (rho/lambda)Xi/(delta rho^beta) = 0.1657  [r=0.00947, |theta|=0.075, alpha=3.15, tau=0]
+kappa=0     delta=0.005  sigma=0.0005: min (rho/lambda)Xi/(delta rho^beta) = 0.41832  [r=0.00045, |theta|=0.0312, alpha=0.0, tau=0]
+kappa=0.2   delta=0.02   sigma=0.01  : min (rho/lambda)Xi/(delta rho^beta) = 0.60887  [r=0.00947, |theta|=0.075, alpha=3.15, tau=0.001]
+kappa=0.2   delta=0.005  sigma=0.0005: min (rho/lambda)Xi/(delta rho^beta) = 0.97006  [r=0.00045, |theta|=0.0312, alpha=0.0, tau=0.001]

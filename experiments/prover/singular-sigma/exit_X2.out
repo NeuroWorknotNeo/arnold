@@ -1,0 +1,5 @@
+пример X2 : U = x**8 + x**2*y**2 + x*y*z**4 + y**8 - z**7 , beta = 7
+kappa=0     delta=0.02   sigma=0.01  : min (rho/lambda)Xi/(delta rho^beta) = -0.011727  [r=0.00425, |theta|=0.0766, alpha=-0.00022, tau=0]
+kappa=0     delta=0.005  sigma=0.0005: min (rho/lambda)Xi/(delta rho^beta) = -3.7754e-13  [r=0.00045, |theta|=0.0379, alpha=1.57, tau=0]
+kappa=0.2   delta=0.02   sigma=0.01  : min (rho/lambda)Xi/(delta rho^beta) = 0.36271  [r=0.00425, |theta|=0.0766, alpha=-0.00022, tau=0.001]
+kappa=0.2   delta=0.005  sigma=0.0005: min (rho/lambda)Xi/(delta rho^beta) = 0.37792  [r=1.0e-6, |theta|=0.0378, alpha=1.57, tau=0.001]

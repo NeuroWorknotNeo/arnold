@@ -1,0 +1,5 @@
+режим SP , eps = 0.1 , возмущение
+kappa=0     delta=0.02   sigma=0.05  : min (rho/lambda)Xi/(delta rho^beta) = -0.16547  [r=0.045, |theta|=0.075, alpha=0.0, tau=0]
+kappa=0     delta=0.005  sigma=0.005 : min (rho/lambda)Xi/(delta rho^beta) = -0.03593  [r=0.0045, |theta|=0.0401, alpha=0.0, tau=0]
+kappa=0.2   delta=0.02   sigma=0.05  : min (rho/lambda)Xi/(delta rho^beta) = 0.1787  [r=0.045, |theta|=0.075, alpha=0.0, tau=0.001]
+kappa=0.2   delta=0.005  sigma=0.005 : min (rho/lambda)Xi/(delta rho^beta) = 0.33564  [r=0.0045, |theta|=0.0401, alpha=0.0, tau=0.001]

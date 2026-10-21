@@ -1,0 +1,9 @@
+режим S , eps = 0.1 
+kappa=0     delta=0.02   sigma=0.05  : min (rho/lambda)Xi/(delta rho^beta) = 9.9444e-24  [r=0.045, |theta|=0.0822, alpha=3.14, tau=0]
+kappa=0     delta=0.005  sigma=0.005 : min (rho/lambda)Xi/(delta rho^beta) = 4.8622e-24  [r=1.0e-5, |theta|=0.0409, alpha=0.0, tau=0]
+kappa=0.05  delta=0.02   sigma=0.05  : min (rho/lambda)Xi/(delta rho^beta) = 0.098686  [r=0.0025, |theta|=0.0822, alpha=1.57, tau=0]
+kappa=0.05  delta=0.005  sigma=0.005 : min (rho/lambda)Xi/(delta rho^beta) = 0.099672  [r=1.0e-5, |theta|=0.0409, alpha=0.0, tau=0]
+kappa=0.2   delta=0.02   sigma=0.05  : min (rho/lambda)Xi/(delta rho^beta) = 0.37449  [r=0.0025, |theta|=0.0821, alpha=0.0, tau=0.001]
+kappa=0.2   delta=0.005  sigma=0.005 : min (rho/lambda)Xi/(delta rho^beta) = 0.37822  [r=0.0045, |theta|=0.0409, alpha=0.0, tau=0.001]
+kappa=0.5   delta=0.02   sigma=0.05  : min (rho/lambda)Xi/(delta rho^beta) = 0.84784  [r=0.0001, |theta|=0.0818, alpha=0.0, tau=0.01]
+kappa=0.5   delta=0.005  sigma=0.005 : min (rho/lambda)Xi/(delta rho^beta) = 0.85617  [r=1.0e-5, |theta|=0.0407, alpha=1.57, tau=0.01]

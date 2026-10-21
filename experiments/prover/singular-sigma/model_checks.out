@@ -1,0 +1,17 @@
+grad U = [2*x*(2*epsilon*x**2*z**2 + 3*x**4 + y**2), 2*y*(2*epsilon*y**2*z**2 + x**2 + 3*y**4), 2*z*(epsilon*x**4 + epsilon*y**4 - 3*z**4)]
+сумма уравнений (должна быть x^2+y^2 + 2eps z^2(x^2+y^2) + 3(x^4+y^4)): 2*epsilon*x**2*z**2 + 2*epsilon*y**2*z**2 + 3*x**4 + x**2 + 3*y**4 + y**2
+x=0, y!=0: решения (Y2 = y^2, eps): [{Y2: -2**(1/3)*z**2, epsilon: 3*2**(1/3)/2}]
+полярная форма верна: True
+тождество Эйлера (S2) для модели: True
+theta.grad(c^4 t1^2 t2^2) = 4 c^6 t1^2 t2^2: True
+Lambda = tt**2*(epsilon*tt**2*sin(a)**4 + epsilon*tt**2*cos(a)**4 - 6*tt**2 + 3)
+theta.grad Lambda = tt**2*(8*epsilon*tt**2*sin(a)**4 - 8*epsilon*tt**2*sin(a)**2 + 4*epsilon*tt**2 - 24*tt**2 + 6)
+eps=   -2: min (Lambda-2|t|^2)/|t|^2 = 0.393519, min (theta.gradLambda - Lambda)/|t|^2 = 1.38773
+eps=   -1: min (Lambda-2|t|^2)/|t|^2 = 0.419234, min (theta.gradLambda - Lambda)/|t|^2 = 1.46028
+eps= -0.1: min (Lambda-2|t|^2)/|t|^2 = 0.442371, min (theta.gradLambda - Lambda)/|t|^2 = 1.50983
+eps=    0: min (Lambda-2|t|^2)/|t|^2 = 0.44125, min (theta.gradLambda - Lambda)/|t|^2 = 1.5075
+eps=  0.1: min (Lambda-2|t|^2)/|t|^2 = 0.450409, min (theta.gradLambda - Lambda)/|t|^2 = 1.52917
+eps=    1: min (Lambda-2|t|^2)/|t|^2 = 0.526296, min (theta.gradLambda - Lambda)/|t|^2 = 1.7118
+eps=    2: min (Lambda-2|t|^2)/|t|^2 = 0.598814, min (theta.gradLambda - Lambda)/|t|^2 = 1.89142
+6W - z W_z = 2*(2*epsilon*x**4*z**2 + 2*epsilon*y**4*z**2 + 3*x**6 + 3*x**2*y**2 + 3*y**6)
+6W - z W_z - 4W = 2*x**6 + 2*x**2*y**2 + 2*y**6
