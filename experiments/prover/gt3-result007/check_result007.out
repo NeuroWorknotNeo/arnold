@@ -1,0 +1,30 @@
+[OK] (5.2) beta W - rho YW = x^beta[sum c_i b_i dF/db_i - (s/N) dF/ds]
+[OK] L1 = 3 beta sqrt(3 a0/2)
+[OK] L2 = 4 sqrt(a0)
+[OK] (V1): L2 C1 Rb^2/sqrt(delta)+4 C1 Rb = (16 sqrt(a0) C1/lambda0 + 8 C1/sqrt(lambda0)) sqrt(delta)
+[OK] dN/dtheta = tau
+[OK] dnu/dtheta = tau
+[OK] dtau/dtheta = -(N+nu)
+[OK] (N, nu, tau) ортонормирован
+[OK] d_X Phi: формула §6.1 (макс. расхождение 2.87e-42)
+[OK] d_xi Phi: формула §6.1 (макс. расхождение 3.44e-41)
+[OK] d_eta Phi: формула §6.1 (макс. расхождение 0.0)
+[OK] d_X^2 Phi: формула §6.1 (макс. расхождение 1.96e-40)
+[OK] d_xi d_X Phi: формула §6.1 (макс. расхождение 3.04e-40)
+[OK] d_eta d_X Phi: формула §6.1 (макс. расхождение 1.15e-41)
+[OK] B - I = k varpi varpi^T (макс. расхождение 4.59e-41)
+[OK] обратное отображение: l=(R+z)/sqrt2, eta=(R-z)/sqrt2, arg=phi (макс. 4.59e-41)
+[OK] |Phi|^2 = l^2 + eta^2
+[OK] U∘Phi = X^6 F(X, xi/X, eta/X^2) (макс. отн. расхождение 1.84e-40)
+[OK] многочленная запись F совпадает с записью через Lambda
+[OK] |q/|q| - N(0)| <= |b|(1+X) на точках N (макс. отношение 0.8349)
+[OK] F0(0) = 1/16 - 3 sqrt3/32
+[OK] grad F0(0) = 0
+[OK] H = diag((6-3sqrt3)/16, 8)
+[OK] d_b1 d_b2 [4(1+b1^2) b2^2] = 16 b1 b2
+[OK] CH+HC-H = diag(H11, 24) > 0
+[OK] U(-q) = U(q)
+[OK] луч: r'' = beta|f| r^(beta-1) при r' = -sqrt(2|f|) r^(beta/2)
+[OK] U∘Phi = x^2(-1+(2k-1)b^2-k^2 b^4) для -|q|^2
+[OK] B_xu = -2 kappa b (1 + kappa b^2)
+ВСЕ ПРОВЕРКИ ПРОШЛИ
