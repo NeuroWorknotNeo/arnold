@@ -1,0 +1,56 @@
+... K1
+    done in 3.0 s; covered_known ['QH-linear', 'Bu25-C1.4', 'SYM'] ours [] soft ['Pa20-T6'] NOT_COVERED False
+... K2
+    done in 26.4 s; covered_known [] ours ['N13'] soft ['N13*'] NOT_COVERED False
+... K3
+    done in 35.9 s; covered_known ['SYM'] ours ['ThmB'] soft ['N13*'] NOT_COVERED False
+... A1
+    done in 38.2 s; covered_known [] ours [] soft [] NOT_COVERED True
+... A2
+    done in 39.6 s; covered_known [] ours [] soft [] NOT_COVERED True
+... A3
+    done in 52.6 s; covered_known [] ours [] soft [] NOT_COVERED True
+... A4
+    done in 39.1 s; covered_known [] ours [] soft [] NOT_COVERED True
+... A5
+    done in 46.1 s; covered_known [] ours [] soft [] NOT_COVERED True
+... A6
+    done in 48.0 s; covered_known [] ours ['N13'] soft ['N13*'] NOT_COVERED False
+... A7
+    done in 37.6 s; covered_known [] ours [] soft [] NOT_COVERED True
+... C1
+    done in 35.5 s; covered_known [] ours [] soft [] NOT_COVERED True
+... C2
+    done in 36.9 s; covered_known [] ours [] soft [] NOT_COVERED True
+... C3
+    done in 36.5 s; covered_known [] ours ['ThmB'] soft [] NOT_COVERED False
+... D1
+    done in 36.6 s; covered_known [] ours [] soft [] NOT_COVERED True
+... D2
+    done in 44.5 s; covered_known [] ours [] soft [] NOT_COVERED True
+... F1
+    done in 72.0 s; covered_known [] ours [] soft [] NOT_COVERED True
+... M1
+    done in 4.7 s; covered_known [] ours [] soft [] NOT_COVERED True
+... M2
+    done in 93.9 s; covered_known [] ours [] soft [] NOT_COVERED True
+... P1
+    done in 1.2 s; covered_known [] ours [] soft [] NOT_COVERED True
+... P2
+    done in 16.1 s; covered_known [] ours ['ThmB'] soft [] NOT_COVERED False
+... P3
+    done in 17.4 s; covered_known [] ours [] soft [] NOT_COVERED True
+... P4
+    done in 51.3 s; covered_known [] ours [] soft [] NOT_COVERED True
+... Z1
+    done in 31.4 s; covered_known [] ours [] soft [] NOT_COVERED True
+... S1
+    done in 25.9 s; covered_known [] ours [] soft [] NOT_COVERED True
+... T1
+    done in 41.4 s; covered_known [] ours [] soft [] NOT_COVERED True
+... H1
+    done in 9.5 s; covered_known [] ours [] soft ['FGT08*'] NOT_COVERED False
+... H2
+    done in 10.7 s; covered_known [] ours [] soft ['FGT08*'] NOT_COVERED False
+total seconds 932.2
+examples 27 not covered at all 19 not covered by proved 21
