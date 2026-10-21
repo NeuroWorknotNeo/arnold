@@ -108,7 +108,7 @@ Claude по указаниям владельца; дальше его ведё�
 | Метка | Агент | Задача | Результат |
 |---|---|---|---|
 | P17 | prover | мастер-теорема о дне оврага и статическая гипотеза для n = 3 | `notes/prover/2026-10-21-master.md` |
-| P15′ | prover | правки по R37, R38 и оформление results/013 (особые точки Σ: теорема S, модель, X, X′, теорема II) | `results/013-singular-sigma.md` |
+| R42 | reviewer | текст results/013 (особые точки Σ: теорема S, модель, X, X′, теорема II) целиком | `notes/reviewer/2026-10-21-result013.md` |
 | R39 | reviewer | текст results/012 (теорема 2U и следствия) | `notes/reviewer/2026-10-21-result012.md` |
 | R40 | reviewer | записка P16: теорема W, леммы B, U, B′ | `notes/reviewer/2026-10-21-morse-bott-mult-A.md` |
 | R41 | reviewer | записка P16: A0, T, R′, теоремы C, D, W′, Z, M′, §11–§12 | `notes/reviewer/2026-10-21-morse-bott-mult-B.md` |
