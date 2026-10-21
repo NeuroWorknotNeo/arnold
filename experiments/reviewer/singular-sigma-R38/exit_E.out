@@ -1,0 +1,8 @@
+mode=E e=0.1 eta=0.5
+delta=0.05 sigma=0.02: min rho Xi/(lambda delta rho^6) = -20.8328 at x/z^1.5=0.67672, y/z^1.5=-1.1473, z=0.00431, tau=0;  max zdot/z^3 = -0.94868
+delta=0.02 sigma=0.002: min rho Xi/(lambda delta rho^6) = -36.4264 at x/z^1.5=0.68585, y/z^1.5=-1.2518, z=0.000227, tau=0;  max zdot/z^3 = -0.9798
+delta=0.01 sigma=0.0002: min rho Xi/(lambda delta rho^6) = -54.0 at x/z^1.5=0.65002, y/z^1.5=-1.3846, z=2.27e-5, tau=0;  max zdot/z^3 = -0.98995
+delta=0.01 sigma=2e-05: min rho Xi/(lambda delta rho^6) = -54.0 at x/z^1.5=0.61239, y/z^1.5=-1.4697, z=2.27e-6, tau=0;  max zdot/z^3 = -0.98995
+delta=0.01 sigma=2e-06: min rho Xi/(lambda delta rho^6) = -54.0 at x/z^1.5=0.88705, y/z^1.5=-1.0146, z=5.99e-7, tau=0;  max zdot/z^3 = -0.98995
+delta=0.005 sigma=2e-07: min rho Xi/(lambda delta rho^6) = -78.8528 at x/z^1.5=0.89512, y/z^1.5=-1.0382, z=5.99e-8, tau=0;  max zdot/z^3 = -0.99499
+delta=0.01 sigma=1e-09: min rho Xi/(lambda delta rho^6) = -54.0 at x/z^1.5=0.91702, y/z^1.5=-0.98144, z=2.99e-10, tau=0;  max zdot/z^3 = -0.98995

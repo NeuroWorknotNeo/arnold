@@ -1,0 +1,11 @@
+eta = 1/2  milnor = 65
+// ** redefining et (  number et = etas[i];) milnor.sing:7
+eta = 1/3  milnor = 65
+// ** redefining et (  number et = etas[i];) milnor.sing:7
+eta = 2/3  milnor = 65
+// ** redefining et (  number et = etas[i];) milnor.sing:7
+eta = 1/10  milnor = 65
+// ** redefining et (  number et = etas[i];) milnor.sing:7
+eta = 9/10  milnor = 65
+eta = 0  milnor = -1
+eta=1/2 global vdim = 125

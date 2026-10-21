@@ -1,0 +1,13 @@
+U = H^2-(1-eta)z^6+x^6+y^6: True
+zxi0 = (lamx x, lamy y): True True True
+(5.2) zY(H)=(3-e)H: True
+(5.3) (V=0): True
+(5.3) V-term: True
+part = 6|y|^6 f(u): True
+x^5 zzeta1 = e*t*x**5*z**3/(t**2 + x**2) ; y^5 zzeta2 = e*t**5*x*z**3/(t**2 + x**2)
+D(zxi0) = (3-e)[[a,-b],[-a,b]]: True
+D(zzeta) = -e z^3 M: True
+M^T M = I/(x^2+y^2)^2: True
+z d_z xi = 2zeta - xi0: True
+dU/dz = 6*Z**2*(X*Y + Z**3*eta)
+(x/2) dU/dx with xy=-eta z^3: 3*X**6 + Z**6*eta**2 - Z**6*eta

@@ -1,0 +1,12 @@
+const field lx=1.5, ly=1.5: delta=0.01 sigma=0.0002: min rho Xi/(lambda delta rho^6) = -12.6185 at x/z^1.5=25.749, y/z^1.5=-0.039156, tau=0.5
+const field lx=1.5, ly=1.5: delta=0.01 sigma=2e-06: min rho Xi/(lambda delta rho^6) = -10.9384 at x/z^1.5=0.0039, y/z^1.5=-242.22, tau=0.2
+const field lx=0.9, ly=0.9: delta=0.01 sigma=0.0002: min rho Xi/(lambda delta rho^6) = -21.6 at x/z^1.5=1.5561, y/z^1.5=-0.57836, tau=0
+const field lx=0.9, ly=0.9: delta=0.01 sigma=2e-06: min rho Xi/(lambda delta rho^6) = -21.6 at x/z^1.5=2.1167, y/z^1.5=-0.4252, tau=0
+const field lx=0.5, ly=2.5: delta=0.01 sigma=0.0002: min rho Xi/(lambda delta rho^6) = -22.8257 at x/z^1.5=0.035209, y/z^1.5=-26.841, tau=0.2
+const field lx=0.5, ly=2.5: delta=0.01 sigma=2e-06: min rho Xi/(lambda delta rho^6) = -25.7875 at x/z^1.5=0.0039, y/z^1.5=-242.22, tau=0.2
+const field lx=0.0, ly=0.0: delta=0.01 sigma=0.0002: min rho Xi/(lambda delta rho^6) = -54.0 at x/z^1.5=1.5561, y/z^1.5=-0.57836, tau=0
+const field lx=0.0, ly=0.0: delta=0.01 sigma=2e-06: min rho Xi/(lambda delta rho^6) = -54.0 at x/z^1.5=2.1167, y/z^1.5=-0.4252, tau=0
+const field lx=0.95, ly=1.95: delta=0.01 sigma=0.0002: min rho Xi/(lambda delta rho^6) = -17.1935 at x/z^1.5=0.024658, y/z^1.5=-37.453, tau=0.2
+const field lx=0.95, ly=1.95: delta=0.01 sigma=2e-06: min rho Xi/(lambda delta rho^6) = -18.5452 at x/z^1.5=0.0039, y/z^1.5=-242.22, tau=0.2
+const field lx=-0.5, ly=-0.5: delta=0.01 sigma=0.0002: min rho Xi/(lambda delta rho^6) = -72.0 at x/z^1.5=1.5561, y/z^1.5=-0.57836, tau=0
+const field lx=-0.5, ly=-0.5: delta=0.01 sigma=2e-06: min rho Xi/(lambda delta rho^6) = -72.0 at x/z^1.5=2.1167, y/z^1.5=-0.4252, tau=0

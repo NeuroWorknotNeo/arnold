@@ -1,0 +1,21 @@
+// R38: local Milnor number of U_II at 0 for several eta (finite => 0 isolated over C, hence over R)
+ring r1 = 0,(x,y,z),ds;
+poly f; ideal j;
+list etas = 1/2, 1/3, 2/3, 1/10, 9/10;
+int i;
+for (i=1; i<=size(etas); i++) {
+  number et = etas[i];
+  f = x2y2 + 2xyz3 + et*z6 + x6 + y6;
+  j = jacob(f);
+  "eta =", et, " milnor =", vdim(std(j));
+}
+// eta = 0 : z-axis critical => infinite
+f = x2y2 + 2xyz3 + x6 + y6;
+j = jacob(f);
+"eta = 0  milnor =", vdim(std(j));
+// global (affine) count of complex critical points for eta=1/2
+ring r2 = 0,(x,y,z),dp;
+poly f = x2y2 + 2xyz3 + 1/2*z6 + x6 + y6;
+ideal j = std(jacob(f));
+"eta=1/2 global vdim =", vdim(j);
+quit;
