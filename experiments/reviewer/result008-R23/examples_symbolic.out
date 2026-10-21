@@ -1,0 +1,59 @@
+OK    ex1: e1,e2 ortho to w*
+OK    ex1: H = diag(8/3, 8)
+OK    ex1: dU/dx = 4xA
+OK    ex1: dU/dy = 4yB
+OK    ex1: dU/dz = -4zA-4zB+5z^4
+OK    ex1: case A=0,y=0 -> z^3(4+5z)
+OK    ex1: case x=y=0 -> z^3(8+5z)
+OK    ex1: U(t w*) = -3^{-5/2} t^5
+OK    ex1: E U = 4U + z^5
+OK    ex2: u4 = A^2+B^2
+OK    ex2: u5 = 2 A z^3
+OK    ex2: u6 = z^6
+OK    ex2: u7 = z^7
+OK    ex2: dU/dx = 4xP1
+OK    ex2: dU/dy = 4yP2
+OK    ex2: dU/dz formula
+OK    ex2: case P1=0,y=0 -> z^3(7z^3+4)
+OK    ex2: case x=0,P2=0 -> z^3(7z^3+6z^2-10z+4)
+OK    ex2: case x=y=0 -> z^3(7z^3+6z^2-10z+8)
+    roots 7*z**3 + 4 [0.8298, 0.8298, 0.8298]
+    roots 7*z**3 + 6*z**2 - 10*z + 4 [1.8167, 0.5608, 0.5608]
+    roots 7*z**3 + 6*z**2 - 10*z + 8 [1.9149, 0.7725, 0.7725]
+OK    ex2: E U = 4U + 2 z^3 P1 + 3 z^7
+OK    ex2 family: P1 = -tau^{7/2}/2
+OK    ex2 family: P2 = 0
+OK    ex2 family: U = -3/4 tau^7
+OK    ex2 family: E U = tau^{13/2} - 6 tau^7
+OK    ex2: y*_1 = (sqrt2/12, sqrt6/36)
+OK    ex2: g6(w*) = u6 - 1/2 b^T H^-1 b = 0
+OK    ex3: u4 = Q0^2
+OK    ex3: u5 = 2 Q0 z^3
+OK    ex3: u6 = z^6
+OK    ex3: u7
+OK    ex3: G+ formula
+OK    ex3: G- formula
+OK    ex3 sgn=1: h_n = 8, |gradQ0|=2, g5=0, g6 = 0
+OK    ex3 sgn=-1: h_n = 8, |gradQ0|=2, g5=0, g6 = 0
+    G+ crit pi/6 0 sqrt(2)*(2 + 3*sqrt(3))/64 0.1590140055171207
+    G+ crit 5*pi/6 0 sqrt(2)*(2 - 3*sqrt(3))/64 -0.07062565786880225
+    G+ crit 3*pi/2 0 sqrt(2)/32 0.04419417382415922
+    G- crit pi/2 0 -sqrt(2)/32 -0.04419417382415922
+    G- crit 7*pi/6 0 sqrt(2)*(-3*sqrt(3) - 2)/64 -0.1590140055171207
+    G- crit 11*pi/6 0 sqrt(2)*(-2 + 3*sqrt(3))/64 0.07062565786880225
+    G+ sign changes / zeros of derivative near [np.float64(0.524), np.float64(2.618), np.float64(4.712)]
+    G+ number of negative arcs = 1  min = -0.07062565785621083
+    G- sign changes / zeros of derivative near [np.float64(1.571), np.float64(3.665), np.float64(5.76)]
+    G- number of negative arcs = 1  min = -0.15901400550452927
+OK    ex3: d2G+/dphi2 (5pi/6) = 3 sqrt6/32
+OK    ex3: G+(5pi/6) = sqrt2(2-3sqrt3)/64
+OK    ex3: G" (natural) = 3sqrt6/16
+OK    ex3: G"+7G = (14sqrt2-9sqrt6)/64 < 0
+    kappa bound (U3) = 0.017417129279483693
+OK    ex3: E U = 4U + 2 z^3 P + 3 u7
+OK    ex3: grad U = 0 on z=0, x=1iy
+OK    ex3: grad U = 0 on z=0, x=-1iy
+OK    ex3: U(t w*) = t^6/8 + O(t^7)
+OK    g_{m+1} = u_{m+1}(omega)
+OK    g_{m+2} = u_{m+2} - 1/2 b^T H^-1 b
+ALL OK

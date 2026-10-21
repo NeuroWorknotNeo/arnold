@@ -1,0 +1,35 @@
+// R23: числа Милнора примеров 1, 2 и компоненты идеала Якоби примера 3. [Эксперимент]
+LIB "primdec.lib";
+ring r = 0, (x,y,z), ds;
+poly A = x2-z2; poly B = y2-z2;
+poly U1 = A^2+B^2+z5;
+ideal j1 = jacob(U1);
+"mu(U1) =", vdim(std(j1));
+poly P1 = x2-z2+z3; poly P2 = y2-z2;
+poly U2 = P1^2+P2^2+z7;
+ideal j2 = jacob(U2);
+"mu(U2) =", vdim(std(j2));
+poly P = x2+y2-z2+z3;
+poly U3 = P^2 + x*z6 + x*y*z5 + 1/2*z7;
+ideal j3 = jacob(U3);
+"dim of local Jacobian ideal of U3 (ds) =", dim(std(j3));
+ring g = 0, (x,y,z), dp;
+poly P = x2+y2-z2+z3;
+poly U3 = P^2 + x*z6 + x*y*z5 + 1/2*z7;
+ideal j3 = jacob(U3);
+list L = minAssGTZ(j3);
+"number of minimal associated primes (global, over Q):", size(L);
+int i;
+for (i=1; i<=size(L); i++) {
+  ideal I = std(L[i]);
+  // проходит ли компонента через 0?
+  int through0 = (reduce(x,I)==x) && 1;
+  "--- component", i, " dim =", dim(I);
+  I;
+  "contains 0? (all generators vanish at 0):";
+  int c = 1; int k;
+  for (k=1; k<=ncols(I); k++) { if (subst(subst(subst(I[k],x,0),y,0),z,0) != 0) { c = 0; } }
+  c;
+  kill I; kill through0; kill c; kill k;
+}
+quit;

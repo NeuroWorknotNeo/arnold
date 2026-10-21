@@ -1,0 +1,13 @@
+mu(U1) = 31
+mu(U2) = 39
+dim of local Jacobian ideal of U3 (ds) = 1
+number of minimal associated primes (global, over Q): 2
+--- component 1  dim = 1
+I[1]=z
+I[2]=x2+y2
+contains 0? (all generators vanish at 0):
+1
+--- component 2  dim = 0
+I[1]=x2-y2-yz
+contains 0? (all generators vanish at 0):
+0
