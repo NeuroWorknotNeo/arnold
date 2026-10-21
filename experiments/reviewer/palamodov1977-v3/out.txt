@@ -1,0 +1,19 @@
+== check_angle_convention.py
+angle-convention mismatches: 0
+== check_examples.py
+radial: True
+on s=-mu x^3: 2*mu**2*x**6 + 2*mu*x**5 - 6*x**6
+(x,2y): True
+[{x: 0, y: 0}]
+two weights: True
+f=0: -x**4*(a - 2)*(x - 1)   g=0: x**5*(a - 3)*(x - 1)
+== check_mu_bound.py
+max |mu formula - min eig| = 1.7763568394002505e-15
+violations: survey bound 42358  P77 bound 0  corrected bound 0
+example d=0,p=0,q=-1: mu= 0.0  survey lower bound= 0.5
+== check_rotated_field.py
+polar-frame Dv matches survey: True
+Cartesian Dv matches P77 p.52: True
+Lemma 8: [0, 0]
+radicand: p**2 + q**2
+trace/2: -p*sin(d)/2 + q*cos(d)/2 + cos(d)

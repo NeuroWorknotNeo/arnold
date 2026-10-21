@@ -1,0 +1,4 @@
+r=1e-2: min lambda_min(sym DA)=0.920328642; max|DA-I|/r=10.0693; max|A|/r=1.0010149; min_(U<0) A(U)/U=2.9743808 (need >= d/2=1.5); max|A(U)-dU-(1-chi)U_+|/r^3=6.95e-61; overlap: max|W_1-W_2|/r^2=0.0297962, max|(W_1-W_2)(x)grad psi_1|/r=0.0710034
+r=1e-4: min lambda_min(sym DA)=0.9992112246; max|DA-I|/r=10.1052; max|A|/r=1.0000104; min_(U<0) A(U)/U=2.9997502 (need >= d/2=1.5); max|A(U)-dU-(1-chi)U_+|/r^3=7.5e-61; overlap: max|W_1-W_2|/r^2=0.0290062, max|(W_1-W_2)(x)grad psi_1|/r=0.0691209
+r=1e-6: min lambda_min(sym DA)=0.999992113; max|DA-I|/r=10.1055; max|A|/r=1.0000001; min_(U<0) A(U)/U=2.9999975 (need >= d/2=1.5); max|A(U)-dU-(1-chi)U_+|/r^3=8.32e-61; overlap: max|W_1-W_2|/r^2=0.0289981, max|(W_1-W_2)(x)grad psi_1|/r=0.0691015
+r=1e-8: min lambda_min(sym DA)=0.9999999211; max|DA-I|/r=10.1055; max|A|/r=1.0; min_(U<0) A(U)/U=3.0 (need >= d/2=1.5); max|A(U)-dU-(1-chi)U_+|/r^3=9.58e-61; overlap: max|W_1-W_2|/r^2=0.028998, max|(W_1-W_2)(x)grad psi_1|/r=0.0691013

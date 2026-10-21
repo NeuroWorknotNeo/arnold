@@ -1,0 +1,6 @@
+r=1e-01: min ratio over samples = 0.0269, after Nelder-Mead = 0.0000
+r=1e-02: min ratio over samples = 0.4436, after Nelder-Mead = 0.4061
+r=1e-03: min ratio over samples = 0.6382, after Nelder-Mead = 0.6236
+r=1e-04: min ratio over samples = 0.6335, after Nelder-Mead = 0.6255
+r=1e-05: min ratio over samples = 0.6356, after Nelder-Mead = 0.6259
+r=1e-06: min ratio over samples = 0.6329, after Nelder-Mead = 0.6261

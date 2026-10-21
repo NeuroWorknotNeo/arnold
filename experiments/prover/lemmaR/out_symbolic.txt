@@ -1,0 +1,30 @@
+OK   (A1) U_+ = r^{d+e} (e H + eps H_eps / N)
+OK   (A2) J={r,0,1}: Den = r^(2d) (D_J + r^e B)
+OK   (A3) J={r,0,1}: radial coefficient = r^e c
+OK   (A3) J={r,0,1}: d_j coefficients = r^e Y_j
+OK   (A3) J={r,0,1}: W^(U) = -chi U_+
+OK   (A4) J={r,0,1}: A(U) = dU + (1-chi) U_+
+OK   (A2) J={1}: Den = r^(2d) (D_J + r^e B)
+OK   (A3) J={1}: d_j coefficients = r^e Y_j
+OK   (A3) J={1}: W^(U) = -chi U_+
+OK   (A4) J={1}: A(U) = dU + (1-chi) U_+
+OK   (A5a) d_r Phi = Gamma + (eps/N) Gamma_eps
+OK   (A5b) r d_r^2 Phi = (eps/N)(1+1/N) Gamma_eps + (eps/N)^2 Gamma_epseps
+OK   (A6a) N=2, a=1: r eps^a = r^w
+OK   (A6b) N=2, a=1: d_y1 Phi = s_1 D_mu G
+OK   (A6c) N=2, a=1: d_r d_y1 Phi = (w s_1/r) D_mu G + s_1 (eps/(N r)) d_eps[D_mu G]
+OK   (A6a) N=2, a=2: r eps^a = r^w
+OK   (A6b) N=2, a=2: d_y1 Phi = s_1 D_mu G
+OK   (A6c) N=2, a=2: d_r d_y1 Phi = (w s_1/r) D_mu G + s_1 (eps/(N r)) d_eps[D_mu G]
+OK   (A6a) N=2, a=3: r eps^a = r^w
+OK   (A6b) N=2, a=3: d_y1 Phi = s_1 D_mu G
+OK   (A6c) N=2, a=3: d_r d_y1 Phi = (w s_1/r) D_mu G + s_1 (eps/(N r)) d_eps[D_mu G]
+OK   (A6a) N=3, a=1: r eps^a = r^w
+OK   (A6b) N=3, a=1: d_y1 Phi = s_1 D_mu G
+OK   (A6c) N=3, a=1: d_r d_y1 Phi = (w s_1/r) D_mu G + s_1 (eps/(N r)) d_eps[D_mu G]
+OK   (A6a) N=3, a=2: r eps^a = r^w
+OK   (A6b) N=3, a=2: d_y1 Phi = s_1 D_mu G
+OK   (A6c) N=3, a=2: d_r d_y1 Phi = (w s_1/r) D_mu G + s_1 (eps/(N r)) d_eps[D_mu G]
+OK   (A6a) N=3, a=3: r eps^a = r^w
+OK   (A6b) N=3, a=3: d_y1 Phi = s_1 D_mu G
+OK   (A6c) N=3, a=3: d_r d_y1 Phi = (w s_1/r) D_mu G + s_1 (eps/(N r)) d_eps[D_mu G]
