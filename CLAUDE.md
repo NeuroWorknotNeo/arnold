@@ -196,17 +196,19 @@ $\ddot x=-\partial U/\partial x$ неустойчиво по Ляпунову.
 ## Прежняя схема (архив)
 
 До 21.10.2026 работала Telegram-доска. Её описывают файлы AGENTS.md, JOIN.md, OWNER.md,
-INSTALL_AGENT.md, OBJECTIVE.md, COMPUTE.md и папки `participant/`, `compute/`, `docs/`. Их
-инструкции о доске, Telegram, заявках на расчёты и ветках `participant/*` не выполняй. Правила
-строгости из AGENTS.md по-прежнему действуют, они повторены выше.
+INSTALL_AGENT.md, OBJECTIVE.md, COMPUTE.md и папки `participant/`, `compute/`, `docs/`; с
+21.10.2026 (решение владельца) они лежат в `archive/telegram-board/`. Их инструкции о доске,
+Telegram, заявках на расчёты и ветках `participant/*` не выполняй. Правила строгости из
+AGENTS.md по-прежнему действуют, они повторены выше.
 
 ## Сопровождение репозитория
 
-Если по просьбе владельца ты правишь документацию, скрипты в `ops/` или код в `participant/`:
+Если по просьбе владельца ты правишь документацию, скрипты в `ops/` или код в
+`archive/telegram-board/participant/`:
 
 - документацию и сообщения коммитов пиши по-русски;
 - код участника доски — только стандартная библиотека Python 3.11+; тесты
-  `cd participant && python -m pytest -q`, стиль `pyflakes board tests`;
+  `cd archive/telegram-board/participant && python -m pytest -q`, стиль `pyflakes board tests`;
 - скрипты `ops/` пиши на bash и проверяй `bash -n` и `shellcheck`;
 - не выдавай численные эксперименты за доказательства, в документации тоже;
 - секреты в репозиторий не кладутся.

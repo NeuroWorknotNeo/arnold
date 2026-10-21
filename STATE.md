@@ -101,10 +101,10 @@
 
 | Кто | Что | Где |
 |---|---|---|
-| главный агент | обзор решения Паламодова для $n=2$ (поручение владельца); раздел 4 ждёт PDF [P77] | [notes/literature/2026-10-21-palamodov1977-obzor.pdf](notes/literature/2026-10-21-palamodov1977-obzor.pdf) |
+| главный агент | обзор решения Паламодова для $n=2$ (поручение владельца); раздел 4 ждёт PDF [P77] | [surveys/palamodov1977/](surveys/palamodov1977/) |
 | prover, reviewer | теорема B → `results/002` | `results/`, `notes/reviewer/` |
 
-Исследовательский этап 2 начнётся после ревизии, по [orchestrator/PLAN.md](orchestrator/PLAN.md).
+Исследовательский этап 2 начнётся после того, как будет дописан обзор (решение владельца 21.10.2026), по [orchestrator/PLAN.md](orchestrator/PLAN.md).
 
 ## Закрытые направления и тупики
 

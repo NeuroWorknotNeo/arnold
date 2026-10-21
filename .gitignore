@@ -2,6 +2,9 @@
 participant/.env
 participant/*.env
 !participant/.env.example
+archive/telegram-board/participant/.env
+archive/telegram-board/participant/*.env
+!archive/telegram-board/participant/.env.example
 *.env.local
 
 # Личные настройки и состояние Claude Code
@@ -17,9 +20,15 @@ __pycache__/
 # Результаты расчётов, собранные локально
 compute/job-template/out/
 compute/job-template/.deps/
+archive/telegram-board/compute/job-template/out/
+archive/telegram-board/compute/job-template/.deps/
 
 # Вспомогательные файлы LaTeX в заметках
 notes/**/*.aux
 notes/**/*.toc
 notes/**/*.out
 notes/**/*.log
+surveys/**/*.aux
+surveys/**/*.toc
+surveys/**/*.out
+surveys/**/*.log
