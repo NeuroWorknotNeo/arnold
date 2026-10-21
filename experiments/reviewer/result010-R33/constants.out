@@ -1,0 +1,9 @@
+Gamma bound == C_Gamma sqrt(a0) kappa R: 0
+kappa(0.4) equivalence: 1
+Gamma^2/(4b delta) at kappa=kmax equals kappa/4: 1/4
+square identity: 0
+L1 - 2(a2+beta delta)sqrt(h1/a1) at delta=a1/2: 0
+Gamma = T1c+T2c: 0
+h max: 93/64 1.453125
+p.1 margin: 1/4+1/8 = 3/8 <= 1/2
+C_Gamma(j=3..8): [13.742785792574935, 16.99038105676658, 20.237976320958225, 23.48557158514987, 26.733166849341515, 29.98076211353316]

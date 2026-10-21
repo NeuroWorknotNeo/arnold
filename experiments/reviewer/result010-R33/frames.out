@@ -1,0 +1,21 @@
+(2.1) Psi_s: [0, 0, 0]
+(2.1) Psi_th: [0, 0, 0]
+(2.1) Psi_ze: (0, 0, 1)
+(5.1) Y: [0, 0, 0]
+(5.1) h: 0
+(5.2): [0, 0, 0]
+decomp w: [0, 0, 0]
+(5.3): 0
+s eps_s = k eta*_s - eps: 0
+eps_th: 0
+s nu_s: 0
+nu_th: 0
+(8.2) Phi_x: [0, 0, Subs(Derivative(eta(_xi_1, theta0 + u/x + tau(x)), _xi_1), _xi_1, x) - Subs(Derivative(eta(x, theta), x), theta, theta0 + u/x + tau(x))]
+(8.2) Phi_u: [0, 0, 0]
+(8.2) Phi_ze: (0, 0, 1)
+Psi_sth formula: [0, 0, 0]
+Psi_thth formula: [0, 0, 0]
+(8.3) x Phi_xx: [0, 2*(u*Subs(Derivative(eta(_xi_1, (u + x*(theta0 + tau(x)))/x), _xi_1), _xi_1, x) - u*Subs(Derivative(eta(x, theta), x), theta, (u + x*(theta0 + tau(x)))/x) + x**2*(-Subs(Derivative(eta(_xi_1, (u + x*(theta0 + tau(x)))/x), _xi_1), _xi_1, x) + Subs(Derivative(eta(x, theta), x), theta, (u + x*(theta0 + tau(x)))/x))*Derivative(tau(x), x))*k((u + x*(theta0 + tau(x)))/x)/x, x*(Subs(Derivative(eta(_xi_1, theta0 + u/x + tau(x)), (_xi_1, 2)), _xi_1, x) - Subs(Derivative(eta(x, theta), (x, 2)), theta, theta0 + u/x + tau(x)))]
+(8.3) x d_u Phi_x: [0, (-Subs(Derivative(eta(_xi_1, (u + x*(theta0 + tau(x)))/x), _xi_1), _xi_1, x) + Subs(Derivative(eta(x, theta), x), theta, (u + x*(theta0 + tau(x)))/x))*k((u + x*(theta0 + tau(x)))/x), 0]
+(8.3) x d_ze Phi_x: [0, 0, 0]
+x^2 thh_xx - (x^2 tau_xx + 2u/x): 0

@@ -1,0 +1,3 @@
+(5.4) min(lhs - kappa Q) over samples: 0.002224346386577103
+(V0) Euler min margin over samples: 0.04596188998291323
+d = 2q-1 odd for q=1..6: [1, 3, 5, 7, 9, 11]

@@ -1,0 +1,24 @@
+--- j=4, p=1, b=a=1.0
+  scale check: 1.8720165590429425 1.8720165590429425
+  delta=1e-02: kappa(0.4)=8.660e-04  min xi_hat=1.7263e-03  kappa/2=4.330e-04  min>=kappa/2: True  min/kappa=1.993  NaN=0  kappa_crit=none<=0.5  #neg below kc=0
+  delta=1e-03: kappa(0.4)=8.660e-04  min xi_hat=1.7315e-03  kappa/2=4.330e-04  min>=kappa/2: True  min/kappa=1.999  NaN=0  kappa_crit=none<=0.5  #neg below kc=0
+  delta=1e-04: kappa(0.4)=8.660e-04  min xi_hat=1.7320e-03  kappa/2=4.330e-04  min>=kappa/2: True  min/kappa=2.000  NaN=0  kappa_crit=none<=0.5  #neg below kc=0
+  delta=1e-05: kappa(0.4)=8.660e-04  min xi_hat=1.7321e-03  kappa/2=4.330e-04  min>=kappa/2: True  min/kappa=2.000  NaN=0  kappa_crit=none<=0.5  #neg below kc=0
+--- j=6, p=2, b=a=1.0
+  scale check: 2.59405741887327 2.59405741887327
+  delta=1e-02: kappa(0.4)=1.923e-04  min xi_hat=7.4246e-04  kappa/2=9.615e-05  min>=kappa/2: True  min/kappa=3.861  NaN=0  kappa_crit=1.892e-01  kc/delta^(1-1/p)=1.892  kc/kappa04=984  #neg below kc=0
+  delta=1e-03: kappa(0.4)=6.081e-05  min xi_hat=2.4064e-04  kappa/2=3.040e-05  min>=kappa/2: True  min/kappa=3.957  NaN=0  kappa_crit=6.417e-02  kc/delta^(1-1/p)=2.029  kc/kappa04=1055  #neg below kc=0
+  delta=1e-04: kappa(0.4)=1.923e-05  min xi_hat=7.6662e-05  kappa/2=9.615e-06  min>=kappa/2: True  min/kappa=3.987  NaN=0  kappa_crit=1.987e-02  kc/delta^(1-1/p)=1.987  kc/kappa04=1033  #neg below kc=0
+  delta=1e-05: kappa(0.4)=6.081e-06  min xi_hat=2.4298e-05  kappa/2=3.040e-06  min>=kappa/2: True  min/kappa=3.996  NaN=0  kappa_crit=6.512e-03  kc/delta^(1-1/p)=2.059  kc/kappa04=1071  #neg below kc=0
+--- j=8, p=3, b=a=1.0
+  scale check: 3.3163389598854858 3.3163389598854858
+  delta=1e-02: kappa(0.4)=1.033e-04  min xi_hat=5.7078e-04  kappa/2=5.164e-05  min>=kappa/2: True  min/kappa=5.527  NaN=0  kappa_crit=9.515e-02  kc/delta^(1-1/p)=2.050  kc/kappa04=921  #neg below kc=0
+  delta=1e-03: kappa(0.4)=2.225e-05  min xi_hat=1.2887e-04  kappa/2=1.113e-05  min>=kappa/2: True  min/kappa=5.792  NaN=0  kappa_crit=2.277e-02  kc/delta^(1-1/p)=2.277  kc/kappa04=1023  #neg below kc=0
+  delta=1e-04: kappa(0.4)=4.794e-06  min xi_hat=2.8309e-05  kappa/2=2.397e-06  min>=kappa/2: True  min/kappa=5.905  NaN=0  kappa_crit=5.159e-03  kc/delta^(1-1/p)=2.395  kc/kappa04=1076  #neg below kc=0
+  delta=1e-05: kappa(0.4)=1.033e-06  min xi_hat=6.1518e-06  kappa/2=5.164e-07  min>=kappa/2: True  min/kappa=5.957  NaN=0  kappa_crit=1.138e-03  kc/delta^(1-1/p)=2.451  kc/kappa04=1101  #neg below kc=0
+--- j=10, p=4, b=a=1.0
+  scale check: 4.0386418244179385 4.0386418244179385
+  delta=1e-02: kappa(0.4)=7.066e-05  min xi_hat=4.9643e-04  kappa/2=3.533e-05  min>=kappa/2: True  min/kappa=7.025  NaN=0  kappa_crit=6.574e-02  kc/delta^(1-1/p)=2.079  kc/kappa04=930  #neg below kc=0
+  delta=1e-03: kappa(0.4)=1.257e-05  min xi_hat=9.4094e-05  kappa/2=6.283e-06  min>=kappa/2: True  min/kappa=7.488  NaN=0  kappa_crit=1.325e-02  kc/delta^(1-1/p)=2.356  kc/kappa04=1054  #neg below kc=0
+  delta=1e-04: kappa(0.4)=2.235e-06  min xi_hat=1.7255e-05  kappa/2=1.117e-06  min>=kappa/2: True  min/kappa=7.722  NaN=0  kappa_crit=2.533e-03  kc/delta^(1-1/p)=2.533  kc/kappa04=1134  #neg below kc=0
+  delta=1e-05: kappa(0.4)=3.974e-07  min xi_hat=3.1177e-06  kappa/2=1.987e-07  min>=kappa/2: True  min/kappa=7.846  NaN=0  kappa_crit=4.710e-04  kc/delta^(1-1/p)=2.648  kc/kappa04=1185  #neg below kc=0
