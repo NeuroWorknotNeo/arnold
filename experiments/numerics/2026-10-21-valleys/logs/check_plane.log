@@ -1,0 +1,15 @@
+K2: H_plane(direct) = 0.050241132 (h=1e-3 X), 0.050240533 (h=3e-4 X); formula lam/r^(b-2) - beta a = 0.050240474
+K3: H_plane(direct) = -0.53033489 (h=1e-3 X), -0.53033473 (h=3e-4 X); formula lam/r^(b-2) - beta a = -0.53033006
+A1: H_plane(direct) = -1.2438731 (h=1e-3 X), -1.2438722 (h=3e-4 X); formula lam/r^(b-2) - beta a = -1.2438107
+A2: H_plane(direct) = -1.3863238 (h=1e-3 X), -1.386323 (h=3e-4 X); formula lam/r^(b-2) - beta a = -1.3862616
+A3: H_plane(direct) = 0.09136537 (h=1e-3 X), 0.09136523 (h=3e-4 X); formula lam/r^(b-2) - beta a = 0.091383223
+A5: H_plane(direct) = -1.3451955 (h=1e-3 X), -1.3451948 (h=3e-4 X); formula lam/r^(b-2) - beta a = -1.3452005
+A7: H_plane(direct) = -0.074759197 (h=1e-3 X), -0.074759497 (h=3e-4 X); formula lam/r^(b-2) - beta a = -0.074759526
+C1: H_plane(direct) = 0.39936946 (h=1e-3 X), 0.39936799 (h=3e-4 X); formula lam/r^(b-2) - beta a = 0.39936785
+C2: H_plane(direct) = -0.085413263 (h=1e-3 X), -0.085413413 (h=3e-4 X); formula lam/r^(b-2) - beta a = -0.085413428
+D2: H_plane(direct) = 0.050335208 (h=1e-3 X), 0.050334609 (h=3e-4 X); formula lam/r^(b-2) - beta a = 0.050241722
+F1: H_plane(direct) = 2.2992685 (h=1e-3 X), 2.2992695 (h=3e-4 X); formula lam/r^(b-2) - beta a = 2.2992696
+M2: H_plane(direct) = 0.046543164 (h=1e-3 X), 0.046544232 (h=3e-4 X); formula lam/r^(b-2) - beta a = 0.043815016
+S1: H_plane(direct) = 0.32123889 (h=1e-3 X), 0.32123888 (h=3e-4 X); formula lam/r^(b-2) - beta a = 0.32124051
+T1: H_plane(direct) = 0.93304186 (h=1e-3 X), 0.93304155 (h=3e-4 X); formula lam/r^(b-2) - beta a = 0.93304152
+Z1: H_plane(direct) = 0.20898725 (h=1e-3 X), 0.20899019 (h=3e-4 X); formula lam/r^(b-2) - beta a = 0.20898657
