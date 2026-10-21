@@ -1,0 +1,7 @@
+(1) U(Phi) - [4 s^2 eta^2 + z^6 G_lambda(phi)] = 0
+    max |X^6 F - (4s^2eta^2+z^6 G)| at 10 random points: 1.58e-176
+(2) F0(0) = 1/16 - 3*sqrt(3)/32 ≈ -0.0998797632095823 ;  grad F0(0) = [0, 0]
+    Hess F0(0) = [3/8 - 3*sqrt(3)/16, 0, 0, 8] ≈ [0.0502404735808355, 0, 0, 8.00000000000000]
+    (6-3*sqrt3)/16 = 0.0502404735808355
+(4) d_X grad_b F(0) = [0, -3/8 + 5*sqrt(3)/16] ;  b*(X) = X* [0, 3/64 - 5*sqrt(3)/128] + O(X^2) ≈ X* [0, -0.0207832346706593]
+(3) max deviation of the hand formulas (d_X Phi, d2_X Phi, d_Y d_X Phi, d_eta d_X Phi, B): 1.29e-172

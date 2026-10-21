@@ -1,0 +1,4 @@
+delta=0.04 sigma=0.3: min=3.6415 (1104 points)
+delta=0.02 sigma=0.2: min=3.6708 (1280 points)
+delta=0.01 sigma=0.1: min=3.3691 (1736 points)
+delta=0.005 sigma=0.05: min=3.3357 (2320 points)
