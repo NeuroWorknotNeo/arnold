@@ -1,0 +1,22 @@
+cusp: dim=0  milnor(vdim)=213
+// ** redefining J (  ideal J = jacob(L[i]);) iso.sing:16
+// ** redefining S (  ideal S = std(J);) iso.sing:17
+tangency: dim=0  milnor(vdim)=215
+// ** redefining J (  ideal J = jacob(L[i]);) iso.sing:16
+// ** redefining S (  ideal S = std(J);) iso.sing:17
+X1: dim=0  milnor(vdim)=53
+// ** redefining J (  ideal J = jacob(L[i]);) iso.sing:16
+// ** redefining S (  ideal S = std(J);) iso.sing:17
+X2: dim=0  milnor(vdim)=102
+// ** redefining J (  ideal J = jacob(L[i]);) iso.sing:16
+// ** redefining S (  ideal S = std(J);) iso.sing:17
+model eps=0: dim=0  milnor(vdim)=65
+// ** redefining J (  ideal J = jacob(L[i]);) iso.sing:16
+// ** redefining S (  ideal S = std(J);) iso.sing:17
+model eps=1: dim=0  milnor(vdim)=65
+// ** redefining J (  ideal J = jacob(L[i]);) iso.sing:16
+// ** redefining S (  ideal S = std(J);) iso.sing:17
+model eps=-1: dim=0  milnor(vdim)=65
+// ** redefining J (  ideal J = jacob(L[i]);) iso.sing:16
+// ** redefining S (  ideal S = std(J);) iso.sing:17
+model eps=-5: dim=0  milnor(vdim)=65

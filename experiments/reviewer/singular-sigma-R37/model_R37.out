@@ -1,0 +1,8 @@
+grad: [2*x*(2*epsilon*x**2*z**2 + 3*x**4 + y**2), 2*y*(2*epsilon*y**2*z**2 + x**2 + 3*y**4), 2*z*(epsilon*x**4 + epsilon*y**4 - 3*z**4)]
+(a) A+B - [(x^2+y^2)(1+2 eps z^2)+3(x^4+y^4)] = 0
+(3.1) residual: 0
+(S2) identity residual: 0
+theta.grad Lam - Lam formula residual: 0
+min (Lam-2t)/t = 0.05989375661603303   min (theta.grad Lam - Lam)/t = 0.20536094131592772
+(c) violations: 0
+6W - zW_z - 4W = 2*(x**6 + x**2*y**2 + y**6)

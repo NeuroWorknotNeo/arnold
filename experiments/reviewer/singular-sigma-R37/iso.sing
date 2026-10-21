@@ -1,0 +1,20 @@
+// R37: изолированность критической точки 0 над C (локальное упорядочение ds)
+// Конечный vdim(std(jacob)) в локальном кольце <=> 0 изолирована над C (значит, и над R).
+ring Rl = 0,(x,y,z),ds;
+poly Ucusp = (y2z-x3)^2 - z8 + x8 + y8;
+poly Utan  = y2*(yz-x2)^2 - z8 + x8 + y8;
+poly UX1   = x2y2 + z*(x4+y4) - z6 + x6 + y6;
+poly UX2   = x2y2 + x*y*z4 - z7 + x8 + y8;
+poly Um0   = x2y2 - z6 + x6 + y6;
+poly Um1   = x2y2 + z2*(x4+y4) - z6 + x6 + y6;
+poly Umm1  = x2y2 - z2*(x4+y4) - z6 + x6 + y6;
+poly Um5   = x2y2 - 5*z2*(x4+y4) - z6 + x6 + y6;
+list L = Ucusp, Utan, UX1, UX2, Um0, Um1, Umm1, Um5;
+list N = "cusp","tangency","X1","X2","model eps=0","model eps=1","model eps=-1","model eps=-5";
+int i;
+for (i=1; i<=size(L); i++) {
+  ideal J = jacob(L[i]);
+  ideal S = std(J);
+  print(N[i] + ": dim=" + string(dim(S)) + "  milnor(vdim)=" + string(vdim(S)));
+}
+quit;

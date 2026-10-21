@@ -1,0 +1,17 @@
+// R37: исключение x,y из идеала градиента (глобальное упорядочение) — проверка утверждения записки
+ring Rg = 0,(x,y,z),dp;
+poly Ucusp = (y2z-x3)^2 - z8 + x8 + y8;
+poly Utan  = y2*(yz-x2)^2 - z8 + x8 + y8;
+list L = Ucusp, Utan;
+list N = "cusp","tangency";
+int i;
+for (i=1; i<=size(L); i++) {
+  ideal J = jacob(L[i]);
+  ideal E = eliminate(J, xy);
+  print(N[i] + ": eliminant factors:");
+  print(factorize(E[1]));
+  ideal S = std(J);
+  print(N[i] + ": global dim=" + string(dim(S)) + " vdim=" + string(vdim(S)));
+  kill J,E,S;
+}
+quit;

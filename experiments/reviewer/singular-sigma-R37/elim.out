@@ -1,0 +1,22 @@
+cusp: eliminant factors:
+[1]:
+   _[1]=1
+   _[2]=8z4+1
+   _[3]=524288z20+327680z16+81920z12-58880z8+17920z4+529
+   _[4]=z
+[2]:
+   1,1,1,16
+cusp: global dim=0 vdim=343
+tangency: eliminant factors:
+[1]:
+   _[1]=1
+   _[2]=8z4+1
+   _[3]=8192z14+3072z10-2816z8+384z6+656z4+120z2+5
+   _[4]=z
+[2]:
+   1,1,1,16
+tangency: global dim=0 vdim=343
+cusp min|root|= 0.4054995843513321  real roots: []
+tangency min|root|= 0.24676499986683445  real roots: []
+tangency min|root| = 0.246764999867
+['(0.0 + 0.246765j)', '(0.0 - 0.246765j)']
