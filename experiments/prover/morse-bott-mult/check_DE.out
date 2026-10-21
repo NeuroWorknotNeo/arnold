@@ -1,0 +1,6 @@
+(а) min P/(tau^2+e^4) на |tau|<=0.2, |e|<=1: 0.49674002
+(б) min (tau P_tau + e P_e/2)/P там же: 1.9711939  (нужно >= mu_0 = 1)
+(в) kappa = 0.05  min (kappa tau P_tau + c e P_e)/P = -0.357785
+(в) kappa = 0.1   min (kappa tau P_tau + c e P_e)/P = -0.25149
+(в) kappa = 0.2   min (kappa tau P_tau + c e P_e)/P = -0.0389016
+(в) kappa = 0.3   min (kappa tau P_tau + c e P_e)/P = 0.173687

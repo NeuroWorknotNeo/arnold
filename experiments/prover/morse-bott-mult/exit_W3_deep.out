@@ -1,0 +1,14 @@
+пример W3 : beta = 6.0 , c = 1.5 , theta0 = 0.0 , a0 = 1.0 , w = 0.5
+контроль: в каждой точке |V - delta rho^beta|/(delta rho^beta) < 1e-12 (иначе остановка)
+delta=0.01   sigma=1e-12  kappa=0.05  W: lambda = c - w kappa  (150 точек): min (rho/lam)Xi/(delta rho^beta) = 0.099539    [s=5.44e-14, theta=-0.115, e=-0.223, K/(delta rho^beta)=2.14e-25]
+delta=0.01   sigma=1e-12  kappa=0.05  Mb: lambda = 0           (150 точек): min (rho/lam)Xi/(delta rho^beta) = -0.35671    [s=7.25e-14, theta=-0.112, e=-0.174, K/(delta rho^beta)=7.45e-25]
+delta=0.01   sigma=1e-12  kappa=0.1   W: lambda = c - w kappa  (150 точек): min (rho/lam)Xi/(delta rho^beta) = 0.19696     [s=8.7e-14, theta=0.0994, e=-0.0233, K/(delta rho^beta)=0.00967]
+delta=0.01   sigma=1e-12  kappa=0.1   Mb: lambda = 0           (150 точек): min (rho/lam)Xi/(delta rho^beta) = -0.24943    [s=7.25e-14, theta=-0.112, e=-0.174, K/(delta rho^beta)=7.45e-25]
+delta=0.01   sigma=1e-12  kappa=0.2   W: lambda = c - w kappa  (150 точек): min (rho/lam)Xi/(delta rho^beta) = 0.29535     [s=4.52e-13, theta=-0.114, e=0.259, K/(delta rho^beta)=0.0164]
+delta=0.01   sigma=1e-12  kappa=0.2   Mb: lambda = 0           (150 точек): min (rho/lam)Xi/(delta rho^beta) = -0.034864   [s=7.25e-14, theta=-0.112, e=-0.174, K/(delta rho^beta)=7.45e-25]
+delta=0.002  sigma=1e-16  kappa=0.05  W: lambda = c - w kappa  (150 точек): min (rho/lam)Xi/(delta rho^beta) = 0.099909    [s=3.54e-17, theta=-0.0516, e=0.155, K/(delta rho^beta)=7.11e-25]
+delta=0.002  sigma=1e-16  kappa=0.05  Mb: lambda = 0           (150 точек): min (rho/lam)Xi/(delta rho^beta) = -0.30886    [s=3.47e-17, theta=-0.0486, e=-0.0957, K/(delta rho^beta)=4.26e-25]
+delta=0.002  sigma=1e-16  kappa=0.1   W: lambda = c - w kappa  (150 точек): min (rho/lam)Xi/(delta rho^beta) = 0.18518     [s=4.15e-18, theta=0.0399, e=-0.0914, K/(delta rho^beta)=0.00338]
+delta=0.002  sigma=1e-16  kappa=0.1   Mb: lambda = 0           (150 точек): min (rho/lam)Xi/(delta rho^beta) = -0.20201    [s=3.47e-17, theta=-0.0486, e=-0.0957, K/(delta rho^beta)=4.26e-25]
+delta=0.002  sigma=1e-16  kappa=0.2   W: lambda = c - w kappa  (150 точек): min (rho/lam)Xi/(delta rho^beta) = 0.34542     [s=4.15e-18, theta=0.0399, e=-0.0914, K/(delta rho^beta)=0.00338]
+delta=0.002  sigma=1e-16  kappa=0.2   Mb: lambda = 0           (150 точек): min (rho/lam)Xi/(delta rho^beta) = 0.011674    [s=3.47e-17, theta=-0.0486, e=-0.0957, K/(delta rho^beta)=4.26e-25]
