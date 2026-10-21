@@ -120,7 +120,7 @@
 
 | Кто | Что | Где |
 |---|---|---|
-| prover | теорема M при постоянной нормальной кратностью $2r$ | `notes/prover/2026-10-21-morse-bott-mult.md` |
+| prover | теорема M при постоянной нормальной кратности $2r$ | `notes/prover/2026-10-21-morse-bott-mult.md` |
 | prover | дно в особой точке $\Sigma$ | `notes/prover/2026-10-21-singular-sigma.md` |
 | prover | вырожденные точечные нули $u_m$ | `notes/prover/2026-10-21-point-degenerate.md` |
 | prover | кривые $\Sigma$ с нормальной кратностью $2r\ge4$ | `notes/prover/2026-10-21-normal-multiplicity.md` |
