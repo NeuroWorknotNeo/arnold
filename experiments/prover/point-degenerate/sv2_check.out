@@ -1,0 +1,7 @@
+m = 8  u_m = x**8 + y**8
+F = b1**8 + b1**6 + 2*b1**5 + b1**4 - 2*b1**3*b2 - 2*b1**2*b2 + b1*s + b2**8*s**16 + b2**2 - 1
+Q - [t^2 + b1^8] = 0
+xi.gradQ - (4 t^2 + 8 b1^8) = 0
+E_c Q at t = b1^3/4: b1**6*(32*b1**2 - 1)/2 ;  Q there: b1**6*(16*b1**2 + 1)/16
+diag field, lambda2=2lambda1, at t=b1^3/4: b1**6*lambda1*(32*b1**2 - 1)/4
+diag field at t = tau b1^4, terms up to b1^7: -2*b1**6*tau*(3*b1*lambda1 - b1*lambda2 + 2*lambda1 - lambda2)
