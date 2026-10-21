@@ -1,0 +1,4 @@
+(I1) Y.grad b_i + xi_i/x: max |difference| over 8 points = 4.0198e-46 (mp.dps=50)
+(I2) x Y.grad(x^beta P) - formula: max |difference| over 8 points = 2.2453e-57 (mp.dps=50)
+(I3) M - (x L'L^-1 + L A L^-1): max |difference| over 8 points = 1.3364e-51 (mp.dps=50)
+(I4) x Y.grad Zt - formula: max |difference| over 8 points = 6.172e-51 (mp.dps=50)

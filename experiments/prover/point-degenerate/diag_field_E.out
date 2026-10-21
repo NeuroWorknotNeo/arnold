@@ -1,0 +1,8 @@
+r = lambda2/lambda1 = 0.5: min (xi.gradQ)/Q = -156.91 at b1=0.005, b2 = b1^3.0(1+(0.03))
+r = lambda2/lambda1 = 1: min (xi.gradQ)/Q = -123.519 at b1=0.005, b2 = b1^3.0(1+(0.03))
+r = lambda2/lambda1 = 1.5: min (xi.gradQ)/Q = -90.1285 at b1=0.005, b2 = b1^3.0(1+(0.03))
+r = lambda2/lambda1 = 2: min (xi.gradQ)/Q = -56.7375 at b1=0.005, b2 = b1^3.0(1+(0.03))
+r = lambda2/lambda1 = 2.5: min (xi.gradQ)/Q = -23.3474 at b1=0.02, b2 = b1^2.0(1+(-0.03))
+r = lambda2/lambda1 = 3: min (xi.gradQ)/Q = -54.6666 at b1=0.005, b2 = b1^2.0(1+(-0.03))
+r = lambda2/lambda1 = 4: min (xi.gradQ)/Q = -117.323 at b1=0.005, b2 = b1^2.0(1+(-0.03))
+r = lambda2/lambda1 = 6: min (xi.gradQ)/Q = -242.635 at b1=0.005, b2 = b1^2.0(1+(-0.03))

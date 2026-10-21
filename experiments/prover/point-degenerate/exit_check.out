@@ -1,0 +1,6 @@
+Lambda, Y=e_z   (xi=Cb),     delta=0.05, rho=[0.005, 0.0005], r1=3.49: points=8256, min (rho/lam) Xi/(delta rho^beta) = -2.2712 at (rho,b1,b2,K/(d rho^b),theta)=(0.005, 1.221, 1.628, 0.0163, 0.0)
+Lambda, Y=q/z   (xi=(C-I)b), delta=0.05, rho=[0.005, 0.0005], r1=3.49: points=8256, min (rho/lam) Xi/(delta rho^beta) = 3.5380 at (rho,b1,b2,K/(d rho^b),theta)=(0.005, 1.221, 1.3373, 0.0075, 4.7124)
+Lambda, Y=e_z   (xi=Cb),     delta=0.01, rho=[0.001, 0.0001], r1=1.84: points=9096, min (rho/lam) Xi/(delta rho^beta) = -2.4844 at (rho,b1,b2,K/(d rho^b),theta)=(0.0001, 0.7954, 0.7036, 0.0436, 0.0)
+Lambda, Y=q/z   (xi=(C-I)b), delta=0.01, rho=[0.001, 0.0001], r1=1.84: points=9096, min (rho/lam) Xi/(delta rho^beta) = 3.6876 at (rho,b1,b2,K/(d rho^b),theta)=(0.001, 0.826, 0.6119, 0.0037, 4.7124)
+X (cross), Y=e_z (xi=Cb),    delta=0.05, rho=[0.005, 0.0005], r1=1.00: points=14040, min (rho/lam) Xi/(delta rho^beta) = 9.8048 at (rho,b1,b2,K/(d rho^b),theta)=(0.005, 0.2334, -0.0667, 0.0042, 0.0)
+X (cross), Y=e_z (xi=Cb),    delta=0.01, rho=[0.001, 0.0001], r1=0.73: points=6900, min (rho/lam) Xi/(delta rho^beta) = 9.9718 at (rho,b1,b2,K/(d rho^b),theta)=(0.001, 0.0852, -0.0365, 0.0242, 0.0)

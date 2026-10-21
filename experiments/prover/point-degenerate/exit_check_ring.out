@@ -1,0 +1,6 @@
+ring: delta=0.05, rho=0.01: points=8640, min (rho/lam)Xi/(delta rho^8) = 1.4077 at (phi, u/rho, K/(d rho^8), theta) = (3.142, -0.112, 0.021, 1.571)
+ring: delta=0.05, rho=0.002: points=8640, min (rho/lam)Xi/(delta rho^8) = 1.9064 at (phi, u/rho, K/(d rho^8), theta) = (3.142, -0.112, 0.002, 1.571)
+ring: delta=0.05, rho=0.0005: points=8640, min (rho/lam)Xi/(delta rho^8) = 1.9813 at (phi, u/rho, K/(d rho^8), theta) = (3.142, -0.112, 0.0, 1.571)
+ring: delta=0.01, rho=0.01: points=8640, min (rho/lam)Xi/(delta rho^8) = -3.3515 at (phi, u/rho, K/(d rho^8), theta) = (0.0, 0.03, 0.54, 1.571)
+ring: delta=0.01, rho=0.002: points=8640, min (rho/lam)Xi/(delta rho^8) = 1.5417 at (phi, u/rho, K/(d rho^8), theta) = (3.142, -0.05, 0.009, 1.571)
+ring: delta=0.01, rho=0.0005: points=8640, min (rho/lam)Xi/(delta rho^8) = 1.9127 at (phi, u/rho, K/(d rho^8), theta) = (3.142, -0.05, 0.001, 1.571)
