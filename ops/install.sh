@@ -17,7 +17,7 @@ cd /  # команды от имени $AGENT_USER не должны старт�
 AGENT_HOME="$(getent passwd "$AGENT_USER" | cut -d: -f6)"
 REPO="$AGENT_HOME/arnold"
 [ -d "$REPO/.git" ] || die "нет клона репозитория в $REPO"
-[ -f "$REPO/ops/arnold-agent.sh" ] || die "в $REPO нет ops/arnold-agent.sh: выполните sudo -iu $AGENT_USER git -C ~/arnold pull"
+[ -f "$REPO/ops/arnold-agent.sh" ] || die "в $REPO нет ops/arnold-agent.sh: выполните sudo -iu $AGENT_USER git -C $REPO pull"
 sudo -u "$AGENT_USER" test -x "$AGENT_HOME/.local/bin/claude" \
   || die "у $AGENT_USER нет Claude Code: sudo -iu $AGENT_USER bash -c 'curl -fsSL https://claude.ai/install.sh | bash'"
 

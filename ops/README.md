@@ -34,7 +34,7 @@ systemd `arnold-agent`. Говорить с агентом можно прямо
 
 1. Обновите клон:
    ```bash
-   sudo -iu claudeagent git -C ~/arnold pull
+   sudo -iu claudeagent git -C /home/claudeagent/arnold pull
    ```
 2. Установите службу и всё нужное: tmux, Python-окружение для расчётов, настройки.
    ```bash
@@ -110,5 +110,5 @@ systemd `arnold-agent`. Говорить с агентом можно прямо
   systemctl start arnold-agent
   ```
 
-Не запускайте вручную `claude` в папке `~/arnold` под `claudeagent`, пока работает служба: при
+Не запускайте вручную `claude` в папке `/home/claudeagent/arnold` под `claudeagent`, пока работает служба: при
 перезапуске `--continue` может подхватить ваш разговор вместо разговора агента.
