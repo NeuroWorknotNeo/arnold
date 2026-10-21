@@ -106,7 +106,7 @@ Claude по указаниям владельца; дальше его ведё�
 
 | Метка | Агент | Задача | Результат |
 |---|---|---|---|
-| L1 | literature | KNOWN_RESULTS §1–§2, текст задачи 1971-4, D'Acunto–Kurdyka | `notes/literature/2026-10-21-classical.md` — прерван паузой, **возобновлён** 15:16 |
+| L1 | literature | KNOWN_RESULTS §1–§2, текст задачи 1971-4, D'Acunto–Kurdyka | **готово** 15:19, `notes/literature/2026-10-21-classical.md` |
 | L2 | literature | §3–§4: гладкие контрпримеры, нестрогие минимумы, Brunella, Rauch | **готово** 21.10 ~14:45, `notes/literature/2026-10-21-counterexamples-nonstrict.md` |
 | L3 | literature | §5: Паламодов 1977/1995/2020, Burgos 2021/2025, новые работы | **готово** 21.10 ~14:50, `notes/literature/2026-10-21-total-instability.md` |
 | R1 | reviewer | лемма M, пример к теореме 3 (max-gluing.md), лемма 1 (theoremB-proof §1) | **готово** 21.10 ~14:50, ошибок нет; `notes/reviewer/2026-10-21-max-gluing.md` |
@@ -117,6 +117,7 @@ Claude по указаниям владельца; дальше его ведё�
 | N1 | numerics | воспроизведение `experiments/` | **готово** ~15:08: почти всё воспроизводится; не подтверждён вывод theoremC-draft (A-505); `experiments/numerics/2026-10-21-reproduce/README.md` |
 | R4 | reviewer | лемма R | **готово** ~15:08: ошибок нет, поправки к (Φ); `notes/reviewer/2026-10-21-lemmaR-proof.md` |
 | R5 | reviewer | разбор ошибки Burgos + overview §3.2 | **готово** ~15:08: §3a верно (опровергнут шаг, не формулировка), §3b — пробел; `notes/reviewer/2026-10-21-burgos-review.md` |
+| L5 | literature | черновик новой KNOWN_RESULTS.md по L1–L3 (запущен 15:21) | `notes/literature/2026-10-21-KNOWN_RESULTS-draft.md`; ГА проверяет разницу и переносит |
 | R6 | reviewer | утверждения overview.tex §2–§4 (запущен ~15:09) | `notes/reviewer/2026-10-21-overview.md` — прерван паузой, **возобновлён** 15:16 |
 | R7 | reviewer | честность эскизов: n2-sketch, theoremC-draft, toolkit §3–§4, example13 §5 (запущен ~15:09) | `notes/reviewer/2026-10-21-sketches.md` — прерван паузой, **возобновлён** 15:16 |
 | L4 | literature | A-313, A-406, A-408, A-418, A-419 (запущен ~15:09) | `notes/literature/2026-10-21-revision-rest.md` — прерван паузой, **возобновлён** 15:16 |
