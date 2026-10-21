@@ -1,0 +1,33 @@
+OK   A0 Лейбниц r=1: X^kF=0 (k<2r), X^(2r)F=(2r)!(X tau)^(2r) g на tau=0
+OK   A0 Лейбниц r=2: X^kF=0 (k<2r), X^(2r)F=(2r)!(X tau)^(2r) g на tau=0
+OK   A0 Лейбниц r=3: X^kF=0 (k<2r), X^(2r)F=(2r)!(X tau)^(2r) g на tau=0
+OK   (5.7): beta W - rho YW = s^beta[k th F_th + (c-lam) e F_e - sigma/N F_sigma]
+OK   (5.1) kappa=lam=0: Psi_s=omega+eta0_s n, Psi_th=s(1-eps)ell+eta0_th n, Psi_ze=n
+OK   теорема C: nabla_Y Y = eta0_ss n
+OK   разложение w по Psi_s, Psi_th, Psi_ze
+OK   теорема C, п. 6: s<w,D_wY> = [(1-eta0_s k_g)w_l^2+eta0_sth w_l w_n]/(1-eps)+s eta0_ss w_o w_n
+OK   (7.1) N=4,N_V=2,A_V=1,Gamma_V=4,r'=2: u/x=t^A b1, e=t^B b2, x^beta t^Gamma=x^beta_d, sigma=t^N_V
+OK   (7.1) N=2,N_V=4,A_V=3,Gamma_V=8,r'=2: u/x=t^A b1, e=t^B b2, x^beta t^Gamma=x^beta_d, sigma=t^N_V
+OK   (7.1) N=3,N_V=2,A_V=1,Gamma_V=6,r'=3: u/x=t^A b1, e=t^B b2, x^beta t^Gamma=x^beta_d, sigma=t^N_V
+OK   (7.1) N=1,N_V=6,A_V=5,Gamma_V=12,r'=2: u/x=t^A b1, e=t^B b2, x^beta t^Gamma=x^beta_d, sigma=t^N_V
+OK   теорема Z п.4 (N=2,gamma*=1/2,r_g=1,k'=2): точка и (2.1) уточнённых данных
+OK   теорема Z п.4 (N=4,gamma*=1/4,r_g=2,k'=3): точка и (2.1) уточнённых данных
+OK   теорема Z п.4 (N=3,gamma*=1/3,r_g=2,k'=1): точка и (2.1) уточнённых данных
+OK   теорема Z п.4 (N=1,gamma*=1,r_g=1,k'=2): точка и (2.1) уточнённых данных
+   O2 носитель S (i,l): [(0, 4), (1, 2), (2, 0), (3, 0)]
+OK   O2: gamma* = 1/2, j = 6
+OK   O2: Phi_0 = (eps^2 - sin)^2 - 1
+OK   O2 складка: d^k Phi_0(0,0)=0,0,0,24; корень d^3 Phi_0 = 24 eps -> eps_b=0; d^2 Phi_0(theta,0)=-4 sin theta
+OK   O2: P в (0,0) = (e^2 - sin tau)^2; P(tau, sqrt(sin tau)) = 0
+OK   O2: P в (pi,0) = (e^2 + sin tau)^2
+OK   O2: внутри дуги d^2 Phi_0 = 8 sin theta > 0 на ветви, G_b = -1
+OK   O2: при sin<0 Phi_0(theta,0) = -cos^2 theta
+   O2: U в точке дна (0, 1e-2, 1e-2^{3/2}) = -9.90000000000000e-15
+OK   O2: U < 0 на дне (0 не минимум)
+OK   W4: Ũ = (eps^2-1)^2 + sigma^2 cos^8 eps
+   W4: Ĝ_- = -sigma**2*(sigma**2*cos(theta)**16/16 + cos(theta)**8)
+OK   W4: Ĝ_- = -sigma^2 cos^8 + O(sigma^4) (kappa'=2, G' = -cos^8 theta)
+OK   W4: grad U = 0 на {x=0, z=y^2}
+OK   W'(W-a): k tau P_tau + c e P_e - k P = k(tau Lam' - Lam) + e^{2r'}[(2r'c-k)p + c e p_e + k tau p_tau]
+
+ИТОГ: все проверки OK

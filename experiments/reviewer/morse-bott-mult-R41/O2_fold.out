@@ -1,0 +1,8 @@
+Ũ - [(eps^2-sin)^2 - 1 + sigma^2 h] = 0
+s=0.01: min_theta F_fl/s^6 = -1.01 при theta/pi = 1.0
+s=0.0001: min_theta F_fl/s^6 = -1.0001 при theta/pi = 1.0
+  theta/pi=0.984085: min_y phi / s^2 = -1.00009912846
+  theta/pi=0.996817: min_y phi / s^2 = -1.00009996501
+  theta/pi=1.0: min_y phi / s^2 = -1.0001
+  theta/pi=1.00318: min_y phi / s^2 = -0.999999968339
+  theta/pi=1.01592: min_y phi / s^2 = -0.997601211094

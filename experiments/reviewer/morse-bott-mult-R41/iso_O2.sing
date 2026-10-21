@@ -1,0 +1,22 @@
+// R41: изолированность 0 для примера O2 и вариантов (Singular)
+ring r = 0,(x,y,z),ds;   // локальный порядок
+poly rho2 = x2+y2;
+poly U = z4-2*z2*y*rho2-x2*rho2^2+x7+y7;
+ideal J = jacob(U);
+ideal Js = std(J);
+"O2: dim локального якобиева идеала (0 => изолирована над C):";
+dim(Js);
+"O2: число Милнора:";
+vdim(Js);
+// без y^7
+poly U0 = z4-2*z2*y*rho2-x2*rho2^2+x7;
+ideal J0 = std(jacob(U0));
+"O2 без y7: dim:"; dim(J0);
+// W4 (неизолированность), W4i
+poly W4 = (z2-rho2^2)^2+z*x8;
+ideal JW = std(jacob(W4));
+"W4: dim:"; dim(JW);
+poly W4i = W4+y11;
+ideal JWi = std(jacob(W4i));
+"W4i: dim:"; dim(JWi); "W4i mu:"; vdim(JWi);
+quit;
