@@ -1,0 +1,15 @@
+r=0.01, alpha=a+0.001r: u=-2.01e-12, delta=+1.146e-02, min eig sym(v')=-2.4508, <v,u'>=-5.94e-23
+r=0.01, alpha=a+0.01r: u=-2.10e-11, delta=+1.117e-02, min eig sym(v')=-2.0662, <v,u'>=-7.62e-23
+r=0.01, alpha=a+0.1r: u=-3.00e-10, delta=+9.246e-03, min eig sym(v')=-0.6252, <v,u'>=-2.22e-22
+r=0.01, alpha=a+0.3r: u=-1.50e-09, delta=+6.621e-03, min eig sym(v')=-0.1566, <v,u'>=-7.42e-23
+r=0.01, alpha=a+0.6r: u=-4.80e-09, delta=+3.352e-03, min eig sym(v')=-0.0515, <v,u'>=-1.82e-22
+r=0.001, alpha=a+0.001r: u=-6.42e-17, delta=+1.044e-03, min eig sym(v')=-2.3491, <v,u'>=+4.23e-27
+r=0.001, alpha=a+0.01r: u=-7.32e-16, delta=+1.018e-03, min eig sym(v')=-1.4430, <v,u'>=-5.16e-26
+r=0.001, alpha=a+0.1r: u=-1.63e-14, delta=+8.874e-04, min eig sym(v')=-0.1443, <v,u'>=+1.18e-25
+r=0.001, alpha=a+0.3r: u=-1.09e-13, delta=+6.759e-04, min eig sym(v')=-0.0227, <v,u'>=-1.18e-27
+r=0.001, alpha=a+0.6r: u=-3.98e-13, delta=+3.723e-04, min eig sym(v')=-0.0063, <v,u'>=+2.56e-25
+r=0.0001, alpha=a+0.001r: u=-2.10e-21, delta=+1.012e-04, min eig sym(v')=-2.0833, <v,u'>=-1.14e-29
+r=0.0001, alpha=a+0.01r: u=-3.00e-20, delta=+9.925e-05, min eig sym(v')=-0.6266, <v,u'>=-2.04e-29
+r=0.0001, alpha=a+0.1r: u=-1.20e-18, delta=+8.923e-05, min eig sym(v')=-0.0207, <v,u'>=+1.23e-28
+r=0.0001, alpha=a+0.3r: u=-9.60e-18, delta=+6.908e-05, min eig sym(v')=-0.0026, <v,u'>=-2.25e-28
+r=0.0001, alpha=a+0.6r: u=-3.72e-17, delta=+3.904e-05, min eig sym(v')=-0.0007, <v,u'>=+4.02e-28

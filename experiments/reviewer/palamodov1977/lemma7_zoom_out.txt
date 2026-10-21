@@ -1,0 +1,11 @@
+r=0.01: arc (0.010999,6.292185), c r^d=1.150e-02, lambda_H=-4.598e-02; grid 3200002
+  solutions of (11) with delta != 0 (alpha_i, lambda, delta_i): [(np.float64(3.1306809), 2.0, -0.006347), (np.float64(3.1299754), -0.046, -0.006835)]
+  delta<0 on alpha in [3.1218556, 3.1313370], min delta -6.836e-03
+  delta>0 on alpha in [0.0109989, 0.0202369], max delta 1.150e-02
+  III violated on alpha in [0.0109989, 0.0202374] (19066 pts), Delta' in [-3.498, -0.232]
+  III violated on alpha in [3.1306810, 3.1306810] (1 pts), Delta' in [2.000, 2.000]
+r=0.001: arc (0.001032,6.284154), c r^d=1.047e-03, lambda_H=-4.190e-03; grid 3200002
+  solutions of (11) with delta != 0 (alpha_i, lambda, delta_i): [(np.float64(3.1405638), 2.0, -0.0008845), (np.float64(3.1405425), -0.0042, -0.0009)]
+  delta<0 on alpha in [3.1395952, 3.1405901], min delta -9.000e-04
+  delta>0 on alpha in [0.0010316, 0.0020025], max delta 1.047e-03
+  III violated on alpha in [0.0010316, 0.0020025] (19480 pts), Delta' in [-3.496, -0.152]

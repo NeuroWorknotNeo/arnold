@@ -1,0 +1,45 @@
+== u1=-x2(x1-x2^2),  r = 0.01,  K = 1.0, gamma1 = 0.5, eta1 = 2.0
+   arc (0.000000, 1.560797) width 1.5608: sup(|phi|-pi/2) = 9.997e-03, lambda_H = -3.999e-02, lambda_B = 2.0
+     phi at ends: +1.570796, -1.580793;  delta at ends: +0.000e+00, -9.997e-03
+     solutions of (11) with delta != 0: 0
+     Delta'_alpha outside [lambda_H, lambda_B] on 1282 of 400001 grid points; alpha range of violations: [1.555799, 1.560797], Delta' there in [-2.0004, -0.8893]
+     min of angular mu over the arc: -1.0004
+     with end tangents: violations of III on 2 points (max |excess| 1.60e-05), inequality I holds: True, min angular mu = +0.9599
+   arc (3.141593, 4.722388): |phi| <= pi/2 everywhere -> v = x (simple case)
+== u1=-x2(x1-x2^2),  r = 0.001,  K = 1.0, gamma1 = 0.5, eta1 = 2.0
+   arc (0.000000, 1.569796) width 1.5698: sup(|phi|-pi/2) = 1.000e-03, lambda_H = -4.000e-03, lambda_B = 2.0
+     phi at ends: +1.570796, -1.571796;  delta at ends: +0.000e+00, -1.000e-03
+     solutions of (11) with delta != 0: 0
+     Delta'_alpha outside [lambda_H, lambda_B] on 129 of 400001 grid points; alpha range of violations: [1.569294, 1.569796], Delta' there in [-2.0000, -0.4042]
+     min of angular mu over the arc: -1.0000
+     with end tangents: violations of III on 2 points (max |excess| 1.60e-06), inequality I holds: True, min angular mu = +0.9960
+   arc (3.141593, 4.713389): |phi| <= pi/2 everywhere -> v = x (simple case)
+== u1=-x2(x1-x2^2),  r = 0.0001,  K = 1.0, gamma1 = 0.5, eta1 = 2.0
+   arc (0.000000, 1.570696) width 1.5707: sup(|phi|-pi/2) = 1.000e-04, lambda_H = -4.000e-04, lambda_B = 2.0
+     phi at ends: +1.570796, -1.570896;  delta at ends: +0.000e+00, -1.000e-04
+     solutions of (11) with delta != 0: 0
+     Delta'_alpha outside [lambda_H, lambda_B] on 14 of 400001 grid points; alpha range of violations: [1.570645, 1.570696], Delta' there in [-2.0000, -0.7328]
+     min of angular mu over the arc: -1.0000
+     with end tangents: violations of III on 2 points (max |excess| 1.60e-07), inequality I holds: True, min angular mu = +0.9996
+   arc (3.141593, 4.712489): |phi| <= pi/2 everywhere -> v = x (simple case)
+== u2=x1^5-(x2-x1^2)^2,  r = 0.01,  K = 1.0, gamma1 = 0.5, eta1 = 2.0
+   arc (0.010999, 6.292185) width 6.2812: sup(|phi|-pi/2) = 1.150e-02, lambda_H = -4.598e-02, lambda_B = 2.0
+     phi at ends: +1.582292, -1.562298;  delta at ends: +1.150e-02, +0.000e+00
+     solutions of (11) with delta != 0: 2
+     Delta'_alpha outside [lambda_H, lambda_B] on 590 of 400001 grid points; alpha range of violations: [0.010999, 0.020248], Delta' there in [-3.4609, -0.1590]
+     min of angular mu over the arc: -2.4609
+     with end tangents: violations of III on 2 points (max |excess| 1.84e-05), inequality I holds: True, min angular mu = +0.9539
+== u2=x1^5-(x2-x1^2)^2,  r = 0.001,  K = 1.0, gamma1 = 0.5, eta1 = 2.0
+   arc (0.001032, 6.284154) width 6.2831: sup(|phi|-pi/2) = 1.047e-03, lambda_H = -4.190e-03, lambda_B = 2.0
+     phi at ends: +1.571844, -1.569844;  delta at ends: +1.047e-03, +0.000e+00
+     solutions of (11) with delta != 0: 2
+     Delta'_alpha outside [lambda_H, lambda_B] on 64 of 400001 grid points; alpha range of violations: [0.001032, 3.140582], Delta' there in [-2.6698, 2.3692]
+     min of angular mu over the arc: -1.6698
+     with end tangents: violations of III on 3 points (max |excess| 3.69e-01), inequality I holds: True, min angular mu = +0.9958
+== u2=x1^5-(x2-x1^2)^2,  r = 0.0001,  K = 1.0, gamma1 = 0.5, eta1 = 2.0
+   arc (0.000101, 6.283284) width 6.2832: sup(|phi|-pi/2) = 1.015e-04, lambda_H = -4.059e-04, lambda_B = 2.0
+     phi at ends: +1.570898, -1.570698;  delta at ends: +1.015e-04, +0.000e+00
+     solutions of (11) with delta != 0: 0
+     Delta'_alpha outside [lambda_H, lambda_B] on 17 of 400001 grid points; alpha range of violations: [0.000101, 3.141504], Delta' there in [-1.1486, 3.0304]
+     min of angular mu over the arc: -0.1486
+     with end tangents: violations of III on 11 points (max |excess| 1.03e+00), inequality I holds: True, min angular mu = +0.0004

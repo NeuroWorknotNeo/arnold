@@ -1,0 +1,6 @@
+u1=-x2(x1-x2^2), r=0.01, arc (0.00000,1.56080): min[(6) phi(b)-phi(a)+pi] = +2.125e+00 (>=0 needed), max[(7) phi(b)-phi(a)-pi-eta1(b-a)] = -3.142e+00 (<=0 needed)
+u1=-x2(x1-x2^2), r=0.01, arc (3.14159,4.72239): min[(6) phi(b)-phi(a)+pi] = +2.145e+00 (>=0 needed), max[(7) phi(b)-phi(a)-pi-eta1(b-a)] = -3.142e+00 (<=0 needed)
+u1=-x2(x1-x2^2), r=0.001, arc (0.00000,1.56980): min[(6) phi(b)-phi(a)+pi] = +2.141e+00 (>=0 needed), max[(7) phi(b)-phi(a)-pi-eta1(b-a)] = -3.142e+00 (<=0 needed)
+u1=-x2(x1-x2^2), r=0.001, arc (3.14159,4.71339): min[(6) phi(b)-phi(a)+pi] = +2.142e+00 (>=0 needed), max[(7) phi(b)-phi(a)-pi-eta1(b-a)] = -3.142e+00 (<=0 needed)
+u2=x1^5-(x2-x1^2)^2, r=0.01, arc (0.01100,6.29218): min[(6) phi(b)-phi(a)+pi] = +2.633e+00 (>=0 needed), max[(7) phi(b)-phi(a)-pi-eta1(b-a)] = -1.111e-02 (<=0 needed)
+u2=x1^5-(x2-x1^2)^2, r=0.001, arc (0.00103,6.28415): min[(6) phi(b)-phi(a)+pi] = +2.641e+00 (>=0 needed), max[(7) phi(b)-phi(a)-pi-eta1(b-a)] = -6.311e-03 (<=0 needed)

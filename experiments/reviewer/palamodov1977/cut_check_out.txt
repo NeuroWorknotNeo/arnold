@@ -1,0 +1,6 @@
+r=0.01: cusp half-width 9.9424e-02; pair at the cusp edges: |beta-alpha| = 1.9885e-01, phi(beta)-phi(alpha)-pi = +9.821e-02
+   min |beta-alpha| over pairs with phi(beta)-phi(alpha) = pi (approx.): 2.4281e-01
+   max |beta-alpha| among pairs with difference > pi: 2.4755e-01
+r=0.001: cusp half-width 3.1604e-02; pair at the cusp edges: |beta-alpha| = 6.3209e-02, phi(beta)-phi(alpha)-pi = +3.156e-02
+   min |beta-alpha| over pairs with phi(beta)-phi(alpha) = pi (approx.): 7.7380e-02
+   max |beta-alpha| among pairs with difference > pi: 7.8962e-02

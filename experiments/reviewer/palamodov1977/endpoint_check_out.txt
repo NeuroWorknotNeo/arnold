@@ -1,0 +1,24 @@
+r = 0.1: arc (0, 1.47161428),  sup(|phi|-pi/2) = 9.727e-02 (= c r^d),  lambda_H = -3.891e-01,  lambda_B = eta1 = 2.0
+   points with delta>0: 0,  delta<0: 6540
+   strip delta<0: alpha in [1.42349989, 1.47161428] (width 4.811e-02, pi/2 - alpha_B = 9.918e-02);  delta at end = -9.727e-02
+   delta'_alpha in strip: min -2.0387, max -2.0000  (lambda_H = -3.891e-01; is delta' < lambda_H everywhere there? True)
+   over all points with delta != 0 (both neighbours too): delta' in [-2.0431, -2.0000]
+   alpha = 1.43792905: phi = -1.600191;  min eig sym(v'_paper) = -1.0445,  <v_paper,u'> = +8.368e-19;  min eig sym(v'_fix) = +0.5920, <v_fix,u'> = -5.498e-04
+   alpha = 1.45236558: phi = -1.629404;  min eig sym(v'_paper) = -1.0358,  <v_paper,u'> = +3.811e-18;  min eig sym(v'_fix) = +0.5913, <v_fix,u'> = -3.144e-04
+   alpha = 1.46680211: phi = -1.658430;  min eig sym(v'_paper) = -1.0271,  <v_paper,u'> = +3.061e-18;  min eig sym(v'_fix) = +0.5905, <v_fix,u'> = -7.864e-05
+r = 0.01: arc (0, 1.56079716),  sup(|phi|-pi/2) = 9.997e-03 (= c r^d),  lambda_H = -3.999e-02,  lambda_B = eta1 = 2.0
+   points with delta>0: 0,  delta<0: 641
+   strip delta<0: alpha in [1.55580261, 1.56079716] (width 4.995e-03, pi/2 - alpha_B = 9.999e-03);  delta at end = -9.997e-03
+   delta'_alpha in strip: min -2.0004, max -2.0000  (lambda_H = -3.999e-02; is delta' < lambda_H everywhere there? True)
+   over all points with delta != 0 (both neighbours too): delta' in [-2.0004, -2.0000]
+   alpha = 1.55730098: phi = -1.573801;  min eig sym(v'_paper) = -1.0005,  <v_paper,u'> = +2.239e-20;  min eig sym(v'_fix) = +0.9592, <v_fix,u'> = -6.853e-07
+   alpha = 1.55879934: phi = -1.576798;  min eig sym(v'_paper) = -1.0004,  <v_paper,u'> = +6.441e-21;  min eig sym(v'_fix) = +0.9592, <v_fix,u'> = -3.916e-07
+   alpha = 1.56029770: phi = -1.579795;  min eig sym(v'_paper) = -1.0003,  <v_paper,u'> = -3.285e-20;  min eig sym(v'_fix) = +0.9592, <v_fix,u'> = -9.791e-08
+r = 0.001: arc (0, 1.56979633),  sup(|phi|-pi/2) = 1.000e-03 (= c r^d),  lambda_H = -4.000e-03,  lambda_B = eta1 = 2.0
+   points with delta>0: 0,  delta<0: 64
+   strip delta<0: alpha in [1.56930184, 1.56979633] (width 4.945e-04, pi/2 - alpha_B = 1.000e-03);  delta at end = -1.000e-03
+   delta'_alpha in strip: min -2.0000, max -2.0000  (lambda_H = -4.000e-03; is delta' < lambda_H everywhere there? True)
+   over all points with delta != 0 (both neighbours too): delta' in [-2.0000, -2.0000]
+   alpha = 1.56944312: phi = -1.571090;  min eig sym(v'_paper) = -1.0000,  <v_paper,u'> = +5.112e-22;  min eig sym(v'_fix) = +0.9959, <v_fix,u'> = -7.050e-10
+   alpha = 1.56959225: phi = -1.571388;  min eig sym(v'_paper) = -1.0000,  <v_paper,u'> = +1.549e-22;  min eig sym(v'_fix) = +0.9959, <v_fix,u'> = -4.073e-10
+   alpha = 1.56974138: phi = -1.571686;  min eig sym(v'_paper) = -1.0000,  <v_paper,u'> = +1.028e-22;  min eig sym(v'_fix) = +0.9959, <v_fix,u'> = -1.097e-10

@@ -1,0 +1,5 @@
+dphi/dalpha = (-9*r**2*sin(alpha)**2 + 3*r*cos(alpha) - 2/sin(alpha)**2)/((3*r*sin(alpha) - cot(alpha))**2 + 1)
+dphi/dalpha at alpha = pi/2 - k r: -2
+phi at alpha = pi/2 - k r: r*(2*k - 3) - pi/2
+0.01 8.881784197001252e-16
+0.001 8.881784197001252e-16
