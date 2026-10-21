@@ -1,0 +1,104 @@
+=== check_model.py
+3.1(a) grad: True True True
+3.1(c) U+r^6 = x^2y^2+B: True
+3.1(d) (1): True
+3.1(d) (2): True
+Lambda series: 3*t**2 + t**4*(epsilon - 6) + O(t**5)
+3.1(e) G(0), G''(0): -1 6
+S2: theta.grad(c^4 t1^2 t2^2) = 4c^6 t1^2t2^2: True
+S2 decomposition: True
+theta.grad c^6 = -6 t c^8: True
+theta.grad E = 4E+2(t1^6+t2^6): True
+theta.grad Lam - Lam formula: True
+min(Lambda/t - 2) = 0.005924917086969295 ;  min((th.grad L - L)/t) = 0.023666425591032488
+3.3 (L2) identity: True
+(a+b)^3 <= 4(a^3+b^3): 4(a^3+b^3)-(a+b)^3 = 3*(a - b)**2*(a + b)
+axis solution: zdot + sqrt(2) z^3 = 0
+eps=-10 point: -5/4
+=== check_thmS_geom.py
+(1.1): True
+(1.2) rD_YY residual max: 1.266348137463069178920704871416091918945e-16 ; r<w,D_wY> residual max: 1.942890293094023945741355419158935546875e-16
+<omega, Domega> = 0: [0, 0]
+=== check_examples.py
+X1 p5 = c^5(t1^4+t2^4): True
+X1 theta.grad q5 = q5(4-5c^2|t|^2): True
+X1 p6 = c^6(-1+t1^6+t2^6): True
+X2 p5 = 0 ; p6 - c^6 t1 t2 = 0 ; p7 + c^7 = 0
+cusp p6 = c^6 F^2: True ; homog7 = 0
+cusp xi_w.grad F = 6F: True
+cusp xi_w.grad c^6 = -3c^8(4t1^2+6t2^2): True
+cusp xi_w.grad p6 = p6*6(2-t2^2)/(1+t^2): True
+cusp p8 = c^8(-1+t1^8+t2^8): True
+cusp Lambda ~ 4*theta1**2 + 4*theta2**2 ; xi_w.grad L - L ~ 12*theta1**2 + 20*theta2**2
+tang p6 = c^6 t2^2 (t2-t1^2)^2: True ; homog7 = 0
+tang xi_w.grad p6 = p6*2(t1^2-2t2^2+4)/(1+t^2): True
+tang Lambda ~ 4*theta1**2 + 4*theta2**2 ; xi_w.grad L - L ~ 4*theta1**2 + 12*theta2**2
+cusp identity y/2 U_y - z U_z = 4(y^8+2z^8): True
+cusp U_x(x,0,0) = 2*x**5*(4*x**2 + 3)
+tang identity y/2 U_y - z/2 U_z = y^2(yz-x^2)^2+4y^8+4z^8: True
+tang U_x(x,0,0) = 8*x**7
+X2 U_z = z**3*(4*x*y - 7*z**3) ; x U_x on xy=7z^3/4: 0
+X1 U_x = 2*x*(3*x**4 + 2*x**2*z + y**2) ; U_z = x**4 + y**4 - 6*z**5
+axis invariant X1 [0, 0]
+axis invariant X2 [0, 0]
+axis invariant cusp [0, 0]
+axis invariant tang [0, 0]
+=== check_U2.py
+U_II = H^2-(1-eta)z^6+x^6+y^6: True
+lambda_x x = (3-e)g, lambda_y y = -(3-e)g: True True
+(8.1) zY(H) = (3-e)H: True
+family H = c z^{3-e} preserved: Y(H/z^{3-e}) = 0
+(8.2) (V=0): True
+(8.2) with V: True
+x^5 z zeta1 = Y*e*x**5*z**3/(Y**2 + x**2) ; y^5 z zeta2 = Y**5*e*x*z**3/(Y**2 + x**2)
+6(1-lx)x^6+6(1-ly)y^6 = 6Y^6 f(u): True
+min over u>=4 of (f-0.398(u^6+1))/(u^6+1) = 0.0015608542836222136
+symmetry x<->|y|: True
+dg/dx = Y^2/(x+Y)^2: True ; dg/dy = -x^2/(x+Y)^2: True
+Jacobian (y,x)/(x^2+y^2): Matrix([[-2*xs*ys, xs**2 - ys**2], [-xs**2 + ys**2, -2*xs*ys]])
+J^T J = I/(x^2+y^2)^2: True
+z d_z xi = 2zeta - xi0: True
+dU/dz = 6z^2(xy+eta z^3): True
+(x/2)U_x on xy=-eta z^3 = 3x^6-eta(1-eta)z^6: True
+U_II(z^{3/2},-z^{3/2},z) = eta*zz**6 + 2*zz**9 - zz**6
+eta=1/2 real critical points: [(0, 0, 0), (-0.577350, -0.577350, -0.873580), (-0.577350, 0.577350, 0.873580), (0.577350, -0.577350, 0.873580), (0.577350, 0.577350, -0.873580)]
+predicted |z| = 0.873580464736299
+axis chart U/z^6 - [(b1b2+1)^2-(1-eta)+z^3(b1^6+b2^6)] = 0
+vertex chart F0 + (1-eta) - (b1b2-b1+b2)^2 = 0
+general center F0(b) = (B1*B2 + B1*g2 + B2*g1 + g1*g2 + 1)**2  - (1-eta)
+grad F0(0) = [2*g2*(g1*g2 + 1), 2*g1*(g1*g2 + 1)]
+z dW/dz = 6 z^3 H: True
+  6-6/sqrt(delta) at 0.05 : -20.832815729997478
+  6-6/sqrt(delta) at 0.02 : -36.42640687119285
+  6-6/sqrt(delta) at 0.01 : -54.0
+6H^2 - 2H zYH = 2(3-L)H(H-z^3): True
+=== check_U2_bounds.py
+delta=0.0312 e=0.1: max(|xi|/sqrt z - 3)=-6.477e-01, max((bound-L2)/z^7)=-9.449e-02, max(|zD_YY|/sqrt z-19)=-1.693e+01, max(-mineig - theta3bound)=-1.040e-01
+delta=0.0312 e=0.5: max(|xi|/sqrt z - 3)=-7.081e-01, max((bound-L2)/z^7)=-4.725e-01, max(|zD_YY|/sqrt z-19)=-1.704e+01, max(-mineig - theta3bound)=-5.040e-01
+delta=0.0100 e=0.1: max(|xi|/sqrt z - 3)=-7.441e-01, max((bound-L2)/z^7)=-4.421e-02, max(|zD_YY|/sqrt z-19)=-1.701e+01, max(-mineig - theta3bound)=-1.040e-01
+delta=0.0100 e=0.5: max(|xi|/sqrt z - 3)=-7.810e-01, max((bound-L2)/z^7)=-2.210e-01, max(|zD_YY|/sqrt z-19)=-1.706e+01, max(-mineig - theta3bound)=-5.040e-01
+limit eigenvalue (3-e)(1-sqrt2)/2 = -0.6006096654409879
+limit eigenvalue (3-e)(1-sqrt2)/2 = -0.5177669529663689
+=== check_S1.py
+G matches text: True
+h_n = 8*sin(f)**2
+G'(4.5464) = [-0.0003406290453668210490369719055678539, -0.0003406290453668210490369719018207646] ; G'(4.5466) = [0.00029665580445315748649886079370563169, 0.00029665580445315748649886079789645525]
+G on I: [-0.57313052842197882733603831102109366, -0.57294388029982522520848777680743833]
+G''+5G on I: [0.31969013762864210625019333254005393, 0.32278640305809077341397212296303038]
+h_n on I: [7.7815981957392372024261169561254451, 7.78211935500217618794769479060874]
+G''+5G over subdivision: [ [0.3211906634117493879811956974110021, 0.3211906634117493879811956974110021] , [0.32128555793754727302831054666559456, 0.32128555793754727302831054666559456] ]
+argmin G on circle x=y ~ 4.546512888275148 G = -0.5730372140619059
+argmin u5 on circle x=-y ~ 1.8856467425376655 value = -0.26395809774640305
+=== milnor.sing
+model eps=1: local mu = 65
+model eps=-3: local mu = 65
+X1: local mu = 53
+X2: local mu = 102
+cusp: local mu = 213
+tangency: local mu = 215
+U_II eta=1/2: local mu = 65
+U_II eta=1/10: local mu = 65
+model eps=1: global dim(C^3) of critical scheme = 125
+X1: global dim(C^3) of critical scheme = 125
+cusp: global dim(C^3) of critical scheme = 343
+tangency: global dim(C^3) of critical scheme = 343

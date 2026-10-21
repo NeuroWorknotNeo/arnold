@@ -1,0 +1,24 @@
+// R42: числа Милнора в нуле (локальный порядок ds) и глобальная размерность (dp) — изолированность над C.
+LIB "sing.lib";
+ring R = 0,(x,y,z),ds;
+poly fm  = x2y2 + z2*(x4+y4) - z6 + x6 + y6;           // модель, eps=1
+poly fm2 = x2y2 - 3*z2*(x4+y4) - z6 + x6 + y6;         // модель, eps=-3
+poly f1  = x2y2 + z*(x4+y4) - z6 + x6 + y6;            // X1
+poly f2  = x2y2 + xy*z4 - z7 + x8 + y8;                // X2
+poly fc  = (y2z - x3)^2 - z8 + x8 + y8;                // касп
+poly ft  = y2*(yz - x2)^2 - z8 + x8 + y8;              // касание
+poly fu  = x2y2 + 2*xy*z3 + 1/2*z6 + x6 + y6;          // U_II, eta=1/2
+poly fu2 = x2y2 + 2*xy*z3 + 1/10*z6 + x6 + y6;         // U_II, eta=1/10
+list L = fm, fm2, f1, f2, fc, ft, fu, fu2;
+list N = "model eps=1","model eps=-3","X1","X2","cusp","tangency","U_II eta=1/2","U_II eta=1/10";
+int i;
+for (i=1; i<=size(L); i++) { ideal j = std(jacob(L[i])); print(N[i] + ": local mu = " + string(vdim(j))); kill j; }
+ring S = 0,(x,y,z),dp;
+poly fm  = x2y2 + z2*(x4+y4) - z6 + x6 + y6;
+poly f1  = x2y2 + z*(x4+y4) - z6 + x6 + y6;
+poly fc  = (y2z - x3)^2 - z8 + x8 + y8;
+poly ft  = y2*(yz - x2)^2 - z8 + x8 + y8;
+list L2 = fm, f1, fc, ft;
+list N2 = "model eps=1","X1","cusp","tangency";
+for (i=1; i<=size(L2); i++) { ideal j = std(jacob(L2[i])); print(N2[i] + ": global dim(C^3) of critical scheme = " + string(vdim(j))); kill j; }
+quit;
