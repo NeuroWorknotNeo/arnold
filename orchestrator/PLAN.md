@@ -119,7 +119,7 @@ Claude по указаниям владельца; дальше его ведё�
 | R1 | reviewer | лемма M, пример к теореме 3 (max-gluing.md), лемма 1 (theoremB-proof §1) | **готово** 21.10 ~14:50, ошибок нет; `notes/reviewer/2026-10-21-max-gluing.md` |
 | R2 | reviewer | теорема B и пример $(x^2+y^2-z^2)^2+xz^4$ | **готово** 21.10 ~15:00: ошибок нет, пробелы изложения; `notes/reviewer/2026-10-21-theoremB-proof.md` |
 | R3 | reviewer | пример 13: теорема 1, предложение 1 | **готово** 21.10 ~15:00: ошибок нет; пробел в побочном утверждении об изолированности; `notes/reviewer/2026-10-21-example13-proof.md` |
-| P1 | prover | `results/002-theorem-B.md`: исправления по отзыву R2 (запущен ~15:00) | затем новый рецензент — прерван паузой, **возобновлён** 15:16 |
+| P1 | prover | `results/002-theorem-B.md` по отзыву R2 | **готово** 16:08; на повторной проверке — R10 (`notes/reviewer/2026-10-21-result002.md`) |
 | P2 | prover | `results/003-example13.md` | **готово** 15:19; повторная проверка — R8 |
 | R8 | reviewer | повторная независимая проверка `results/003` (запущен 15:19) | `notes/reviewer/2026-10-21-result003.md` |
 | N1 | numerics | воспроизведение `experiments/` | **готово** ~15:08: почти всё воспроизводится; не подтверждён вывод theoremC-draft (A-505); `experiments/numerics/2026-10-21-reproduce/README.md` |
