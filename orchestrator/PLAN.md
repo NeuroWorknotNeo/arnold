@@ -86,11 +86,12 @@ Claude по указаниям владельца; дальше его ведё�
 | Метка | Агент | Задача | Результат |
 |---|---|---|---|
 | L1 | literature | KNOWN_RESULTS §1–§2, текст задачи 1971-4, D'Acunto–Kurdyka | `notes/literature/2026-10-21-classical.md` |
-| L2 | literature | §3–§4: гладкие контрпримеры, нестрогие минимумы, Brunella, Rauch | `notes/literature/2026-10-21-counterexamples-nonstrict.md` |
+| L2 | literature | §3–§4: гладкие контрпримеры, нестрогие минимумы, Brunella, Rauch | **готово** 21.10 ~14:45, `notes/literature/2026-10-21-counterexamples-nonstrict.md` |
 | L3 | literature | §5: Паламодов 1977/1995/2020, Burgos 2021/2025, новые работы | `notes/literature/2026-10-21-total-instability.md` |
 | R1 | reviewer | лемма M, пример к теореме 3 (max-gluing.md), лемма 1 (theoremB-proof §1) | `notes/reviewer/2026-10-21-max-gluing.md` |
 | R2 | reviewer | теорема B и пример $(x^2+y^2-z^2)^2+xz^4$ | `notes/reviewer/2026-10-21-theoremB-proof.md` |
 | R3 | reviewer | пример 13: теорема 1, предложение 1 | `notes/reviewer/2026-10-21-example13-proof.md` |
+| N1 | numerics | воспроизведение `experiments/` (запущен 21.10 ~14:50) | `experiments/numerics/2026-10-21-reproduce/README.md` |
 
 Фоновые процессы и подагенты не переживают перезапуск Claude Code. Если после перезапуска
 отзывов нет, задачу надо запустить заново.
@@ -105,7 +106,6 @@ Claude по указаниям владельца; дальше его ведё�
 - R6 — `reviewer`: утверждения overview.tex — A-404, A-405, A-409, A-411, A-412, A-413.
 - R7 — `reviewer`: честность пробелов в эскизах — n2-sketch.md, theoremC-draft.md, лемма G
   (toolkit.md §3), A-417.
-- N1 — `numerics`: перезапуск скриптов `experiments/` и сверка чисел (A-501–A-507).
 - L4 — `literature`: A-313 (теорема B не покрыта известным), A-418 (Тужрон, Kuo), A-419
   (литература overview §1.2), A-408.
 
