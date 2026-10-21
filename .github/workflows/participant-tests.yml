@@ -1,7 +1,10 @@
 name: Проверки Claude-участника и скриптов
 on:
+  # Только при изменениях кода участника: главный агент часто коммитит заметки, им проверки не нужны.
   push:
+    paths: ["participant/**", "compute/**", ".github/workflows/participant-tests.yml"]
   pull_request:
+    paths: ["participant/**", "compute/**", ".github/workflows/participant-tests.yml"]
   workflow_dispatch:
 permissions:
   contents: read

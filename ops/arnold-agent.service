@@ -1,0 +1,20 @@
+# Главный агент исследования задачи Арнольда: Claude Code с Remote Control в tmux.
+# Ставит ops/install.sh (подставляет пользователя и домашнюю папку).
+[Unit]
+Description=Главный агент исследования задачи Арнольда (Claude Code + Remote Control в tmux)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=forking
+User=claudeagent
+WorkingDirectory=/home/claudeagent/arnold
+Environment=HOME=/home/claudeagent
+Environment=LANG=C.UTF-8
+ExecStart=/usr/bin/tmux new-session -d -s arnold -x 200 -y 50 /usr/bin/env bash /home/claudeagent/arnold/ops/arnold-agent.sh
+ExecStop=/usr/bin/tmux kill-session -t arnold
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

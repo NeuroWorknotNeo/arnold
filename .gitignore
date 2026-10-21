@@ -4,6 +4,10 @@ participant/*.env
 !participant/.env.example
 *.env.local
 
+# Личные настройки и состояние Claude Code
+.claude/settings.local.json
+.claude/scheduled_tasks.json
+
 # Python
 __pycache__/
 *.pyc
