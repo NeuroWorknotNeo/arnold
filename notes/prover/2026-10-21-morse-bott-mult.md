@@ -5,7 +5,12 @@
   компонента-кривая $\Sigma$ имеет постоянную нормальную кратность $2r\ge2$ (не обязательно Морс–Ботт):
   аналоги теорем Mb, Mc, Md при $2r\ge4$ (вырожденный нормальный профиль $e^{2r'}\mathsf p$, дно — ряды
   Пюизё по $s$), аналог предложения R и итоговая теорема M′.
-- **Статус:** по пунктам — таблица в §0.2. Независимой проверки нет. Главное:
+- **Статус:** по пунктам — таблица в §0.2. Вторая редакция (21.10.2026): записку проверили R40
+  ([`notes/reviewer/2026-10-21-morse-bott-mult-A.md`](../reviewer/2026-10-21-morse-bott-mult-A.md): формулы
+  (2.4), (5.1)–(5.7), теорема W, леммы B, U, B′) и R41
+  ([`notes/reviewer/2026-10-21-morse-bott-mult-B.md`](../reviewer/2026-10-21-morse-bott-mult-B.md): леммы A0, T,
+  предложения R′, W′, теоремы C, D, Z, M′, §11–§12, пример O2) — ошибок нет; все замечания внесены
+  (перечень — §15). Оформление результата — `results/014-morse-bott-mult.md`. Главное:
   - теоремы W, C, D (аналоги Mb, Mc, Md) доказаны в общей форме «данные нормальной формы ⇒
     асимптотическая траектория»;
   - теорема M′ доказана при дополнительном условии (UR) на ветви дна в нормальном слое; (UR)
@@ -26,6 +31,8 @@
     (первое ребро), леммы N1, N2, лемма N5 (§7 доказательства);
   - [009] = [`results/009-euler-field.md`](../../results/009-euler-field.md): только предложения 5.2 и 5.4
     (для сравнения и для примера O1);
+  - [012] = [`results/012-free-field.md`](../../results/012-free-field.md) (проверен R34, R36, R39) — только в
+    замечаниях к (O1), не используется в доказательствах;
   - стандартные факты: аналитическая теорема о неявной функции, теорема единственности для
     аналитических функций, формула Тейлора с интегральным остатком; через лемму V [010] —
     подготовительная теорема Вейерштрасса и теорема Ньютона–Пюизё (формулировки в [010], §7; с
@@ -81,6 +88,7 @@ $s$, они могут сливаться и менять кратность п�
 | §10 | примеры W1–W4, C1, C2, D1–D3 (условия теорем выполнены), O2 (складка, вне теорем) | выкладки [Доказано] вручную; проверка — [Эксперимент] |
 
 Все [Доказано] опираются на [007], [008], [010], [011] (проверены агентами, ждут проверки человеком).
+Доказательства записки прочитали R40, R41: ошибок нет.
 
 ## 1. Постановка и обозначения
 
@@ -154,16 +162,21 @@ $$F_{\rm fl}(s,\theta):=\min_{|\eta|\le y_1s}U\big(s\omega(\theta)+\eta n(\theta
   - (W1) $(0,0)$ — изолированный нуль $P$;
   - (DE) есть $w,\mu_0,r_*>0$ с $\tau\partial_\tau P+w\,e\,\partial_eP\ge\mu_0P$ на $[-r_*,r_*]^2$.
 - **(UR)** (равномерная регулярность дна) на $\Sigma_0$ с $\gamma_*<\infty$: для каждого $\theta'\in\mathbb R$ есть открытый интервал
-  $J\ni\theta'$, числа $\sigma_J,e_J>0$ и конечный набор «ветвей» $(\varepsilon_k^*,\hat G_k,M_k,r_k)$, $k=1,\dots,K$:
-  $\varepsilon_k^*,\hat G_k$ вещественно-аналитичны на $(-\sigma_J,\sigma_J)\times J$ со значениями $|\varepsilon_k^*|<E+\frac12$, $M_k$
-  вещественно-аналитична на $(-\sigma_J,\sigma_J)\times J\times(-e_J,e_J)$, $e_J\le\frac12$, $r_k\in\mathbb N$, причём
-  - (UR1) $\tilde U(\sigma,\theta,\varepsilon_k^*+e)=\hat G_k(\sigma,\theta)+e^{2r_k}M_k(\sigma,\theta,e)$ и $M_k(0,\theta,0)>0$;
+  $J\ni\theta'$, числа $\sigma_J\in(0,\sigma_1]$ ($\sigma_1$ — из (1.3) с $E'=E+1$), $e_J\in(0,\frac12]$ и конечный набор «ветвей»
+  $(\varepsilon_k^*,\hat G_k,M_k,r_k)$, $k=1,\dots,K$: $\varepsilon_k^*,\hat G_k$ вещественно-аналитичны на $(-\sigma_J,\sigma_J)\times J$ и
+  $|\varepsilon_k^*|<E+\frac12$ там (при всех $|\sigma|<\sigma_J$, в том числе $\sigma<0$), $M_k$ вещественно-аналитична на
+  $(-\sigma_J,\sigma_J)\times J\times(-e_J,e_J)$, $r_k\in\mathbb N$, причём
+  - (UR1) $\tilde U(\sigma,\theta,\varepsilon_k^*(\sigma,\theta)+e)=\hat G_k(\sigma,\theta)+e^{2r_k}M_k(\sigma,\theta,e)$ при всех $|\sigma|<\sigma_J$, $\theta\in J$, $|e|<e_J$, и
+    $M_k(0,\theta,0)>0$ при всех $\theta\in J$;
   - (UR2) при $\theta\in J$, $0\le\sigma<\sigma_J$ каждая точка глобального минимума $\tilde U(\sigma,\theta,\cdot)$ на $[-E,E]$ равна
     $\varepsilon_k^*(\sigma,\theta)$ при некотором $k$.
 
   (UR1) означает, что $\varepsilon_k^*$ — точная ветвь критических точек **постоянной кратности** $2r_k-1$ («жёсткий
   профиль»); при $\sigma=0$ это (CM). Точки глобального минимума $\Phi_0(\theta,\cdot)$ на $\mathbb R$ лежат в $(-E_0,E_0)\subset[-E,E]$,
-  так что (UR2) при $\sigma=0$ относится к ним всем.
+  так что (UR2) при $\sigma=0$ относится к ним всем. Число $E$ — из леммы N2; от его выбора (при $E\ge E_0$) условие по
+  существу не зависит: $\tilde U\to\Phi_0$ равномерно, поэтому при малых $\sigma$ и $\theta$ около $\theta'$ точки глобального минимума
+  на $[-E,E]$ лежат около точек глобального минимума $\Phi_0(\theta',\cdot)$ в $(-E_0,E_0)$ (см. доказательство леммы U, п. 3),
+  и после уменьшения $J$, $\sigma_J$ (UR2) для одного $E\ge E_0$ влечёт его для другого.
 - **(R)** (невырожденность минимального дна в слое): при каждом $\theta\in\mathbb R$ каждая точка глобального
   минимума $\varepsilon$ функции $\Phi_0(\theta,\cdot)$ невырождена: $\partial_\varepsilon^2\Phi_0(\theta,\varepsilon)>0$. Это условие на многочлен первого
   ребра; оно проверяется по конечной струе $U$.
@@ -188,7 +201,8 @@ $T(\Sigma_0):=\{s\omega(\theta)+\eta n(\theta):\ 0<s<s_1,\ \theta\in\mathbb R,\ 
 
 - **(a)** есть $r_*>0$ такое, что каждая точка $0<|q|<r_*$ лежит в некоторой трубке $T(\Sigma_0)$, или в некотором
   конусе $C_\omega$, или $U(q)>0$;
-- **(b)** на $T(\Sigma_0)$: $U(s\omega(\theta)+\eta n(\theta))\ge F_{\rm fl}(s,\theta)$; на $C_\omega$: $U(q)\ge x^mR_\omega(x)$, $x=\langle q,\omega\rangle$;
+- **(b)** на $T(\Sigma_0)$: $U(s\omega(\theta)+\eta n(\theta))\ge F_{\rm fl}(s,\theta)$; на $C_\omega$ при $0<x<s_1(\omega)$ ($s_1(\omega)$ — из леммы K1 [008]
+  для данных (S) с $d=0$): $U(q)\ge x^mR_\omega(x)$, $x=\langle q,\omega\rangle$;
 - **(c)** $0$ — точка локального минимума $U$ тогда и только тогда, когда $F_{\rm fl}(s,\theta)\ge0$ при малых $s>0$ на всех
   компонентах-кривых и $R_\omega(s)\ge0$ при малых $s>0$ во всех точечных компонентах.
 
@@ -203,8 +217,8 @@ $T(\Sigma_0):=\{s\omega(\theta)+\eta n(\theta):\ 0<s<s_1,\ \theta\in\mathbb R,\ 
 
 **Данные (NF$_W$).** $\omega:(-\theta_K,\theta_K)\to S^2$ — натуральная параметризация аналитической дуги (в том
 числе дуги замкнутой кривой), репер (1.1); $\theta_1\in(0,\theta_K)$ и $t_1>0$ такие, что $\Pi$ — диффеоморфизм
-$\{s>0,\ |\theta|<\theta_1,\ |\eta|<t_1s\}$ на открытое множество (лемма K3 [008]). Числа $N\in\mathbb N$, $c>1$, $\beta>0$,
-$\sigma_1>0$ и функции:
+$\{s>0,\ |\theta|<\theta_1,\ |\eta|<t_1s\}$ на открытое множество (лемма K3 [008]); для дуги $\bar k_g:=\max_{|\theta|\le\theta_1}|k_g|$.
+Числа $N\in\mathbb N$, $c>1$, $\beta>0$, $\sigma_1>0$ и функции:
 
 - $y_0\in C^2([0,\sigma_1]\times[-\theta_1,\theta_1])$ с $y_0(0,\cdot)\equiv0$; $\eta_0(s,\theta):=s\,y_0(s^{1/N},\theta)$ — **приближённое дно**;
 - $\tilde F:[0,\sigma_1]\times[-\theta_1,\theta_1]\times[-1,1]\to\mathbb R$, непрерывная вместе с $\partial_\theta\tilde F$, $\partial_e\tilde F$, дифференцируемая по
@@ -220,7 +234,10 @@ $$U\big(s\omega(\theta)+(\eta_0(s,\theta)+s^ce)\,n(\theta)\big)=s^\beta\tilde F(
   $$\kappa\,\theta\,\partial_\theta P+c_2(\kappa)\,e\,\partial_eP\ \ge\ \kappa\mu_0P\quad\text{на }K. \tag{2.2}$$
 
 Типичные выборы: $c_2\equiv c$ — профиль «распадается» (так в теореме Mb [010] и в теореме N [011]);
-$c_2(\kappa)=w\kappa$ при $\kappa_0\le c/w$ — условие (DE) с весом $w$ (§1.3).
+$c_2(\kappa)=w\kappa$ при $\kappa_0\le c/w$ — условие (DE) с весом $w$ (§1.3). Ограничение $c_2\le c$ существенно: оно даёт
+$\lambda\ge0$ в (2.4), а при $\lambda<0$ член $\lambda w_n^2$ в (5.5) имел бы порядок $1$ и (L3M) нарушилось бы. В доказательстве
+(2.2) используется только при $\kappa=\kappa(\delta)$ для малых $\delta$; требование «при всех $\kappa\in(0,\kappa_0]$» можно ослабить
+(замечание R40, З4).
 
 **Теорема W.** Пусть $U\in C^2(B_r)$, $U(0)=0$, $\nabla U(0)=0$, выполнены (NF$_W$) и (W). Положим
 $\Omega_\delta:=\{(\theta,e)\in(-r_W,r_W)^2:\ P<4\delta\}$, $R_\theta(\delta):=\sup_{\Omega_\delta}|\theta|$, $R_e(\delta):=\sup_{\Omega_\delta}|e|$ (тогда
@@ -265,9 +282,10 @@ $M_0:=M(0,0,0)>0$.
 - **(D1)** $G:=\hat G(0,\cdot)\ge0$ около $0$, $G(0)=0$, $G\not\equiv0$ около $0$, и $\hat G(\sigma_k,\theta_k)<0$ для некоторых $\sigma_k\downarrow0$,
   $\theta_k\to0$.
 - **(D2)** Для некоторых данных $(N_V,A_V,\Gamma_V,a_V,T,Q_V,k_0)$ леммы V [010] для $f(\sigma,\tau):=\hat G(\sigma,\tau)$ (в лемме V
-  это $N,A_V,\Gamma_V,a_V,T,Q_V,k_0$), у которых $2r'$ делит $\Gamma_V$ (этого всегда можно добиться заменой
-  $t\mapsto t^{r'}$, §7, п. 1), с $B:=\Gamma_V/(2r')$: при каждом $1\le l\le2r'-1$ в разложении
-  $h_l(t^{N_V},T(t)+t^{A_V}b_1)=\sum_{i\ge0}H_{l,i}(b_1)t^i$ коэффициенты с $i\le\Gamma_V-lB$ равны нулю тождественно по $b_1$.
+  это $N,A_V,\Gamma_V,a_V,T,Q_V,k_0$), у которых $2r'$ делит $\Gamma_V$, с $B:=\Gamma_V/(2r')\in\mathbb N$: при каждом $1\le l\le2r'-1$ в
+  разложении $h_l(t^{N_V},T(t)+t^{A_V}b_1)=\sum_{i\ge0}H_{l,i}(b_1)t^i$ коэффициенты с $i\le\Gamma_V-lB$ равны нулю тождественно по $b_1$.
+  (Данные с $2r'\mid\Gamma_V$ всегда есть: подстановка $t\mapsto t^{r'}$, §7, п. 1. Для данных с $2r'\nmid\Gamma_V$ то же требование
+  с рациональным $B$ после этой подстановки становится (D2) с целым $B$.)
 
 (D2) выполнено, если $h_l\equiv0$ (точная ветвь постоянной кратности, «жёсткий профиль»), а также если
 $h_l=\sigma^{\nu_l}\tilde h_l$ с аналитическими $\tilde h_l$ и $N_V\nu_l>\Gamma_V-lB$.
@@ -286,7 +304,7 @@ $x(t)\asymp t^{-2/(\beta_d-2)}$; в применениях §9 $\beta_d>j>m\ge2$
 **Лемма B (глобальная ветвь первого ребра).** Пусть $\gamma_*<\infty$, $c_0:=\min_\theta G_{\min}$, и (CM) выполнено в
 каждой точке $F_{c_0}$. Если в точке $(\theta_0,\varepsilon_0)\in F_{c_0}$ ветвь $\varepsilon_b$ из (CM) имеет $G_b\equiv c_0$ около $\theta_0$, то
 есть аналитическая $L$-периодическая $\varepsilon_g:\mathbb R\to\mathbb R$ с $\varepsilon_g(\theta_0)=\varepsilon_0$ и $(\theta,\varepsilon_g(\theta))\in F_{c_0}$ при всех $\theta$, число
-$r'\in\mathbb N$, $e_g>0$ и аналитическая $L$-периодическая $\mathsf p_g$ на $\mathbb R\times(-e_g,e_g)$ с $\mathsf p_g(\theta,0)>0$ и
+$r'\in\mathbb N$ и многочлен $\mathsf p_g(\theta,e)$ по $e$ с аналитическими $L$-периодическими коэффициентами, $\mathsf p_g(\theta,0)>0$, такие, что
 $\Phi_0(\theta,\varepsilon_g(\theta)+e)=c_0+e^{2r'}\mathsf p_g(\theta,e)$.
 
 **Лемма U.** Если на компоненте-кривой с $\gamma_*<\infty$ выполнено (R), то выполнено (UR) со всеми $r_k=1$.
@@ -425,7 +443,8 @@ $$|\tilde\nu|\le(2+c)\Delta,\qquad|\partial_\theta\tilde\nu|\le3\Delta,\qquad|s\
    $10(1+\bar k_g+c)\Delta(s_2)\le\frac14$ (отсюда $|\epsilon|,|\tilde\nu|\le\frac14$, $|\eta_{0,s}|+\frac43|\eta_{0,\theta}|/s\le1$, $|\eta_{0,s}k_g|\le1$), $|\eta|\le|\eta_0|+s^c\le\frac12\min(t_1,\frac14)s$
    при $0<s<s_2$ и $2s_2<r$. Тогда $\mathcal O:=\{\Psi(s,\theta,s^ce):\ 0<s<s_2,\ |\theta|<r_W,\ |e|<1\}$ — открытое подмножество
    $B_r\setminus0$, $\Psi$ на нём инъективна (лемма K3), $\rho:=s\circ\Psi^{-1}\in C^1$, $\nabla\rho=\omega(\theta)$ (K3: $s$ — та же функция,
-   что для $\Pi$), $Y:=(2.4)\circ\Psi^{-1}\in C^1$ ($\eta_0\in C^2$ при $s>0$), $Y\rho=1$.
+   что для $\Pi$), $Y:=(2.4)\circ\Psi^{-1}\in C^1$ ($\eta_0\in C^2$ при $s>0$), $Y\rho=1$. Число $\sigma_0$ теоремы A — это $s_2$,
+   $A(r)=a_0r^\beta$ на $(0,s_2)$. Из $\Delta(s_2)\le\frac1{40}$ на $\mathcal O$ даже $|\epsilon|\le\frac1{40}$.
 3. *Выбор $\delta_1$.* $\delta_1\le\min(\delta_0,a_0/2)$ такое, что при $\delta\le\delta_1$: $\frac54R_\theta(\delta)(1+\bar k_g)\le1$ и
    $5R_\theta(\delta)\sqrt\delta\le\frac14\sqrt{2a_0/3}$. Зафиксируем $\delta\in(0,\delta_1]$, $\kappa:=\kappa(\delta)$ по (2.3), $c_2:=c_2(\kappa)$, $\lambda:=c-c_2$.
 4. *Множество $D$.* По (NF$_W$) функция
@@ -448,14 +467,16 @@ $$|\tilde\nu|\le(2+c)\Delta,\qquad|\partial_\theta\tilde\nu|\le3\Delta,\qquad|s\
    - По (5.6): $|\langle\nabla\rho-Y/h,w\rangle|=|w_\omega|\le(\frac54\kappa R_\theta+|\tilde\nu|)|w|$. Положим $\gamma_1:=\frac54\kappa R_\theta$, $\vartheta_1:=\sup|\tilde\nu|$.
    - По (5.4) и $\nabla_YY=D_YY$, $\rho=s$: $\omega$-компонента не больше $\frac54\kappa^2\theta^2$; $\ell$-компонента равна
      $-\kappa(1-\kappa)\theta+\kappa\theta[s\partial_s\epsilon-\kappa\epsilon-\kappa\theta\partial_\theta\epsilon+\tilde\nu k_g+\lambda k_g\zeta/s]$, второй член по модулю не больше
-     $|s\partial_s\epsilon|+\kappa|\epsilon|+|\partial_\theta\epsilon|+\bar k_g|\tilde\nu|+c\bar k_g|\zeta|/s$; $n$-компонента не больше
+     $|s\partial_s\epsilon|+\kappa|\epsilon|+|\partial_\theta\epsilon|+\bar k_g|\tilde\nu|+c\bar k_g|\zeta|/s$ (неравенство $\kappa|\theta|\le1$ использовано дважды: для множителя
+     $\kappa\theta$ и для члена $\kappa\theta\partial_\theta\epsilon$; $0\le\lambda\le c$); $n$-компонента не больше
      $\frac54\kappa^2\theta^2\bar k_g+|s\partial_s\tilde\nu|+|\partial_\theta\tilde\nu|+c^2|\zeta|/s$. Значит, $\rho|\langle\nabla_YY,w\rangle|\le(\gamma_2+\vartheta_2)|w|$ с
      $\gamma_2:=\kappa R_\theta+\frac54\kappa^2R_\theta^2(1+\bar k_g)\le\frac32\kappa R_\theta$ (п. 3) и
      $\vartheta_2:=\sup(|s\partial_s\epsilon|+|\epsilon|+|\partial_\theta\epsilon|+\bar k_g|\tilde\nu|+c\bar k_g|\zeta|/s+|s\partial_s\tilde\nu|+|\partial_\theta\tilde\nu|+c^2|\zeta|/s)$.
    - По (5.5): первый член $\ge(\frac45-\frac12)w_\ell^2\ge0$; по (5.6) $\kappa\theta w_\omega w_\ell=\kappa^2\theta^2(1-\epsilon)w_\ell^2-\kappa\theta\tilde\nu w_\ell w_n\ge-|\tilde\nu||w|^2$;
      третий член $\ge-\frac43(|\partial_\theta\epsilon|+\bar k_g|\tilde\nu|+|\partial_\theta\tilde\nu|)|w|^2$; четвёртый $\ge-(|s\partial_s\epsilon|+|s\partial_s\tilde\nu|)|w|^2$ ($|w_\omega|\le|w|$);
      пятый $\ge-\bar k_g(|\eta_{0,s}|+\frac43|\eta_{0,\theta}|/s)|w|^2$; последний равен
-     $\lambda w_n^2-\lambda w_n(w_\omega\eta_{0,s}+w_\ell\eta_{0,\theta}/(s(1-\epsilon)))\ge-c(|\eta_{0,s}|+\frac43|\eta_{0,\theta}|/s)|w|^2$. Итак, $s\langle w,D_wY\rangle\ge-\vartheta_3|w|^2$ с
+     $\lambda w_n^2-\lambda w_n(w_\omega\eta_{0,s}+w_\ell\eta_{0,\theta}/(s(1-\epsilon)))\ge-c(|\eta_{0,s}|+\frac43|\eta_{0,\theta}|/s)|w|^2$ — здесь существенно $\lambda\ge0$
+     (то есть $c_2\le c$): член $\lambda w_n^2$ отбрасывается как неотрицательный. Итак, $s\langle w,D_wY\rangle\ge-\vartheta_3|w|^2$ с
      $\vartheta_3:=\sup\big(|\tilde\nu|+\frac43(|\partial_\theta\epsilon|+\bar k_g|\tilde\nu|+|\partial_\theta\tilde\nu|)+|s\partial_s\epsilon|+|s\partial_s\tilde\nu|+(\bar k_g+c)(|\eta_{0,s}|+\frac43|\eta_{0,\theta}|/s)\big)$.
 
    По (5.8) $\vartheta_1,\vartheta_2,\vartheta_3\le C_\vartheta\Delta(\sigma_*)$, где $C_\vartheta$ зависит только от $\bar k_g$ и $c$; при $\sigma_*\to0$ они стремятся к нулю
@@ -481,14 +502,16 @@ $\lambda$ → $\sigma_*$.
   $P=\Lambda(\theta)+\frac12h_n(\theta)e^2$, $\mu_0=1$, $R_\theta\le(8\delta/a)^{1/(2p)}$, и (2.3) совпадает с (0.4) [010] с точностью до
   константы. Теорема N [011] — случай $p=1$ с разделяющимся профилем, где $R_\theta^2\asymp\delta$ и $\kappa(\delta)$
   отделено от нуля.
-- [Доказано] **Зачем свободный нормальный вес.** Если профиль не распадается, неравенство (2.2) с
-  $c_2=c$ может нарушаться при всех допустимых $\kappa$. Пример: $P_0=e^4+\theta e^2+\theta^2$, квазиоднородный с весами
-  $(\theta:1,e:\frac12)$. При $c_2=c$ квадратичная по $(\theta,e^2)$ форма
-  $\kappa\theta\partial_\theta P_0+ce\partial_eP_0=4ce^4+(\kappa+2c)\theta e^2+2\kappa\theta^2$ неотрицательна только при $(\kappa+2c)^2\le32c\kappa$, то есть при
-  $\kappa\ge(14-\sqrt{192})c\approx0{.}144c$. Это противоречит малости $\kappa$, которой требуют перекрёстные члены. При
-  $c_2=\kappa/2$: $\kappa(\theta\partial_\theta P_0+\frac12e\partial_eP_0)=2\kappa P_0$ — неравенство Эйлера выполнено при любом $\kappa$. Цена —
-  член $\lambda\zeta/s$ в нормальной компоненте $Y$. Он даёт вклад $O(s^{c-1})$ в $\vartheta_i$ и неотрицательный член
-  $\lambda w_n^2$ в (5.5).
+- **Зачем свободный нормальный вес.** [Доказано] Для $P_0=e^4+\theta e^2+\theta^2$ (квазиоднородный с весами
+  $(\theta:1,e:\frac12)$) при $c_2=c$ форма $\kappa\theta\partial_\theta P_0+ce\partial_eP_0=4ce^4+(\kappa+2c)\theta e^2+2\kappa\theta^2$ (квадратичная по $(\theta,e^2)$,
+  чётная по $\theta$) неотрицательна при $e^2\ge0$ тогда и только тогда, когда $(\kappa+2c)^2\le32c\kappa$, то есть
+  $\kappa\ge(14-\sqrt{192})c\approx0{,}144c$. Значит, при $c_2=c$ неравенство (2.2) для $P_0$ неверно при всех
+  $\kappa<(14-\sqrt{192})c$ и любом $\mu_0\ge0$. В примере W3 (тот же главный член профиля) $\kappa(\delta)$ из (2.3) порядка
+  $10^{-3}$, что много меньше $0{,}2154$. При $c_2=\kappa/2$ имеем $\kappa(\theta\partial_\theta P_0+\frac12e\partial_eP_0)=2\kappa P_0$ — неравенство Эйлера выполнено при
+  любом $\kappa$. Цена — член $\lambda\zeta/s$ в нормальной компоненте $Y$: он даёт вклад $O(s^{c-1})$ в $\vartheta_i$ и
+  неотрицательный член $\lambda w_n^2$ в (5.5). [Эксперимент] То, что конструкция с $\lambda=0$ для W3 действительно не
+  даёт строгого выхода, установлено только численно (§10.3; R40, §1.7). Это утверждение о методе, а не об
+  отсутствии траектории.
 - [Эксперимент] Для разделяющегося профиля с медленным $s^{c-1}$ (пример W1, $c=\frac54$) поле с $\lambda>0$
   выходит на асимптотический режим лишь при $s\lesssim10^{-16}$. Поэтому при $c_2\equiv c$ (если (2.2) с ним
   выполнено) $\lambda=0$ практичнее (§10.3).
@@ -506,7 +529,7 @@ $\lambda$ → $\sigma_*$.
    $\mathcal D:=\{0<s<\sigma_*,\ (\theta,e)\in\Omega,\ \tilde F+a_0<\delta\}$, $D:=\Psi(\{(s,\theta,s^ce)\})$; $\sigma$ теоремы A — это $\sigma_*$.
 4. *(D1)–(D3)* — как в [010], §6, п. 4: предельный угол берётся по компактности окружности; угловой
    границы нет; на $\partial\Omega$ $P=4\delta$; в (D3) — точки $(s,\theta,0)$, где $P(\theta,0)=0$ по (C1).
-5. *(L0)–(L2).* $a_1=a_3=a_0$, $a_2=\beta a_0$, $h=1+\eta_{0,s}^2\in[1,\frac32]$. На $D_\sigma$: $W\ge-\chi s^\beta\ge-\delta\rho^\beta$. Положим
+5. *(L0)–(L2).* $a_1=a_3=a_0$, $a_2=\beta a_0$, $h=1+\eta_{0,s}^2\in[1,\frac32]$ (так как $|\eta_{0,s}|\le\Delta(s_2)\le\frac1{40}$). На $D_\sigma$: $W\ge-\chi s^\beta\ge-\delta\rho^\beta$. Положим
    $\mu:=\min(c\mu_0,\beta)$. По (C2) и $P\ge0$: $\beta W-\rho YW\ge s^\beta[c\mu_0P-cR_e\chi-\frac\chi N]\ge\mu W-s^\beta(c+\frac1N+\beta)\chi$, то есть
    $\varepsilon_1:=(c+\frac1N+\beta)\chi/\delta$.
 6. *(L3) [007].* При $\kappa=\lambda=0$: $Y=\omega+\eta_{0,s}n$; для $w\perp Y$ $w_\omega=-\eta_{0,s}w_n$, и так как $\nabla\rho-Y/h\perp Y$,
@@ -527,9 +550,10 @@ $\lambda$ → $\sigma_*$.
    $f(\sigma_k,\theta_k)<0$ — условия леммы V [010] выполнены. Подстановка $t\mapsto t^{m}$ ($m\in\mathbb N$) переводит данные
    леммы V $(N_V,A_V,\Gamma_V,a_V,T,Q_V,k_0)$ в $(mN_V,mA_V,m\Gamma_V,a_V,T(t^m),Q_V,k_0)$ и сохраняет все её утверждения.
    Действительно, $\tau_v(\sigma)=T(\sigma^{1/N_V})$ не меняется, новая функция $\hat\Phi$ равна $\hat\Phi(t^m,b)$ и аналитична с тем же
-   значением при $t=0$, чётность сохраняется. При $m=r'$ получаем $2r'\mid\Gamma_V$, так как $\Gamma_V$ чётно. Условие
-   (D2) инвариантно относительно таких подстановок: $i$, $\Gamma_V$, $B$ умножаются на $m$. Ниже данные
-   — из (D2), $B=\Gamma_V/(2r')\in\mathbb N$.
+   значением при $t=0$, чётность сохраняется. При $m=r'$ получаем $2r'\mid r'\Gamma_V$, так как $\Gamma_V$ чётно. При подстановке
+   индексы $i$, $\Gamma_V$ и число $B$ умножаются на $m$, поэтому требование «коэффициенты при $t^i$, $i\le\Gamma_V-lB$, нулевые»
+   (при рациональном $B$) равносильно такому же требованию для подставленных данных, где $B$ уже целое. Ниже
+   данные — из (D2), $B=\Gamma_V/(2r')\in\mathbb N$.
 2. *Переменные.* $x=s$, $\sigma=x^{1/N}$, $t:=\sigma^{1/N_V}=x^{1/(NN_V)}$, $\hat\theta(x,u):=\tau_v(x)+u/x=T(t)+t^{A_V}b_1$, $\zeta=x^{c'}b_2$,
    $e:=\zeta x^{-c}=x^{c'-c}b_2=t^Bb_2$ (так как $(c'-c)NN_V=\Gamma_V/(2r')=B$).
 3. *$(\Phi0)$–$(\Phi3)$ с $C_1=0$.* Дословно [010], §8, пп. 1–5, с заменой точного дна $\eta^*$ на $\eta_0$ и $\theta_0=0$.
@@ -563,43 +587,54 @@ $\lambda$ → $\sigma_*$.
 
 **Лемма B.**
 
-1. *Единственность.* Пусть $\varepsilon',\varepsilon''$ — непрерывные функции на интервале $I\ni\theta_0$ с $(\theta,\varepsilon'(\theta)),(\theta,\varepsilon''(\theta))\in F_{c_0}$ и
-   $\varepsilon'(\theta_0)=\varepsilon''(\theta_0)$. Тогда $\varepsilon'=\varepsilon''$ на $I$. Множество совпадения замкнуто в $I$. Оно и открыто: в точке совпадения $\theta'$
-   обе функции около $\theta'$ — критические точки $\Phi_0(\theta,\cdot)$ рядом с $\varepsilon'(\theta')$ и по (CM) в $(\theta',\varepsilon'(\theta'))$ совпадают с
-   $\varepsilon_b$.
+1. *Единственность.* Пусть $\varepsilon',\varepsilon''$ — непрерывные функции на интервале $I$ с $(\theta,\varepsilon'(\theta)),(\theta,\varepsilon''(\theta))\in F_{c_0}$ и
+   $\varepsilon'(\theta^\circ)=\varepsilon''(\theta^\circ)$ в **какой-нибудь** точке $\theta^\circ\in I$. Тогда $\varepsilon'=\varepsilon''$ на $I$. Множество совпадения замкнуто в $I$. Оно и
+   открыто: в точке совпадения $\theta'$ обе функции около $\theta'$ — критические точки $\Phi_0(\theta,\cdot)$ (точки глобального
+   минимума) рядом с $\varepsilon'(\theta')$ и по (CM) в $(\theta',\varepsilon'(\theta'))$ совпадают с $\varepsilon_b$.
 2. *Продолжение.* Пусть $I=(\theta_-,\theta_+)$ — максимальный интервал, на котором есть аналитическая $\varepsilon_g$ с $\varepsilon_g(\theta_0)=\varepsilon_0$ и
    $(\theta,\varepsilon_g)\in F_{c_0}$. Он корректно определён по п. 1 и непуст: ветвь $\varepsilon_b$ около $\theta_0$ годится, так как
    $\Phi_0(\theta,\varepsilon_b)=G_b\equiv c_0\le G_{\min}\le\Phi_0(\theta,\varepsilon_b)$. Пусть $\theta_+<\infty$. Значения $\varepsilon_g$ лежат в $[-E_0,E_0]$; возьмём $\theta_k\uparrow\theta_+$ с
-   $\varepsilon_g(\theta_k)\to\varepsilon_1$. Тогда $(\theta_+,\varepsilon_1)\in F_{c_0}$ ($F_{c_0}$ замкнуто). Пусть $\varepsilon_b$, $\rho$ — из (CM) в $(\theta_+,\varepsilon_1)$; уменьшим $\rho$
-   так, чтобы $|\varepsilon_b-\varepsilon_1|<\rho/2$ на $(\theta_+-\rho,\theta_++\rho)$, и пусть $\rho'\le\rho$ — радиус единственности из (CM). При
-   большом $k$ $|\theta_k-\theta_+|<\rho$ и $|\varepsilon_g(\theta_k)-\varepsilon_1|<\rho'/2$, так что $\varepsilon_g(\theta_k)=\varepsilon_b(\theta_k)$. Пусть $J_k\ni\theta_k$ — максимальный
-   подинтервал $(\theta_+-\rho,\theta_+)$, на котором $|\varepsilon_g-\varepsilon_b|<\rho'$. На $J_k$ $\varepsilon_g=\varepsilon_b$: обе функции — критические точки, а
-   критическая точка в $|\varepsilon-\varepsilon_b(\theta)|<\rho'$ одна. Значит, $J_k=[\theta_k,\theta_+)$, иначе на правом конце $|\varepsilon_g-\varepsilon_b|=\rho'$ при
-   $\varepsilon_g=\varepsilon_b$. Так $\varepsilon_b$ продолжает $\varepsilon_g$ за $\theta_+$. Функция $G_b$ аналитична и равна $c_0$ на $[\theta_k,\theta_+)$, поэтому
+   $\varepsilon_g(\theta_k)\to\varepsilon_1$. Тогда $(\theta_+,\varepsilon_1)\in F_{c_0}$: при $c_0=\min G_{\min}$ множество $F_{c_0}=\{\Phi_0=c_0\}$ замкнуто. Пусть
+   $\varepsilon_b$, $\rho$ — из (CM) в $(\theta_+,\varepsilon_1)$. Сузим $\rho$ так, чтобы на компактном $[\theta_+-\rho,\theta_++\rho]$ было
+   $2r'\mathsf p+e\partial_e\mathsf p>0$ при $|e|\le\rho'$ с некоторым $\rho'\in(0,\rho)$: тогда $\rho'$ — радиус единственности критической точки
+   $\Phi_0(\theta,\cdot)$ около $\varepsilon_b(\theta)$, общий для всех $|\theta-\theta_+|\le\rho$. Сузим $\rho$ ещё так, чтобы $|\varepsilon_b-\varepsilon_1|<\rho'/4$ на этом
+   отрезке (непрерывность $\varepsilon_b$ в $\theta_+$). При большом $k$ $|\theta_k-\theta_+|<\rho$ и $|\varepsilon_g(\theta_k)-\varepsilon_1|<\rho'/4$, так что
+   $|\varepsilon_g(\theta_k)-\varepsilon_b(\theta_k)|<\rho'/2$ и $\varepsilon_g(\theta_k)=\varepsilon_b(\theta_k)$. Пусть $J_k\ni\theta_k$ — максимальный подинтервал $(\theta_+-\rho,\theta_+)$,
+   на котором $|\varepsilon_g-\varepsilon_b|<\rho'$. На $J_k$ $\varepsilon_g=\varepsilon_b$: обе функции — критические точки, а критическая точка в
+   $|\varepsilon-\varepsilon_b(\theta)|<\rho'$ одна. Значит, $J_k=[\theta_k,\theta_+)$, иначе на правом конце $|\varepsilon_g-\varepsilon_b|=\rho'$ при $\varepsilon_g=\varepsilon_b$. Так $\varepsilon_b$
+   продолжает $\varepsilon_g$ за $\theta_+$ (аналитически: функции совпадают на интервале). Функция $G_b$ аналитична и равна $c_0$ на $[\theta_k,\theta_+)$, поэтому
    $G_b\equiv c_0$ около $\theta_+$, и $c_0\le G_{\min}(\theta)\le\Phi_0(\theta,\varepsilon_b(\theta))=c_0$, то есть $(\theta,\varepsilon_b)\in F_{c_0}$. Это противоречит
    максимальности; значит, $I=\mathbb R$.
-3. *Периодичность.* $\theta\mapsto\varepsilon_g(\theta+L)$ — тоже такая функция ($\Phi_0$ периодична). По п. 1 две такие функции
-   либо совпадают всюду, либо не совпадают нигде; во втором случае разность $\varepsilon_g(\theta+L)-\varepsilon_g(\theta)$ знакопостоянна.
+3. *Периодичность.* $\theta\mapsto\varepsilon_g(\theta+L)$ — тоже такая функция ($\Phi_0$ периодична). По п. 1 (совпадение в какой-нибудь
+   точке) две такие функции либо совпадают всюду, либо не совпадают нигде; во втором случае разность
+   $\varepsilon_g(\theta+L)-\varepsilon_g(\theta)$ знакопостоянна.
    Если она, например, положительна, то $\varepsilon_g(\theta_0+kL)$ строго возрастает по $k$. Но все эти значения лежат в
    конечном множестве нулей многочлена $\Phi_0(\theta_0,\cdot)-c_0\not\equiv0$ — противоречие. Итак, $\varepsilon_g$ периодична.
-4. *Профиль.* По (CM) кратность $2r'-1$ локально постоянна вдоль $\varepsilon_g$, значит, постоянна. Определим
-   $\mathsf p_g(\theta,e):=e^{-2r'}(\Phi_0(\theta,\varepsilon_g+e)-c_0)$, то есть интегральный остаток Тейлора порядка $2r'$. Он
-   аналитичен и периодичен, и $\mathsf p_g(\theta,0)=\partial_\varepsilon^{2r'}\Phi_0(\theta,\varepsilon_g)/(2r')!>0$, так как это точка минимума с первой ненулевой
-   производной порядка $2r'$. По компактности $e_g>0$ выбирается равномерно. $\square$
+4. *Профиль.* По (CM) кратность $2r'-1$ постоянна на всём интервале из (CM) ($\mathsf p(\theta,0)>0$ на нём), значит, локально
+   постоянна вдоль $\varepsilon_g$ и потому постоянна. Положим $\mathsf p_g(\theta,e):=\sum_{k\ge2r'}\frac1{k!}\partial_\varepsilon^k\Phi_0(\theta,\varepsilon_g(\theta))\,e^{k-2r'}$ — многочлен по $e$ с
+   аналитическими периодическими коэффициентами; $\Phi_0(\theta,\varepsilon_g+e)-c_0=e^{2r'}\mathsf p_g$, и $\mathsf p_g(\theta,0)>0$, так как это точка минимума с
+   первой ненулевой производной порядка $2r'$. $\square$
+
+   Аналитичность работает в п. 2 (из $G_b=c_0$ на $[\theta_k,\theta_+)$ следует $G_b\equiv c_0$ около $\theta_+$ — для $C^\infty$-данных это
+   неверно) и в п. 3 (конечность множества нулей ненулевого многочлена $\Phi_0(\theta_0,\cdot)-c_0$).
 
 **Лемма U.**
 
 1. Фиксируем $\theta'$. Точки глобального минимума $\Phi_0(\theta',\cdot)$ — конечное множество $\{\varepsilon_1,\dots,\varepsilon_K\}\subset(-E_0,E_0)$
    (нули многочлена $\Phi_0(\theta',\cdot)-G_{\min}(\theta')\not\equiv0$). По (R) $\partial_\varepsilon^2\Phi_0(\theta',\varepsilon_k)>0$.
-2. По аналитической теореме о неявной функции для $\partial_\varepsilon\tilde U(\sigma,\theta,\varepsilon)=0$ в точке $(0,\theta',\varepsilon_k)$ (там
-   $\partial_\varepsilon^2\tilde U=\partial_\varepsilon^2\Phi_0>0$) есть $\rho_k>0$ и аналитическая $\varepsilon_k^*$ на $(-\rho_k,\rho_k)\times(\theta'-\rho_k,\theta'+\rho_k)$ с $\varepsilon_k^*(0,\theta')=\varepsilon_k$.
-   Это единственный нуль $\partial_\varepsilon\tilde U(\sigma,\theta,\cdot)$ в $(\varepsilon_k-\rho_k,\varepsilon_k+\rho_k)$, и там $\partial_\varepsilon^2\tilde U\ge m_k>0$. По формуле Тейлора
-   $\tilde U(\sigma,\theta,\varepsilon_k^*+e)=\hat G_k+e^2M_k$, где $\hat G_k:=\tilde U(\sigma,\theta,\varepsilon_k^*)$ и
-   $M_k:=\int_0^1(1-t)\partial_\varepsilon^2\tilde U(\sigma,\theta,\varepsilon_k^*+te)\,dt\ge m_k/2$ при малых $|e|$. Это (UR1) с $r_k=1$.
-3. *(UR2).* Выберем $\rho\in(0,\min(1,\min_k\rho_k/2))$ так, что интервалы $(\varepsilon_k-\rho,\varepsilon_k+\rho)$ попарно не пересекаются и лежат в
+2. *Ветви.* Для каждого $k$ выберем сначала $\varepsilon$-радиус $\varrho_k\in(0,\frac12)$ и окрестность $V_k=(-\varsigma_k,\varsigma_k)\times(\theta'-\varsigma_k,\theta'+\varsigma_k)$
+   так, что $\partial_\varepsilon^2\tilde U\ge m_k>0$ на $\overline{V_k}\times[\varepsilon_k-\varrho_k,\varepsilon_k+\varrho_k]$ (непрерывность; $\partial_\varepsilon^2\tilde U(0,\theta',\varepsilon_k)=\partial_\varepsilon^2\Phi_0>0$). По
+   аналитической теореме о неявной функции для $\partial_\varepsilon\tilde U=0$ в $(0,\theta',\varepsilon_k)$, уменьшив $\varsigma_k$, получаем аналитическую
+   $\varepsilon_k^*$ на $V_k$ с $\varepsilon_k^*(0,\theta')=\varepsilon_k$ и $|\varepsilon_k^*-\varepsilon_k|<\varrho_k/2$ на $V_k$ (в том числе при $\sigma<0$). По строгой выпуклости
+   $\tilde U(\sigma,\theta,\cdot)$ на $[\varepsilon_k-\varrho_k,\varepsilon_k+\varrho_k]$ это единственный нуль $\partial_\varepsilon\tilde U(\sigma,\theta,\cdot)$ там при $(\sigma,\theta)\in V_k$. По формуле
+   Тейлора $\tilde U(\sigma,\theta,\varepsilon_k^*+e)=\hat G_k+e^2M_k$, где $\hat G_k:=\tilde U(\sigma,\theta,\varepsilon_k^*)$ и
+   $M_k:=\int_0^1(1-t)\partial_\varepsilon^2\tilde U(\sigma,\theta,\varepsilon_k^*+te)\,dt\ge m_k/2>0$ при $|e|<\varrho_k/2$. Это (UR1) с показателем $r_k=1$ и
+   $e_J\le\min_k\varrho_k/2$.
+3. *(UR2).* Выберем $\rho\in(0,\min_k\varrho_k/2)$ так, что интервалы $(\varepsilon_k-\rho,\varepsilon_k+\rho)$ попарно не пересекаются и лежат в
    $(-E_0,E_0)$; $O_\rho$ — их объединение. Тогда $g:=\min\{\Phi_0(\theta',\varepsilon)-G_{\min}(\theta'):\ \varepsilon\in[-E,E]\setminus O_\rho\}>0$. Выберем
-   $\rho'\in(0,\rho)$ с $\Phi_0(\theta',\varepsilon)<G_{\min}(\theta')+\frac g3$ при $|\varepsilon-\varepsilon_k|<\rho'$, затем $J\ni\theta'$ и $\sigma_J\le\min_k\rho_k$ такие, что при $\theta\in J$,
-   $0\le\sigma<\sigma_J$: $|\tilde U(\sigma,\theta,\varepsilon)-\Phi_0(\theta',\varepsilon)|<\frac g3$ при $|\varepsilon|\le E+1$ и $|\varepsilon_k^*(\sigma,\theta)-\varepsilon_k|<\rho'$. Тогда
+   $\rho'\in(0,\rho)$ с $\Phi_0(\theta',\varepsilon)<G_{\min}(\theta')+\frac g3$ при $|\varepsilon-\varepsilon_k|<\rho'$. Затем выберем интервал $J\ni\theta'$ и $\sigma_J\le\sigma_1$ так, что
+   $(-\sigma_J,\sigma_J)\times J\subset V_k$ при всех $k$ и при $|\sigma|<\sigma_J$, $\theta\in J$: $|\tilde U(\sigma,\theta,\varepsilon)-\Phi_0(\theta',\varepsilon)|<\frac g3$ при $|\varepsilon|\le E+1$ и
+   $|\varepsilon_k^*(\sigma,\theta)-\varepsilon_k|<\rho'$ (так что $|\varepsilon_k^*|<E_0<E+\frac12$). Тогда при $0\le\sigma<\sigma_J$
    $\tilde U(\sigma,\theta,\varepsilon_k^*)<G_{\min}(\theta')+\frac{2g}3<\tilde U(\sigma,\theta,\varepsilon)$ при $\varepsilon\in[-E,E]\setminus O_\rho$. Точка глобального минимума на $[-E,E]$
    лежит в некотором $(\varepsilon_k-\rho,\varepsilon_k+\rho)\subset(-E,E)$; это внутренняя критическая точка, и по п. 2 она равна $\varepsilon_k^*(\sigma,\theta)$. При
    $\sigma=0$ рассуждение то же. $\square$
@@ -620,7 +655,12 @@ $\lambda$ → $\sigma_*$.
    единственная критическая точка $\tilde U(\sigma,\theta,\cdot)$ в $|\varepsilon-\varepsilon_{k_i}^*(\sigma,\theta)|<e'$ — это $\varepsilon_{k_i}^*$, где $e'>0$ равномерно на
    $J_i'\times[0,\sigma']$. При малом $\sigma$ $\varepsilon_{k_{i'}}^*$ лежит в этой окрестности, значит, функции совпадают при
    $(\sigma,\theta)\in[0,\sigma_0)\times(J_i'\cap J_{i'}')$ и, по аналитичности, при $|\sigma|<\sigma_0$. Получаем аналитическую $\varepsilon_g^*$ на
-   $(-\sigma_0,\sigma_0)\times\mathbb R$. Она периодична, так как $\varepsilon_g$ периодична и по той же единственности. $\hat G_g:=\tilde U(\sigma,\theta,\varepsilon_g^*)$,
+   $(-\sigma_0,\sigma_0)\times O$, где $O\supset[0,L]$ — открытая окрестность (объединение внутренностей $J_i'$).
+4. *Периодичность.* Пусть $\theta\in O\cap(O-L)$. Функция $\theta\mapsto\varepsilon_g^*(\sigma,\theta+L)$ — ветвь критических точек $\tilde U(\sigma,\theta,\cdot)$
+   ($\tilde U$ периодична по $\theta$), и при $\sigma=0$ она равна $\varepsilon_g(\theta+L)=\varepsilon_g(\theta)=\varepsilon_g^*(0,\theta)$ (периодичность $\varepsilon_g$). По равномерной
+   единственности критической точки около $\varepsilon_g^*(\sigma,\theta)$ (п. 3) при малых $\sigma$ $\varepsilon_g^*(\sigma,\theta+L)=\varepsilon_g^*(\sigma,\theta)$, а затем по
+   аналитичности — при всех $|\sigma|<\sigma_0$. Поэтому $\varepsilon_g^*$ продолжается до $L$-периодической аналитической функции на
+   $(-\sigma_0,\sigma_0)\times\mathbb R$. $\hat G_g:=\tilde U(\sigma,\theta,\varepsilon_g^*)$,
    $M_g$ равна $M_{k_i}$ на кусках и тоже склеивается. $r_g=r_{k_i}$ одно и то же (кратность при $\sigma=0$ вдоль $\varepsilon_g$
    постоянна), $e_0:=\min e_{J_i}$. $\square$
 
@@ -630,7 +670,9 @@ $\lambda$ → $\sigma_*$.
 
 1. *(W-a).* $G_b(\theta)=\Phi_0(\theta,\varepsilon_b(\theta))\ge G_{\min}(\theta)\ge-a_0=G_b(\theta_0)$, так что $\theta_0$ — точка локального минимума
    аналитической непостоянной около $\theta_0$ функции $G_b$: $\Lambda(\tau):=G_b(\theta_0+\tau)+a_0=a\tau^{2p}(1+O(\tau))$, $a>0$, $p\ge1$.
-   Применим теорему W на дуге $|\tau|<\theta_1\le\min(\rho,L/4)$ с центром $\theta_0$:
+   Применим теорему W на дуге $|\tau|\le\theta_1$ с центром $\theta_0$, где $\theta_1<\min(\rho,L/4)$ строго и настолько мало, что
+   $|\varepsilon_b(\theta_0+\tau)|\le E$ при $|\tau|\le\theta_1$ (возможно, так как $|\varepsilon_b(\theta_0)|=|\varepsilon_0|<E_0\le E$); $r_W\le\min(\theta_1/2,\frac14)$ (тогда $r_W<\rho$, и
+   квадрат $K$ лежит в области определения $\mathsf p$):
    - $y_0(\sigma,\tau):=\sigma^{N\gamma_*}\varepsilon_b(\theta_0+\tau)$ ($N\gamma_*\in\mathbb N$, так что $y_0$ аналитична и $y_0(0,\cdot)=0$);
    - $\tilde F(\sigma,\tau,e):=\tilde U(\sigma,\theta_0+\tau,\varepsilon_b(\theta_0+\tau)+e)$ (аналитична, $|\varepsilon_b+e|\le E+1$);
    - (2.1) — это (1.3), так как $s\,y_0+s^ce=s^c(\varepsilon_b+e)$;
@@ -640,8 +682,9 @@ $\lambda$ → $\sigma_*$.
    $\tau\Lambda'\ge\Lambda$, $|e\partial_e\mathsf p|\le\mathsf p/4$, $|\tau\partial_\tau\mathsf p|\le\mathsf p$, имеем
    $$\kappa\tau\partial_\tau P+ce\partial_eP=\kappa\tau\Lambda'+e^{2r'}\big[2r'c\,\mathsf p+ce\partial_e\mathsf p+\kappa\tau\partial_\tau\mathsf p\big]\ge\kappa\Lambda+e^{2r'}\big(2c-\tfrac c4-\tfrac12\big)\mathsf p\ge\kappa P$$
    ($c>1$, $r'\ge1$, $\kappa\le\frac12$).
-2. *(W-b).* Теорема W с $y_0:=\sigma^{N\gamma_*}\varepsilon_0$, $\tilde F:=\tilde U(\sigma,\theta_0+\tau,\varepsilon_0+e)$, $P$ из (DE), $r_W\le r_*$, $\kappa_0:=\min(\frac12,c/w)$,
-   $c_2(\kappa):=w\kappa$: (2.2) — это (DE), умноженное на $\kappa$.
+2. *(W-b).* Теорема W на дуге $|\tau|\le\theta_1<L/4$ с $y_0:=\sigma^{N\gamma_*}\varepsilon_0$, $\tilde F:=\tilde U(\sigma,\theta_0+\tau,\varepsilon_0+e)$ ($|\varepsilon_0|<E_0\le E$,
+   так что $|\varepsilon_0+e|\le E+1$), $P$ из (DE), $r_W\le\min(r_*,\theta_1/2,\frac14)$, $\kappa_0:=\min(\frac12,c/w)$, $c_2(\kappa):=w\kappa$: (2.2) — это
+   (DE), умноженное на $\kappa$.
 3. *(W-c).* Возьмём $(\theta_0,\varepsilon_0)\in F_{\min}$. По (CM) и п. 1 $G_b$ имеет в $\theta_0$ локальный минимум. Если $G_b\not\equiv-a_0$
    около $\theta_0$, это (W-a). Иначе по лемме B (с $c_0=-a_0$) есть глобальная периодическая ветвь $\varepsilon_g$ и
    $\Phi_0(\theta,\varepsilon_g+e)=-a_0+e^{2r'}\mathsf p_g$. Теорема C с $y_0:=\sigma^{N\gamma_*}\varepsilon_g(\theta)$, $\tilde F:=\tilde U(\sigma,\theta,\varepsilon_g(\theta)+e)$, $P=e^{2r'}\mathsf p_g$:
@@ -654,7 +697,8 @@ $\lambda$ → $\sigma_*$.
    глобального минимума на $[-E,E]$. По (UR2) $\varepsilon^\circ=\varepsilon_{k_n}^*(\sigma_n,\theta_n)$; переходя к подпоследовательности, $k_n\equiv k$ и
    $\hat G_k(\sigma_n,\theta_n)<0$.
 2. $G_k(\theta)=\Phi_0(\theta,\varepsilon_k^*(0,\theta))\ge G_{\min}(\theta)\ge0$ на $J$ и $G_k(\theta_*)=\lim\hat G_k(\sigma_n,\theta_n)\le0$, так что $G_k(\theta_*)=0$.
-3. *$G_k\not\equiv0$ около $\theta_*$.* Теорема D на дуге с центром $\theta_*$: $y_0(\sigma,\tau):=\sigma^{N\gamma_*}\varepsilon_k^*(\sigma,\theta_*+\tau)$,
+3. *$G_k\not\equiv0$ около $\theta_*$.* Теорема D на дуге $(\theta_*-\theta_1,\theta_*+\theta_1)$ с $[\theta_*-\theta_1,\theta_*+\theta_1]\subset J$, $\theta_1<L/4$, и
+   $\sigma_J\le\sigma_1$ (из (UR)): $y_0(\sigma,\tau):=\sigma^{N\gamma_*}\varepsilon_k^*(\sigma,\theta_*+\tau)$,
    $\tilde F(\sigma,\tau,e):=\tilde U(\sigma,\theta_*+\tau,\varepsilon_k^*+e)=\hat G_k+e^{2r_k}M_k$. Тождество (2.1) — это (1.3). В (2.5) $h_l\equiv0$, так что
    (D2) выполнено; $M_0=M_k(0,\theta_*,0)>0$; (D1) — п. 2 и п. 1.
 4. *$G_k\equiv0$ около $\theta_*$.* По лемме B′ (с $c_0=0$) есть глобальная ветвь $g$, совпадающая с $k$ около $(0,\theta_*)$, так что
@@ -753,8 +797,11 @@ $\gamma_*$, $N$, $j$, $c$, $\Phi_0$, $\tilde U$, тождество (1.3), ве�
   $G_{\min}=-\cos^2\theta>-1$ вне её. Минимальное дно — овал $\{\varepsilon^2=\sin\theta,\ 0\le\theta\le\pi\}$ со складками в $\theta=0,\pi$. Там
   $\varepsilon=0$ — тройная критическая точка, которая при $\theta>0$ расщепляется: (CM) нарушено, профиль
   $P(\tau,e)=(e^2-\sin\tau)^2$ имеет неизолированный нуль. Внутри дуги ветви невырождены, но $G_b\equiv-1$. Ни
-  одно из условий (W-a)–(W-c) не выполнено. $0$ изолирована ([Эксперимент], Грёбнер; без $y^7$ ось $y$
-  состоит из критических точек).
+  одно из условий (W-a)–(W-c) не выполнено. $0$ изолирована ([Эксперимент]: Грёбнер в sympy; независимо R41,
+  Singular, локальное число Милнора $\mu=86$; без $y^7$ ось $y$ состоит из критических точек). Дополнительно (R41,
+  вручную и численно): $\tilde U=\Phi_0+\sigma^2(\cos^7\theta+\sin^7\theta)$ точно, и глобальный минимум функции дна $F_{\rm fl}/s^6$, равный
+  $-1-s$, достигается ровно в складке $\theta=\pi$. Следующий порядок притягивает траекторию именно в складку, так
+  что препятствие не обходится уточнением во внутренней точке дуги.
 - **O1 (расщепление без диагонального поля Эйлера).** $r=3$, первое ребро с $\gamma_*=3$,
   $\Phi_0=-1+G_1(\hat\theta,\varepsilon)G_2(\hat\theta,\varepsilon)$, $\hat\theta=\sin\theta\cos\theta$, $G_1=\varepsilon^2+k\hat\theta^2\varepsilon+\hat\theta^4$, $G_2=\hat\theta^2+k\hat\theta\varepsilon^2+\varepsilon^4$,
   $\frac{8\sqrt3}7\le k<2$. Такой $\Phi_0$ реализуется многочленом $U=z^6+\sum_{l<6}z^lh_l(x,y)$, $\deg h_l=4(6-l)$:
@@ -785,8 +832,12 @@ $\gamma_*$, $N$, $j$, $c$, $\Phi_0$, $\tilde U$, тождество (1.3), ве�
   направлений $v_\perp$, контроль $|V-\delta\rho^\beta|/(\delta\rho^\beta)<10^{-12}$; печатается $\min(\rho/\lambda_v)\Xi/(\delta\rho^\beta)$ (нужно $>0$).
   - **W3** (профиль не распадается). Поле теоремы W ($\lambda=c-\frac\kappa2$): $0{.}0995$, $0{.}197$, $0{.}295$ при $\kappa=0{.}05,0{.}1,0{.}2$
     ($\delta=0{.}01$) и $0{.}0999$, $0{.}185$, $0{.}345$ ($\delta=0{.}002$), то есть $\approx2\kappa=\kappa\mu_0$. Поле Mb ($\lambda=0$): $-0{.}357$, $-0{.}249$,
-    $-0{.}035$ и $-0{.}309$, $-0{.}202$, $+0{.}012$ — выход нарушается, причём значения совпадают с минимумом отношения
-    Эйлера из `check_DE.out`. В глубоком режиме ($s\sim10^{-13}$–$10^{-17}$) числа те же.
+    $-0{.}035$ и $-0{.}309$, $-0{.}202$, $+0{.}012$, причём значения совпадают с минимумом отношения Эйлера из `check_DE.out`.
+    В глубоком режиме ($s\sim10^{-13}$–$10^{-17}$) числа те же. **Поправка по R40 (З12):** значение $+0{.}012$ при $\kappa=0{.}2$,
+    $\delta=0{.}002$ — недовыборка случайных точек. Плотная проверка по стенке (`exit_W3_wall.py` → `exit_W3_wall.out`:
+    256 лучей, $v_\perp=0$, $s=10^{-12}$) даёт для поля Mb $-0{.}3568$, $-0{.}2495$, $-0{.}0349$ ($\delta=0{.}01$) и $-0{.}3552$, $-0{.}2476$,
+    $-0{.}0323$ ($\delta=0{.}002$) при $\kappa=0{.}05,0{.}1,0{.}2$ — выход нарушается во всех шести случаях; для поля W —
+    $0{.}0995$, $0{.}1991$, $0{.}3981$ и $0{.}0999$, $0{.}1998$, $0{.}3996$ (ровно $\approx2\kappa$). Это совпадает с R40 (§1.7 его отзыва).
   - **W1** ($p=2$, $r'=2$). В глубоком режиме ($s\le10^{-16}$) оба поля дают положительный выход при $\kappa\le0{.}1$
     ($\delta=0{.}01$) и $\kappa\le0{.}05$ ($\delta=0{.}002$) и отрицательный при $\kappa=0{.}2$, соответственно $\kappa=0{.}1$. Это согласуется с
     $\kappa(\delta)\asymp\delta^{1/2}$ при $p=2$, как у R26 для Mb. При $s\sim10^{-3}$ поле с $\lambda=c-\kappa$ ещё не в асимптотическом режиме
@@ -804,31 +855,43 @@ $\gamma_*$, $N$, $j$, $c$, $\Phi_0$, $\tilde U$, тождество (1.3), ве�
    закрыты отрицательными значениями $U$. При $\gamma_*=\infty$ $U\ge0$ в трубке (предложение R′, п. 4). При
    $\hat G_g\equiv0$ отрицательных значений на ветви нет (теорема Z, п. 4). Пример W4 с неизолированной
    критической точкой покрыт.
-2. **Аналитичность работает:**
-   - (i) лемма A0: гладкая компонента-кривая с постоянной кратностью аналитична (через аналитическую
-     функцию $X^{2r-1}(u_m\circ\chi)$);
-   - (ii) первое ребро и лемма N1: конечный носитель на ребре, $\Phi_0$ — многочлен по $\varepsilon$ с аналитическими
-     коэффициентами, $\tilde U$ сходится и аналитична в $\sigma=0$ — это даёт (2.1) с непрерывным $\tilde F$; $\gamma_*<\infty$ при
-     наличии отрицательных значений. Для $C^\infty$-функции все $\varphi_{il}$ могут быть нулями при ненулевой
-     плоской добавке, и первого ребра нет;
-   - (iii) дихотомия «конечный порядок или константа» для аналитических $G_b$, $G'$ на окружности:
-     предложение W′ (W-a)/(W-c), теорема Z. Изолированность нулей $G\ge0$, $G\not\equiv0$ — для леммы V;
-   - (iv) ветви: аналитическая теорема о неявной функции (лемма U), теорема единственности при
-     продолжении ветвей (леммы B, B′); конечность порядка $\kappa'$ в уточнении (теорема Z, п. 4);
-   - (v) лемма V [010] (Вейерштрасс, Ньютон–Пюизё) в теореме D: ветвь углового минимума, глубина
-     $-a_Vs^{\gamma'}$, полиномиальный профиль $Q_V$.
-3. **Теоремы W, C, D** — утверждения для $U\in C^2$ при заданных данных нормальной формы; аналитичность в
-   них не нужна. Вся «конечность типа» — в предположениях. С примерами Пенлеве–Уинтнера и Лалуа (по
-   `problem/KNOWN_RESULTS.md`, первоисточники не сверены) противоречия нет: у них нет конечной струи,
-   дающей такие данные. Пример Уреньи касается тотальной неустойчивости, а здесь утверждается одна
-   асимптотическая траектория.
+2. **Где несёт нагрузку аналитичность $U$** [Доказано — это места доказательств; утверждения о $C^\infty$ ниже —
+   по примерам]:
+   - (a) *предложение R′, п. 4*: переход «все $\varphi_{il}=0$ при $l<2r$ ⇒ $\varphi=y^{2r}A$ около $s=0$», то есть $\gamma_*=\infty$ ⇒ $U\ge0$ в
+     трубке. Для $C^\infty$ это неверно: у $z^4-e^{-1/(x^2+y^2)}$ (R41) все $\varphi_{il}$ с $l<4$ нулевые, $\gamma_*=\infty$, но $U<0$ около
+     экватора. Цепочка рвётся именно здесь;
+   - (b) *леммы N1, N2* [011]: сходимость $\tilde U$ и её аналитичность при $\sigma=0$ дают (1.3), (1.4) и данные (2.1) с
+     непрерывным $\tilde F$ — конечный порядок глубины $-a_0s^j$;
+   - (c) *условие (UR) и лемма U*: аналитичность $\tilde U$ по $\sigma$ (точные ветви $\varepsilon_k^*$, $\hat G_k$ аналитичны);
+   - (d) *конечность порядка $\kappa'$* в уточнении (теорема Z, п. 4): $\hat G_g\not\equiv0$ аналитична по $\sigma$;
+   - (e) *лемма V* [010] (Вейерштрасс, Ньютон–Пюизё) в теореме D: ветвь углового минимума, глубина $-a_Vs^{\gamma'}$,
+     полиномиальный профиль $Q_V$.
+
+   **Не зависят от аналитичности $U$** (работают для любого $U$ с той же конечной струёй): лемма A0
+   (используется лишь то, что $u_m$ — многочлен); аналитичность $G_b$ и коэффициентов $\Phi_0$ (они определяются
+   конечной струёй), а значит, дихотомия «конечный порядок или константа» в предложении W′ и
+   продолжение ветвей первого ребра в лемме B (в ней аналитичность коэффициентов $\Phi_0$ работает в п. 2 —
+   теорема единственности для $G_b$ — и в п. 3 — конечность нулей многочлена $\Phi_0(\theta_0,\cdot)-c_0$).
+3. **Теоремы W и C** — утверждения для $U\in C^2$ при заданных данных (NF$_W$), (NF$_C$); аналитичность не нужна
+   ни $U$, ни данным. **Теорема D** требует вещественно-аналитических данных $y_0$, $\tilde F$ (лемма V), но не
+   аналитичности $U$. Вся «конечность типа» — в предположениях. [Эскиз] С примерами Пенлеве–Уинтнера и
+   Лалуа (по `problem/KNOWN_RESULTS.md`, первоисточники не сверены) противоречия нет: для потенциала, все
+   однородные части которого нулевые, тождество (2.1) с $a_0>0$ невозможно ($U=o(s^\beta)$ вдоль лучей даёт
+   $\tilde F(0,\cdot)\equiv0$); к тому же (H1) требует $u_m\not\equiv0$. Пример Уреньи касается тотальной неустойчивости, а
+   здесь утверждается одна асимптотическая траектория.
 4. Над $\mathbb R$ и над $\mathbb C$: все рассуждения вещественные; число Милнора не используется.
 
 ## 12. Частные случаи с известным ответом
 
-1. **$r\equiv1$ (Морс–Ботт).** (R) выполнено, теорема M′ даёт теорему M [010]. Согласование: если
-   $G_{\min}\not\equiv0$, то $j$ первого ребра совпадает с $j$ из [008] ([011], замечание 2). Если $G_{\min}\equiv0$, к $j$ из [008]
-   ведёт один шаг уточнения (теорема Z, п. 4).
+1. **$r\equiv1$ (Морс–Ботт).** Условие (K2) [010] на кривой-компоненте влечёт (H4) с $r=1$ [Доказано]: в аналитической
+   трубчатой карте $(\theta,y)\mapsto E(\theta,y)$ (§3) функция $f(\theta,y):=u_m(E(\theta,y))$ имеет $f(\theta,0)=\partial_yf(\theta,0)=0$ (так как
+   $\Sigma_0\subset\{u_m=0\}=\{\nabla u_m=0\}$), и по лемме Адамара $f=y^2g$ с
+   $g(\theta,y)=\int_0^1(1-t)\partial_y^2f(\theta,ty)\,dt$, $g(\theta,0)=\frac12D^2u_m(\omega)(n,n)>0$; в качестве нормальной координаты годится
+   $\tau:=y\circ E^{-1}$. Точечные компоненты при (K2) удовлетворяют (H3). Значит, при (K1), (K2) выполнены (H1)–(H4) с $r\equiv1$,
+   (R) — автоматически, и следствие M′$_R$ даёт теорему M [010]. Согласование показателей: при $r=1$ имеем
+   $2\gamma_*\in\mathbb N$ и по лемме N2 $R=s^{2\gamma_*}(G_{\min}+O(s^{1/N}))$; если $G_{\min}\not\equiv0$, то $j$ первого ребра совпадает с $j$ из
+   [008] (это обобщает замечание 2 [011], где разобраны $\gamma_*\in\{\frac12,1\}$). Если $G_{\min}\equiv0$, к $j$ из [008] ведёт
+   один шаг уточнения (теорема Z, п. 4).
 2. **Однородный $U=u_m$.** $\varphi=u_m(\omega+yn)=y^{2r}a$, так что $\gamma_*=\infty$ на всех кривых и $U\ge0$: $0$ — минимум; теорема
    M′ ничего не утверждает. Это верно.
 3. **Невырожденная младшая форма** ($u_m>0$ на $S^2$): $\Sigma=\varnothing$, строгий минимум (предложение R′, п. 1).
@@ -840,16 +903,17 @@ $\gamma_*$, $N$, $j$, $c$, $\Phi_0$, $\tilde U$, тождество (1.3), ве�
    1982 [KP82]; по `problem/KNOWN_RESULTS.md`, формулировка по Neg95, первоисточник не сверен).
 5. **$n=2$.** Теорема сформулирована для $n=3$. Для $U=V(x,y)+z^{2r}$ ($V$ аналитична, младшая степень $>2r$) первое
    ребро даёт $\Phi_0=\varepsilon^{2r}+v_k(\theta)$ с жёсткой ветвью: $\tilde U$ зависит от $\varepsilon$ только через $\varepsilon^{2r}$, (UR) выполнено.
-   Вывод M′ «$0$ не минимум $V$ ⇒ асимптотическая траектория» согласуется со случаем $n=2$ задачи (A)
-   (теорема Паламодова для плоскости, результат 005).
+   Плоскость $z=0$ инвариантна ($\partial_zU=2rz^{2r-1}$), и на ней система — плоская с потенциалом $V$. Вывод M′
+   «$0$ не минимум $V$ ⇒ асимптотическая траектория» (траектория $U$, не обязательно в плоскости) согласуется
+   со случаем $n=2$ задачи (A) в смысле неустойчивости: теорема Паламодова для плоскости (результат 005) даёт
+   неустойчивость без предположения изолированности.
 
 ## 13. Пробелы и что остаётся
 
 **Пробелы этой записки** (то, что не доказано или опирается на непроверенное):
 
-1. Независимой проверки нет. Новые места, требующие внимания рецензента: формулы (5.2)–(5.7) с членом
-   $\lambda\zeta/s$ (проверены символьно), оценки $\vartheta_i$ равномерно по $\kappa,\lambda$ (§5.2, п. 7), выбор констант (§5.2,
-   пп. 3, 8), условие (D2) и формула (7.1), леммы B, B′ (продолжение ветвей), лемма U, сборка в §9.
+1. Доказательства прочитали R40, R41 (ошибок нет, замечания внесены — §15). Это проверка агентами; проверки
+   человеком нет.
 2. Теорема M′ доказана **только при (UR)**, а предложение W′ — при (W-a), (W-b) или (W-c). Полнота разбора для
    всех $U$ с постоянной нормальной кратностью не доказана. Остаются три типа случаев:
    - **(O1) Расщепление ветви без диагонального поля Эйлера.** В точке минимального дна (CM) нарушено,
@@ -858,9 +922,9 @@ $\gamma_*$, $N$, $j$, $c$, $\Phi_0$, $\tilde U$, тождество (1.3), ве�
      Трудность: угловая компонента поля не должна зависеть от узкой нормальной координаты. Иначе
      $s\langle w,D_wY\rangle$ содержит член порядка $s^{1-c}$ — это условие $\partial_j\zeta_i\equiv0$ при $c_i<c_j$ из записки ГА. Следствие 6.1
      [009] даёт такое поле лишь при $Q_d(0,1)\ne0$, а у $G_1G_2$ это не так. Теорема 2U из
-     `results/012-free-field.md` (свободное поле в прямой карте; на момент записи ждёт проверки текста)
-     сюда напрямую не переносится: там все поперечные направления узкие, а здесь угловое широкое (не
-     проверялось подробно). [Гипотеза] Траектория есть.
+     `results/012-free-field.md` (свободное поле в прямой карте; проверена R34, R36, R39) сюда напрямую не
+     переносится: там все поперечные направления узкие, а здесь угловое широкое (подробно не
+     проверялось). [Гипотеза] Траектория есть.
    - **(O2) Складки минимального дна.** $G_{\min}$ постоянна на дуге, но не на всей окружности, и ветви
      сливаются на концах дуги (пример O2). Угловая структура задаётся старшими порядками по $\sigma$. Порядки
      выше главного не видны в рамках фиксированного $\delta$ (стенки нужны той же глубины, что и $\delta\rho^\beta$), а
@@ -880,14 +944,59 @@ $\gamma_*$, $N$, $j$, $c$, $\Phi_0$, $\tilde U$, тождество (1.3), ве�
    (W-a)–(W-c) не выполнены (§10.2, это [Доказано]).
 
 **Что остаётся вне записки** (этим занимаются другие агенты): переменная нормальная кратность вдоль
-кривой (точки, где $a(\theta,0)=0$); вырожденные точечные компоненты; особые точки $\Sigma$; $n\ge4$.
+кривой (точки, где $a(\theta,0)=0$); вырожденные точечные компоненты (ср. `results/012-free-field.md`); особые точки $\Sigma$
+(ср. `results/013-singular-sigma.md`, на проверке текста); $n\ge4$.
 
 ## 14. Статус
 
 - Лемма A0, лемма T, предложение R′, теоремы W, C, D, леммы B, B′, U, предложение W′, теорема Z,
   **теорема M′** (при (UR)) и следствие M′$_R$ — **[Доказано]**, при опоре на [007], [008], [010], [011] (проверены
-  агентами-рецензентами, ждут проверки человеком). Независимой проверки этой записки нет.
+  агентами-рецензентами, ждут проверки человеком). [Проверено: R40, R41 (агенты), 21.10.2026 — ошибок нет]; ждёт
+  проверки человеком.
 - Общая теорема «$n=3$, $u_m\ge0$, $\Sigma$ гладкое с постоянной нормальной кратностью на кривых,
   невырожденные точки, $0$ не минимум ⇒ асимптотическая траектория» **без (UR)** — **[Гипотеза]**:
   препятствия (O1)–(O3) не сняты.
 - Примеры §10.1: условия теорем проверены вручную [Доказано]; численные проверки — [Эксперимент].
+
+## 15. Правки второй редакции (по R40, R41)
+
+Отзывы: R40 — [`notes/reviewer/2026-10-21-morse-bott-mult-A.md`](../reviewer/2026-10-21-morse-bott-mult-A.md),
+R41 — [`notes/reviewer/2026-10-21-morse-bott-mult-B.md`](../reviewer/2026-10-21-morse-bott-mult-B.md). Ошибок в утверждениях
+оба не нашли; все правки ниже редакционные или уточняют константы.
+
+**По R40.**
+
+1. З1: в (NF$_W$) определено $\bar k_g:=\max_{|\theta|\le\theta_1}|k_g|$ для дуги; в §5.2, п. 2 названо $\sigma_0=s_2$.
+2. З2: в §5.2, п. 7 сказано, что $\kappa|\theta|\le1$ используется дважды.
+3. З3: в §2 (после (2.2)) и в §5.2, п. 7 отмечено, что существенно $\lambda\ge0$ (то есть $c_2\le c$).
+4. З4: в §2 отмечено, что (2.2) нужно лишь при $\kappa=\kappa(\delta)$.
+5. З5: §5.3, «Зачем свободный нормальный вес», переформулировано: доказано лишь, что для $P_0$ при $c_2=c$
+   неравенство (2.2) неверно при $\kappa<(14-\sqrt{192})c$; что поле Mb не даёт выхода — [Эксперимент].
+6. З6: лемма B, п. 2 — радиус единственности $\rho'$ выбран равномерно на компактном отрезке, условие
+   $|\varepsilon_b-\varepsilon_1|<\rho'/4$.
+7. З7: лемма B, п. 1 — совпадение в произвольной точке; формулировка леммы B — $\mathsf p_g$ многочлен по $e$ (лишнее $e_g$
+   убрано).
+8. З8: лемма U — два радиуса ($\varrho_k$ по $\varepsilon$, $\varsigma_k$ по $(\sigma,\theta)$), $J$ внутри областей всех ветвей, оценка $|\varepsilon_k^*|$ и
+   при $\sigma<0$, $\sigma_J\le\sigma_1$.
+9. З9: лемма B′ — периодичность $\varepsilon_g^*$ расписана (новый п. 4).
+10. З10, З11: §11 переписан (см. также З6 R41): для теоремы D не нужна аналитичность $U$, но нужны аналитические
+    данные; в лемме B аналитичность коэффициентов $\Phi_0$ работает в пп. 2, 3.
+11. З12: перепроверено плотной выборкой по стенке (`exit_W3_wall.py`): значение $+0{.}012$ для поля Mb было
+    недовыборкой, верное — $-0{.}032$ (§10.3).
+
+**По R41.**
+
+12. З1: предложение W′, (W-a) — $\theta_1<\min(\rho,L/4)$ строго, $|\varepsilon_b|\le E$ на дуге, $r_W\le\min(\theta_1/2,\frac14)$; (W-b) — $|\varepsilon_0|<E_0\le E$.
+13. З2: в (UR) выписаны $\sigma_J\le\sigma_1$, $e_J\le\frac12$, (UR1) при всех $|\sigma|<\sigma_J$, $|e|<e_J$, $M_k(0,\theta,0)>0$ на всём $J$, и замечание о
+    независимости от $E$.
+14. З3: лемма T(b) — для конусов $0<x<s_1(\omega)$.
+15. З4: (D2) сформулировано для данных с $2r'\mid\Gamma_V$; в §7, п. 1 фраза об «инвариантности» заменена точным
+    утверждением.
+16. З5: теорема Z, п. 3 — дуга внутри $J$, $\sigma_J\le\sigma_1$.
+17. З6: §11, п. 2 — перечислены места, где несёт нагрузку аналитичность $U$ (R′, п. 4 с примером
+    $z^4-e^{-1/(x^2+y^2)}$; N1/N2; (UR); $\kappa'<\infty$; лемма V), и отдельно — что от неё не зависит (A0, $G_b$).
+18. З7: §12, п. 1 — вывод (K2) ⇒ (H4) с $r=1$ по лемме Адамара; согласование показателей при любом $\gamma_*$ через N2.
+19. З8: §12, п. 5 — инвариантность плоскости $z=0$; «согласуется» — в смысле неустойчивости.
+20. З9: теорема C, п. 5 — $h\le\frac32$ из $\Delta(s_2)\le\frac1{40}$.
+21. Пример O2 дополнен данными R41 (Singular, $\mu=86$; минимум функции дна — в складке).
+22. Ссылки: [012] принят (R34, R36, R39), [011] принят; упомянут `results/013-singular-sigma.md`.
