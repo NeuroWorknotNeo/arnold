@@ -1,0 +1,9 @@
+(I1) residual: Matrix([[0, 0]])
+(I2) residual: 0
+(I3) residual: Matrix([[0, 0], [0, 0]])
+(I4) residual: Matrix([[0, 0]])
+theta_1 identity residual: 0
+theta_3 decomposition residual: 0
+L1 - 3 beta sqrt(3a0/2): 0
+L2 - 2 sqrt(2a0): 0
+ALL IDENTITIES OK

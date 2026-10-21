@@ -1,0 +1,4 @@
+drop -L x^{c-1} s/N d_s xi in (I4) -> FAILED as expected
+drop -L' x^c xi in (I4) -> FAILED as expected
+wrong sign of xi in (I1) -> FAILED as expected
+A without x^{ci-cj} in (I3) -> FAILED as expected
