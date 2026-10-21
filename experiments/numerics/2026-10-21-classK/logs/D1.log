@@ -1,0 +1,37 @@
+=== D1 m= 4 time 8.2s
+{
+ "name": "Sigma+ (z>0)",
+ "H": "128*(t**2 + 1)**4",
+ "H_real_roots": [],
+ "H_pos_at_0": true,
+ "MB_on_component": true,
+ "lam": "sqrt(2)*(t**2 + 1)",
+ "g_unit": {
+  "5": "0",
+  "6": "0",
+  "7": "0",
+  "8": "-1/16"
+ },
+ "j": 8,
+ "G": "-1/16",
+ "G_const": true,
+ "G_value": "-1/16"
+}
+{
+ "name": "Sigma- (z<0)",
+ "H": "128*(t**2 + 1)**4",
+ "H_real_roots": [],
+ "H_pos_at_0": true,
+ "MB_on_component": true,
+ "lam": "sqrt(2)*(t**2 + 1)",
+ "g_unit": {
+  "5": "0",
+  "6": "0",
+  "7": "0",
+  "8": "-1/16"
+ },
+ "j": 8,
+ "G": "-1/16",
+ "G_const": true,
+ "G_value": "-1/16"
+}

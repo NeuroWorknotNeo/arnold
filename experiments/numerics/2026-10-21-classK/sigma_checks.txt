@@ -1,0 +1,12 @@
+cone {f=0} smooth away from 0 (grad f != 0 on f=0, over C): True  <- Q=x^2+y^2-z^2 (K2,K3,A1-A5,A7,D1,D2)
+cone {f=0} smooth away from 0 (grad f != 0 on f=0, over C): True  <- x^2+2y^2-z^2 (C1)
+cone {f=0} smooth away from 0 (grad f != 0 on f=0, over C): True  <- x^2+y^2-2z^2 (C2)
+cone {f=0} smooth away from 0 (grad f != 0 on f=0, over C): True  <- z (F1, Z1 equator)
+cone {f=0} smooth away from 0 (grad f != 0 on f=0, over C): True  <- x-y (S1)
+cone {f=0} smooth away from 0 (grad f != 0 on f=0, over C): True  <- x+y (S1)
+cone {f=0} smooth away from 0 (grad f != 0 on f=0, over C): True  <- C=y^2 z-x^3-x z^2 (T1)
+S1: Sigma = {x=y} u {x=-y} meet at (0,0,+-1): there grad(x^2-y^2)=0 -> Morse-Bott fails at exactly these 2 points
+K1 u_m = x**4 + y**4 : D^2 u_m on Sigma = [[[0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0]]]  => identically 0 (transversal order of vanishing 4)
+P1 u_m = x**4 + y**4 : D^2 u_m on Sigma = [[[0, 0, 0], [0, 0, 0], [0, 0, 0]], [[0, 0, 0], [0, 0, 0], [0, 0, 0]]]  => identically 0 (transversal order of vanishing 4)
+M1 u_m = z**4 : D^2 u_m on Sigma = [[[0, 0, 0], [0, 0, 0], [0, 0, 0]]]  => identically 0 (transversal order of vanishing 4)
+M2 u_m = z**4 : D^2 u_m on Sigma = [[[0, 0, 0], [0, 0, 0], [0, 0, 0]]]  => identically 0 (transversal order of vanishing 4)

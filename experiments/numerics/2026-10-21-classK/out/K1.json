@@ -1,0 +1,16 @@
+{
+ "id": "K1",
+ "m": 4,
+ "parts_degrees": [
+  4,
+  6
+ ],
+ "u_m": "x**4 + y**4",
+ "sos_certificate_ok": true,
+ "components": [
+  {
+   "name": "poles +-e_z (u_4 = x^4+y^4)",
+   "kind": "nonMB"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "D1",
+ "m": 4,
+ "parts_degrees": [
+  4,
+  5,
+  6,
+  8
+ ],
+ "u_m": "(x**2 + y**2 - z**2)**2",
+ "sos_certificate_ok": true,
+ "components": [
+  {
+   "name": "Sigma+ (z>0)",
+   "H": "128*(t**2 + 1)**4",
+   "H_real_roots": [],
+   "H_pos_at_0": true,
+   "MB_on_component": true,
+   "lam": "sqrt(2)*(t**2 + 1)",
+   "g_unit": {
+    "5": "0",
+    "6": "0",
+    "7": "0",
+    "8": "-1/16"
+   },
+   "j": 8,
+   "G": "-1/16",
+   "G_const": true,
+   "G_value": "-1/16"
+  },
+  {
+   "name": "Sigma- (z<0)",
+   "H": "128*(t**2 + 1)**4",
+   "H_real_roots": [],
+   "H_pos_at_0": true,
+   "MB_on_component": true,
+   "lam": "sqrt(2)*(t**2 + 1)",
+   "g_unit": {
+    "5": "0",
+    "6": "0",
+    "7": "0",
+    "8": "-1/16"
+   },
+   "j": 8,
+   "G": "-1/16",
+   "G_const": true,
+   "G_value": "-1/16"
+  }
+ ]
+}

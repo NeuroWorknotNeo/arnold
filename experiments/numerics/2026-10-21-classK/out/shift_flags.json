@@ -1,0 +1,200 @@
+{
+ "K2": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  }
+ },
+ "K3": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": true,
+   "b1_zero": false,
+   "j": 5,
+   "j_naive": 5
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": true,
+   "b1_zero": false,
+   "j": 5,
+   "j_naive": 5
+  }
+ },
+ "A1": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  }
+ },
+ "A2": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  }
+ },
+ "A3": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  }
+ },
+ "A4": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  }
+ },
+ "A5": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": true,
+   "b1_zero": false,
+   "j": 5,
+   "j_naive": 5
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": true,
+   "b1_zero": false,
+   "j": 5,
+   "j_naive": 5
+  }
+ },
+ "A7": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 8,
+   "j_naive": 8
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 8,
+   "j_naive": 8
+  }
+ },
+ "C1": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  }
+ },
+ "C2": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": true,
+   "b1_zero": true,
+   "j": 6,
+   "j_naive": 6
+  }
+ },
+ "D1": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": true,
+   "b1_zero": false,
+   "j": 8,
+   "j_naive": 6
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": true,
+   "b1_zero": false,
+   "j": 8,
+   "j_naive": 6
+  }
+ },
+ "D2": {
+  "Sigma+ (z>0)": {
+   "G_equals_naive": false,
+   "b1_zero": false,
+   "j": 6,
+   "j_naive": 6
+  },
+  "Sigma- (z<0)": {
+   "G_equals_naive": false,
+   "b1_zero": false,
+   "j": 6,
+   "j_naive": 6
+  }
+ },
+ "F1": {
+  "equator z=0": {
+   "G_equals_naive": false,
+   "b1_zero": false,
+   "j": 6,
+   "j_naive": 6
+  }
+ },
+ "Z1": {
+  "equator z=0": {
+   "G_equals_naive": true,
+   "b1_zero": false,
+   "j": 5,
+   "j_naive": 5
+  }
+ },
+ "S1": {
+  "circle x=y": {
+   "G_equals_naive": true,
+   "b1_zero": false,
+   "j": 5,
+   "j_naive": 5
+  },
+  "circle x=-y": {
+   "G_equals_naive": true,
+   "b1_zero": false,
+   "j": 5,
+   "j_naive": 5
+  }
+ }
+}
