@@ -1,0 +1,4 @@
+random trials: 3520 violations: 0 max ratios LHS/RHS: {'r1': np.float64(0.9999324277440554), 'r2': np.float64(0.9999999995440589), 'r3': np.float64(0.41590978933208583)}
+hill-climb max ratio r1: 10.0
+hill-climb max ratio r2: 1.0000000000000004
+hill-climb max ratio r3: 0.9930937675181337

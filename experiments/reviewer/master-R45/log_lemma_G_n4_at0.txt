@@ -1,0 +1,13 @@
+DPi = B diag(1,sI)           True
+(G0) J^T nu = e1             True
+(G0) <nu,w> = alpha          True
+<nu,Ups> = 1                 True
+DUps^T nu = 0                True
+<nu,Y> = 1                   True
+J xw = w                     True
+J xY = Y                     True
+(G2)                         True
+(G3) vector                  True
+(G3) scalar                  True
+psi = v + s dv/ds|_Y         True
+ALL True n = 4
