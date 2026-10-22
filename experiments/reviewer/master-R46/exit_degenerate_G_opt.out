@@ -1,0 +1,8 @@
+delta=0.01 kappa=1e-3 s=1e-8: min ratio= 3.8345e-03  (kappa/4=2.50e-04) at t=0.2754 e=-0.0020 phi=4.711
+delta=0.01 kappa=1e-2 s=1e-8: min ratio= 3.7159e-02  (kappa/4=2.50e-03) at t=0.2754 e=-0.0016 phi=4.712
+delta=0.01 kappa=3e-2 s=1e-8: min ratio= 1.0352e-01  (kappa/4=7.50e-03) at t=0.2753 e=0.0000 phi=4.712
+delta=0.01 kappa=0.1 s=1e-8: min ratio= 2.5105e-01  (kappa/4=2.50e-02) at t=-0.2740 e=0.0000 phi=7.854
+delta=0.001 kappa=1e-3 s=1e-8: min ratio= 3.9124e-03  (kappa/4=2.50e-04) at t=0.1529 e=-0.0007 phi=4.691
+delta=0.001 kappa=1e-2 s=1e-8: min ratio= 3.5437e-02  (kappa/4=2.50e-03) at t=0.1528 e=0.0001 phi=4.712
+delta=0.001 kappa=3e-2 s=1e-8: min ratio= 8.1619e-02  (kappa/4=7.50e-03) at t=-0.1526 e=-0.0000 phi=1.571
+delta=0.001 kappa=0.1 s=1e-8: min ratio=-1.2513e-02  (kappa/4=2.50e-02) at t=-0.1505 e=0.0000 phi=7.854

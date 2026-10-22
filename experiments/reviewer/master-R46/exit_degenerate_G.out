@@ -1,0 +1,45 @@
+min (rho/lambda) Xi / (delta rho^beta) по выборке точек (A5)
+delta = 0.01  R_t ~ 0.454  delta/R_t^2 ~ 0.0484
+  kappa=0.0    s=0.0001  min= 2.8080e-11  (kappa/4=0.00e+00)  at t=0.275 e=-0.000487 K/dr^b=6.21e-24
+  kappa=0.0    s=1.0e-8  min= 2.5922e-05  (kappa/4=0.00e+00)  at t=0.275 e=0.0151 K/dr^b=2.45e-26
+  kappa=0.0    s=1.0e-12  min= 5.8375e-08  (kappa/4=0.00e+00)  at t=-0.275 e=0.00329 K/dr^b=5.09e-24
+  kappa=0.0001 s=0.0001  min= 3.8534e-04  (kappa/4=2.50e-05)  at t=-0.275 e=-0.00583 K/dr^b=8.09e-24
+  kappa=0.0001 s=1.0e-8  min= 3.8478e-04  (kappa/4=2.50e-05)  at t=0.275 e=-0.00226 K/dr^b=2.35e-24
+  kappa=0.0001 s=1.0e-12  min= 4.0180e-04  (kappa/4=2.50e-05)  at t=0.275 e=0.0136 K/dr^b=8.13e-24
+  kappa=0.001  s=0.0001  min= 3.8477e-03  (kappa/4=2.50e-04)  at t=-0.275 e=0.00351 K/dr^b=2.81e-24
+  kappa=0.001  s=1.0e-8  min= 3.8595e-03  (kappa/4=2.50e-04)  at t=0.275 e=-0.0124 K/dr^b=6.0e-25
+  kappa=0.001  s=1.0e-12  min= 3.8485e-03  (kappa/4=2.50e-04)  at t=-0.275 e=0.00644 K/dr^b=3.97e-24
+  kappa=0.01   s=0.0001  min= 3.8477e-02  (kappa/4=2.50e-03)  at t=-0.275 e=0.00662 K/dr^b=9.97e-25
+  kappa=0.01   s=1.0e-8  min= 3.8487e-02  (kappa/4=2.50e-03)  at t=0.275 e=-0.012 K/dr^b=3.37e-24
+  kappa=0.01   s=1.0e-12  min= 3.8477e-02  (kappa/4=2.50e-03)  at t=-0.275 e=0.00646 K/dr^b=5.64e-25
+  kappa=0.03   s=0.0001  min= 1.1543e-01  (kappa/4=7.50e-03)  at t=0.275 e=0.00432 K/dr^b=3.06e-24
+  kappa=0.03   s=1.0e-8  min= 1.1543e-01  (kappa/4=7.50e-03)  at t=-0.275 e=-0.00125 K/dr^b=3.09e-24
+  kappa=0.03   s=1.0e-12  min= 1.1543e-01  (kappa/4=7.50e-03)  at t=0.275 e=0.000797 K/dr^b=3.68e-24
+  kappa=0.1    s=0.0001  min= 3.8476e-01  (kappa/4=2.50e-02)  at t=0.275 e=0.00829 K/dr^b=2.18e-25
+  kappa=0.1    s=1.0e-8  min= 3.3996e-01  (kappa/4=2.50e-02)  at t=0.274 e=-0.00621 K/dr^b=0.0143
+  kappa=0.1    s=1.0e-12  min= 3.8476e-01  (kappa/4=2.50e-02)  at t=-0.275 e=0.00571 K/dr^b=6.81e-25
+  kappa=0.3    s=0.0001  min= 2.3880e-01  (kappa/4=7.50e-02)  at t=-0.266 e=-0.125 K/dr^b=0.105
+  kappa=0.3    s=1.0e-8  min= 1.2242e-01  (kappa/4=7.50e-02)  at t=-0.265 e=-0.123 K/dr^b=0.12
+  kappa=0.3    s=1.0e-12  min= 2.1368e-01  (kappa/4=7.50e-02)  at t=0.259 e=-0.0254 K/dr^b=0.217
+delta = 0.001  R_t ~ 0.256  delta/R_t^2 ~ 0.0153
+  kappa=0.0    s=0.0001  min= 8.2702e-08  (kappa/4=0.00e+00)  at t=-0.153 e=0.00202 K/dr^b=1.04e-24
+  kappa=0.0    s=1.0e-8  min= 3.3694e-05  (kappa/4=0.00e+00)  at t=0.153 e=-0.00906 K/dr^b=4.15e-24
+  kappa=0.0    s=1.0e-12  min= 3.7232e-12  (kappa/4=0.00e+00)  at t=0.153 e=-0.000165 K/dr^b=3.66e-24
+  kappa=0.0001 s=0.0001  min= 3.9547e-04  (kappa/4=2.50e-05)  at t=0.153 e=0.00235 K/dr^b=3.74e-24
+  kappa=0.0001 s=1.0e-8  min= 3.9552e-04  (kappa/4=2.50e-05)  at t=-0.153 e=0.00253 K/dr^b=5.3e-24
+  kappa=0.0001 s=1.0e-12  min= 3.9960e-04  (kappa/4=2.50e-05)  at t=0.153 e=-0.00541 K/dr^b=2.56e-24
+  kappa=0.001  s=0.0001  min= 3.9800e-03  (kappa/4=2.50e-04)  at t=-0.153 e=0.00856 K/dr^b=4.66e-24
+  kappa=0.001  s=1.0e-8  min= 3.9532e-03  (kappa/4=2.50e-04)  at t=-0.153 e=-0.000502 K/dr^b=4.76e-24
+  kappa=0.001  s=1.0e-12  min= 3.9532e-03  (kappa/4=2.50e-04)  at t=0.153 e=0.000381 K/dr^b=3.71e-24
+  kappa=0.01   s=0.0001  min= 3.9542e-02  (kappa/4=2.50e-03)  at t=0.153 e=-0.00661 K/dr^b=3.29e-24
+  kappa=0.01   s=1.0e-8  min= 3.9532e-02  (kappa/4=2.50e-03)  at t=-0.153 e=0.000307 K/dr^b=5.38e-24
+  kappa=0.01   s=1.0e-12  min= 3.9543e-02  (kappa/4=2.50e-03)  at t=0.153 e=-0.00687 K/dr^b=3.05e-24
+  kappa=0.03   s=0.0001  min= 1.1860e-01  (kappa/4=7.50e-03)  at t=0.153 e=-0.00169 K/dr^b=3.41e-25
+  kappa=0.03   s=1.0e-8  min= 1.1860e-01  (kappa/4=7.50e-03)  at t=-0.153 e=-0.00334 K/dr^b=4.84e-24
+  kappa=0.03   s=1.0e-12  min= 1.0178e-01  (kappa/4=7.50e-03)  at t=-0.152 e=-0.0131 K/dr^b=0.0129
+  kappa=0.1    s=0.0001  min= 2.4413e-02  (kappa/4=2.50e-02)  at t=0.151 e=-0.0413 K/dr^b=0.0526
+  kappa=0.1    s=1.0e-8  min= 1.0549e-02  (kappa/4=2.50e-02)  at t=-0.151 e=0.0376 K/dr^b=0.045
+  kappa=0.1    s=1.0e-12  min= 2.5848e-02  (kappa/4=2.50e-02)  at t=-0.15 e=0.00993 K/dr^b=0.074
+  kappa=0.3    s=0.0001  min=-1.6649e+00  (kappa/4=7.50e-02)  at t=0.138 e=0.00208 K/dr^b=0.339
+  kappa=0.3    s=1.0e-8  min=-1.9064e+00  (kappa/4=7.50e-02)  at t=-0.138 e=-0.00015 K/dr^b=0.331
+  kappa=0.3    s=1.0e-12  min=-1.5022e+00  (kappa/4=7.50e-02)  at t=-0.131 e=-0.0573 K/dr^b=0.449
