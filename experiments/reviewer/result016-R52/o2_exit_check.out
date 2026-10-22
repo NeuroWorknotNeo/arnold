@@ -1,0 +1,8 @@
+mu' = 0.00021755996
+theta 0.0 branch 1 kappa 0: R/mu' = 0.99999954  E/s^6 = 0.0
+theta 0.02 branch 1 kappa 0: R/mu' = 0.99999954  E/s^6 = 5.56e-91
+theta=0.485 br=1 kappa=0.0: min_phi R/mu' = 1.0
+theta=0.485 br=1 kappa=7.0e-8: min_phi R/mu' = 0.997301
+theta=0.485 br=1 kappa=1.0e-6: min_phi R/mu' = 1.01684
+overall min R/mu' on this sample: 0.997301  at theta 0.485  branch 1  kappa 7.0e-8
+prediction mu'(1-0.125 mu'/delta)/mu' = 0.997281

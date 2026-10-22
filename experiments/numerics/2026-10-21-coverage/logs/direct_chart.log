@@ -1,0 +1,110 @@
+== z:K1
+    key : z:K1
+    axis : z
+    N : 2
+    c : ['3/2', '3/2']
+    beta : 6
+    gamma : ['0', '0']
+    Nc_int : True
+    Nbeta_int : True
+    c_gt1 : True
+    min_level : 6
+    Q1 : True
+    monomials_below_beta : []
+    F0 : w1**4 + w2**4 - 1
+    F0_at_0 : -1.0000000000000000000
+    F0_negative : True
+    Q : w1**4 + w2**4
+    grad_Q_at_0 : ['0', '0']
+    Hess_Q_at_0 : [[0, 0], [0, 0]]
+    hess_eigs : []
+    hess_PD : False
+    byk_degrees : {12: '0', 0: '6'}
+== z:P1
+    key : z:P1
+    axis : z
+    N : 2
+    c : ['3/2', '3/2']
+    beta : 6
+    gamma : ['0', '0']
+    Nc_int : True
+    Nbeta_int : True
+    c_gt1 : True
+    min_level : 6
+    Q1 : True
+    monomials_below_beta : []
+    F0 : w1**4 + w2**4 - 1
+    F0_at_0 : -1.0000000000000000000
+    F0_negative : True
+    Q : w1**4 + w2**4
+    grad_Q_at_0 : ['0', '0']
+    Hess_Q_at_0 : [[0, 0], [0, 0]]
+    hess_eigs : []
+    hess_PD : False
+    byk_degrees : {12: '0', 0: '6'}
+== f:A1
+    key : f:A1
+    axis : x
+    N : 3
+    c : ['4/3', '4/3']
+    beta : 16/3
+    gamma : ['0', '-K*s**4']
+    Nc_int : True
+    Nbeta_int : True
+    c_gt1 : True
+    min_level : 16/3
+    Q1 : True
+    monomials_below_beta : []
+    F0 : K**2*w1**2 + 6*K**2*w2**2 - 2*K*w1**2*w2 - 4*K*w2**3 - 3*K/4 + w1**2*w2**2 + w2**4
+    F0_at_0 : -0.47247039371057743679
+    F0_negative : True
+    Q : K**2*w1**2 + 6*K**2*w2**2 - 2*K*w1**2*w2 - 4*K*w2**3 + w1**2*w2**2 + w2**4
+    grad_Q_at_0 : ['0', '0']
+    Hess_Q_at_0 : [[0.793700525984, 0], [0, 4.76220315590]]
+    hess_eigs : ['0.793700525984100', '4.76220315590460']
+    hess_PD : True
+    byk_degrees : {16: '0', 8: '8/3', 4: '4', 0: '16/3'}
+== f:A3
+    key : f:A3
+    axis : x
+    N : 6
+    c : ['7/6', '4/3']
+    beta : 22/3
+    gamma : ['0', '-K*s**8']
+    Nc_int : True
+    Nbeta_int : True
+    c_gt1 : True
+    min_level : 22/3
+    Q1 : True
+    monomials_below_beta : []
+    F0 : K**2*w1**4 + 6*K**2*w2**2 - 2*K*w1**4*w2 - 4*K*w2**3 - 3*K/4 + w1**4*w2**2 + w2**4
+    F0_at_0 : -0.47247039371057743679
+    F0_negative : True
+    Q : K**2*w1**4 + 6*K**2*w2**2 - 2*K*w1**4*w2 - 4*K*w2**3 + w1**4*w2**2 + w2**4
+    grad_Q_at_0 : ['0', '0']
+    Hess_Q_at_0 : [[0, 0], [0, 4.76220315590]]
+    hess_eigs : ['0', '4.76220315590460']
+    hess_PD : False
+    byk_degrees : {44: '0', 28: '8/3', 20: '4', 16: '14/3', 12: '16/3', 8: '6', 0: '22/3'}
+== f:V3
+    key : f:V3
+    axis : x
+    N : 1
+    c : ['5', '2']
+    beta : 32
+    gamma : ['0', '0']
+    Nc_int : True
+    Nbeta_int : True
+    c_gt1 : True
+    min_level : 32
+    Q1 : True
+    monomials_below_beta : []
+    F0 : w1**4 - 2*w1**3*w2**3 - 4*w1**3*w2**2 + 2*w1**2*w2**8 + w1**2*w2**6 + 6*w1**2*w2**5 + 6*w1**2*w2**4 - 2*w1*w2**11 - 4*w1*w2**10 - 2*w1*w2**8 - 6*w1*w2**7 - 4*w1*w2**6 + w2**16 + w2**14 + 2*w2**13 + 2*w2**12 + w2**10 + 2*w2**9 + w2**8 - 1
+    F0_at_0 : -1.0000000000000000000
+    F0_negative : True
+    Q : w1**4 - 2*w1**3*w2**3 - 4*w1**3*w2**2 + 2*w1**2*w2**8 + w1**2*w2**6 + 6*w1**2*w2**5 + 6*w1**2*w2**4 - 2*w1*w2**11 - 4*w1*w2**10 - 2*w1*w2**8 - 6*w1*w2**7 - 4*w1*w2**6 + w2**16 + w2**14 + 2*w2**13 + 2*w2**12 + w2**10 + 2*w2**9 + w2**8
+    grad_Q_at_0 : ['0', '0']
+    Hess_Q_at_0 : [[0, 0], [0, 0]]
+    hess_eigs : []
+    hess_PD : False
+    byk_degrees : {32: '0', 16: '16', 15: '17', 14: '18', 13: '19', 12: '20', 11: '21', 10: '22', 8: '24', 7: '25', 6: '26', 5: '27', 4: '28', 0: '32'}

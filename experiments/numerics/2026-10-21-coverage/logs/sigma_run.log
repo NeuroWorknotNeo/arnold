@@ -1,0 +1,113 @@
+== z:K1 m= 4 u_m = x**4 + y**4
+    {'dim': 1, 'type': 'point', 'dirs': [[0.0, 0.0, 1.0]], 'w': [0, 0, 1], 'hess_rank': 0, 'hess_pd': False}
+== z:K2 m= 4 u_m = (x**2 + y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:K3 m= 4 u_m = (x**2 + y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:A1 m= 4 u_m = (x**2 + y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:A2 m= 4 u_m = (x**2 + y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:A3 m= 4 u_m = (x**2 + y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:A4 m= 4 u_m = (x**2 + y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:A5 m= 4 u_m = (x**2 + y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:A6 m= 4 u_m = (1140223*x**2 + 858672*x*y + 160800*x*z - 1060223*y**2 - 854400*y*z + 1141025*z**2)**2/1490902050625
+    {'dim': 2, 'type': 'curve', 'f': '1140223*x**2 + 858672*x*y + 160800*x*z - 1060223*y**2 - 854400*y*z + 1141025*z**2', 'cone_smooth': True, 'k': 2, 'g': '1/1490902050625', 'g_zero_dim': -1}
+== z:A7 m= 6 u_m = (x**2 + y**2 - z**2)**2*(x**2 + y**2 + z**2)
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': 'x**2 + y**2 + z**2', 'g_zero_dim': 1, 'g_zero_real_dirs': []}
+== z:C1 m= 4 u_m = (x**2 + 2*y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + 2*y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:C2 m= 4 u_m = (x**2 + y**2 - 2*z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - 2*z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:C3 m= 4 u_m = (x**2 + 2*y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + 2*y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:D1 m= 4 u_m = (x**2 + y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:D2 m= 4 u_m = (x**2 + y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:F1 m= 4 u_m = z**2*(x**2 + y**2 + z**2)
+    {'dim': 2, 'type': 'curve', 'f': 'z', 'cone_smooth': True, 'k': 2, 'g': 'x**2 + y**2 + z**2', 'g_zero_dim': 1, 'g_zero_real_dirs': []}
+== z:M1 m= 4 u_m = z**4
+    {'dim': 2, 'type': 'curve', 'f': 'z', 'cone_smooth': True, 'k': 4, 'g': '1', 'g_zero_dim': 0}
+== z:M2 m= 4 u_m = z**4
+    {'dim': 2, 'type': 'curve', 'f': 'z', 'cone_smooth': True, 'k': 4, 'g': '1', 'g_zero_dim': 0}
+== z:P1 m= 4 u_m = x**4 + y**4
+    {'dim': 1, 'type': 'point', 'dirs': [[0.0, 0.0, 1.0]], 'w': [0, 0, 1], 'hess_rank': 0, 'hess_pd': False}
+== z:P2 m= 4 u_m = x**4 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + 2*z**4
+    {'dim': 1, 'type': 'point', 'dirs': [[0.57735026919, 0.57735026919, -0.57735026919]], 'w': [-1, -1, 1], 'hess_rank': 2, 'hess_pd': True}
+    {'dim': 1, 'type': 'point', 'dirs': [[0.57735026919, -0.57735026919, 0.57735026919]], 'w': [1, -1, 1], 'hess_rank': 2, 'hess_pd': True}
+    {'dim': 1, 'type': 'point', 'dirs': [[0.57735026919, -0.57735026919, -0.57735026919]], 'w': [-1, 1, 1], 'hess_rank': 2, 'hess_pd': True}
+    {'dim': 1, 'type': 'point', 'dirs': [[0.57735026919, 0.57735026919, 0.57735026919]], 'w': [1, 1, 1], 'hess_rank': 2, 'hess_pd': True}
+== z:P3 m= 4 u_m = x**4 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + 2*z**4
+    {'dim': 1, 'type': 'point', 'dirs': [[0.57735026919, 0.57735026919, -0.57735026919]], 'w': [-1, -1, 1], 'hess_rank': 2, 'hess_pd': True}
+    {'dim': 1, 'type': 'point', 'dirs': [[0.57735026919, -0.57735026919, 0.57735026919]], 'w': [1, -1, 1], 'hess_rank': 2, 'hess_pd': True}
+    {'dim': 1, 'type': 'point', 'dirs': [[0.57735026919, -0.57735026919, -0.57735026919]], 'w': [-1, 1, 1], 'hess_rank': 2, 'hess_pd': True}
+    {'dim': 1, 'type': 'point', 'dirs': [[0.57735026919, 0.57735026919, 0.57735026919]], 'w': [1, 1, 1], 'hess_rank': 2, 'hess_pd': True}
+== z:P4 m= 4 u_m = x**2*y**2 + x**2*z**2 + y**2*z**2
+    {'dim': 1, 'type': 'point', 'dirs': [[1.0, 0.0, 0.0]], 'w': [1, 0, 0], 'hess_rank': 2, 'hess_pd': True}
+    {'dim': 1, 'type': 'point', 'dirs': [[0.0, 1.0, 0.0]], 'w': [0, 1, 0], 'hess_rank': 2, 'hess_pd': True}
+    {'dim': 1, 'type': 'point', 'dirs': [[0.0, 0.0, 1.0]], 'w': [0, 0, 1], 'hess_rank': 2, 'hess_pd': True}
+== z:Z1 m= 4 u_m = z**2*(x**2 + y**2)
+    {'dim': 2, 'type': 'curve', 'f': 'z', 'cone_smooth': True, 'k': 2, 'g': 'x**2 + y**2', 'g_zero_dim': 1, 'g_zero_real_dirs': []}
+    {'dim': 1, 'type': 'point', 'dirs': [[0.0, 0.0, 1.0]], 'w': [0, 0, 1], 'hess_rank': 2, 'hess_pd': True}
+== z:S1 m= 4 u_m = (x - y)**2*(x + y)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x + y', 'cone_smooth': True, 'k': 2, 'g': '(x - y)**2', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.0, 0.0, 1.0]]}
+    {'dim': 2, 'type': 'curve', 'f': 'x - y', 'cone_smooth': True, 'k': 2, 'g': '(x + y)**2', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.0, 0.0, 1.0]]}
+    X: {'f1': 'x + y', 'f2': 'x - y', 'proj_points': True, 'real_dirs': [[0.0, 0.0, 1.0]], 'vdim_chart_z1': 1}
+== z:T1 m= 6 u_m = (x**3 + x*z**2 - y**2*z)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**3 + x*z**2 - y**2*z', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== z:H1 m= 2 u_m = y**2 + z**2
+    {'dim': 1, 'type': 'point', 'dirs': [[1.0, 0.0, 0.0]], 'w': [1, 0, 0], 'hess_rank': 2, 'hess_pd': True}
+== z:H2 m= 2 u_m = z**2
+    {'dim': 2, 'type': 'curve', 'f': 'z', 'cone_smooth': True, 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== f:A1 m= 4 u_m = z**2*(y**2 + z**2)
+    {'dim': 2, 'type': 'curve', 'f': 'z', 'cone_smooth': True, 'k': 2, 'g': 'y**2 + z**2', 'g_zero_dim': 1, 'g_zero_real_dirs': [[1.0, 0.0, 0.0]]}
+== f:A2 m= 4 u_m = z**2*(y**2 + z**2)
+    {'dim': 2, 'type': 'curve', 'f': 'z', 'cone_smooth': True, 'k': 2, 'g': 'y**2 + z**2', 'g_zero_dim': 1, 'g_zero_real_dirs': [[1.0, 0.0, 0.0]]}
+== f:A3 m= 6 u_m = z**2*(x**2*z**2 + y**4 + y**2*z**2 + z**4)
+    {'dim': 2, 'type': 'curve', 'f': 'z', 'cone_smooth': True, 'k': 2, 'g': 'x**2*z**2 + y**4 + y**2*z**2 + z**4', 'g_zero_dim': 1, 'g_zero_real_dirs': [[1.0, 0.0, 0.0]]}
+== f:B1 m= 6 u_m = (x**3 - y**2*z)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**3 - y**2*z', 'cone_smooth': False, 'sing_lines': [['y', 'x']], 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== f:B2 m= 6 u_m = (x**3 - y**2*z)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**3 - y**2*z', 'cone_smooth': False, 'sing_lines': [['y', 'x']], 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== f:B3 m= 8 u_m = (x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + 2*y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + y**2 - z**2)**2', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.707106781187, 0.0, -0.707106781187], [0.707106781187, 0.0, 0.707106781187]]}
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + 2*y**2 - z**2)**2', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.707106781187, 0.0, -0.707106781187], [0.707106781187, 0.0, 0.707106781187]]}
+    X: {'f1': 'x**2 + 2*y**2 - z**2', 'f2': 'x**2 + y**2 - z**2', 'proj_points': True, 'real_dirs': [[0.707106781187, 0.0, -0.707106781187], [0.707106781187, 0.0, 0.707106781187]], 'vdim_chart_z1': 4}
+== f:B3b m= 8 u_m = (x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - z**2)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + 2*y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + y**2 - z**2)**2', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.707106781187, 0.0, -0.707106781187], [0.707106781187, 0.0, 0.707106781187]]}
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + 2*y**2 - z**2)**2', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.707106781187, 0.0, -0.707106781187], [0.707106781187, 0.0, 0.707106781187]]}
+    X: {'f1': 'x**2 + 2*y**2 - z**2', 'f2': 'x**2 + y**2 - z**2', 'proj_points': True, 'real_dirs': [[0.707106781187, 0.0, -0.707106781187], [0.707106781187, 0.0, 0.707106781187]], 'vdim_chart_z1': 4}
+== f:B4 m= 6 u_m = (x**3 - y**2*z)**2
+    {'dim': 2, 'type': 'curve', 'f': 'x**3 - y**2*z', 'cone_smooth': False, 'sing_lines': [['y', 'x']], 'k': 2, 'g': '1', 'g_zero_dim': 0}
+== f:V1 m= 10 u_m = x**6*y**4 - 4*x**5*y**3*z**2 - 2*x**4*y**3*z**3 + 6*x**4*y**2*z**4 + 6*x**3*y**2*z**5 - 4*x**3*y*z**6 + x**2*y**2*z**6 - 6*x**2*y*z**7 + x**2*z**8 - 2*x*y*z**8 + 2*x*z**9 + 2*z**10
+    {'dim': 1, 'type': 'point', 'dirs': [[1.0, 0.0, 0.0]], 'w': [1, 0, 0], 'hess_rank': 0, 'hess_pd': False}
+    {'dim': 1, 'type': 'point', 'dirs': [[0.0, 1.0, 0.0]], 'w': [0, 1, 0], 'hess_rank': 0, 'hess_pd': False}
+== f:V2 m= 14 u_m = x**10*y**4 - 4*x**9*y**3*z**2 - 2*x**8*y**3*z**3 + 6*x**8*y**2*z**4 + 6*x**7*y**2*z**5 - 4*x**7*y*z**6 + x**6*y**2*z**6 - 6*x**6*y*z**7 + x**6*z**8 - 2*x**5*y*z**8 + 2*x**5*z**9 + x**4*z**10 + z**14
+    {'dim': 1, 'type': 'point', 'dirs': [[0.0, 1.0, 0.0]], 'w': [0, 1, 0], 'hess_rank': 0, 'hess_pd': False}
+    {'dim': 1, 'type': 'point', 'dirs': [[1.0, 0.0, 0.0]], 'w': [1, 0, 0], 'hess_rank': 0, 'hess_pd': False}
+== f:V3 m= 16 u_m = x**12*y**4 + 2*x**6*y**2*z**8 + y**16 + z**16
+    {'dim': 1, 'type': 'point', 'dirs': [[1.0, 0.0, 0.0]], 'w': [1, 0, 0], 'hess_rank': 0, 'hess_pd': False}
+== f:V4 m= 34 u_m = x**18*z**16 + y**34 + z**34
+    {'dim': 1, 'type': 'point', 'dirs': [[1.0, 0.0, 0.0]], 'w': [1, 0, 0], 'hess_rank': 0, 'hess_pd': False}
+== f:D1 m= 8 u_m = (x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - 2*z**2)**2/4
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + 2*y**2 - 2*z**2)**2/4', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]]}
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + 2*y**2 - 2*z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + y**2 - z**2)**2/4', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]]}
+    X: {'f1': 'x**2 + y**2 - z**2', 'f2': 'x**2 + 2*y**2 - 2*z**2', 'proj_points': True, 'real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]], 'vdim_chart_z1': 4}
+== f:D2 m= 8 u_m = (x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - 2*z**2)**2/4
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + 2*y**2 - 2*z**2)**2/4', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]]}
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + 2*y**2 - 2*z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + y**2 - z**2)**2/4', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]]}
+    X: {'f1': 'x**2 + y**2 - z**2', 'f2': 'x**2 + 2*y**2 - 2*z**2', 'proj_points': True, 'real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]], 'vdim_chart_z1': 4}
+== f:D3 m= 8 u_m = (x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - 2*z**2)**2/4
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + 2*y**2 - 2*z**2)**2/4', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]]}
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + 2*y**2 - 2*z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + y**2 - z**2)**2/4', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]]}
+    X: {'f1': 'x**2 + y**2 - z**2', 'f2': 'x**2 + 2*y**2 - 2*z**2', 'proj_points': True, 'real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]], 'vdim_chart_z1': 4}
+== f:D4 m= 8 u_m = (x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - 2*z**2)**2/4
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + y**2 - z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + 2*y**2 - 2*z**2)**2/4', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]]}
+    {'dim': 2, 'type': 'curve', 'f': 'x**2 + 2*y**2 - 2*z**2', 'cone_smooth': True, 'k': 2, 'g': '(x**2 + y**2 - z**2)**2/4', 'g_zero_dim': 1, 'g_zero_real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]]}
+    X: {'f1': 'x**2 + y**2 - z**2', 'f2': 'x**2 + 2*y**2 - 2*z**2', 'proj_points': True, 'real_dirs': [[0.0, 0.707106781187, -0.707106781187], [0.0, 0.707106781187, 0.707106781187]], 'vdim_chart_z1': 4}
+== f:E1 m= 4 u_m = z**2*(x**2 + y**2 + z**2)
+    {'dim': 2, 'type': 'curve', 'f': 'z', 'cone_smooth': True, 'k': 2, 'g': 'x**2 + y**2 + z**2', 'g_zero_dim': 1, 'g_zero_real_dirs': []}

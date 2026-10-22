@@ -1,0 +1,9 @@
+U_O2D: number of terms 145 , total degree 32
+identity U(s cos, s sin, s^2 e) - s^32 Phi0 == 0 : True
+weighted homogeneous (1,1,2), degree 32: True
+lowest degree 16  lowest form: z**16
+Res_t(Q_t, Q_e) = 3136*epsilon**37*(4*epsilon**2 + 1)*(16*epsilon**2 + 3)
+Q_t(t,0) = 4*t**3 ; Q_e(t,0) = 0
+t=1/2: Res_e(Q-1, Q_e) = -494313684915207832355165280495/4194304 (nonzero => no critical point of Phi0 at level 0 on cos2theta=0)
+t=-1/2: Res_e(Q-1, Q_e) = -6778220485159694570818102095/4194304 (nonzero => no critical point of Phi0 at level 0 on cos2theta=0)
+U(0,0,z) = z**16

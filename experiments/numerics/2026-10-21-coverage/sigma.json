@@ -1,0 +1,1938 @@
+{
+ "z:K1": {
+  "key": "z:K1",
+  "m": 4,
+  "u_m": "x**4 + y**4",
+  "comps": [
+   {
+    "dim": 1,
+    "gens": [
+     "y",
+     "x"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.0,
+      0.0,
+      1.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     0,
+     0,
+     1
+    ],
+    "hess_perp": "[[0, 0], [0, 0]]",
+    "hess_rank": 0,
+    "hess_pd": false
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:K2": {
+  "key": "z:K2",
+  "m": 4,
+  "u_m": "(x**2 + y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:P3": {
+  "key": "z:P3",
+  "m": 4,
+  "u_m": "x**4 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + 2*z**4",
+  "comps": [
+   {
+    "dim": 1,
+    "gens": [
+     "y + z",
+     "x + z"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.57735026919,
+      0.57735026919,
+      -0.57735026919
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     -1,
+     -1,
+     1
+    ],
+    "hess_perp": "[[16, -8], [-8, 40]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   },
+   {
+    "dim": 1,
+    "gens": [
+     "y + z",
+     "x - z"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.57735026919,
+      -0.57735026919,
+      0.57735026919
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     1,
+     -1,
+     1
+    ],
+    "hess_perp": "[[16, -8], [-8, 40]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   },
+   {
+    "dim": 1,
+    "gens": [
+     "y - z",
+     "x + z"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.57735026919,
+      -0.57735026919,
+      -0.57735026919
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     -1,
+     1,
+     1
+    ],
+    "hess_perp": "[[16, 8], [8, 40]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   },
+   {
+    "dim": 1,
+    "gens": [
+     "y - z",
+     "x - z"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.57735026919,
+      0.57735026919,
+      0.57735026919
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     1,
+     1,
+     1
+    ],
+    "hess_perp": "[[16, 8], [8, 40]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:Z1": {
+  "key": "z:Z1",
+  "m": 4,
+  "u_m": "z**2*(x**2 + y**2)",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "z"
+    ],
+    "type": "curve",
+    "f": "z",
+    "deg": 1,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "x**2 + y**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "z",
+      "x**2 + y**2"
+     ]
+    ],
+    "g_zero_real_dirs": []
+   },
+   {
+    "dim": 1,
+    "gens": [
+     "y",
+     "x"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.0,
+      0.0,
+      1.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     0,
+     0,
+     1
+    ],
+    "hess_perp": "[[2, 0], [0, 2]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:S1": {
+  "key": "z:S1",
+  "m": 4,
+  "u_m": "(x - y)**2*(x + y)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x + y"
+    ],
+    "type": "curve",
+    "f": "x + y",
+    "deg": 1,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x - y)**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y",
+      "x"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.0,
+      0.0,
+      1.0
+     ]
+    ]
+   },
+   {
+    "dim": 2,
+    "gens": [
+     "x - y"
+    ],
+    "type": "curve",
+    "f": "x - y",
+    "deg": 1,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x + y)**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y",
+      "x"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.0,
+      0.0,
+      1.0
+     ]
+    ]
+   }
+  ],
+  "intersections": [
+   {
+    "f1": "x + y",
+    "f2": "x - y",
+    "proj_points": true,
+    "real_dirs": [
+     [
+      0.0,
+      0.0,
+      1.0
+     ]
+    ],
+    "vdim_chart_z1": 1
+   }
+  ],
+  "points_on_curves": []
+ },
+ "f:B3": {
+  "key": "f:B3",
+  "m": 8,
+  "u_m": "(x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + 2*y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + 2*y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + y**2 - z**2)**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y",
+      "x + z"
+     ],
+     [
+      "y",
+      "x - z"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.707106781187,
+      0.0,
+      -0.707106781187
+     ],
+     [
+      0.707106781187,
+      0.0,
+      0.707106781187
+     ]
+    ]
+   },
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + 2*y**2 - z**2)**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y",
+      "x + z"
+     ],
+     [
+      "y",
+      "x - z"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.707106781187,
+      0.0,
+      -0.707106781187
+     ],
+     [
+      0.707106781187,
+      0.0,
+      0.707106781187
+     ]
+    ]
+   }
+  ],
+  "intersections": [
+   {
+    "f1": "x**2 + 2*y**2 - z**2",
+    "f2": "x**2 + y**2 - z**2",
+    "proj_points": true,
+    "real_dirs": [
+     [
+      0.707106781187,
+      0.0,
+      -0.707106781187
+     ],
+     [
+      0.707106781187,
+      0.0,
+      0.707106781187
+     ]
+    ],
+    "vdim_chart_z1": 4
+   }
+  ],
+  "points_on_curves": []
+ },
+ "f:D1": {
+  "key": "f:D1",
+  "m": 8,
+  "u_m": "(x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - 2*z**2)**2/4",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + 2*y**2 - 2*z**2)**2/4",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y + z",
+      "x"
+     ],
+     [
+      "y - z",
+      "x"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ]
+   },
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + 2*y**2 - 2*z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + 2*y**2 - 2*z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + y**2 - z**2)**2/4",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y + z",
+      "x"
+     ],
+     [
+      "y - z",
+      "x"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ]
+   }
+  ],
+  "intersections": [
+   {
+    "f1": "x**2 + y**2 - z**2",
+    "f2": "x**2 + 2*y**2 - 2*z**2",
+    "proj_points": true,
+    "real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ],
+    "vdim_chart_z1": 4
+   }
+  ],
+  "points_on_curves": []
+ },
+ "f:B1": {
+  "key": "f:B1",
+  "m": 6,
+  "u_m": "(x**3 - y**2*z)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**3 - y**2*z"
+    ],
+    "type": "curve",
+    "f": "x**3 - y**2*z",
+    "deg": 3,
+    "cone_smooth": false,
+    "sing_lines": [
+     [
+      "y",
+      "x"
+     ]
+    ],
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "f:A1": {
+  "key": "f:A1",
+  "m": 4,
+  "u_m": "z**2*(y**2 + z**2)",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "z"
+    ],
+    "type": "curve",
+    "f": "z",
+    "deg": 1,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "y**2 + z**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "z",
+      "y"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      1.0,
+      0.0,
+      0.0
+     ]
+    ]
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "f:V1": {
+  "key": "f:V1",
+  "m": 10,
+  "u_m": "x**6*y**4 - 4*x**5*y**3*z**2 - 2*x**4*y**3*z**3 + 6*x**4*y**2*z**4 + 6*x**3*y**2*z**5 - 4*x**3*y*z**6 + x**2*y**2*z**6 - 6*x**2*y*z**7 + x**2*z**8 - 2*x*y*z**8 + 2*x*z**9 + 2*z**10",
+  "comps": [
+   {
+    "dim": 1,
+    "gens": [
+     "z",
+     "y"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      1.0,
+      0.0,
+      0.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     1,
+     0,
+     0
+    ],
+    "hess_perp": "[[0, 0], [0, 0]]",
+    "hess_rank": 0,
+    "hess_pd": false
+   },
+   {
+    "dim": 1,
+    "gens": [
+     "z",
+     "x"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.0,
+      1.0,
+      0.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     0,
+     1,
+     0
+    ],
+    "hess_perp": "[[0, 0], [0, 0]]",
+    "hess_rank": 0,
+    "hess_pd": false
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:K3": {
+  "key": "z:K3",
+  "m": 4,
+  "u_m": "(x**2 + y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:A1": {
+  "key": "z:A1",
+  "m": 4,
+  "u_m": "(x**2 + y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:A2": {
+  "key": "z:A2",
+  "m": 4,
+  "u_m": "(x**2 + y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:A3": {
+  "key": "z:A3",
+  "m": 4,
+  "u_m": "(x**2 + y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:A4": {
+  "key": "z:A4",
+  "m": 4,
+  "u_m": "(x**2 + y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:A5": {
+  "key": "z:A5",
+  "m": 4,
+  "u_m": "(x**2 + y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:A6": {
+  "key": "z:A6",
+  "m": 4,
+  "u_m": "(1140223*x**2 + 858672*x*y + 160800*x*z - 1060223*y**2 - 854400*y*z + 1141025*z**2)**2/1490902050625",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "1140223*x**2 + 858672*x*y + 160800*x*z - 1060223*y**2 - 854400*y*z + 1141025*z**2"
+    ],
+    "type": "curve",
+    "f": "1140223*x**2 + 858672*x*y + 160800*x*z - 1060223*y**2 - 854400*y*z + 1141025*z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1/1490902050625",
+    "g_zero_dim": -1
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:A7": {
+  "key": "z:A7",
+  "m": 6,
+  "u_m": "(x**2 + y**2 - z**2)**2*(x**2 + y**2 + z**2)",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "x**2 + y**2 + z**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "z",
+      "x**2 + y**2"
+     ]
+    ],
+    "g_zero_real_dirs": []
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:C1": {
+  "key": "z:C1",
+  "m": 4,
+  "u_m": "(x**2 + 2*y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + 2*y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + 2*y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:C2": {
+  "key": "z:C2",
+  "m": 4,
+  "u_m": "(x**2 + y**2 - 2*z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - 2*z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - 2*z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:C3": {
+  "key": "z:C3",
+  "m": 4,
+  "u_m": "(x**2 + 2*y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + 2*y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + 2*y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:D1": {
+  "key": "z:D1",
+  "m": 4,
+  "u_m": "(x**2 + y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:D2": {
+  "key": "z:D2",
+  "m": 4,
+  "u_m": "(x**2 + y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:F1": {
+  "key": "z:F1",
+  "m": 4,
+  "u_m": "z**2*(x**2 + y**2 + z**2)",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "z"
+    ],
+    "type": "curve",
+    "f": "z",
+    "deg": 1,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "x**2 + y**2 + z**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "z",
+      "x**2 + y**2"
+     ]
+    ],
+    "g_zero_real_dirs": []
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:M1": {
+  "key": "z:M1",
+  "m": 4,
+  "u_m": "z**4",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "z"
+    ],
+    "type": "curve",
+    "f": "z",
+    "deg": 1,
+    "cone_smooth": true,
+    "k": 4,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:M2": {
+  "key": "z:M2",
+  "m": 4,
+  "u_m": "z**4",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "z"
+    ],
+    "type": "curve",
+    "f": "z",
+    "deg": 1,
+    "cone_smooth": true,
+    "k": 4,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:P1": {
+  "key": "z:P1",
+  "m": 4,
+  "u_m": "x**4 + y**4",
+  "comps": [
+   {
+    "dim": 1,
+    "gens": [
+     "y",
+     "x"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.0,
+      0.0,
+      1.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     0,
+     0,
+     1
+    ],
+    "hess_perp": "[[0, 0], [0, 0]]",
+    "hess_rank": 0,
+    "hess_pd": false
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:P2": {
+  "key": "z:P2",
+  "m": 4,
+  "u_m": "x**4 - 2*x**2*z**2 + y**4 - 2*y**2*z**2 + 2*z**4",
+  "comps": [
+   {
+    "dim": 1,
+    "gens": [
+     "y + z",
+     "x + z"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.57735026919,
+      0.57735026919,
+      -0.57735026919
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     -1,
+     -1,
+     1
+    ],
+    "hess_perp": "[[16, -8], [-8, 40]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   },
+   {
+    "dim": 1,
+    "gens": [
+     "y + z",
+     "x - z"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.57735026919,
+      -0.57735026919,
+      0.57735026919
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     1,
+     -1,
+     1
+    ],
+    "hess_perp": "[[16, -8], [-8, 40]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   },
+   {
+    "dim": 1,
+    "gens": [
+     "y - z",
+     "x + z"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.57735026919,
+      -0.57735026919,
+      -0.57735026919
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     -1,
+     1,
+     1
+    ],
+    "hess_perp": "[[16, 8], [8, 40]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   },
+   {
+    "dim": 1,
+    "gens": [
+     "y - z",
+     "x - z"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.57735026919,
+      0.57735026919,
+      0.57735026919
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     1,
+     1,
+     1
+    ],
+    "hess_perp": "[[16, 8], [8, 40]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:P4": {
+  "key": "z:P4",
+  "m": 4,
+  "u_m": "x**2*y**2 + x**2*z**2 + y**2*z**2",
+  "comps": [
+   {
+    "dim": 1,
+    "gens": [
+     "z",
+     "y"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      1.0,
+      0.0,
+      0.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     1,
+     0,
+     0
+    ],
+    "hess_perp": "[[2, 0], [0, 2]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   },
+   {
+    "dim": 1,
+    "gens": [
+     "z",
+     "x"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.0,
+      1.0,
+      0.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     0,
+     1,
+     0
+    ],
+    "hess_perp": "[[2, 0], [0, 2]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   },
+   {
+    "dim": 1,
+    "gens": [
+     "y",
+     "x"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.0,
+      0.0,
+      1.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     0,
+     0,
+     1
+    ],
+    "hess_perp": "[[2, 0], [0, 2]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:T1": {
+  "key": "z:T1",
+  "m": 6,
+  "u_m": "(x**3 + x*z**2 - y**2*z)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**3 + x*z**2 - y**2*z"
+    ],
+    "type": "curve",
+    "f": "x**3 + x*z**2 - y**2*z",
+    "deg": 3,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:H1": {
+  "key": "z:H1",
+  "m": 2,
+  "u_m": "y**2 + z**2",
+  "comps": [
+   {
+    "dim": 1,
+    "gens": [
+     "z",
+     "y"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      1.0,
+      0.0,
+      0.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     1,
+     0,
+     0
+    ],
+    "hess_perp": "[[2, 0], [0, 2]]",
+    "hess_rank": 2,
+    "hess_pd": true
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "z:H2": {
+  "key": "z:H2",
+  "m": 2,
+  "u_m": "z**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "z"
+    ],
+    "type": "curve",
+    "f": "z",
+    "deg": 1,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "f:A2": {
+  "key": "f:A2",
+  "m": 4,
+  "u_m": "z**2*(y**2 + z**2)",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "z"
+    ],
+    "type": "curve",
+    "f": "z",
+    "deg": 1,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "y**2 + z**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "z",
+      "y"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      1.0,
+      0.0,
+      0.0
+     ]
+    ]
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "f:A3": {
+  "key": "f:A3",
+  "m": 6,
+  "u_m": "z**2*(x**2*z**2 + y**4 + y**2*z**2 + z**4)",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "z"
+    ],
+    "type": "curve",
+    "f": "z",
+    "deg": 1,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "x**2*z**2 + y**4 + y**2*z**2 + z**4",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "z",
+      "y"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      1.0,
+      0.0,
+      0.0
+     ]
+    ]
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "f:B2": {
+  "key": "f:B2",
+  "m": 6,
+  "u_m": "(x**3 - y**2*z)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**3 - y**2*z"
+    ],
+    "type": "curve",
+    "f": "x**3 - y**2*z",
+    "deg": 3,
+    "cone_smooth": false,
+    "sing_lines": [
+     [
+      "y",
+      "x"
+     ]
+    ],
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "f:B3b": {
+  "key": "f:B3b",
+  "m": 8,
+  "u_m": "(x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - z**2)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + 2*y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + 2*y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + y**2 - z**2)**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y",
+      "x + z"
+     ],
+     [
+      "y",
+      "x - z"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.707106781187,
+      0.0,
+      -0.707106781187
+     ],
+     [
+      0.707106781187,
+      0.0,
+      0.707106781187
+     ]
+    ]
+   },
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + 2*y**2 - z**2)**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y",
+      "x + z"
+     ],
+     [
+      "y",
+      "x - z"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.707106781187,
+      0.0,
+      -0.707106781187
+     ],
+     [
+      0.707106781187,
+      0.0,
+      0.707106781187
+     ]
+    ]
+   }
+  ],
+  "intersections": [
+   {
+    "f1": "x**2 + 2*y**2 - z**2",
+    "f2": "x**2 + y**2 - z**2",
+    "proj_points": true,
+    "real_dirs": [
+     [
+      0.707106781187,
+      0.0,
+      -0.707106781187
+     ],
+     [
+      0.707106781187,
+      0.0,
+      0.707106781187
+     ]
+    ],
+    "vdim_chart_z1": 4
+   }
+  ],
+  "points_on_curves": []
+ },
+ "f:B4": {
+  "key": "f:B4",
+  "m": 6,
+  "u_m": "(x**3 - y**2*z)**2",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**3 - y**2*z"
+    ],
+    "type": "curve",
+    "f": "x**3 - y**2*z",
+    "deg": 3,
+    "cone_smooth": false,
+    "sing_lines": [
+     [
+      "y",
+      "x"
+     ]
+    ],
+    "k": 2,
+    "g": "1",
+    "g_zero_dim": 0
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "f:V2": {
+  "key": "f:V2",
+  "m": 14,
+  "u_m": "x**10*y**4 - 4*x**9*y**3*z**2 - 2*x**8*y**3*z**3 + 6*x**8*y**2*z**4 + 6*x**7*y**2*z**5 - 4*x**7*y*z**6 + x**6*y**2*z**6 - 6*x**6*y*z**7 + x**6*z**8 - 2*x**5*y*z**8 + 2*x**5*z**9 + x**4*z**10 + z**14",
+  "comps": [
+   {
+    "dim": 1,
+    "gens": [
+     "z",
+     "x"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      0.0,
+      1.0,
+      0.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     0,
+     1,
+     0
+    ],
+    "hess_perp": "[[0, 0], [0, 0]]",
+    "hess_rank": 0,
+    "hess_pd": false
+   },
+   {
+    "dim": 1,
+    "gens": [
+     "z",
+     "y"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      1.0,
+      0.0,
+      0.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     1,
+     0,
+     0
+    ],
+    "hess_perp": "[[0, 0], [0, 0]]",
+    "hess_rank": 0,
+    "hess_pd": false
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "f:V3": {
+  "key": "f:V3",
+  "m": 16,
+  "u_m": "x**12*y**4 + 2*x**6*y**2*z**8 + y**16 + z**16",
+  "comps": [
+   {
+    "dim": 1,
+    "gens": [
+     "z",
+     "y"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      1.0,
+      0.0,
+      0.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     1,
+     0,
+     0
+    ],
+    "hess_perp": "[[0, 0], [0, 0]]",
+    "hess_rank": 0,
+    "hess_pd": false
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "f:V4": {
+  "key": "f:V4",
+  "m": 34,
+  "u_m": "x**18*z**16 + y**34 + z**34",
+  "comps": [
+   {
+    "dim": 1,
+    "gens": [
+     "z",
+     "y"
+    ],
+    "type": "point",
+    "dirs": [
+     [
+      1.0,
+      0.0,
+      0.0
+     ]
+    ],
+    "hessians": [],
+    "w": [
+     1,
+     0,
+     0
+    ],
+    "hess_perp": "[[0, 0], [0, 0]]",
+    "hess_rank": 0,
+    "hess_pd": false
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ },
+ "f:D2": {
+  "key": "f:D2",
+  "m": 8,
+  "u_m": "(x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - 2*z**2)**2/4",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + 2*y**2 - 2*z**2)**2/4",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y + z",
+      "x"
+     ],
+     [
+      "y - z",
+      "x"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ]
+   },
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + 2*y**2 - 2*z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + 2*y**2 - 2*z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + y**2 - z**2)**2/4",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y + z",
+      "x"
+     ],
+     [
+      "y - z",
+      "x"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ]
+   }
+  ],
+  "intersections": [
+   {
+    "f1": "x**2 + y**2 - z**2",
+    "f2": "x**2 + 2*y**2 - 2*z**2",
+    "proj_points": true,
+    "real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ],
+    "vdim_chart_z1": 4
+   }
+  ],
+  "points_on_curves": []
+ },
+ "f:D3": {
+  "key": "f:D3",
+  "m": 8,
+  "u_m": "(x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - 2*z**2)**2/4",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + 2*y**2 - 2*z**2)**2/4",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y + z",
+      "x"
+     ],
+     [
+      "y - z",
+      "x"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ]
+   },
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + 2*y**2 - 2*z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + 2*y**2 - 2*z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + y**2 - z**2)**2/4",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y + z",
+      "x"
+     ],
+     [
+      "y - z",
+      "x"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ]
+   }
+  ],
+  "intersections": [
+   {
+    "f1": "x**2 + y**2 - z**2",
+    "f2": "x**2 + 2*y**2 - 2*z**2",
+    "proj_points": true,
+    "real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ],
+    "vdim_chart_z1": 4
+   }
+  ],
+  "points_on_curves": []
+ },
+ "f:D4": {
+  "key": "f:D4",
+  "m": 8,
+  "u_m": "(x**2 + y**2 - z**2)**2*(x**2 + 2*y**2 - 2*z**2)**2/4",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + y**2 - z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + y**2 - z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + 2*y**2 - 2*z**2)**2/4",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y + z",
+      "x"
+     ],
+     [
+      "y - z",
+      "x"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ]
+   },
+   {
+    "dim": 2,
+    "gens": [
+     "x**2 + 2*y**2 - 2*z**2"
+    ],
+    "type": "curve",
+    "f": "x**2 + 2*y**2 - 2*z**2",
+    "deg": 2,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "(x**2 + y**2 - z**2)**2/4",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "y + z",
+      "x"
+     ],
+     [
+      "y - z",
+      "x"
+     ]
+    ],
+    "g_zero_real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ]
+   }
+  ],
+  "intersections": [
+   {
+    "f1": "x**2 + y**2 - z**2",
+    "f2": "x**2 + 2*y**2 - 2*z**2",
+    "proj_points": true,
+    "real_dirs": [
+     [
+      0.0,
+      0.707106781187,
+      -0.707106781187
+     ],
+     [
+      0.0,
+      0.707106781187,
+      0.707106781187
+     ]
+    ],
+    "vdim_chart_z1": 4
+   }
+  ],
+  "points_on_curves": []
+ },
+ "f:E1": {
+  "key": "f:E1",
+  "m": 4,
+  "u_m": "z**2*(x**2 + y**2 + z**2)",
+  "comps": [
+   {
+    "dim": 2,
+    "gens": [
+     "z"
+    ],
+    "type": "curve",
+    "f": "z",
+    "deg": 1,
+    "cone_smooth": true,
+    "k": 2,
+    "g": "x**2 + y**2 + z**2",
+    "g_zero_dim": 1,
+    "g_zero_comps": [
+     [
+      "z",
+      "x**2 + y**2"
+     ]
+    ],
+    "g_zero_real_dirs": []
+   }
+  ],
+  "intersections": [],
+  "points_on_curves": []
+ }
+}

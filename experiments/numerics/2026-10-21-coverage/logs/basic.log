@@ -1,0 +1,44 @@
+z:K1    deg= 6 m= 4 SOS=True witness: tau^6 coeff -1 neg=True | iso: точно
+z:K2    deg= 6 m= 4 SOS=True witness: tau^6 coeff -24375/2 neg=True | iso: точно
+z:K3    deg= 5 m= 4 SOS=True witness: tau^5 coeff -2500 neg=True | iso: точно
+z:A1    deg= 7 m= 4 SOS=True witness: tau^6 coeff -8125/2 neg=True | iso: точно
+z:A2    deg= 7 m= 4 SOS=True witness: tau^6 coeff -84375/2 neg=True | iso: точно
+z:A3    deg= 7 m= 4 SOS=True witness: tau^6 coeff -2025 neg=True | iso: точно
+z:A4    deg= 7 m= 4 SOS=True witness: tau^7 coeff -1 neg=True | iso: точно
+z:A5    deg= 6 m= 4 SOS=True witness: tau^5 coeff -1625/2 neg=True | iso: точно
+z:A6    deg= 6 m= 4 SOS=True witness: tau^6 coeff -44372948986382021484375/ neg=True | iso: точно
+z:A7    deg= 8 m= 6 SOS=True witness: tau^8 coeff -609375/2 neg=True | iso: точно
+z:C1    deg= 6 m= 4 SOS=True witness: tau^6 coeff -1/2 neg=True | iso: точно
+z:C2    deg= 6 m= 4 SOS=True witness: tau^6 coeff -19375/2 neg=True | iso: точно
+z:C3    deg= 6 m= 4 SOS=True witness: tau^5 coeff -567 neg=True | iso: точно
+z:D1    deg= 8 m= 4 SOS=True witness: tau^8 coeff -1 neg=True | iso: точно
+z:D2    deg= 6 m= 4 SOS=True witness: tau^6 coeff -39/50 neg=True | iso: точно
+z:F1    deg= 6 m= 4 SOS=True witness: tau^6 coeff -16806 neg=True | iso: точно
+z:M1    deg= 8 m= 4 SOS=True witness: tau^5 coeff -24583 neg=True | iso: точно
+z:M2    deg= 6 m= 4 SOS=True witness: tau^16 coeff -7/16 neg=True | iso: точно
+z:P1    deg= 7 m= 4 SOS=True witness: tau^6 coeff -1 neg=True | iso: точно
+z:P2    deg= 5 m= 4 SOS=True witness: tau^5 coeff -3 neg=True | iso: точно
+z:P3    deg= 6 m= 4 SOS=True witness: tau^5 coeff -2 neg=True | iso: точно
+z:P4    deg= 6 m= 4 SOS=True witness: tau^5 coeff -1 neg=True | iso: точно
+z:Z1    deg= 5 m= 4 SOS=True witness: tau^5 coeff -48061 neg=True | iso: точно
+z:S1    deg= 6 m= 4 SOS=True witness: tau^5 coeff -79233 neg=True | iso: точно
+z:T1    deg= 8 m= 6 SOS=True witness: tau^8 coeff -1 neg=True | iso: точно
+z:H1    deg= 7 m= 2 SOS=True witness: tau^7 coeff -1 neg=True | iso: точно
+z:H2    deg= 7 m= 2 SOS=True witness: tau^14 coeff -1 neg=True | iso: точно
+f:A1    deg= 6 m= 4 SOS=True witness: tau^16 coeff -7/16 neg=True | iso: точно
+f:A2    deg= 6 m= 4 SOS=True witness: tau^24 coeff -1/8 neg=True | iso: точно
+f:A3    deg= 9 m= 6 SOS=True witness: tau^8 coeff -3/8 neg=True | iso: точно
+f:B1    deg= 9 m= 6 SOS=True witness: tau^7 coeff -1 neg=True | iso: точно
+f:B2    deg= 9 m= 6 SOS=True witness: tau^7 coeff -1 neg=True | iso: точно
+f:B3    deg=10 m= 8 SOS=True witness: tau^9 coeff -512 neg=True | iso: точно
+f:B3b   deg=10 m= 8 SOS=True witness: tau^9 coeff -512 neg=True | iso: точно
+f:B4    deg= 9 m= 6 SOS=True witness: tau^7 coeff -1 neg=True | iso: точно
+f:V1    deg=12 m=10 SOS=True witness: tau^12 coeff -1 neg=True | iso: точно
+f:V2    deg=16 m=14 SOS=True witness: tau^16 coeff -1 neg=True | iso: точно
+f:V3    deg=32 m=16 SOS=True witness: tau^32 coeff -1 neg=True | iso: не сертифицировано
+f:V4    deg=66 m=34 SOS=True witness: tau^66 coeff -1 neg=True | iso: точно
+f:D1    deg=11 m= 8 SOS=True witness: tau^9 coeff -1 neg=True | iso: точно
+f:D2    deg=11 m= 8 SOS=True witness: tau^9 coeff -1 neg=True | iso: точно
+f:D3    deg=13 m= 8 SOS=True witness: tau^9 coeff -1 neg=True | iso: не сертифицировано
+f:D4    deg=13 m= 8 SOS=True witness: tau^9 coeff -1 neg=True | iso: не сертифицировано
+f:E1    deg= 7 m= 4 SOS=True witness: tau^6 coeff -1/8 neg=True | iso: точно
