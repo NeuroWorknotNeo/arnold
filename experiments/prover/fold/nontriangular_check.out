@@ -1,0 +1,7 @@
+OK   (3.3) Y = omega - X^th(1-epsilon) l + nu n  (X^th зависит от eps)
+OK   (i) s D_Y Y = (3.4) + X^eps d_eps X^th (1-epsilon) l
+      (тождество подтверждено численно в 8 случайных точках, 60 знаков)
+OK   (ii) s<w,D_w Y> = (3.5) - d_eps X^th (1-epsilon) s^(1-c) (w_n - c s^(c-1) eps w_omega) w_l
+OK   (iii) лишний член при w_l = 1/sqrt2, w_n = sg/sqrt2, w perp Y
+OK   (iii) w perp Y при этом выборе
+ИТОГ: все проверки OK
