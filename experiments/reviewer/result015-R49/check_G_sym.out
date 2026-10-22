@@ -1,0 +1,4 @@
+n=2 symbolic: {'G0a': True, 'G0b': True, 'G1_Ynu': True, 'G1_norm': True, 'G1_w': True, 'G2': True, 'G3': True, 'NEG_G3_without_D2term': False, 'NEG_G2_without_vs': False}
+n=3 symbolic: {'G0a': True, 'G0b': True, 'G1_Ynu': True, 'G1_norm': True, 'G1_w': True, 'G2': True, 'G3': True, 'NEG_G3_without_D2term': False, 'NEG_G2_without_vs': False}
+n=4 random-rational (6 trials): all True = True
+n=5 random-rational (6 trials): all True = True

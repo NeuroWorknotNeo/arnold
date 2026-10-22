@@ -1,0 +1,10 @@
+m=2, symbolic weights, random-rational coefficients (3 trials):
+  {'W0': ['zero at sampled weights (exact)'], 'W1': ['zero at sampled weights (exact)'], 'W2': ['zero at sampled weights (exact)'], 'psi_def==psi_flow': ['zero at sampled weights (exact)'], 'W3': ['zero at sampled weights (exact)'], 'NEG_W2_factor': False, 'NEG_W1_noconj': False}
+  {'W0': True, 'W1': True, 'W2': True, 'psi_def==psi_flow': True, 'W3': True, 'NEG_W2_factor': False, 'NEG_W1_noconj': False}
+  {'W0': ['zero at sampled weights (exact)'], 'W1': ['zero at sampled weights (exact)'], 'W2': ['zero at sampled weights (exact)'], 'psi_def==psi_flow': ['zero at sampled weights (exact)'], 'W3': ['zero at sampled weights (exact)'], 'NEG_W2_factor': False, 'NEG_W1_noconj': False}
+m=2, weights (0, 3/2) and (1/2, 2) -- with negative control:
+  (0, 3/2) {'W0': True, 'W1': True, 'W2': True, 'psi_def==psi_flow': True, 'W3': True, 'NEG_W2_factor': False, 'NEG_W1_noconj': False}
+  (1/2, 2) {'W0': True, 'W1': True, 'W2': True, 'psi_def==psi_flow': True, 'W3': True, 'NEG_W2_factor': False, 'NEG_W1_noconj': False}
+m=3, random rational weights (2 trials):
+  (5/2, 5/2, 3/2) {'W0': True, 'W1': True, 'W2': True, 'psi_def==psi_flow': True, 'W3': True, 'NEG_W2_factor': False, 'NEG_W1_noconj': False}
+  (1/2, 3/2, 1/2) {'W0': True, 'W1': True, 'W2': True, 'psi_def==psi_flow': True, 'W3': True, 'NEG_W2_factor': False, 'NEG_W1_noconj': False}

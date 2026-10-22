@@ -1,0 +1,9 @@
+(2.1) L1 == 3 beta sqrt(a0 h1): True
+Gamma_M(max) == Gamma: True
+(M) bracket = mu/4
+(Q) bracket = 3*mu/16
+(A4) bound/sqrt(a0/h1) = 1/12 ; total 1/12+1/4+1/2 = 5/6
+b' lower bound: 4*X/5 = 4/5 X
+Gamma'_{2'}(max) == Gamma': True
+H: expr(zeta=0) - m3 = 0
+H: d expr/d zeta has only nonnegative coefficients: True
