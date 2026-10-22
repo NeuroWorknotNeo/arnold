@@ -1,0 +1,8 @@
+k_g = 0.6420926159  cot(alpha) = 0.6420926159
+kappa_max from (X4) = 0.0027195   mu = 2 kappa
+kappa=0.002719 s=1e-6: min (rho/lam)Xi/(delta rho^b) = 0.005439 at th-th0=-0.1 ep=0.0 phi=0.0 K/s^b=0.0 ; mu/2=0.002719
+kappa=0.002719 s=1e-10: min (rho/lam)Xi/(delta rho^b) = 0.005439 at th-th0=-0.1 ep=0.0 phi=0.0 K/s^b=0.0 ; mu/2=0.002719
+kappa=0.02719 s=1e-6: min (rho/lam)Xi/(delta rho^b) = 0.05439 at th-th0=-0.1 ep=0.0 phi=0.0 K/s^b=0.0 ; mu/2=0.02719
+kappa=0.02719 s=1e-10: min (rho/lam)Xi/(delta rho^b) = 0.05439 at th-th0=-0.1 ep=0.0 phi=0.0 K/s^b=0.0 ; mu/2=0.02719
+kappa=0.2719 s=1e-6: min (rho/lam)Xi/(delta rho^b) = 0.5439 at th-th0=-0.1 ep=0.0 phi=0.0 K/s^b=0.0 ; mu/2=0.2719
+kappa=0.2719 s=1e-10: min (rho/lam)Xi/(delta rho^b) = 0.5439 at th-th0=-0.1 ep=0.0 phi=0.0 K/s^b=0.0 ; mu/2=0.2719

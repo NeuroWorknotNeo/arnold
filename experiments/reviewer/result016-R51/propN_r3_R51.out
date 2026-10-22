@@ -1,0 +1,15 @@
+equator, nontriangular x0=0.3  P(p0)= 0.02  d_eps X^th(p0)= 0.3
+  s=0.0001  E/s^beta=5.15e-61  V-delta s^b=1.61e-61  (rho/lam)Xi/s^beta=-1.668535  ratio to s^{1-c}=-0.01668535
+  s=1.0e-6  E/s^beta=3.51e-61  V-delta s^b=-8.78e-62  (rho/lam)Xi/s^beta=-23.253604  ratio to s^{1-c}=-0.023253604
+  s=1.0e-8  E/s^beta=2.13e-61  V-delta s^b=0.0  (rho/lam)Xi/s^beta=-239.12121  ratio to s^{1-c}=-0.023912121
+  s=1.0e-10  E/s^beta=2.9e-61  V-delta s^b=4.84e-62  (rho/lam)Xi/s^beta=-2397.799  ratio to s^{1-c}=-0.02397799
+parallel alpha=1 (k_g!=0), x0=0.3  P(p0)= 0.02  d_eps X^th(p0)= 0.3
+  s=0.0001  E/s^beta=-9.01e-61  V-delta s^b=-8.04e-61  (rho/lam)Xi/s^beta=-1.6673589  ratio to s^{1-c}=-0.016673589
+  s=1.0e-6  E/s^beta=-2.93e-60  V-delta s^b=-3.06e-60  (rho/lam)Xi/s^beta=-23.25237  ratio to s^{1-c}=-0.02325237
+  s=1.0e-8  E/s^beta=-3.73e-60  V-delta s^b=-3.74e-60  (rho/lam)Xi/s^beta=-239.11997  ratio to s^{1-c}=-0.023911997
+  s=1.0e-10  E/s^beta=-6.22e-58  V-delta s^b=-6.22e-58  (rho/lam)Xi/s^beta=-2397.7978  ratio to s^{1-c}=-0.023977978
+parallel alpha=1, triangular x0=0  P(p0)= 0.02  d_eps X^th(p0)= 0.0
+  s=0.0001  E/s^beta=-1.03e-60  V-delta s^b=-8.04e-61  (rho/lam)Xi/s^beta=0.64454456  ratio to s^{1-c}=0.0064454456
+  s=1.0e-6  E/s^beta=-3.28e-60  V-delta s^b=-3.06e-60  (rho/lam)Xi/s^beta=0.64459371  ratio to s^{1-c}=0.00064459371
+  s=1.0e-8  E/s^beta=-3.94e-60  V-delta s^b=-3.85e-60  (rho/lam)Xi/s^beta=0.64459862  ratio to s^{1-c}=6.4459862e-5
+  s=1.0e-10  E/s^beta=-6.21e-58  V-delta s^b=-6.22e-58  (rho/lam)Xi/s^beta=0.64459911  ratio to s^{1-c}=6.4459911e-6

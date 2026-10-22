@@ -1,0 +1,4 @@
+kappa=0.002719 (=1*kmax, mu=0.005439): min (rho/lam)Xi/(delta rho^b)=0.005439  [kp=0.0 psi=0.0 phi=0.0]; theorem bound mu/2=0.002719
+kappa=0.02719 (=10*kmax, mu=0.05439): min (rho/lam)Xi/(delta rho^b)=0.0530292  [kp=0.0001 psi=0.0 phi=3.14]; theorem bound mu/2=0.02719
+kappa=0.2719 (=100*kmax, mu=0.5439): min (rho/lam)Xi/(delta rho^b)=0.407096  [kp=0.03 psi=0.0 phi=3.14]; theorem bound mu/2=0.2719
+kappa=0.8158 (=300*kmax, mu=1.632): min (rho/lam)Xi/(delta rho^b)=0.553105  [kp=0.1 psi=0.0 phi=3.14]; theorem bound mu/2=0.8158
