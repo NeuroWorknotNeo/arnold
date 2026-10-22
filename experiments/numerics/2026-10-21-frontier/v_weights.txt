@@ -1,0 +1,49 @@
+число мономов Q: 19  Newton: max b1-степень 4  max b2-степень 16
+
+веса (c1,c2): beta, m, число мономов в u_m, есть чистая y1-степень, есть чистая y2-степень  [isolated нуль u_m на луче e_x возможен только если обе]
+  c=(2,2) изотропно         : beta= 32, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(2,3) b1 шире (c1<c2)   : beta= 48, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(2,4) b1 шире (c1<c2)   : beta= 64, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(2,5) b1 шире (c1<c2)   : beta= 80, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(2,6) b1 шире (c1<c2)   : beta= 96, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(2,7) b1 шире (c1<c2)   : beta=112, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(3,2) b1 уже (c1>c2)    : beta= 32, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(3,3) изотропно         : beta= 48, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(3,4) b1 шире (c1<c2)   : beta= 64, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(3,5) b1 шире (c1<c2)   : beta= 80, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(3,6) b1 шире (c1<c2)   : beta= 96, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(3,7) b1 шире (c1<c2)   : beta=112, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(4,2) b1 уже (c1>c2)    : beta= 32, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(4,3) b1 уже (c1>c2)    : beta= 48, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(4,4) изотропно         : beta= 64, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(4,5) b1 шире (c1<c2)   : beta= 80, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(4,6) b1 шире (c1<c2)   : beta= 96, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(4,7) b1 шире (c1<c2)   : beta=112, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(5,2) b1 уже (c1>c2)    : beta= 32, m= 16, |supp u_m|= 3, pure y1: True, pure y2: True   <-- u_m изолирован
+  c=(5,3) b1 уже (c1>c2)    : beta= 48, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(5,4) b1 уже (c1>c2)    : beta= 64, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(5,5) изотропно         : beta= 80, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(5,6) b1 шире (c1<c2)   : beta= 96, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(5,7) b1 шире (c1<c2)   : beta=112, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(6,2) b1 уже (c1>c2)    : beta= 32, m= 12, |supp u_m|= 1, pure y1: True, pure y2: False 
+  c=(6,3) b1 уже (c1>c2)    : beta= 48, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(6,4) b1 уже (c1>c2)    : beta= 64, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(6,5) b1 уже (c1>c2)    : beta= 80, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(6,6) изотропно         : beta= 96, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(6,7) b1 шире (c1<c2)   : beta=112, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(7,2) b1 уже (c1>c2)    : beta= 32, m=  8, |supp u_m|= 1, pure y1: True, pure y2: False 
+  c=(7,3) b1 уже (c1>c2)    : beta= 48, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(7,4) b1 уже (c1>c2)    : beta= 64, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(7,5) b1 уже (c1>c2)    : beta= 80, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(7,6) b1 уже (c1>c2)    : beta= 96, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+  c=(7,7) изотропно         : beta=112, m= 16, |supp u_m|= 1, pure y1: False, pure y2: True 
+
+подкладка: добавить y1^J x^{M-J} и y2^K x^{M-K} (M = степень), L_c = M + (c-1) J > beta; требуется M <= m (иначе не будут младшими)
+  c=(2,3): beta=48, m=16, y1^m: L=32 > beta? False; y2^m: L=48 > beta? False -> нужно увеличить beta (степень растёт)
+      минимальное beta с подкладкой: beta=65, m=33, степень U = max(beta, ...) >= 65
+  c=(2,4): beta=64, m=16, y1^m: L=32 > beta? False; y2^m: L=64 > beta? False -> нужно увеличить beta (степень растёт)
+      минимальное beta с подкладкой: beta=97, m=49, степень U = max(beta, ...) >= 97
+  c=(3,4): beta=64, m=16, y1^m: L=48 > beta? False; y2^m: L=64 > beta? False -> нужно увеличить beta (степень растёт)
+      минимальное beta с подкладкой: beta=73, m=25, степень U = max(beta, ...) >= 73
+  c=(2,5): beta=80, m=16, y1^m: L=32 > beta? False; y2^m: L=80 > beta? False -> нужно увеличить beta (степень растёт)
+      минимальное beta с подкладкой: beta=129, m=65, степень U = max(beta, ...) >= 129

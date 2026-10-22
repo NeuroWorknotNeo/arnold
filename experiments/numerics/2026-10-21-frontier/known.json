@@ -1,0 +1,332 @@
+{
+ "A1": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_4 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (3, 4, 4), d=16, face has 3 monomials, tail wdeg_min=18: principal part has real critical points (exact); weights (1, 1, 2), d=6, face has 5 monomials, tail wdeg_min=8: principal part has real critical points (exact)"
+  }
+ },
+ "A2": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_4 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (2, 3, 3), d=12, face has 4 monomials, tail wdeg_min=13: principal part has real critical points (exact); weights (1, 1, 2), d=6, face has 5 monomials, tail wdeg_min=7: principal part has real critical points (exact)"
+  }
+ },
+ "A3": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_6 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (6, 7, 8), d=44, face has 3 monomials, tail wdeg_min=46: principal part has real critical points (exact); weights (1, 1, 1), d=6, face has 4 monomials, tail wdeg_min=7: principal part has real critical points (exact); weights (1, 1, 2), d=8, face has 10 monomials, tail wdeg_min=9: principal "
+  }
+ },
+ "B1": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_6 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (4, 3, 6), d=24, face has 4 monomials, tail wdeg_min=42: principal part has real critical points (exact); weights (14, 15, 12), d=84, face has 4 monomials, tail wdeg_min=110: principal part has real critical points (exact)"
+  }
+ },
+ "B2": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_6 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (4, 3, 6), d=24, face has 4 monomials, tail wdeg_min=36: principal part has real critical points (exact); weights (14, 15, 12), d=84, face has 4 monomials, tail wdeg_min=86: principal part has real critical points (exact)"
+  }
+ },
+ "B3": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_8 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (1, 1, 1), d=8, face has 15 monomials, tail wdeg_min=9: principal part no certificate of absence of real critical points"
+  }
+ },
+ "B3b": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_8 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (1, 1, 1), d=8, face has 15 monomials, tail wdeg_min=9: principal part no certificate of absence of real critical points"
+  }
+ },
+ "B4": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_6 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (4, 3, 6), d=24, face has 4 monomials, tail wdeg_min=36: principal part has real critical points (exact); weights (14, 15, 12), d=84, face has 4 monomials, tail wdeg_min=88: principal part has real critical points (exact)"
+  }
+ },
+ "V1": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_10 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (4, 6, 5), d=48, face has 6 monomials, tail wdeg_min=49: principal part has real critical points (exact); weights (1, 1, 1), d=10, face has 12 monomials, tail wdeg_min=12: principal part has real critical points (exact)"
+  }
+ },
+ "V2": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_14 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (4, 6, 5), d=64, face has 6 monomials, tail wdeg_min=65: principal part has real critical points (exact); weights (1, 1, 1), d=14, face has 13 monomials, tail wdeg_min=16: principal part has real critical points (exact); weights (42, 35, 40), d=560, face has 3 monomials, tail wdeg_min=561: p"
+  }
+ },
+ "D1": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_8 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (1, 1, 1), d=8, face has 15 monomials, tail wdeg_min=9: principal part no certificate of absence of real critical points"
+  }
+ },
+ "D2": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_8 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (1, 1, 1), d=8, face has 15 monomials, tail wdeg_min=9: principal part no certificate of absence of real critical points"
+  }
+ },
+ "D3": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_8 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (1, 1, 1), d=8, face has 15 monomials, tail wdeg_min=9: principal part no certificate of absence of real critical points"
+  }
+ },
+ "D4": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_8 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (1, 1, 1), d=8, face has 15 monomials, tail wdeg_min=9: principal part no certificate of absence of real critical points"
+  }
+ },
+ "E1": {
+  "Lyapunov": {
+   "status": "no",
+   "why": "u_2 is not negative somewhere (u_2 >= 0 or u_2 = 0)"
+  },
+  "KP82": {
+   "status": "no",
+   "why": "u_4 >= 0 (explicit SOS), so the lowest form has no negative values"
+  },
+  "Koz86": {
+   "status": "no",
+   "why": "u_2 = 0 (the criterion needs the quadratic part u_2 >= 0, u_2 != 0)"
+  },
+  "QH-linear": {
+   "status": "no",
+   "why": "U is not quasi-homogeneous in the linear coordinates (exponents do not lie on a hyperplane with positive normal)"
+  },
+  "Pa20-T6": {
+   "status": "no",
+   "why": "weights (1, 1, 1), d=4, face has 3 monomials, tail wdeg_min=5: principal part has real critical points (exact); weights (1, 1, 2), d=6, face has 9 monomials, tail wdeg_min=7: principal part has real critical points (exact)"
+  }
+ }
+}

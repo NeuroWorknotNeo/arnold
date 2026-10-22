@@ -1,0 +1,90 @@
+[
+ {
+  "id": "A1",
+  "U": "x**6 + x**5*y + x**4*z + y**6 + y**2*z**2 + z**4",
+  "m": 4,
+  "forms": {
+   "4": "y**2*z**2 + z**4",
+   "5": "x**4*z",
+   "6": "x**6 + x**5*y + y**6"
+  },
+  "degree": 6,
+  "grad0": true,
+  "mu": 53,
+  "cert": true,
+  "p": "x**2 + y**2 + z**2",
+  "um_min_grid": 6.687698339933496e-64,
+  "witness": {
+   "kind": "curve",
+   "curve": [
+    "tau**3",
+    "0",
+    "-tau**4/2"
+   ],
+   "order": 16,
+   "coeff": "-7/16",
+   "negative": true
+  },
+  "invariant": [
+   {
+    "kind": "plane",
+    "verdict": "no",
+    "note": "f >= 0 in the floating-point scan at radii 0.1..0.003 and no exact witness: 0 looks like a minimum o"
+   },
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 1 t^6 + ..."
+   },
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 1 t^4 + ..."
+   }
+  ],
+  "inv_yes": [],
+  "seconds": 1.5
+ },
+ {
+  "id": "E1",
+  "U": "x**6*y + x**6/8 + 3*x**4*y**2/8 + x**4*z + 11*x**2*y**4/8 + 2*x**2*y**2*z + x**2*z**2 + 9*y**6/8 + y**4*z + y**2*z**2 + z**4",
+  "m": 4,
+  "forms": {
+   "4": "x**2*z**2 + y**2*z**2 + z**4",
+   "5": "x**4*z + 2*x**2*y**2*z + y**4*z",
+   "6": "x**6/8 + 3*x**4*y**2/8 + 11*x**2*y**4/8 + 9*y**6/8",
+   "7": "x**6*y"
+  },
+  "degree": 7,
+  "grad0": true,
+  "mu": 55,
+  "cert": true,
+  "p": "x**2 + y**2 + z**2",
+  "um_min_grid": 2.586058456403005e-32,
+  "witness": {
+   "kind": "curve",
+   "curve": [
+    "tau",
+    "0",
+    "-tau**2/2"
+   ],
+   "order": 6,
+   "coeff": "-1/8",
+   "negative": true
+  },
+  "invariant": [
+   {
+    "kind": "plane",
+    "verdict": "no",
+    "note": "f >= 0 in the floating-point scan at radii 0.1..0.003 and no exact witness: 0 looks like a minimum o"
+   },
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 1 t^4 + ..."
+   }
+  ],
+  "inv_yes": [],
+  "seconds": 1.6
+ }
+]

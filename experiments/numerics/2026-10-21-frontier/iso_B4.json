@@ -1,0 +1,44 @@
+[
+ {
+  "id": "B4",
+  "U": "x**6 - 2*x**3*y**2*z - 7*x**2*z**5/2 + x*z**8 + y**8 + y**4*z**2 - 7*y**2*z**5/2 + 2*y*z**8 - z**7",
+  "m": 6,
+  "forms": {
+   "6": "x**6 - 2*x**3*y**2*z + y**4*z**2",
+   "7": "-7*x**2*z**5/2 - 7*y**2*z**5/2 - z**7",
+   "8": "y**8",
+   "9": "x*z**8 + 2*y*z**8"
+  },
+  "degree": 9,
+  "grad0": true,
+  "mu": 180,
+  "cert": null,
+  "p": "err TimeoutExpired(['/home/claudeagent/venv/lib/python3.14/site-packages/sage_wheels",
+  "um_min_grid": 0.0,
+  "witness": {
+   "kind": "ray",
+   "w": [
+    0,
+    0,
+    1
+   ],
+   "order": 7,
+   "coeff": "-1",
+   "negative": true
+  },
+  "invariant": [
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 1 t^6 + ..."
+   },
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 1 t^8 + ..."
+   }
+  ],
+  "inv_yes": [],
+  "seconds": 603.6
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "id": "V1",
+  "U": "-x**12 + x**11*y + x**11*z + x**6*y**4 - 4*x**5*y**3*z**2 - 2*x**4*y**3*z**3 + 6*x**4*y**2*z**4 + 6*x**3*y**2*z**5 - 4*x**3*y*z**6 + x**2*y**2*z**6 - 6*x**2*y*z**7 + x**2*z**8 - 2*x*y*z**8 + 2*x*z**9 + y**12 + 2*z**10",
+  "m": 10,
+  "forms": {
+   "10": "x**6*y**4 - 4*x**5*y**3*z**2 - 2*x**4*y**3*z**3 + 6*x**4*y**2*z**4 + 6*x**3*y**2*z**5 - 4*x**3*y*z**6 + x**2*y**2*z**6 -",
+   "12": "-x**12 + x**11*y + x**11*z + y**12"
+  },
+  "degree": 12,
+  "grad0": true,
+  "mu": 869,
+  "cert": null,
+  "p": "err AttributeError(\"'NoneType' object has no attribute 'group'\")",
+  "um_min_grid": 4.472530908594923e-127,
+  "witness": {
+   "kind": "curve",
+   "curve": [
+    "tau",
+    "0",
+    "0"
+   ],
+   "order": 12,
+   "coeff": "-1",
+   "negative": true
+  },
+  "invariant": [
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 1 t^12 + ..."
+   }
+  ],
+  "inv_yes": [],
+  "seconds": 11.4
+ }
+]

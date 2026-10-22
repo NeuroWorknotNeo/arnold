@@ -1,0 +1,65 @@
+[
+ {
+  "id": "V3",
+  "U": "-x**32 + x**31*y + x**31*z + x**16*z**8 - 4*x**15*y*z**6 + 6*x**14*y**2*z**4 + 2*x**14*z**9 - 4*x**13*y**3*z**2 - 6*x**13*y*z**7 + x**12*y**4 + 6*x**12*y**2*z**5 + x**12*z**10 - 2*x**11*y**3*z**3 - 2*x**11*y*z**8 + x**10*y**2*z**6 + 2*x**8*z**12 - 4*x**7*y*z**10 + 2*x**6*y**2*z**8 + 2*x**6*z**13 - 2*x**5*y*z**11 + x**4*z**14 + y**16 + z**16",
+  "m": 16,
+  "forms": {
+   "16": "x**12*y**4 + 2*x**6*y**2*z**8 + y**16 + z**16",
+   "17": "-2*x**11*y**3*z**3 - 2*x**5*y*z**11",
+   "18": "-4*x**13*y**3*z**2 + x**10*y**2*z**6 - 4*x**7*y*z**10 + x**4*z**14",
+   "19": "6*x**12*y**2*z**5 + 2*x**6*z**13",
+   "20": "6*x**14*y**2*z**4 - 2*x**11*y*z**8 + 2*x**8*z**12",
+   "21": "-6*x**13*y*z**7",
+   "22": "-4*x**15*y*z**6 + x**12*z**10",
+   "23": "2*x**14*z**9",
+   "24": "x**16*z**8",
+   "32": "-x**32 + x**31*y + x**31*z"
+  },
+  "degree": 32,
+  "grad0": true,
+  "mu": "skipped",
+  "cert": null,
+  "p": "skipped (степень слишком велика)",
+  "um_min_grid": 2.0003532728336942e-253,
+  "witness": {
+   "kind": "ray",
+   "w": [
+    1,
+    0,
+    0
+   ],
+   "order": 32,
+   "coeff": "-1",
+   "negative": true
+  },
+  "invariant": [
+   {
+    "kind": "plane",
+    "verdict": "no",
+    "note": "f >= 0 in the floating-point scan at radii 0.1..0.003 and no exact witness: 0 looks like a minimum o"
+   },
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 2 t^16 + ..."
+   },
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 1 t^16 + ..."
+   },
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 2 t^16 + ..."
+   },
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 1 t^16 + ..."
+   }
+  ],
+  "inv_yes": [],
+  "seconds": 5.3
+ }
+]

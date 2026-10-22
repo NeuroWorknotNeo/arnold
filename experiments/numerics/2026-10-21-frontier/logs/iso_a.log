@@ -1,0 +1,4 @@
+A2 m= 4 deg 6 mu 55 cert True x**2 + y**2 + z**2 um_min_grid 6.687698339933496e-64 witness (24, '-1/8') inv [('plane', 'no'), ('line', 'no'), ('line', 'no')] 1.9 s
+A3 m= 6 deg 9 mu 177 cert None err TimeoutExpired(['/home/claudeagent/venv/lib/python3.14/site-packages/sage_wheels um_min_grid 6.687698339933496e-64 witness (8, '-3/8') inv [('line', 'no')] 602.3 s
+B1 m= 6 deg 9 mu 186 cert True x**2 + y**2 + z**2 um_min_grid 0.0 witness (7, '-1') inv [('line', 'no'), ('line', 'no')] 39.7 s
+B2 m= 6 deg 9 mu 180 cert None err TimeoutExpired(['/home/claudeagent/venv/lib/python3.14/site-packages/sage_wheels um_min_grid 0.0 witness (7, '-1') inv [('line', 'no'), ('line', 'no')] 602.5 s

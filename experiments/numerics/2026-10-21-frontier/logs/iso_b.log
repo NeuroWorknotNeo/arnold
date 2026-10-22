@@ -1,0 +1,2 @@
+B3 m= 8 deg 10 mu 466 cert True x**2 + y**2 + z**2 um_min_grid -9.71445146547012e-17 witness (9, '-512') inv [('line', 'no')] 245.2 s
+B3b m= 8 deg 10 mu 464 cert None err TimeoutExpired(['/home/claudeagent/venv/lib/python3.14/site-packages/sage_wheels um_min_grid -9.71445146547012e-17 witness (9, '-512') inv [('line', 'no')] 610.1 s

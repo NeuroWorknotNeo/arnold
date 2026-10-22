@@ -1,0 +1,3 @@
+A2 r=1e-1: nmin=2 m=-1.2124029e-7  nseeds=756 [53.1s]
+A2 r=1e-2: nmin=4 m=-1.2009549e-13  nseeds=760 [68.3s]
+A2 r=1e-3: nmin=4 m=-1.2365509e-19  nseeds=768 [98.8s]

@@ -1,0 +1,47 @@
+[
+ {
+  "id": "V2",
+  "U": "-x**16 + x**15*y + x**15*z + x**10*y**4 - 4*x**9*y**3*z**2 - 2*x**8*y**3*z**3 + 6*x**8*y**2*z**4 + 6*x**7*y**2*z**5 - 4*x**7*y*z**6 + x**6*y**2*z**6 - 6*x**6*y*z**7 + x**6*z**8 - 2*x**5*y*z**8 + 2*x**5*z**9 + x**4*z**10 + y**16 + z**14",
+  "m": 14,
+  "forms": {
+   "14": "x**10*y**4 - 4*x**9*y**3*z**2 - 2*x**8*y**3*z**3 + 6*x**8*y**2*z**4 + 6*x**7*y**2*z**5 - 4*x**7*y*z**6 + x**6*y**2*z**6 ",
+   "16": "-x**16 + x**15*y + x**15*z + y**16"
+  },
+  "degree": 16,
+  "grad0": true,
+  "mu": 2505,
+  "cert": null,
+  "p": "err TimeoutExpired(['/home/claudeagent/venv/lib/python3.14/site-packages/sage_wheels",
+  "um_min_grid": 1.1566226377695736e-158,
+  "witness": {
+   "kind": "ray",
+   "w": [
+    1,
+    0,
+    0
+   ],
+   "order": 16,
+   "coeff": "-1",
+   "negative": true
+  },
+  "invariant": [
+   {
+    "kind": "plane",
+    "verdict": "no",
+    "note": "f >= 0 in the floating-point scan at radii 0.1..0.003 and no exact witness: 0 looks like a minimum o"
+   },
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 1 t^16 + ..."
+   },
+   {
+    "kind": "line",
+    "verdict": "no",
+    "note": "U on the line = 1 t^14 + ..."
+   }
+  ],
+  "inv_yes": [],
+  "seconds": 620.5
+ }
+]

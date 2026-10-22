@@ -1,0 +1,4 @@
+D1 m= 8 deg 11 mu skipped cert None skipped (степень слишком велика) um_min_grid -6.938893903907228e-17 witness (9, '-1') inv [('plane', 'no'), ('line', 'no'), ('line', 'no')] 8.4 s
+D2 m= 8 deg 11 mu skipped cert None skipped (степень слишком велика) um_min_grid -6.938893903907228e-17 witness (9, '-1') inv [('plane', 'no'), ('line', 'no'), ('line', 'no')] 8.2 s
+D3 m= 8 deg 13 mu skipped cert None skipped (степень слишком велика) um_min_grid -6.938893903907228e-17 witness (9, '-1') inv [] 6.1 s
+D4 m= 8 deg 13 mu skipped cert None skipped (степень слишком велика) um_min_grid -6.938893903907228e-17 witness (9, '-1') inv [] 7.8 s
