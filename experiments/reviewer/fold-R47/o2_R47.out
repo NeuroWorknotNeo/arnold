@@ -1,0 +1,22 @@
+1. global form: True
+support S (i,l): [(0, 4), (1, 2), (2, 0), (3, 0)]
+gamma_* = 1/2  c = 3/2  j = 6
+Phi0 - ((e^2 - sin th)^2 - 1) = 0
+(2.1): True
+zeros of grad f: [{epsilon: 0, theta: pi/2}, {epsilon: 0, theta: 3*pi/2}]  f there: [-1, 1]
+g(pi-t) series: -1 + 7*t**2/2 - 133*t**4/24 + 3787*t**6/720 + t**7 + O(t**8)
+s=0.9: min=-1.900000000000 (-1-s=-1.900000000000) at theta=3.141593 (pi=3.141593)
+s=0.5: min=-1.500000000000 (-1-s=-1.500000000000) at theta=3.141593 (pi=3.141593)
+s=0.1: min=-1.100000000000 (-1-s=-1.100000000000) at theta=3.141593 (pi=3.141593)
+s=0.001: min=-1.001000000000 (-1-s=-1.001000000000) at theta=3.141593 (pi=3.141593)
+Gmin(-2.00): brute -0.17317819 pred -0.17317819
+Gmin(-0.50): brute -0.77015115 pred -0.77015115
+Gmin(0.30): brute -1.00000000 pred -1.00000000
+Gmin(1.00): brute -1.00000000 pred -1.00000000
+Gmin(2.50): brute -1.00000000 pred -1.00000000
+Gmin(4.00): brute -0.42724998 pred -0.42724998
+(2.2): True
+Gtilde series: 7*t**2/2 - 133*t**4/24 + 3787*t**6/720 + t**7 + O(t**8)
+blow-up limit: (E**2 - T)**2
+two-level profile series in e: v**2 + 7*epsilon**4/2 - 35*epsilon**8/8 + O(epsilon**10)
+dF/dy at (-1,0,0): 1

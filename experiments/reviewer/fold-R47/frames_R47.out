@@ -1,0 +1,30 @@
+===== triangular X^theta(theta)
+(3.2) Pi_s OK
+(3.2) Pi_th OK
+(3.2) Pi_e OK
+(3.3) Y OK
+(3.3) h True
+dY/ds OK
+dY/dth OK
+dY/de OK
+(3.4) sD_YY OK
+a^s True a^th True a^e True
+(3.5) s<w,D_wY> - note = 0
+(3.6) <w,Y> - note = 0
+(3.7) beta W - rho YW - note = 0
+===== control X^theta(theta, epsilon)
+(3.2) Pi_s OK
+(3.2) Pi_th OK
+(3.2) Pi_e OK
+(3.3) Y OK
+(3.3) h True
+dY/ds OK
+dY/dth OK
+dY/de ('FAIL', (0, (epsilon*s**c*k(theta) - s)*Derivative(X_t(theta, epsilon), epsilon)/s, 0))
+(3.4) sD_YY ('FAIL', (0, (-epsilon*s**c*k(theta) + s)*X_e(theta, epsilon)*Derivative(X_t(theta, epsilon), epsilon)/s, 0))
+a^s True a^th True a^e True
+(3.5) s<w,D_wY> - note = s**(-c - 1)*w_l*(-c*epsilon**2*s**(2*c)*w_o*k(theta) + c*epsilon*s**(c + 1)*w_o + epsilon*s**(c + 1)*w_n*k(theta) - s**2*w_n)*Derivative(X_t(theta, epsilon), epsilon)
+(3.6) <w,Y> - note = 0
+(3.7) beta W - rho YW - note = 0
+control: extra term in (3.5) minus claimed  = 0
+control: extra term in (3.4) = [0, (-epsilon*s**c*k(theta) + s)*X_e(theta, epsilon)*Derivative(X_t(theta, epsilon), epsilon)/s, 0]

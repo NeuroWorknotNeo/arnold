@@ -1,0 +1,3 @@
+W: X^e coefficient (Y = ... - X^e/s d_e): epsilon*(c - lambda)  expected (c-lam)*e
+C: X^e = c*(epsilon - eps_g(theta))  expected c*(e-eps_g)
+§0.1: Xf - (mu/2) f = 0 (chi treated as constant; d_th chi does not enter Xf)
