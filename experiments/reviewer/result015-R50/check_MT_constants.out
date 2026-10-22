@@ -1,0 +1,5 @@
+(5.3) Gamma - C_Gamma*kappa = 0
+4 sqrt(d) g1 at kappa=kappa* minus rhs = 0
+random trials: violations = 0
+worst normalized margins: {'m3': np.float64(0.0), 'cond1': np.float64(5.384105687861215e-05), 'cond2': np.float64(-0.004712169912796833), 'cond3': np.float64(-0.047593795715051956)}
+(MT3a) random matrices: violations = 0
