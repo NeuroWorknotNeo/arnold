@@ -1,0 +1,12 @@
+OK   (3.2) Pi_s = omega + c s^(c-1) eps n
+OK   (3.2) Pi_theta = s(1-epsilon) l
+OK   (3.2) Pi_eps = s^c n
+OK   (3.3) Y = omega - X^th (1-epsilon) l + nu n
+OK   (3.4) s D_Y Y
+OK   разложение w по Pi_s, Pi_theta, Pi_eps
+OK   (3.5) s <w, D_w Y>
+      (тождество подтверждено численно в 6 точках, 60 знаков)
+OK   контроль: при X^th = X^th(theta) + xt0*eps лишний член = -xt0 (1-eps) s^(1-c) (w_n - c s^(c-1) eps w_omega) w_l
+OK   (3.6) <w,Y> = w_omega - X^th(1-eps) w_l + nu w_n
+OK   (3.7) beta W - s Y W
+ИТОГ: все проверки OK

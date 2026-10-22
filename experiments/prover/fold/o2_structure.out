@@ -1,0 +1,24 @@
+OK   U = (z^2 - y rho^2)^2 - rho^6 + x^7 + y^7
+OK   U o Pi = s^6 [(eps^2 - sin)^2 - 1 + s (cos^7 + sin^7)]
+      g(pi - t) = t**7 + 3787*t**6/720 - 133*t**4/24 + 7*t**2/2 - 1
+OK   g(pi - t) = -1 + 7/2 t^2 + O(t^4) (минимум -1 в складке)
+OK   g'(theta) = 7 sin cos (sin^5 - cos^5)
+OK   U + s^6 + s^7 = (z^2 - s^3 sin t)^2 + s^7 (1 - cos^7 t + sin^7 t) (theta = pi - t)
+      мономы W до t^3 (показатели s,t,z): [(0, 0, 4), (3, 1, 2), (3, 3, 2), (6, 2, 0), (7, 2, 0)]
+OK   z^4, s^3 t z^2, s^6 t^2 одного веса при w_z = (3+w_t)/2 (грань — ребро, вырождена)
+OK   s^7 t^2 всегда выше: 7 + 2 w_t - (6 + 2 w_t) = 1 > 0
+OK   предел W/s^7 при s->0 в (eps, v): v^2 + G(asin eps^2), главная часть v^2 + 7/2 eps^4
+OK   X f = (mu/2) f (chi произвольна)
+OK   при chi = 1: X^eps = mu eps/4 (гладко при eps = 0)
+OK   лемма F2: (theta - th_v) d_th F1 + (g/g') d_eps F1 = F1
+OK   лемма F3: X(eps - phi1) = a m (eps - phi1)
+OK   лемма F3: X(eps - phi2) = a m (eps - phi2)
+      |X0^th|                = 0.250272
+      |X0^th'|               = 1.53999
+      |X0^eps|               = 0.206769
+      d_eps X0^eps (max)     = 0.648591
+      |d_th X0^eps|          = 1.47726
+      min |eps| при chi<1    = 0.384
+OK   sup |X0^th| <= 1/2 на N
+OK   на N при chi < 1: |eps| > 0.36
+ИТОГ: все проверки OK

@@ -1,0 +1,7 @@
+O2 у складки, двухуровневая схема: A = rho^6 + rho^7, уровень delta rho^7, X = mu'(theta, eps/2)
+delta=0.01  sigma=0.0001 mu'=0.05 : min (rho/lam)Xi/(delta rho^7) = -19.177     [s=1.75e-5, theta=0.0335, eps=0.182, K/(d rho^7)=0.405]
+delta=0.01  sigma=0.0001 mu'=0.2  : min (rho/lam)Xi/(delta rho^7) = -73.356     [s=1.75e-5, theta=0.0335, eps=0.182, K/(d rho^7)=0.405]
+delta=0.01  sigma=1e-06  mu'=0.05 : min (rho/lam)Xi/(delta rho^7) = -196.88     [s=1.75e-7, theta=0.0333, eps=0.182, K/(d rho^7)=0.409]
+delta=0.01  sigma=1e-06  mu'=0.2  : min (rho/lam)Xi/(delta rho^7) = -768.66     [s=1.75e-7, theta=0.0333, eps=0.182, K/(d rho^7)=0.409]
+delta=0.01  sigma=1e-08  mu'=0.05 : min (rho/lam)Xi/(delta rho^7) = -2003.8     [s=1.75e-9, theta=0.0333, eps=0.182, K/(d rho^7)=0.409]
+delta=0.01  sigma=1e-08  mu'=0.2  : min (rho/lam)Xi/(delta rho^7) = -7722.0     [s=1.75e-9, theta=0.0333, eps=0.182, K/(d rho^7)=0.409]

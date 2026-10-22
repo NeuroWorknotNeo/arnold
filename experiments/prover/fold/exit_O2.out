@@ -1,0 +1,12 @@
+O2: beta = 6, c = 3/2, a0 = 1; поле теоремы X с X P = mu' P
+контроль: в каждой точке |V - delta rho^beta|/(delta rho^beta) < 1e-12 (иначе остановка)
+delta=0.01   sigma=1e-08  mu'=0      (120 точек): min (rho/lam)Xi/(delta rho^beta) = -8.7405e-7  [s=9.24e-9, theta=0.1258, eps=0.1595, K/(delta rho^beta)=1.33e-27]
+delta=0.01   sigma=1e-08  mu'=0.002  (120 точек): min (rho/lam)Xi/(delta rho^beta) = 0.0019991   [s=9.24e-9, theta=0.1258, eps=0.1595, K/(delta rho^beta)=1.33e-27]
+delta=0.01   sigma=1e-08  mu'=0.02   (120 точек): min (rho/lam)Xi/(delta rho^beta) = 0.019999    [s=9.24e-9, theta=0.1258, eps=0.1595, K/(delta rho^beta)=1.33e-27]
+delta=0.01   sigma=1e-08  mu'=0.1    (120 точек): min (rho/lam)Xi/(delta rho^beta) = 0.099999    [s=9.24e-9, theta=0.1258, eps=0.1595, K/(delta rho^beta)=1.33e-27]
+delta=0.01   sigma=1e-08  mu'=0.4    (120 точек): min (rho/lam)Xi/(delta rho^beta) = 0.2351      [s=1.99e-9, theta=2.998, eps=0.2109, K/(delta rho^beta)=0.0183]
+delta=0.002  sigma=1e-10  mu'=0      (120 точек): min (rho/lam)Xi/(delta rho^beta) = -4.5255e-8  [s=9.24e-11, theta=0.07665, eps=0.1785, K/(delta rho^beta)=9.82e-28]
+delta=0.002  sigma=1e-10  mu'=0.002  (120 точек): min (rho/lam)Xi/(delta rho^beta) = 0.002       [s=9.24e-11, theta=0.07665, eps=0.1785, K/(delta rho^beta)=9.82e-28]
+delta=0.002  sigma=1e-10  mu'=0.02   (120 точек): min (rho/lam)Xi/(delta rho^beta) = 0.02        [s=9.24e-11, theta=0.07665, eps=0.1785, K/(delta rho^beta)=9.82e-28]
+delta=0.002  sigma=1e-10  mu'=0.1    (120 точек): min (rho/lam)Xi/(delta rho^beta) = 0.1         [s=9.24e-11, theta=0.07665, eps=0.1785, K/(delta rho^beta)=9.82e-28]
+delta=0.002  sigma=1e-10  mu'=0.4    (120 точек): min (rho/lam)Xi/(delta rho^beta) = -8.6665     [s=1.71e-11, theta=2.672, eps=-0.6928, K/(delta rho^beta)=0.625]
