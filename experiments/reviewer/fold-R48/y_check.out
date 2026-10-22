@@ -1,0 +1,4 @@
+s=0.001 th=0.45: |Y_impl - Pi_*(...)| = 0.0, Y.grad rho = 1.0
+s=0.0001 th=0.1: |Y_impl - Pi_*(...)| = 0.0, Y.grad rho = 1.0
+s=0.01 th=3.0: |Y_impl - Pi_*(...)| = 0.0, Y.grad rho = 1.0
+s=1.0e-5 th=1.5: |Y_impl - Pi_*(...)| = 0.0, Y.grad rho = 1.0

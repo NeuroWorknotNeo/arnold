@@ -1,0 +1,5 @@
+theta = 0.45349647  chi(theta) = 0.994913
+s=1.0e-8: (rho/lam)Xi/(delta rho^6) = -0.01263093268
+s=1.0e-12: (rho/lam)Xi/(delta rho^6) = -0.01263036887
+s=1.0e-16: (rho/lam)Xi/(delta rho^6) = -0.01263036881
+s=1.0e-20: (rho/lam)Xi/(delta rho^6) = -0.01263036881
