@@ -1,0 +1,37 @@
+Part C: reference = backward shot from x_k=0.002 to x=0.05 (nfev=1138679); perturbation size 1e-13
+  start x_p=0.05, narrow dV2: linear regime down to x=0.0317; envelopes e1 (wide) ~ x^-69.9, e2 (narrow) ~ x^-41.0; scaled frequencies omega_1 in [4.1,7.8], omega_2 in [112,375] (compare beta|X|/2 ~ 34)
+     x=0.04860: e1=1.450e-28, e2=2.654e-26, omega1=4.08, omega2=111.5
+     x=0.04591: e1=2.310e-27, e2=1.245e-25, omega1=4.41, omega2=132.1
+     x=0.04338: e1=3.290e-26, e2=6.009e-25, omega1=4.81, omega2=157.0
+     x=0.04098: e1=6.905e-25, e2=2.787e-24, omega1=5.27, omega2=187.1
+     x=0.03872: e1=3.635e-23, e2=1.927e-23, omega1=5.80, omega2=223.1
+     x=0.03658: e1=4.638e-21, e2=1.325e-22, omega1=6.39, omega2=265.7
+     x=0.03456: e1=8.868e-19, e2=7.557e-21, omega1=7.05, omega2=316.0
+     x=0.03265: e1=1.943e-16, e2=1.096e-18, omega1=7.77, omega2=374.9
+  start x_p=0.05, wide dV1: linear regime down to x=0.0329; envelopes e1 (wide) ~ x^-58.4, e2 (narrow) ~ x^-55.7; scaled frequencies omega_1 in [4.1,7.4], omega_2 in [111,340] (compare beta|X|/2 ~ 34)
+     x=0.04870: e1=6.230e-26, e2=7.209e-28, omega1=4.07, omega2=110.8
+     x=0.04621: e1=7.783e-25, e2=9.452e-27, omega1=4.37, omega2=129.5
+     x=0.04385: e1=9.819e-24, e2=1.437e-25, omega1=4.73, omega2=151.9
+     x=0.04161: e1=1.300e-22, e2=2.216e-24, omega1=5.14, omega2=178.5
+     x=0.03948: e1=2.032e-21, e2=3.356e-23, omega1=5.61, omega2=210.0
+     x=0.03746: e1=4.921e-20, e2=4.750e-22, omega1=6.14, omega2=247.0
+     x=0.03554: e1=2.483e-18, e2=1.255e-20, omega1=6.72, omega2=290.1
+     x=0.03372: e1=2.385e-16, e2=1.147e-18, omega1=7.35, omega2=340.1
+  start x_p=0.01, narrow dV2: linear regime down to x=0.0065; envelopes e1 (wide) ~ x^-81.1, e2 (narrow) ~ x^-38.0; scaled frequencies omega_1 in [37.4,52.6], omega_2 in [6883,13959] (compare beta|X|/2 ~ 34)
+     x=0.00973: e1=3.216e-30, e2=2.109e-26, omega1=37.39, omega2=6882.8
+     x=0.00922: e1=2.447e-29, e2=9.382e-26, omega1=39.36, omega2=7641.4
+     x=0.00873: e1=3.451e-28, e2=4.042e-25, omega1=41.39, omega2=8472.4
+     x=0.00827: e1=3.203e-26, e2=1.785e-24, omega1=43.48, omega2=9382.3
+     x=0.00784: e1=5.399e-24, e2=8.165e-24, omega1=45.65, omega2=10377.9
+     x=0.00742: e1=8.856e-22, e2=5.334e-23, omega1=47.88, omega2=11466.9
+     x=0.00703: e1=1.442e-19, e2=1.265e-21, omega1=50.18, omega2=12657.7
+     x=0.00666: e1=2.338e-17, e2=1.221e-19, omega1=52.56, omega2=13959.3
+  start x_p=0.01, wide dV1: linear regime down to x=0.0064; envelopes e1 (wide) ~ x^-47.5, e2 (narrow) ~ x^-33.7; scaled frequencies omega_1 in [37.4,52.9], omega_2 in [6889,14126] (compare beta|X|/2 ~ 34)
+     x=0.00973: e1=7.697e-26, e2=2.507e-26, omega1=37.40, omega2=6888.7
+     x=0.00921: e1=5.119e-25, e2=2.618e-25, omega1=39.41, omega2=7660.8
+     x=0.00871: e1=1.326e-24, e2=8.642e-25, omega1=41.47, omega2=8507.8
+     x=0.00825: e1=1.398e-24, e2=9.273e-25, omega1=43.61, omega2=9436.5
+     x=0.00781: e1=1.180e-23, e2=7.116e-24, omega1=45.81, omega2=10454.2
+     x=0.00739: e1=6.575e-22, e2=5.301e-23, omega1=48.08, omega2=11569.0
+     x=0.00699: e1=1.353e-19, e2=2.257e-22, omega1=50.43, omega2=12789.7
+     x=0.00662: e1=2.331e-17, e2=1.192e-19, omega1=52.86, omega2=14125.8

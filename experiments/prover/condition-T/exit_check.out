@@ -1,0 +1,11 @@
+delta = 1e-6, 400 sample points b in K, 9 directions of v_perp each
+  nonT field, x=1e-2: min (rho/lam)Xi/(delta rho^beta) = 3.67949  at (x,b1,b2,K/(d x^b))=('0.01', np.float64(-0.0001), np.float64(-0.0), '0.0657')
+  nonT field, x=1e-3: min (rho/lam)Xi/(delta rho^beta) = -62883.5  at (x,b1,b2,K/(d x^b))=('0.001', np.float64(0.1977), np.float64(0.37), '197.0')
+  nonT field, x=1e-4: min (rho/lam)Xi/(delta rho^beta) = -69079.5  at (x,b1,b2,K/(d x^b))=('0.0001', np.float64(0.1977), np.float64(0.37), '18.9')
+  nonT field, x=1e-6: min (rho/lam)Xi/(delta rho^beta) = -319922.0  at (x,b1,b2,K/(d x^b))=('1.0e-6', np.float64(0.1371), np.float64(0.3267), '0.98')
+band field: kappa=1.0, Lam=2.861e+05, sup d2^2 Qt (|b|<=.5) = 5.227, alpha = 2.006e-06, expected margin ~ alpha*mu*(7/8) = 1.11e-07
+  band field, x=1e-4: min (rho/lam)Xi/(delta rho^beta) = 1.41342  at (x,b1,b2,K/(d x^b))=('0.0001', np.float64(-0.0095), np.float64(-0.0001), '0.0458')
+  band field, x=1e-8: min (rho/lam)Xi/(delta rho^beta) = 0.224066  at (x,b1,b2,K/(d x^b))=('1.0e-8', np.float64(-0.0255), np.float64(0.0767), '0.00431')
+  band field, x=1e-12: min (rho/lam)Xi/(delta rho^beta) = 0.237573  at (x,b1,b2,K/(d x^b))=('1.0e-12', np.float64(-0.0255), np.float64(0.0767), '0.00456')
+  band field, x=1e-16: min (rho/lam)Xi/(delta rho^beta) = 0.237575  at (x,b1,b2,K/(d x^b))=('1.0e-16', np.float64(-0.0255), np.float64(0.0767), '0.00456')
+  band field, x=1e-20: min (rho/lam)Xi/(delta rho^beta) = 0.237575  at (x,b1,b2,K/(d x^b))=('1.0e-20', np.float64(-0.0255), np.float64(0.0767), '0.00456')

@@ -1,0 +1,6 @@
+leading term of d1 Qt in b1: 24*b1**23
+deg R = 345 ; R not identically zero: True
+  factor of degree    1, multiplicity  57: 1 real roots ['0']
+  factor of degree  288, multiplicity   1: 0 real roots []
+all real roots of R: [('0', 1, 57)]
+d2 Qt(b1, 0) = 0 ; d1 Qt(b1, 0) = 4*b1**3*(6*b1**20 + 1)

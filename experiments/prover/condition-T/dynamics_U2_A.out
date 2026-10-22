@@ -1,0 +1,5 @@
+Part A: sigma = 0, delta_ref = 1e-4; segments tau in [0, T], T = 0.02; 3 random starts per x0
+  x0= 0.030: max|N_T0|=       48 (mean      46.3); max|N_TB|=     64.9 (mean      46.6); max|N_nonT|=     64.15 (mean      47.2); x0*max|N_nonT|=    1.92; max|calV_T0-calV_nonT|=2.25e-05 (calV~9.76e-05)
+  x0= 0.010: max|N_T0|=       48 (mean      47.8); max|N_TB|=       49 (mean      48.1); max|N_nonT|=     51.05 (mean      47.8); x0*max|N_nonT|=   0.511; max|calV_T0-calV_nonT|=5.67e-06 (calV~2.43e-05)
+  x0= 0.003: max|N_T0|=     48.1 (mean      47.6); max|N_TB|=     52.2 (mean      48.6); max|N_nonT|=     111.9 (mean      48.1); x0*max|N_nonT|=   0.336; max|calV_T0-calV_nonT|=9.89e-06 (calV~4.51e-05)
+  x0= 0.001: max|N_T0|=     51.8 (mean      44.1); max|N_TB|=     55.9 (mean      44.7); max|N_nonT|=     771.2 (mean      44.4); x0*max|N_nonT|=   0.771; max|calV_T0-calV_nonT|=3.42e-06 (calV~6.96e-05)

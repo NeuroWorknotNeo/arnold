@@ -1,0 +1,30 @@
+Q62   delta=1e-04: |K-sample|=1062531, |Z|=40684, Lam_0=3.3180e+02, min_Z|d2Q|=9.756e-05, M1(Lam=1.5Lam_0)=1.619e+02; check on 1927366 pts: min margin/(mu eta)=0.3334 at b=(0.0649,-0.3584), Q/delta=0.025
+Q62   delta=1e-05: |K-sample|=1063302, |Z|=117709, Lam_0=3.0195e+03, min_Z|d2Q|=1.063e-05, M1(Lam=1.5Lam_0)=3.969e+02; check on 1929580 pts: min margin/(mu eta)=0.3439 at b=(0.0545,-0.2981), Q/delta=0.015
+Q62   delta=1e-06: |K-sample|=1012939, |Z|=179492, Lam_0=2.5287e+04, min_Z|d2Q|=1.155e-06, M1(Lam=1.5Lam_0)=8.027e+02; check on 1829919 pts: min margin/(mu eta)=0.3629 at b=(0.0435,-0.2503), Q/delta=0.010
+Q62   delta=1e-07: |K-sample|=885620, |Z|=156419, Lam_0=1.9640e+05, min_Z|d2Q|=1.335e-07, M1(Lam=1.5Lam_0)=1.613e+03; check on 1577656 pts: min margin/(mu eta)=0.3680 at b=(0.0334,-0.2102), Q/delta=0.007
+Q62   delta=1e-08: |K-sample|=777027, |Z|=137439, Lam_0=1.4267e+06, min_Z|d2Q|=1.530e-08, M1(Lam=1.5Lam_0)=3.100e+03; check on 1363735 pts: min margin/(mu eta)=0.3493 at b=(0.0248,-0.1757), Q/delta=0.005
+   Q62: fitted Lam_0 ~ delta^-0.908
+Qt2   delta=1e-04: |K-sample|=1062531, |Z|=40684, Lam_0=3.3180e+02, min_Z|d2Q|=9.756e-05, M1(Lam=1.5Lam_0)=1.619e+02; check on 1927366 pts: min margin/(mu eta)=0.3334 at b=(0.0649,-0.3584), Q/delta=0.025
+Qt2   delta=1e-05: |K-sample|=1063302, |Z|=117709, Lam_0=3.0195e+03, min_Z|d2Q|=1.063e-05, M1(Lam=1.5Lam_0)=3.969e+02; check on 1929580 pts: min margin/(mu eta)=0.3439 at b=(0.0545,-0.2981), Q/delta=0.015
+Qt2   delta=1e-06: |K-sample|=1012939, |Z|=179492, Lam_0=2.5287e+04, min_Z|d2Q|=1.155e-06, M1(Lam=1.5Lam_0)=8.027e+02; check on 1829919 pts: min margin/(mu eta)=0.3629 at b=(0.0435,-0.2503), Q/delta=0.010
+Qt2   delta=1e-07: |K-sample|=885620, |Z|=156419, Lam_0=1.9640e+05, min_Z|d2Q|=1.335e-07, M1(Lam=1.5Lam_0)=1.613e+03; check on 1577656 pts: min margin/(mu eta)=0.3680 at b=(0.0334,-0.2102), Q/delta=0.007
+Qt2   delta=1e-08: |K-sample|=777027, |Z|=137439, Lam_0=1.4267e+06, min_Z|d2Q|=1.530e-08, M1(Lam=1.5Lam_0)=3.100e+03; check on 1363735 pts: min margin/(mu eta)=0.3493 at b=(0.0248,-0.1757), Q/delta=0.005
+   Qt2: fitted Lam_0 ~ delta^-0.908
+PO2D  delta=1e-04: |K-sample|=1059581, |Z|=40569, Lam_0=3.2817e+02, min_Z|d2Q|=9.828e-05, M1(Lam=1.5Lam_0)=1.586e+02; check on 1921736 pts: min margin/(mu eta)=0.3324 at b=(0.0650,-0.3584), Q/delta=0.025
+PO2D  delta=1e-05: |K-sample|=1060688, |Z|=115739, Lam_0=3.0001e+03, min_Z|d2Q|=1.067e-05, M1(Lam=1.5Lam_0)=3.874e+02; check on 1924371 pts: min margin/(mu eta)=0.3443 at b=(0.0546,-0.2981), Q/delta=0.015
+PO2D  delta=1e-06: |K-sample|=1012939, |Z|=179611, Lam_0=2.5163e+04, min_Z|d2Q|=1.165e-06, M1(Lam=1.5Lam_0)=7.679e+02; check on 1829919 pts: min margin/(mu eta)=0.3627 at b=(0.0431,-0.2491), Q/delta=0.010
+PO2D  delta=1e-07: |K-sample|=885620, |Z|=156453, Lam_0=1.9579e+05, min_Z|d2Q|=1.335e-07, M1(Lam=1.5Lam_0)=1.573e+03; check on 1577656 pts: min margin/(mu eta)=0.3677 at b=(0.0334,-0.2102), Q/delta=0.007
+PO2D  delta=1e-08: |K-sample|=777027, |Z|=137449, Lam_0=1.4243e+06, min_Z|d2Q|=1.542e-08, M1(Lam=1.5Lam_0)=3.058e+03; check on 1363735 pts: min margin/(mu eta)=0.3491 at b=(0.0248,-0.1757), Q/delta=0.005
+   PO2D: fitted Lam_0 ~ delta^-0.909
+PO1   delta=1e-04: |K-sample|=778964, |Z|=190110, Lam_0=2.1638e+02, min_Z|d2Q|=1.378e-04, M1(Lam=1.5Lam_0)=1.706e+02; check on 1365962 pts: min margin/(mu eta)=0.4552 at b=(-0.0593,-0.2480), Q/delta=0.025
+PO1   delta=1e-05: |K-sample|=697739, |Z|=214442, Lam_0=9.9773e+02, min_Z|d2Q|=2.041e-05, M1(Lam=1.5Lam_0)=4.458e+02; check on 1202640 pts: min margin/(mu eta)=0.4568 at b=(-0.0267,-0.1669), Q/delta=0.024
+PO1   delta=1e-06: |K-sample|=503658, |Z|=129301, Lam_0=4.6089e+03, min_Z|d2Q|=3.023e-06, M1(Lam=1.5Lam_0)=8.939e+02; check on 818413 pts: min margin/(mu eta)=0.4553 at b=(-0.0126,-0.1144), Q/delta=0.025
+PO1   delta=1e-07: |K-sample|=386369, |Z|=80967, Lam_0=2.1205e+04, min_Z|d2Q|=4.384e-07, M1(Lam=1.5Lam_0)=1.819e+03; check on 587158 pts: min margin/(mu eta)=0.4491 at b=(-0.0057,-0.0772), Q/delta=0.024
+PO1   delta=1e-08: |K-sample|=312497, |Z|=52367, Lam_0=9.7989e+04, min_Z|d2Q|=6.461e-08, M1(Lam=1.5Lam_0)=3.794e+03; check on 443426 pts: min margin/(mu eta)=0.4455 at b=(-0.0027,-0.0531), Q/delta=0.025
+   PO1: fitted Lam_0 ~ delta^-0.664
+PO2   delta=1e-04: |K-sample|=553298, |Z|=101012, Lam_0=4.0972e+02, min_Z|d2Q|=8.900e-05, M1(Lam=1.5Lam_0)=8.457e+02; check on 1005982 pts: min margin/(mu eta)=0.3302 at b=(0.0830,-0.2881), Q/delta=0.000
+PO2   delta=1e-05: |K-sample|=553407, |Z|=120663, Lam_0=4.1283e+03, min_Z|d2Q|=8.795e-06, M1(Lam=1.5Lam_0)=8.312e+03; check on 1005763 pts: min margin/(mu eta)=0.3325 at b=(0.0831,0.2882), Q/delta=0.000
+PO2   delta=1e-06: |K-sample|=546453, |Z|=132587, Lam_0=4.0969e+04, min_Z|d2Q|=9.218e-07, M1(Lam=1.5Lam_0)=8.181e+04; check on 1005410 pts: min margin/(mu eta)=0.3273 at b=(0.0832,-0.2882), Q/delta=0.000
+PO2   delta=1e-07: |K-sample|=546453, |Z|=144431, Lam_0=3.8841e+05, min_Z|d2Q|=1.024e-07, M1(Lam=1.5Lam_0)=7.738e+05; check on 1005065 pts: min margin/(mu eta)=0.2941 at b=(0.0828,0.2876), Q/delta=0.000
+PO2   delta=1e-08: |K-sample|=546517, |Z|=155022, Lam_0=4.1289e+06, min_Z|d2Q|=8.879e-09, M1(Lam=1.5Lam_0)=8.221e+06; check on 1004726 pts: min margin/(mu eta)=0.3327 at b=(0.0832,0.2882), Q/delta=0.000
+   PO2: fitted Lam_0 ~ delta^-0.998

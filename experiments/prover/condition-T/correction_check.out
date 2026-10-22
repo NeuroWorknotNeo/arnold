@@ -1,0 +1,6 @@
+delta = 1e-4; points: b random in {Q <= delta}, |b|<=0.6, v = -lam' Y' + v_perp' (V_{Y'} = delta rho^beta)
+  x=0.01   n=150: min N_V =        6.227   min N_C =     5.726   min N_Y' =     5.726   max|N_C - N_Y'| = 8.368e-02
+  x=0.001  n=150: min N_V =       -304.2   min N_C =     4.583   min N_Y' =     4.583   max|N_C - N_Y'| = 7.803e-03
+  x=0.0001 n=150: min N_V =        -3812   min N_C =     8.222   min N_Y' =     8.222   max|N_C - N_Y'| = 8.098e-04
+  x=1.0e-5 n=150: min N_V =   -3.882e+04   min N_C =     6.206   min N_Y' =     6.206   max|N_C - N_Y'| = 8.873e-05
+  x=1.0e-6 n=150: min N_V =   -3.952e+05   min N_C =     10.71   min N_Y' =     10.71   max|N_C - N_Y'| = 8.118e-06

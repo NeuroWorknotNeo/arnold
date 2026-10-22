@@ -1,0 +1,13 @@
+O2D level-set test: W = delta(1-k) rho^beta (K_perp = k delta rho^beta), delta=0.0001, Lam=492.3, mu=1
+ s=1e-9: 596 level points
+   band (T), kappa=1e-05: k=0e+00: min N/kappa=3.8623; k=1e-07: min N/kappa=4.094; k=1e-05: min N/kappa=36.78; k=1e-03: min N/kappa=3393.0
+   band (T), kappa=1e-04: k=0e+00: min N/kappa=3.9391; k=1e-07: min N/kappa=3.8649; k=1e-05: min N/kappa=6.2568; k=1e-03: min N/kappa=333.11
+   band (T), kappa=1e-03: k=0e+00: min N/kappa=3.9468; k=1e-07: min N/kappa=3.842; k=1e-05: min N/kappa=3.2045; k=1e-03: min N/kappa=27.121
+   band (T), kappa=1e-02: k=0e+00: min N/kappa=3.9476; k=1e-07: min N/kappa=3.8398; k=1e-05: min N/kappa=2.8998; k=1e-03: min N/kappa=-3.4735
+   nonT control, kappa=1e-4: k=0e+00: min N=0.0003939; k=1e-07: min N=-0.0018618; k=1e-05: min N=-0.41738; k=1e-03: min N=-41.964
+ s=1e-12: 604 level points
+   band (T), kappa=1e-05: k=0e+00: min N/kappa=3.9519; k=1e-07: min N/kappa=4.1837; k=1e-05: min N/kappa=36.87; k=1e-03: min N/kappa=3393.1
+   band (T), kappa=1e-04: k=0e+00: min N/kappa=3.952; k=1e-07: min N/kappa=3.8778; k=1e-05: min N/kappa=6.2698; k=1e-03: min N/kappa=333.12
+   band (T), kappa=1e-03: k=0e+00: min N/kappa=3.952; k=1e-07: min N/kappa=3.8472; k=1e-05: min N/kappa=3.2098; k=1e-03: min N/kappa=27.125
+   band (T), kappa=1e-02: k=0e+00: min N/kappa=3.952; k=1e-07: min N/kappa=3.8442; k=1e-05: min N/kappa=2.9044; k=1e-03: min N/kappa=-3.4698
+   nonT control, kappa=1e-4: k=0e+00: min N=0.00039516; k=1e-07: min N=-4.1976; k=1e-05: min N=-420.0; k=1e-03: min N=-42000.0

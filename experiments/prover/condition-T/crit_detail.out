@@ -1,0 +1,4 @@
+Qt1: real roots of resultant (b2, deg of factor, mult): [('0.0', 1, 17)]
+   b2=0.0: d2 Qt(., b2) == const = []
+Qt2: real roots of resultant (b2, deg of factor, mult): [('0.0', 1, 57)]
+   b2=0.0: d2 Qt(., b2) == const = []

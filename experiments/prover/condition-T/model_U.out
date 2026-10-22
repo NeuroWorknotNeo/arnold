@@ -1,0 +1,9 @@
+U1 = x^24(-a0+Qt1(b)+sigma x b1): True
+U2 = x^48(-a0+Qt2(b)+sigma x b1): True
+U1(0,y,z) = y**12 + z**8 ; U2(0,y,z) = y**24 + z**16
+Qt1: deg Res_b1(d1,d2) in b2 = 77
+   critical point b=(0.0, 0.0), value 0.0
+Qt2: deg Res_b1(d1,d2) in b2 = 345
+   critical point b=(0.0, 0.0), value 0.0
+   critical point b=(2.1581191e-51, 0.0), value 2.16921033869e-203
+   critical point b=(-2.8124402e-51, 0.0), value 6.25652530612e-203

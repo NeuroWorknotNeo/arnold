@@ -1,0 +1,8 @@
+delta=1e-06: polar pts in K: 17941, in band: 4029; min b1 d1Q (polar, all) = -6.385e-33; m = 2.525e-07; mu = 6.311e-02
+   Lam_needed = 2.384e+05; check with Lam = 2.861e+05 on 2439000 pts: min (xi.gradQ - mu(Q-delta/8))/(mu delta) = 0.0062 at b=(0.0330,-0.2087), Q/delta=0.001
+delta=1e-07: polar pts in K: 15014, in band: 2766; min b1 d1Q (polar, all) = -6.385e-33; m = 2.510e-08; mu = 6.274e-02
+   Lam_needed = 1.790e+06; check with Lam = 2.148e+06 on 2095600 pts: min (xi.gradQ - mu(Q-delta/8))/(mu delta) = 0.0035 at b=(0.0246,-0.1749), Q/delta=0.000
+delta=1e-08: polar pts in K: 13015, in band: 3006; min b1 d1Q (polar, all) = -6.385e-33; m = 2.500e-09; mu = 6.250e-02
+   Lam_needed = 1.365e+07; check with Lam = 1.638e+07 on 1808400 pts: min (xi.gradQ - mu(Q-delta/8))/(mu delta) = 0.0072 at b=(0.0182,-0.1473), Q/delta=0.000
+delta=1e-09: polar pts in K: 11150, in band: 3147; min b1 d1Q (polar, all) = -6.385e-33; m = 2.518e-10; mu = 6.295e-02
+   Lam_needed = 1.036e+08; check with Lam = 1.243e+08 on 1566200 pts: min (xi.gradQ - mu(Q-delta/8))/(mu delta) = 0.0140 at b=(0.0135,-0.1249), Q/delta=0.000

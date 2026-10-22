@@ -1,0 +1,10 @@
+(1) V_{Y+Theta} - V_Y - formula = 0
+    first order in Theta minus lam<v_perp,Theta> = 0
+(2) x<w,D_wY> - [sum x^{c_i-c_j}(c_i delta_ij - d_j xi_i) w_i w_j] = 0
+(3) O1: all monomials th^k e^l of Phi_0 have 2k <= 4(6-l): True
+    U(s cos th, s sin th, s^4 e)/s^24 - Phi_0(th, e) = 0
+    U is a polynomial: True ; lowest-degree form: z**6
+(4) Qt2: min (Cb.grad Q)/Q on grid |b1|<=0.3, |b2|<=0.55 = -2655 at b=(0.0015,0.0380), Q=1.765e-20
+    restricted to |b1|<=0.0900, |b2|<=0.3: min = -2655 at b=(0.00150,0.0380)
+    restricted to |b1|<=0.0100, |b2|<=0.1: min = -2655 at b=(0.00150,0.0380)
+    restricted to |b1|<=0.0009, |b2|<=0.03: min = -983.8 at b=(0.00050,0.0220)
